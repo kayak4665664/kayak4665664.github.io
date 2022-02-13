@@ -1,0 +1,719 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - kayak4665664</title>
+        <link>https://www.kayak4665664.com/zh-cn/posts/</link>
+        <description>所有文章 | kayak4665664</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>kayak4665664@foxmail.com (kayak4665664)</managingEditor>
+            <webMaster>kayak4665664@foxmail.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 31 Jan 2022 22:24:16 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>链表</title>
+    <link>https://www.kayak4665664.com/zh-cn/linked-list/</link>
+    <pubDate>Mon, 31 Jan 2022 22:24:16 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/linked-list/</guid>
+    <description><![CDATA[<p>一个双向链表的C++模版。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">struct</span> <span class="nc">ListNode</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">val</span><span class="p">;</span>
+    <span class="n">ListNode</span> <span class="o">*</span><span class="n">next</span><span class="p">,</span> <span class="o">*</span><span class="n">prior</span><span class="p">;</span>
+    <span class="n">ListNode</span><span class="p">()</span> <span class="o">:</span> <span class="n">val</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="n">next</span><span class="p">(</span><span class="k">nullptr</span><span class="p">),</span> <span class="n">prior</span><span class="p">(</span><span class="k">nullptr</span><span class="p">)</span> <span class="p">{}</span>
+    <span class="n">ListNode</span><span class="p">(</span><span class="kt">int</span> <span class="n">v</span><span class="p">)</span> <span class="o">:</span> <span class="n">val</span><span class="p">(</span><span class="n">v</span><span class="p">),</span> <span class="n">next</span><span class="p">(</span><span class="k">nullptr</span><span class="p">),</span> <span class="n">prior</span><span class="p">(</span><span class="k">nullptr</span><span class="p">)</span> <span class="p">{}</span>
+    <span class="n">ListNode</span><span class="p">(</span><span class="kt">int</span> <span class="n">v</span><span class="p">,</span> <span class="n">ListNode</span> <span class="o">*</span><span class="n">next</span><span class="p">,</span> <span class="n">ListNode</span> <span class="o">*</span><span class="n">prior</span><span class="p">)</span>
+        <span class="o">:</span> <span class="n">val</span><span class="p">(</span><span class="n">v</span><span class="p">),</span> <span class="n">next</span><span class="p">(</span><span class="n">next</span><span class="p">),</span> <span class="n">prior</span><span class="p">(</span><span class="n">prior</span><span class="p">)</span> <span class="p">{}</span>
+<span class="p">};</span>
+
+<span class="n">ListNode</span> <span class="o">*</span><span class="nf">insert</span><span class="p">(</span><span class="n">ListNode</span> <span class="o">*</span><span class="n">p</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">ListNode</span> <span class="o">*</span><span class="n">n</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ListNode</span><span class="p">;</span>
+    <span class="n">n</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">=</span> <span class="n">val</span><span class="p">;</span>
+    <span class="n">n</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+    <span class="n">n</span><span class="o">-&gt;</span><span class="n">prior</span> <span class="o">=</span> <span class="n">p</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="n">n</span><span class="o">-&gt;</span><span class="n">next</span><span class="o">-&gt;</span><span class="n">prior</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">n</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">erase</span><span class="p">(</span><span class="n">ListNode</span> <span class="o">*</span><span class="n">p</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">prior</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="o">-&gt;</span><span class="n">prior</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">prior</span><span class="p">;</span>
+    <span class="k">delete</span> <span class="n">p</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">print</span><span class="p">(</span><span class="n">ListNode</span> <span class="o">*</span><span class="n">p</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">;</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; -&gt; &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">;</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">ListNode</span> <span class="o">*</span><span class="n">front</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ListNode</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="n">ListNode</span> <span class="o">*</span><span class="n">n</span> <span class="o">=</span> <span class="n">insert</span><span class="p">(</span><span class="n">insert</span><span class="p">(</span><span class="n">insert</span><span class="p">(</span><span class="n">front</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="mi">4</span><span class="p">)</span><span class="o">-&gt;</span><span class="n">prior</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">front</span><span class="p">);</span>  <span class="c1">// 1 -&gt; 2 -&gt; 3 -&gt; 4
+</span><span class="c1"></span>    <span class="n">erase</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">front</span><span class="p">);</span>  <span class="c1">// 1 -&gt; 2 -&gt; 4
+</span><span class="c1"></span>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol>
+<li><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/" target="_blank" rel="noopener noreffer">LeetCode 21. Merge Two Sorted Lists</a></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+   <span class="k">public</span><span class="o">:</span>
+    <span class="n">ListNode</span><span class="o">*</span> <span class="n">mergeTwoLists</span><span class="p">(</span><span class="n">ListNode</span><span class="o">*</span> <span class="n">list1</span><span class="p">,</span> <span class="n">ListNode</span><span class="o">*</span> <span class="n">list2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">list1</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="o">&amp;&amp;</span> <span class="n">list2</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+            <span class="k">return</span> <span class="k">nullptr</span><span class="p">;</span>
+        <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">list1</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">list2</span><span class="p">;</span>
+        <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">list2</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">list1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="n">ListNode</span> <span class="o">*</span><span class="n">front</span><span class="p">,</span> <span class="o">*</span><span class="n">p</span><span class="p">,</span> <span class="o">*</span><span class="n">p1</span><span class="p">,</span> <span class="o">*</span><span class="n">p2</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">list1</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">&lt;=</span> <span class="n">list2</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">front</span> <span class="o">=</span> <span class="n">list1</span><span class="p">;</span>
+                <span class="n">p1</span> <span class="o">=</span> <span class="n">list1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+                <span class="n">p2</span> <span class="o">=</span> <span class="n">list2</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">front</span> <span class="o">=</span> <span class="n">list2</span><span class="p">;</span>
+                <span class="n">p1</span> <span class="o">=</span> <span class="n">list1</span><span class="p">;</span>
+                <span class="n">p2</span> <span class="o">=</span> <span class="n">list2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">front</span><span class="p">;</span>
+            <span class="k">while</span> <span class="p">(</span><span class="n">p1</span> <span class="o">!=</span> <span class="k">nullptr</span> <span class="o">&amp;&amp;</span> <span class="n">p2</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">p1</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">&lt;=</span> <span class="n">p2</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">p1</span><span class="p">;</span>
+                    <span class="n">p1</span> <span class="o">=</span> <span class="n">p1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                    <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">p2</span><span class="p">;</span>
+                    <span class="n">p2</span> <span class="o">=</span> <span class="n">p2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+                <span class="p">}</span>
+                <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">p1</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+                <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">p2</span><span class="p">;</span>
+            <span class="k">else</span>
+                <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">p1</span><span class="p">;</span>
+            <span class="k">return</span> <span class="n">front</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li><a href="https://leetcode.com/problems/merge-k-sorted-lists/description/" target="_blank" rel="noopener noreffer">LeetCode 23. Merge k Sorted Lists</a></li>
+</ol>
+<p>直接用这个方法导致<code>Time Limit Exceeded</code>，</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+   <span class="k">public</span><span class="o">:</span>
+    <span class="n">ListNode</span> <span class="o">*</span><span class="n">mergeKLists</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">ListNode</span> <span class="o">*&gt;</span> <span class="o">&amp;</span><span class="n">lists</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">min</span> <span class="o">=</span> <span class="mh">0x3f3f3f</span><span class="p">;</span>
+        <span class="n">ListNode</span> <span class="o">*</span><span class="n">front</span><span class="p">,</span> <span class="o">*</span><span class="n">p</span><span class="p">,</span> <span class="o">*</span><span class="n">p1</span><span class="p">;</span>
+        <span class="n">unordered_map</span><span class="o">&lt;</span><span class="n">ListNode</span> <span class="o">*</span><span class="p">,</span> <span class="n">ListNode</span> <span class="o">*&gt;</span> <span class="n">ptr</span><span class="p">;</span>
+        <span class="n">vector</span><span class="o">&lt;</span><span class="n">ListNode</span> <span class="o">*&gt;</span> <span class="n">ps</span><span class="p">;</span>
+        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">list</span> <span class="p">:</span> <span class="n">lists</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">list</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+                <span class="n">ptr</span><span class="p">[</span><span class="n">list</span><span class="p">]</span> <span class="o">=</span> <span class="n">list</span><span class="p">;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">list</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">&lt;</span> <span class="n">min</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="n">min</span> <span class="o">=</span> <span class="n">list</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">;</span>
+                    <span class="n">front</span> <span class="o">=</span> <span class="n">list</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">lists</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">||</span> <span class="o">!</span><span class="n">flag</span><span class="p">)</span>
+            <span class="k">return</span> <span class="k">nullptr</span><span class="p">;</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="n">ptr</span><span class="p">[</span><span class="n">front</span><span class="p">]</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">[</span><span class="n">front</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">front</span><span class="p">;</span>
+            <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">min</span> <span class="o">=</span> <span class="mh">0x3f3f3f</span><span class="p">;</span>
+                <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">list</span> <span class="p">:</span> <span class="n">lists</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">ptr</span><span class="p">[</span><span class="n">list</span><span class="p">]</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="n">ptr</span><span class="p">[</span><span class="n">list</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">&lt;</span> <span class="n">min</span><span class="p">)</span> <span class="p">{</span>
+                            <span class="n">min</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">[</span><span class="n">list</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">;</span>
+                            <span class="n">p1</span> <span class="o">=</span> <span class="n">list</span><span class="p">;</span>
+                        <span class="p">}</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">flag</span><span class="p">)</span> <span class="k">break</span><span class="p">;</span>
+                <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">[</span><span class="n">p1</span><span class="p">];</span>
+                <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+                <span class="n">ptr</span><span class="p">[</span><span class="n">p1</span><span class="p">]</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">[</span><span class="n">p1</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="n">front</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>用优先队列就可以通过了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+   <span class="k">public</span><span class="o">:</span>
+    <span class="n">ListNode</span> <span class="o">*</span><span class="n">mergeKLists</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">ListNode</span> <span class="o">*&gt;</span> <span class="o">&amp;</span><span class="n">lists</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">ListNode</span> <span class="o">*</span><span class="n">front</span><span class="p">,</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+        <span class="k">auto</span> <span class="n">cmp</span> <span class="o">=</span> <span class="p">[](</span><span class="n">ListNode</span> <span class="o">*</span><span class="n">a</span><span class="p">,</span> <span class="n">ListNode</span> <span class="o">*</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">a</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">&gt;=</span> <span class="n">b</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">;</span>
+        <span class="p">};</span>  <span class="c1">// ptr.top() is minimal.
+</span><span class="c1"></span>        <span class="n">priority_queue</span><span class="o">&lt;</span><span class="n">ListNode</span> <span class="o">*</span><span class="p">,</span> <span class="n">vector</span><span class="o">&lt;</span><span class="n">ListNode</span> <span class="o">*&gt;</span><span class="p">,</span> <span class="k">decltype</span><span class="p">(</span><span class="n">cmp</span><span class="p">)</span><span class="o">&gt;</span> <span class="n">ptr</span><span class="p">(</span><span class="n">cmp</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">list</span> <span class="p">:</span> <span class="n">lists</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">list</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="n">ptr</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">list</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">lists</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">||</span> <span class="n">ptr</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span>
+            <span class="k">return</span> <span class="k">nullptr</span><span class="p">;</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="n">front</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">.</span><span class="n">top</span><span class="p">();</span>
+            <span class="n">ptr</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">front</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="n">ptr</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">front</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">);</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">front</span><span class="p">;</span>
+            <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">ptr</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span>
+                <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">.</span><span class="n">top</span><span class="p">();</span>
+                <span class="n">ptr</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+                <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">!=</span> <span class="k">nullptr</span><span class="p">)</span> <span class="n">ptr</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="n">front</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
+    <title>二分查找</title>
+    <link>https://www.kayak4665664.com/zh-cn/binary-search/</link>
+    <pubDate>Sat, 29 Jan 2022 22:01:40 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/binary-search/</guid>
+    <description><![CDATA[<p>这是二分查找算法的一个C++模版，以及C++标准模版库<code>&lt;algorithm&gt;</code>头文件中二分查找函数<code>std::lower_bound</code>和<code>std::upper_bound</code>的简单应用。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">nums</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">binary_search</span><span class="p">(</span><span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">,</span> <span class="kt">int</span> <span class="n">key</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">pos</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">left</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">mid</span> <span class="o">=</span> <span class="n">left</span> <span class="o">+</span> <span class="p">(</span><span class="n">right</span> <span class="o">-</span> <span class="n">left</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">&gt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
+            <span class="n">left</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
+            <span class="n">right</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="n">pos</span> <span class="o">=</span> <span class="n">mid</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">pos</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">binary_search</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>                  <span class="c1">// 2
+</span><span class="c1"></span>    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">lower_bound</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="n">nums</span> <span class="o">+</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-</span> <span class="n">nums</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>  <span class="c1">// 2, &gt;= 3
+</span><span class="c1"></span>    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">upper_bound</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="n">nums</span> <span class="o">+</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-</span> <span class="n">nums</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>  <span class="c1">// 3, &gt; 3
+</span><span class="c1"></span>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>用这个模版做了一道LeetCode的<a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/" target="_blank" rel="noopener noreffer">34. Find First and Last Position of Element in Sorted Array</a>。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+   <span class="k">public</span><span class="o">:</span>
+    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">searchRange</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">,</span> <span class="kt">int</span> <span class="n">target</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">())</span>
+            <span class="k">return</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">{</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">};</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="kt">int</span> <span class="n">pos</span> <span class="o">=</span> <span class="n">binary_search</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">target</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">pos</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">{</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">};</span>
+            <span class="k">else</span> <span class="p">{</span>
+                <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="n">pos</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">pos</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+                <span class="k">while</span> <span class="p">(</span><span class="n">left</span> <span class="o">&gt;=</span> <span class="mi">0</span>  <span class="o">&amp;&amp;</span> <span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span> <span class="o">==</span> <span class="n">target</span><span class="p">)</span> <span class="o">--</span><span class="n">left</span><span class="p">;</span>
+                <span class="k">while</span> <span class="p">(</span><span class="n">right</span> <span class="o">&lt;</span> <span class="n">size</span> <span class="o">&amp;&amp;</span> <span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="o">==</span> <span class="n">target</span><span class="p">)</span> <span class="o">++</span><span class="n">right</span><span class="p">;</span>
+                <span class="k">return</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">{</span><span class="n">left</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">};</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kt">int</span> <span class="nf">binary_search</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">nums</span><span class="p">,</span> <span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">,</span> <span class="kt">int</span> <span class="n">key</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">pos</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="p">;</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">left</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">mid</span> <span class="o">=</span> <span class="n">left</span> <span class="o">+</span> <span class="p">(</span><span class="n">right</span> <span class="o">-</span> <span class="n">left</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">&gt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
+                <span class="n">left</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
+                <span class="n">right</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="k">else</span> <span class="p">{</span>
+                <span class="n">pos</span> <span class="o">=</span> <span class="n">mid</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">pos</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
+    <title>今天到天安门走了走</title>
+    <link>https://www.kayak4665664.com/zh-cn/i-went-to-tiananmen-today/</link>
+    <pubDate>Mon, 27 Dec 2021 19:52:24 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/i-went-to-tiananmen-today/</guid>
+    <description><![CDATA[<p>今天出来走了走，拍了一些照片。蓝蓝的天，感觉真不错！</p>
+<div align="center">
+<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0807.jpeg" title="天安门城楼" data-thumbnail="https://cdn.kayak4665664.com/IMG_0807.jpeg" data-sub-html="<h2>天安门城楼</h2>">
+        
+    </a><figcaption class="image-caption">天安门城楼</figcaption>
+    </figure>
+</div>
+<div align="center">
+<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0815.jpeg" title="人民英雄纪念碑（北面）" data-thumbnail="https://cdn.kayak4665664.com/IMG_0815.jpeg" data-sub-html="<h2>人民英雄纪念碑（北面）</h2>">
+        
+    </a><figcaption class="image-caption">人民英雄纪念碑（北面）</figcaption>
+    </figure>
+</div>
+<div align="center">
+<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0819.jpeg" title="人民英雄纪念碑（南面）" data-thumbnail="https://cdn.kayak4665664.com/IMG_0819.jpeg" data-sub-html="<h2>人民英雄纪念碑（南面）</h2>">
+        
+    </a><figcaption class="image-caption">人民英雄纪念碑（南面）</figcaption>
+    </figure>
+</div>
+<div align="center">
+<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0821.jpeg" title="毛主席纪念堂" data-thumbnail="https://cdn.kayak4665664.com/IMG_0821.jpeg" data-sub-html="<h2>毛主席纪念堂</h2>">
+        
+    </a><figcaption class="image-caption">毛主席纪念堂</figcaption>
+    </figure>
+</div>
+<div align="center">
+<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0816.jpeg" title="人民大会堂" data-thumbnail="https://cdn.kayak4665664.com/IMG_0816.jpeg" data-sub-html="<h2>人民大会堂</h2>">
+        
+    </a><figcaption class="image-caption">人民大会堂</figcaption>
+    </figure>
+</div>
+<div align="center">
+<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0828.jpeg" title="新华门" data-thumbnail="https://cdn.kayak4665664.com/IMG_0828.jpeg" data-sub-html="<h2>新华门</h2>">
+        
+    </a><figcaption class="image-caption">新华门</figcaption>
+    </figure>
+</div>]]></description>
+</item><item>
+    <title>我的网站是如何建立的？</title>
+    <link>https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/</link>
+    <pubDate>Wed, 22 Dec 2021 17:17:40 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/</guid>
+    <description><![CDATA[<p>目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。</p>
+<h2 id="开始">开始</h2>
+<p>上上周看到有人用Github作免费网盘，我以前还见过有人专门建了repository来记笔记、写博客，我忽然也想有个写点东西记录自己的地方。我就查了一下如何用Github写博客，我才知道了<a href="https://pages.github.com" target="_blank" rel="noopener noreffer">Github Pages</a>。简单来说它可以免费自动托管静态网页，用它做一个自己的博客是绰绰有余的。</p>
+<h2 id="准备">准备</h2>
+<h3 id="域名">域名</h3>
+<p><a href="https://pages.github.com" target="_blank" rel="noopener noreffer">Github Pages</a>是免费的，不过它的网址都长<code>username.github.io</code>这样，感觉不够个性化。好在它是支持自定义域名的，我决定买一个。网站还没有建起来，但我还是先买了。我听说国内买域名需要实名审核，并且审核需要好几天。我一边等待审核通过，一边建网站，这样更省时间。最后我买了<code>kayak4665664.com</code>。</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>技巧<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">有的域名首年注册时看起来便宜，但以后续费比<code>.com</code>域名还要贵。</div>
+        </div>
+    </div>
+<h3 id="usernamegithubio">username.github.io</h3>
+<p>新建了一个repository，进行<code>Pages</code>设置。<a href="https://pages.github.com" target="_blank" rel="noopener noreffer">Github Pages</a>使用<code>Jekyll</code>将纯文本转化为静态网站，所以在设置过程中它会让你选择你的<code>Jekyll</code>主题。我还认真地比较了一下那几个主题，选了我觉得最好看的一个。其实后面很快我就发现，这些主题过于简单，不满足我的需求。之后用<code>git</code>克隆repository到了本地。</p>
+<h3 id="设计">设计</h3>
+<p>我看了一些其他人的网站，初步确定我的网站要有评论、访问统计、站内搜索这几个功能。另外还要加入百度和谷歌分析，并且让它们收录我的网站。</p>
+<h3 id="工具">工具</h3>
+<p>除了<code>Jekyll</code>，还有很多将纯文本转化为静态网站和博客的工具，比如我现在用的<code>Hugo</code>。由于<a href="https://pages.github.com" target="_blank" rel="noopener noreffer">Github Pages</a>默认使用<code>Jekyll</code>，我就选择了<code>Jekyll</code>。</p>
+<p><code>Jekyll</code>基于<code>Ruby</code>，可以用<code>gem</code>来安装。我使用的Mac OS自带一个<code>Ruby</code>，我就直接执行<code>gem install jekyll bundler</code>开始安装<code>Jekyll</code>、<code>Bundler</code>以及它们的依赖。安装一半，出现<code>fatal error: 'ruby/config.h' file not found</code>。谷歌了一下有人说是自带的<code>Ruby</code>版本太低，还有人说是<code>Xcode CommandLineTools</code>的问题。我直接用<code>Homebrew</code>安装了一个新的<code>Ruby</code>。安装之后设置了终端的环境变量，重新执行<code>gem install jekyll bundler</code>，这次安装好了。</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">我还查了一下怎么清理之前<code>gem install jekyll bundler</code>时的缓存和已安装的包，结果没有找到。我只好手动卸载了那些已安装的包、删除了缓存所在的目录，感觉根本没清理干净。</div>
+        </div>
+    </div>
+<h2 id="jekyll">Jekyll</h2>
+<h3 id="上手">上手</h3>
+<p>在工作目录执行<code>bundle exec jekyll serve</code>，出现<code>cannot load such file -- webrick (LoadError)</code>。谷歌了一下，用<code>bundle add webrick</code>解决。</p>
+<p>在本地预览了一下感觉没有问题，准备<code>push</code>到Github上用手机测试。但是出现了问题，<code>push</code>不上去。谷歌了一下没找到，百度了一下发现可能是<code>proxy</code>的问题，取消<code>git</code>设置的代理后解决。</p>
+<p>用手机看了一下，网页是自动适配移动端的。这时候发现这个主题太简陋了，甚至没有分页的功能。刚开始我还准备自己实现出来，但又想想那么多功能都得一个个实现，工作量巨大，我还是找一个功能比较完整的主题吧。</p>
+<h3 id="主题">主题</h3>
+<p>网上有不少<code>Jekyll</code>主题，我最后下载了<a href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank" rel="noopener noreffer">YAT</a>。它支持不少功能，可以用<a href="Disqus.com" rel="">Disqus</a>和<a href="https://github.com/imsun/gitment" target="_blank" rel="noopener noreffer">Gitment</a>来评论。</p>
+<p>下载之后，想要执行<code>bundle exec jekyll serve</code>预览一下，报错<code>Could not find gem 'jekyll-spaceship (~&gt; 0.2)'</code>。我通过在<code>gem</code>安装<code>jekyll-spaceship</code>时设置版本为<code>0.2</code>来解决。在这里我还发现安装过程卡住了，但没有报错。用<code>Activity Monitor</code>看到<code>Ruby</code>的<code>Rcvd Bytes</code>是一直缓慢增加的，应该是国内网络的问题。谷歌了一下，在<a href="https://gems.ruby-china.com" target="_blank" rel="noopener noreffer">Ruby China</a>找到了换源的方法，换源之后成功安装。</p>
+<p>再次执行<code>bundle exec jekyll serve</code>，这次可以预览新主题了。</p>
+<h3 id="个性化">个性化</h3>
+<p>根据自己的需求来对主题进行个性化修改，如标题、图片等。我本来想用<a href="https://github.com/imsun/gitment" target="_blank" rel="noopener noreffer">Gitment</a>，但我发现它不能登录Github账号，看了一下它的<a href="https://github.com/imsun/gitment/issues" target="_blank" rel="noopener noreffer">Issues</a>应该是停止服务了。所以只能用<a href="Disqus.com" rel="">Disqus</a>，我注册了<a href="Disqus.com" rel="">Disqus</a>账号，开启了评论功能。此外我还用了<a href="http://busuanzi.ibruce.info" target="_blank" rel="noopener noreffer">不蒜子</a>进行网站访问量统计，只需两行代码。</p>
+<p>之后我开始增加一些内容。在预览内容的过程中渐渐发现了一些问题，这个主题它的字体偏小，不论在浅色还是深色模式下文字与背景的对比较低，总之我感觉读起来费眼睛。然而无法在配置文件中对字体进行设置，我只能直接去挨个修改<code>.scss</code>文件，比较麻烦。而它的翻译功能，调用了谷歌的网页翻译接口，在国内网络下几乎无法使用，导致网页变得卡顿，我直接将源代码中翻译相关的部分删除了。除此之外，<a href="Disqus.com" rel="">Disqus</a>在国内网络下无法登录账号，测试了一下只能使用访客匿名评论，这也是一个缺点。</p>
+<h3 id="放弃">放弃</h3>
+<p>个性化之后，我感觉没有问题了。这时忽然想到<a href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank" rel="noopener noreffer">YAT</a>主题还支持PlantUML、Mermaid、Mathjax、Vedio、Audio等，我应该再测试一下。我直接用作者的<code>markdown</code>文件进行测试，结果发现这些东西都没有正常显示出来。</p>
+<p>我还以为是我把源代码改坏了，我直接克隆了一份作者的repository。经测试发现同样不行，看来不是我修改代码的问题。但是问题在哪我也一直没有找到，考虑到这个主题还存在其他的缺点，我选择放弃它。</p>
+<p>我又开始找主题，这一次更加仔细。最后找到了<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer">LoveIt</a>主题，也就是我现在用的。</p>
+<p>这是一个基于<code>Hugo</code>的主题，所以<code>Ruby</code>就没用了，我把它卸载了。</p>
+<h2 id="hugo">Hugo</h2>
+<h3 id="上手-1">上手</h3>
+<p>先用<code>Homebrew</code>安装<code>Hugo</code>，<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer">LoveIt</a>文档中推荐安装<code>extended</code>版本的<code>Hugo</code>，而<code>Homebrew</code>安装的<code>Hugo</code>就是<code>extended</code>版本的。</p>
+<p><code>Hugo</code>的目录结构和<code>Jekyll</code>的还是不太一样，用了一些时间才熟悉了。<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer">LoveIt</a>的配置项非常多，也是需要先看一看文档的。</p>
+<p>大概配置了一下，执行<code>hugo serve -e production --disableFastRender</code>进行预览。</p>
+<h3 id="个性化-1">个性化</h3>
+<p>之后就是个性化地设置，还有：</p>
+<ol>
+<li>注册<a href="https://www.leancloud.cn" target="_blank" rel="noopener noreffer">LeanCloud</a>以及<a href="https://valine.js.org" target="_blank" rel="noopener noreffer">Valine</a>用于评论和访问统计</li>
+<li>利用<a href="https://realfavicongenerator.net" target="_blank" rel="noopener noreffer">https://realfavicongenerator.net</a>生成网站图标</li>
+<li>注册<a href="http://Gravatar.com" target="_blank" rel="noopener noreffer">Gravartar</a>头像</li>
+<li>注册<a href="https://www.algolia.com" target="_blank" rel="noopener noreffer">Algolia</a>用于站内搜索</li>
+<li>使用<code>node.js</code>执行<code>npm install atomic-algolia</code>安装<a href="https://github.com/chrisdmacrae/atomic-algolia" target="_blank" rel="noopener noreffer">atomic-algolia</a>，用于自动化上传索引文件至<a href="https://www.algolia.com" target="_blank" rel="noopener noreffer">Algolia</a></li>
+<li>注册<a href="https://www.mapbox.com" target="_blank" rel="noopener noreffer">Mapbox</a></li>
+</ol>
+<p>在这中间我还发现一个问题，本地预览的时候不能显示自定义的<code>404</code>模版，谷歌了一下发现：
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><code>hugo server</code> will not automatically load your custom <code>404.html</code> file, but you can test the appearance of your custom “not found” page by navigating your browser to <code>/404.html</code>.</div>
+        </div>
+    </div></p>
+<h3 id="扩展">扩展</h3>
+<p>网站差不多建起来了。执行<code>hugo</code>，就会出现<code>/public</code>目录，把<code>/public</code>和自己的repository同步，就可以把网页托管到<a href="https://pages.github.com" target="_blank" rel="noopener noreffer">Github Pages</a>。之后再用<a href="https://github.com/chrisdmacrae/atomic-algolia" target="_blank" rel="noopener noreffer">atomic-algolia</a>上传生成的索引文件至<a href="https://www.algolia.com" target="_blank" rel="noopener noreffer">Algolia</a>。经过这两个步骤就完成了一次网站的部署。</p>
+<p>另外，我又建了一个私有的repository，用于同步<code>/public</code>之外的源代码，所以每次部署都需要多同步一次。为了自动化这三个过程，我写了一个<code>Shell</code>脚本，一步到位。</p>
+<p>这时候，我的域名终于通过了实名审核。我开始进行一些扩展：</p>
+<ol>
+<li>在Github上设置<code>CNAME</code></li>
+<li>将repository导入<a href="https://vercel.com/" target="_blank" rel="noopener noreffer">Vercel</a>，这样每次更新repository，都会自动部署到<a href="https://vercel.com/" target="_blank" rel="noopener noreffer">Vercel</a>。据说百度不会收录<a href="https://pages.github.com" target="_blank" rel="noopener noreffer">Github Pages</a>托管的网站，而部署到<a href="https://vercel.com/" target="_blank" rel="noopener noreffer">Vercel</a>之后可以被收录</li>
+<li>在<a href="https://vercel.com/" target="_blank" rel="noopener noreffer">Vercel</a>中设置自定义域名</li>
+<li>加入<a href="https://tongji.baidu.com/" target="_blank" rel="noopener noreffer">百度统计</a>和<a href="https://analytics.google.com/" target="_blank" rel="noopener noreffer">谷歌Analytics</a></li>
+<li>向<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener noreffer">百度搜索资源平台</a>和<a href="https://search.google.com" target="_blank" rel="noopener noreffer">谷歌Search Console</a>提交<code>sitemap</code>，在<a href="https://www.bing.com/webmasters/" target="_blank" rel="noopener noreffer">必应Webmaster Tools</a>中直接导入<a href="https://search.google.com" target="_blank" rel="noopener noreffer">谷歌Search Console</a>中已经提交的<code>sitemap</code></li>
+</ol>
+<h2 id="最后">最后</h2>
+<p>未来我还打算加入一点谷歌广告，这也是大部分网站都有的功能。</p>
+<p>总的来说，这次的收获还是很多的！</p>]]></description>
+</item><item>
+    <title>谷歌收录了我的网站</title>
+    <link>https://www.kayak4665664.com/zh-cn/google-has-indexed-my-website/</link>
+    <pubDate>Sun, 19 Dec 2021 21:23:48 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/google-has-indexed-my-website/</guid>
+    <description><![CDATA[<p>谷歌收录了我的网站！目前我也向百度和必应提交了<code>sitemap</code>，坐等收录。</p>
+<div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/3kRSMBH98fmr1y6.png" title="Google" data-thumbnail="https://cdn.kayak4665664.com/3kRSMBH98fmr1y6.png">
+        
+    </a>
+</div>
+<p>现在我的网站已经逐渐走上了正轨，所以我准备下周写一篇文章来回顾一下我的网站是如何建立的。</p>]]></description>
+</item><item>
+    <title>现在开始毕设了</title>
+    <link>https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/</link>
+    <pubDate>Sat, 18 Dec 2021 20:32:18 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/</guid>
+    <description><![CDATA[<p>这周学校开始了毕设工作，现在我已经确定了题目，正式开始了我的毕业设计。</p>
+<h2 id="选题">选题</h2>
+<p>题目之前已经有了，我的研究生导师给我定的一个网安方向的题目。我觉得这个题目还挺合适的，一方面可以提前学习一些网安的知识，另一方面也完成了我的毕设，算是一箭双雕。</p>
+<h2 id="开会">开会</h2>
+<p>开完毕设动员会之后，和我的指导老师见了面。他给我们几个开了个小会，讲了一堆东西。其实也没什么，主要就是建了一个企业微信群，我的指导老师成了“寨主”。</p>
+<h2 id="上报">上报</h2>
+<p>虽说题目已经有了，但我还是得好好考虑一下，毕竟毕设不是那么随便的。我的指导老师在群里也发了一些参考的题目，都是比较经典的。而那个题目对我来说还是很新颖的，我之前从没做过这个方向。综合来看，我还是更偏向这个网安的题目，而且我的研究生导师也非常希望我去做这个题目。所以我向我的指导老师上报了。</p>
+<h2 id="讨论">讨论</h2>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>指导老师如是说：<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">题目写的不完整，<br>
+写一个完整的。</div>
+        </div>
+    </div>
+<p>好的，我把我的题目描述得更加完整，等着听老师的意见。消息已读了，但是一直没有回复。真的是莫名其妙啊，不会是他忘记了吧？第二天我发消息再问问他的意见，突然收到了一条59秒的语音。
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>指导老师如是说：<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">&hellip;你那根本不叫题目，你那叫口语，那哪是题目？而且你这个所做的东西吗，说心里话这个搜索性太大了，没看到具体内容我都不好说&hellip;那么你这个所做的吧，可大可小。这个对你的要求，我不知道&hellip;那么小吗，就是非常简单的就不是太难；如果是要大吗，那是有一定难度的好不好？那么你写那么多，你那哪是一个题目？你那是口语！你口语叫我怎么给你定？你要定下来，难道叫我给你定个口语能做题目吗？你自己都写不出来一个题目叫我来定？给你定一个口语这合适吗？好吧？你自己想好了以后完了再讨论还有基础，否则话没话可说！</div>
+        </div>
+    </div></p>
+<p>我直接就懵了，他说我的不叫题目。先不论到底是不是题目，他觉得我的不算题目，他有意见、有问题，他可以直接告诉我的吧？我可以去修改和完善啊，一直不回复我能知道他是怎么想的吗？</p>
+<p>我长这么大第一次遇见这种情况，我不知道这对我来说意味着什么。我把这个事情也告诉了我的研究生导师。
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>她回复的第一句话是：<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">为啥？</div>
+        </div>
+    </div></p>
+<p>我也把我指导老师的语音给她看，她帮我确定了一个标题。这里我忽然发现可能有一个误解，我指导老师说的“题目”到底是指“标题”还是“课题”？我查阅了《现代汉语规范词典》，“题目”确实是有多个意思的。看他说我的“题目”是“口语”，看起来他说的题目指的是“标题”了。</p>
+<p>如果是这样的话，他为啥一开始不说清楚他说的是一个标题呢？</p>
+<p>好吧，他说我自己都写不出来一个题目，没有讨论的基础。那我就把定好的题目发给了他，希望能有进一步的讨论。但是，他还是一直没话可说。</p>
+<p>这时我感觉，什么“标题”还是“课题”可能并不是关键。我想到他在群里说“从这一届开始，教务处准备启用毕业设计管理系统”，“都通过系统进行”，“留有痕迹”。“再者”，“进行工程教育认证”，“各位指导老师严把题目质量关”。我感觉到他应该是对这个题目的专业水平和工作量不太好把关。毕竟他不是研究网安的，往届应该也没有类似的题目，他一直不好下结论，所以一直没话可说。</p>
+<p>我把我的想法告诉了我的研究生导师，她建议我给他讲得再详细一些。因此，我写了一个有点像开题报告的文档，写清楚了具体的要做的每一项任务，也初步计划了每一项任务的时间分配。我发给了我的指导老师，并且向他提出如果有问题希望他可以直接说出他的意见。</p>
+<p>终于，我的指导老师开始和我讨论了。
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>指导老师如是说：<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">你提交吧。</div>
+        </div>
+    </div></p>
+<h2 id="最后">最后</h2>
+<p>不管怎样，题目定下来了，现在开始做毕设了。</p>]]></description>
+</item><item>
+    <title>世界你好！</title>
+    <link>https://www.kayak4665664.com/zh-cn/hello-world/</link>
+    <pubDate>Sun, 12 Dec 2021 21:06:46 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/hello-world/</guid>
+    <description><![CDATA[<h2 id="世界你好">世界你好！</h2>
+]]></description>
+</item></channel>
+</rss>
