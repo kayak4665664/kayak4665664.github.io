@@ -14,7 +14,9 @@ I'm **kayak4665664**, a student of North China University of Technology.
 ## Help
 ### 1. How to subscribe to the blog?
 First you should install an **RSS reader**, and then click [<i class='fas fa-rss'></i>](/index.xml) to add the RSS link to your reader.  
-If you don’t want to install an RSS reader, you can also add this site to your browser favorites.
+If you don’t want to install an RSS reader, you can also:
+- Add Bookmark :(fas fa-bookmark):
+- Add to Home Screen :(fas fa-mobile-alt):
 ### 2. How to comment on this site?
 Just enter your comment and click `Submit`. You can also enter your nickname, email and website. If you enter a Gravtar email address, your avatar can be displayed.
 
