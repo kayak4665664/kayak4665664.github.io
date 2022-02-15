@@ -61,6 +61,7 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
+# Block Wayback Machine
 User-agent: ia_archiver
 Disallow: /
 
