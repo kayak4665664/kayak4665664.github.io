@@ -10,10 +10,10 @@ Given `n` non-negative integers representing an elevation map where the width of
 <div align="center">
 {{< image src="https://cdn.kayak4665664.com/rainwatertrap.png" title="rainwatertrap" alt="rainwatertrap" height="60%" width="60%">}}
 </div>
-<code><pre><strong>Input</strong>: height = [0,1,0,2,1,0,1,3,2,1,2,1]
-<strong>Output</strong>: 6
-<strong>Explanation</strong>: The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.
-</code></pre>
+
+**Input**: height = `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`  
+**Output**: `6`  
+**Explanation**: The above elevation map (black section) is represented by array `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`. In this case, `6` units of rain water (blue section) are being trapped.
 
 At first I wanted to solve it with `stack`, but it didn't feel good. Then I just calculated directly up and down, but `Time Limit Exceeded`:
 

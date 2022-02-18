@@ -11,10 +11,9 @@
 {{< image src="https://cdn.kayak4665664.com/rainwatertrap.png" title="rainwatertrap" alt="rainwatertrap" height="60%" width="60%">}}
 </div>
 
-<code><pre><strong>输入</strong>：height = [0,1,0,2,1,0,1,3,2,1,2,1]
-<strong>输出</strong>：6
-<strong>解释</strong>：上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。
-</code></pre>
+**输入**：height = `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`  
+**输出**：`6`  
+**解释**：上面是由数组 `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]` 表示的高度图，在这种情况下，可以接 `6` 个单位的雨水（蓝色部分表示雨水）。
 
 刚开始想用`stack`做，不过感觉不太好。然后我就直接上下一层一层算，但是`Time Limit Exceeded`了：
 
