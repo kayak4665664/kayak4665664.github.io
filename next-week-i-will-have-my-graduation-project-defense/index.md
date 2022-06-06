@@ -48,7 +48,7 @@ At about 3pm, I packed my suitcase, closed the windows, turned off the electric 
 And then I left school and probably never went back.
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1377.jpeg" title="NCUT" alt="NCUT">}}
+{{< image src="https://cdn.kayak4665664.com/IMG_1377.JPG" title="NCUT" alt="NCUT">}}
 </div>
 
 The photo above was taken on the 31st. On the afternoon of the 30th, I saw someone playing with these signs, but it was still 2021 at that time.

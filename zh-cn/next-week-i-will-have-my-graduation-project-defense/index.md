@@ -48,7 +48,7 @@
 就这样，我就离开了学校，可能永远不会回去了。
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1377.jpeg" title="NCUT" alt="NCUT">}}
+{{< image src="https://cdn.kayak4665664.com/IMG_1377.JPG" title="NCUT" alt="NCUT">}}
 </div>
 
 上面这张照片是31日的。30日下午我就看见有人在摆弄这几个牌子，不过当时上面还是2021😂。
