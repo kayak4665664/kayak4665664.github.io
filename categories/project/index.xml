@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Project - Category - kayak4665664</title>
+        <link>https://www.kayak4665664.com/categories/project/</link>
+        <description>Project - Category - kayak4665664</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Thu, 14 Jul 2022 13:07:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/categories/project/" rel="self" type="application/rss+xml" /><item>
+    <title>NCUT-Pot</title>
+    <link>https://www.kayak4665664.com/ncut-pot/</link>
+    <pubDate>Thu, 14 Jul 2022 13:07:57 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/ncut-pot/</guid>
+    <description><![CDATA[<p><strong>NCUT-Pot</strong> is my graduation project, it&rsquo;s a honeypot.</p>
+<p>This honeypot supports <code>Telnet</code> and <code>SSH</code> two protocols, simulates the <code>Linux</code> system, and stores hackers' data in the <code>SQL</code> database. In addition, it also sends alerts to users via SMS and email. Users can customize commands and directories.</p>
+<p>For more details about <strong>NCUT-Pot</strong> please visit <a href="https://github.com/kayak4665664/NCUT-Pot" target="_blank" rel="noopener noreffer">https://github.com/kayak4665664/NCUT-Pot</a>.</p>]]></description>
+</item></channel>
+</rss>

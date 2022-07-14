@@ -4,7 +4,16 @@
         <link>https://www.kayak4665664.com/zh-cn/posts/</link>
         <description>所有文章 | kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Wed, 13 Jul 2022 23:43:40 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Thu, 14 Jul 2022 13:08:07 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>NCUT-Pot</title>
+    <link>https://www.kayak4665664.com/zh-cn/ncut-pot/</link>
+    <pubDate>Thu, 14 Jul 2022 13:08:07 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/ncut-pot/</guid>
+    <description><![CDATA[<p><strong>NCUT-Pot</strong>是我的毕业设计，是一个蜜罐。</p>
+<p>这个蜜罐支持<code>Telnet</code>和<code>SSH</code>两种协议，模拟<code>Linux</code>系统，将黑客的数据存储在<code>SQL</code>数据库中。此外，它还通过短信和电子邮件向用户发送警报。用户可以自定义蜜罐的命令和目录。</p>
+<p>关于<strong>NCUT-Pot</strong>的更多细节请访问<a href="https://github.com/kayak4665664/NCUT-Pot" target="_blank" rel="noopener noreffer">https://github.com/kayak4665664/NCUT-Pot</a>。</p>]]></description>
+</item><item>
     <title>8月18日，新的开始</title>
     <link>https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/</link>
     <pubDate>Wed, 13 Jul 2022 23:43:40 &#43;0800</pubDate>
@@ -714,23 +723,6 @@
 <span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
-</div>]]></description>
-</item><item>
-    <title>做了个蛋糕🍰</title>
-    <link>https://www.kayak4665664.com/zh-cn/made-a-cake/</link>
-    <pubDate>Tue, 18 Jan 2022 22:00:30 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/made-a-cake/</guid>
-    <description><![CDATA[<p>真好吃！</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0917.jpeg" title="蛋糕" data-thumbnail="https://cdn.kayak4665664.com/IMG_0917.jpeg">
-        
-    </a>
-</div>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0919.jpeg" title="蛋糕" data-thumbnail="https://cdn.kayak4665664.com/IMG_0919.jpeg">
-        
-    </a>
 </div>]]></description>
 </item></channel>
 </rss>
