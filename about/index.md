@@ -9,7 +9,7 @@
 
 Hey, Nice to Meet You, You Found My Blog!  
 I'm **kayak4665664**, a student of University of Chinese Academy of Sciences.
-{{< mapbox lng=116.672 lat=40.408 zoom=12 >}}
+{{< mapbox lng=116.676 lat=40.408 zoom=12 >}}
 
 ## Help
 ### 1. How to subscribe to the blog?
