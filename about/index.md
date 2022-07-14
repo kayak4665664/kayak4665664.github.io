@@ -8,8 +8,8 @@
 </div>
 
 Hey, Nice to Meet You, You Found My Blog!  
-I'm **kayak4665664**, a student of North China University of Technology.
-{{< mapbox lng=116.202 lat=39.927 zoom=12 >}}
+I'm **kayak4665664**, a student of University of Chinese Academy of Sciences.
+{{< mapbox lng=116.682 lat=40.408 zoom=12 >}}
 
 ## Help
 ### 1. How to subscribe to the blog?
