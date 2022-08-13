@@ -5,7 +5,7 @@
 <!--more-->
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1636.jpeg" title="驾照" alt="驾照">}}
+{{< image src="https://cdn.kayak4665664.com/IMG_1636.JPG" title="驾照" alt="驾照">}}
 </div>
 
 我还在驾校转了转，驾校建在一个山头上，视野很开阔。

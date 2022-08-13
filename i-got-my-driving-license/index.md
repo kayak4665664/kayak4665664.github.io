@@ -4,7 +4,7 @@ After more than half a month of training, I successfully got my driving license!
 <!--more-->
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1636.jpeg" title="driving license" alt="driving license">}}
+{{< image src="https://cdn.kayak4665664.com/IMG_1636.JPG" title="driving license" alt="driving license">}}
 </div>
 
 I also went around the driving school. It's built on a hill and has a wide field of vision.
