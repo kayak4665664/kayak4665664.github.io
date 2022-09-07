@@ -43,7 +43,7 @@
     <guid>https://www.kayak4665664.com/zh-cn/ncut-pot/</guid>
     <description><![CDATA[<p><strong>NCUT-Pot</strong>是我的毕业设计，是一个蜜罐。</p>
 <p>这个蜜罐支持<code>Telnet</code>和<code>SSH</code>两种协议，模拟<code>Linux</code>系统，将黑客的数据存储在<code>SQL</code>数据库中。此外，它还通过短信和电子邮件向用户发送警报。用户可以自定义蜜罐的命令和目录。</p>
-<p>关于<strong>NCUT-Pot</strong>的更多细节请访问<a href="https://github.com/kayak4665664/NCUT-Pot" target="_blank" rel="noopener noreffer">https://github.com/kayak4665664/NCUT-Pot</a>。</p>]]></description>
+<p>关于<strong>NCUT-Pot</strong>的更多细节请访问<a href="https://github.com/kayak4665664/FF-Pot" target="_blank" rel="noopener noreffer">https://github.com/kayak4665664/FF-Pot</a>（现已改名为FF-Pot）。</p>]]></description>
 </item><item>
     <title>8月18日，新的开始</title>
     <link>https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/</link>
