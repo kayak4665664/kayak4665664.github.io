@@ -24,7 +24,7 @@
 ### 工具
 除了`Jekyll`，还有很多将纯文本转化为静态网站和博客的工具，比如我现在用的`Hugo`。由于[Github Pages](https://pages.github.com)默认使用`Jekyll`，我就选择了`Jekyll`。
 
-`Jekyll`基于`Ruby`，可以用`gem`来安装。我使用的Mac OS自带一个`Ruby`，我就直接执行`gem install jekyll bundler`开始安装`Jekyll`、`Bundler`以及它们的依赖。安装一半，出现`fatal error: 'ruby/config.h' file not found`。谷歌了一下有人说是自带的`Ruby`版本太低，还有人说是`Xcode CommandLineTools`的问题。我直接用`Homebrew`安装了一个新的`Ruby`。安装之后设置了终端的环境变量，重新执行`gem install jekyll bundler`，这次安装好了。
+`Jekyll`基于`Ruby`，可以用`gem`来安装。我使用的macOS自带一个`Ruby`，我就直接执行`gem install jekyll bundler`开始安装`Jekyll`、`Bundler`以及它们的依赖。安装一半，出现`fatal error: 'ruby/config.h' file not found`。谷歌了一下有人说是自带的`Ruby`版本太低，还有人说是`Xcode CommandLineTools`的问题。我直接用`Homebrew`安装了一个新的`Ruby`。安装之后设置了终端的环境变量，重新执行`gem install jekyll bundler`，这次安装好了。
 
 {{< admonition warning >}}
 我还查了一下怎么清理之前`gem install jekyll bundler`时的缓存和已安装的包，结果没有找到。我只好手动卸载了那些已安装的包、删除了缓存所在的目录，感觉根本没清理干净。

@@ -4,9 +4,112 @@
         <link>https://www.kayak4665664.com/zh-cn/</link>
         <description>kayak4665664的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Tue, 17 Jan 2023 11:00:43 &#43;0800</lastBuildDate>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</lastBuildDate>
             <atom:link href="https://www.kayak4665664.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>texliveonfly, env: python: No Such File or Directory</title>
+    <link>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</link>
+    <pubDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</guid>
+    <description><![CDATA[<p>昨天用了一下texliveonfly宏包，直接出现了<code>env: python: No Such File or Directory</code>。</p>
+<p>我试着执行了一下<code>python</code>，结果弹出了一个Xcode Command Line Tools的提示，说要下载一些东西，然后它下载了Python3.9，而我之前已经有了Python3.8🙃。</p>
+<p>我试着用<code>ln</code>建立软连接，但是没有用。</p>
+<p>我想既然texliveonfly是用Python写的，我可以直接编辑它。于是我找到了<code>/Library/TeX/texbin/texliveonfly</code>，然后将这个文件第一行的<code>#!/usr/bin/env python</code>改成了<code>#!/usr/bin/env python3</code>，这样就解决了。</p>]]></description>
+</item><item>
+    <title>专注统计 (2023 03周)</title>
+    <link>https://www.kayak4665664.com/zh-cn/focus-statistics-03-2023/</link>
+    <pubDate>Mon, 23 Jan 2023 21:30:53 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/focus-statistics-03-2023/</guid>
+    <description><![CDATA[<br/> 
+<div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/focus%20statistics/IMG_2097.JPG" title="专注统计 (2023 03周)" data-thumbnail="https://cdn.kayak4665664.com/focus%20statistics/IMG_2097.JPG">
+        
+    </a>
+</div>]]></description>
+</item><item>
+    <title>LeetCode 66</title>
+    <link>https://www.kayak4665664.com/zh-cn/leetcode-66/</link>
+    <pubDate>Sun, 22 Jan 2023 17:47:46 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/leetcode-66/</guid>
+    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>，一道简单的题。主要是想练习一下Java，好长时间没写Java了。</p>
+<p>我的思路是从后往前遍历，如果当前位是9，那么就进位，如果不是9，那么就加1，然后返回结果。如果最后一位是9，那么就需要在最前面加一个1，这个时候就需要新建一个数组，然后把原来的数组复制过去。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">plusOne</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">digits</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">end</span> <span class="o">=</span> <span class="n">digits</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="n">1</span><span class="o">;</span>
+        <span class="kt">int</span><span class="o">[]</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">end</span> <span class="o">+</span> <span class="n">1</span><span class="o">];</span>
+        <span class="kt">boolean</span> <span class="n">carry</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+        <span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">=</span> <span class="n">digits</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">+</span> <span class="n">1</span><span class="o">;</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">==</span> <span class="n">10</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
+            <span class="n">carry</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">end</span> <span class="o">-</span> <span class="n">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">0</span><span class="o">;</span> <span class="o">--</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">digits</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">carry</span><span class="o">)</span> <span class="o">{</span>
+                <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">+=</span> <span class="n">1</span><span class="o">;</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">==</span> <span class="n">10</span><span class="o">)</span> <span class="o">{</span>
+                    <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
+                    <span class="n">carry</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+                <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+                    <span class="n">carry</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">carry</span><span class="o">)</span> <span class="o">{</span>
+            <span class="kt">int</span><span class="o">[]</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">result</span><span class="o">;</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">end</span> <span class="o">+</span> <span class="n">2</span><span class="o">];</span>
+            <span class="n">result</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
+            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">end</span> <span class="o">+</span> <span class="n">2</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+                <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">tmp</span><span class="o">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">1</span><span class="o">];</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
     <title>在国科大的第一个学期</title>
     <link>https://www.kayak4665664.com/zh-cn/first-semester-at-ucas/</link>
     <pubDate>Tue, 17 Jan 2023 11:00:43 &#43;0800</pubDate>
@@ -193,123 +296,5 @@
 <p>原计划下午一点半开始，不知道为啥等到了两点😶。今天下午这一场一共有24名学生，3位评委老师。我排在第12号，等到了四点终于轮到我了。总体还是比较顺利的，不过有一位老师正好是研究计算机网络的，而我的课题涉及到了不少网络的东西，被抓着问了几个问题。</p>
 <p>答辩之后，老师没说可以退出，正好继续待在会议里面看别人答辩。一位保研到计算所的未透露名字的同学，他的毕设是和华为公司合作的，他说他的毕设成果要打败他导师之前的工作，他立志也要投一篇顶会👍。</p>
 <p>这样优秀的同学激励我去做好我自己的工作，继续努力吧👍。</p>]]></description>
-</item><item>
-    <title>又做了个蛋糕🍰</title>
-    <link>https://www.kayak4665664.com/zh-cn/made-a-cake-again/</link>
-    <pubDate>Fri, 04 Mar 2022 22:42:24 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/made-a-cake-again/</guid>
-    <description><![CDATA[<p>感觉面粉放少了，没上次的好吃，还不错吧。</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1024.jpeg" title="蛋糕" data-thumbnail="https://cdn.kayak4665664.com/IMG_1024.jpeg">
-        
-    </a>
-</div>]]></description>
-</item><item>
-    <title>LeetCode 42</title>
-    <link>https://www.kayak4665664.com/zh-cn/leetcode-42/</link>
-    <pubDate>Fri, 18 Feb 2022 14:33:10 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/leetcode-42/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/trapping-rain-water/description/" target="_blank" rel="noopener noreffer">LeetCode 42.Trapping Rain Water</a>，一道挺有意思的题。</p>
-<p>给定 <code>n</code> 个非负整数表示每个宽度为 <code>1</code> 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。</p>
-<p><strong>示例：</strong></p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/rainwatertrap.png" title="rainwatertrap" data-thumbnail="https://cdn.kayak4665664.com/rainwatertrap.png">
-        
-    </a>
-</div>
-<p><strong>输入</strong>：height = <code>[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]</code><br>
-<strong>输出</strong>：<code>6</code><br>
-<strong>解释</strong>：上面是由数组 <code>[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]</code> 表示的高度图，在这种情况下，可以接 <code>6</code> 个单位的雨水（蓝色部分表示雨水）。</p>
-<p>刚开始想用<code>stack</code>做，不过感觉不太好。然后我就直接上下一层一层算，但是<code>Time Limit Exceeded</code>了：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
-   <span class="k">public</span><span class="o">:</span>
-    <span class="kt">int</span> <span class="n">trap</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kt">int</span> <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">index</span><span class="p">;</span>
-        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">height</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">height</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="n">index</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">push_back</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">p</span> <span class="p">:</span> <span class="n">index</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">auto</span> <span class="n">v</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">;</span>
-            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">v</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">ans</span> <span class="o">+=</span> <span class="n">v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">v</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="n">ans</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>看了看参考答案，主要思路是左右围起来并且求水平面高度：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
-   <span class="k">public</span><span class="o">:</span>
-    <span class="kt">int</span> <span class="n">trap</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kt">int</span> <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">l</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="n">height</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">level</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">while</span> <span class="p">(</span><span class="n">l</span> <span class="o">&lt;</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
-            <span class="kt">int</span> <span class="n">lower</span> <span class="o">=</span> <span class="p">(</span><span class="n">height</span><span class="p">[</span><span class="n">l</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">height</span><span class="p">[</span><span class="n">r</span><span class="p">]</span> <span class="o">?</span> <span class="n">height</span><span class="p">[</span><span class="n">r</span><span class="o">--</span><span class="p">]</span> <span class="o">:</span> <span class="n">height</span><span class="p">[</span><span class="n">l</span><span class="o">++</span><span class="p">]);</span>
-            <span class="n">level</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">lower</span><span class="p">,</span> <span class="n">level</span><span class="p">);</span>
-            <span class="n">ans</span> <span class="o">+=</span> <span class="n">level</span> <span class="o">-</span> <span class="n">lower</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="n">ans</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>这道题解法应该挺多的。</p>]]></description>
-</item><item>
-    <title>平遥古城</title>
-    <link>https://www.kayak4665664.com/zh-cn/pingyao-ancient-city/</link>
-    <pubDate>Sun, 13 Feb 2022 22:30:37 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/pingyao-ancient-city/</guid>
-    <description><![CDATA[<p>前几天去平遥古城转了转，整个古城基本上保存了明清时期的原貌。站在城墙上眺望，非常壮观。小吃很多，我最喜欢平遥牛肉和碗托！</p>
-<p>没有拍到好看的照片，这里就放两张我在南城墙上拍到的。</p>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0986.jpeg" title="南城门" data-thumbnail="https://cdn.kayak4665664.com/IMG_0986.jpeg" data-sub-html="<h2>南城门</h2>">
-        
-    </a><figcaption class="image-caption">南城门</figcaption>
-    </figure>
-</div>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_0988.jpeg" title="红衣大炮" data-thumbnail="https://cdn.kayak4665664.com/IMG_0988.jpeg" data-sub-html="<h2>红衣大炮</h2>">
-        
-    </a><figcaption class="image-caption">红衣大炮</figcaption>
-    </figure>
-</div>]]></description>
 </item></channel>
 </rss>

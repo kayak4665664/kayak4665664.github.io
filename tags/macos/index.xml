@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>macOS - Tag - kayak4665664</title>
+        <link>https://www.kayak4665664.com/tags/macos/</link>
+        <description>macOS - Tag - kayak4665664</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
+    <title>texliveonfly, env: python: No Such File or Directory</title>
+    <link>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</link>
+    <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</guid>
+    <description><![CDATA[<p>Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</p>
+<p>I tried to execute <code>python</code>, and a prompt from Xcode Command Line Tools popped up, saying that I needed to download something, and it downloaded Python3.9, while I already had Python3.8🙃.</p>
+<p>I tried to create a symbolic link with <code>ln</code>, but it didn&rsquo;t work.</p>
+<p>I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</p>]]></description>
+</item></channel>
+</rss>
