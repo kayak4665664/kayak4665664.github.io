@@ -4,7 +4,17 @@
         <link>https://www.kayak4665664.com/posts/</link>
         <description>All Posts | kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 13 Feb 2023 22:12:23 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Visited Lite: mark all visited links as custom color</title>
+    <link>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
+    <pubDate>Mon, 13 Feb 2023 22:12:23 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
+    <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> is a userscript to customize the color of visited links.</p>
+<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they&rsquo;re really good. And last year I experienced <a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer">ChatGPT</a> for the first time, so this time I am looking forward to the new version of Bing and Edge, and applied to join [waitlist](https://www. bing.com/new).</p>
+<p>In the process of using Bing, I suddenly discovered a problem. In Bing&rsquo;s search results, the visited links and unvisited links were both purple, it&rsquo;s difficult to distinguish which links are visited and which are not. I have been using Google before, the unvisited links are blue, and the visited links are purple.</p>
+<p>I didn&rsquo;t find the relevant settings in Bing and I didn&rsquo;t know where the problem was. So I looked for some userscripts or browser extensions to solve this problem. I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded in the <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a> extension.</p>]]></description>
+</item><item>
     <title>texliveonfly, env: python: No Such File or Directory</title>
     <link>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</link>
     <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
@@ -284,15 +294,5 @@
     <guid>https://www.kayak4665664.com/international-workers-day/</guid>
     <description><![CDATA[<p>Workers of the world, unite!</p>
 <p>Work together to defend our rights and fight for a fairer and better world.</p>]]></description>
-</item><item>
-    <title>Today&#39;s Thesis Proposal</title>
-    <link>https://www.kayak4665664.com/todays-thesis-proposal/</link>
-    <pubDate>Wed, 09 Mar 2022 20:57:08 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://www.kayak4665664.com/todays-thesis-proposal/</guid>
-    <description><![CDATA[<p>Today I participated in the thesis proposal through the Tencent Meeting.</p>
-<p>The original plan was to start at 1:30 p.m. I don&rsquo;t know why we waited until 2 p.m😶. There were 24 students and 3 judges in this thesis proposal this afternoon. I was number 12 and waited until 4 p.m to finally get my turn. Overall, it went relatively smoothly, but there was a teacher who was studying computer network coincidentally, and my topic involved a lot of network stuff, so I was questioned closely.</p>
-<p>After my turn, because the teacher didn&rsquo;t say we could withdraw, I just continued to stay in the meeting to watch others. An unnamed student who was recommended to study at the Institute of Computing Technology, Chinese Academy of Sciences for postgraduate study without examination, his graduation project was in cooperation with Huawei. He said that the results of his graduation project would beat the previous work of his supervisor, and he was determined to submit a paper to the top conference as well👍.</p>
-<p>Such excellent classmates inspire me to do my own work better, keep working hard👍.</p>]]></description>
 </item></channel>
 </rss>

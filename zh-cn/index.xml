@@ -4,9 +4,19 @@
         <link>https://www.kayak4665664.com/zh-cn/</link>
         <description>kayak4665664的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</lastBuildDate>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 13 Feb 2023 22:12:33 &#43;0800</lastBuildDate>
             <atom:link href="https://www.kayak4665664.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Visited Lite: 自定义已访问链接的颜色</title>
+    <link>https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
+    <pubDate>Mon, 13 Feb 2023 22:12:33 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
+    <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>是一个自定义已访问链接的颜色的userscript。</p>
+<p>前几天微软公司推出了结合GPT技术的新版Bing和Edge浏览器，我看了网上对它们的介绍，感觉真的很不错。而且去年我也第一时间体验了<a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer">ChatGPT</a>，所以这一次我非常期待新版Bing和Edge，申请加入了<a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a>。</p>
+<p>在使用Bing的过程中，我忽然发现了一个问题，在Bing的搜索结果中，已访问的链接和未访问的链接都是紫色的，这样就很难区分哪些链接是已访问的，哪些链接是未访问的。而我之前一直使用Google，未访问的链接是蓝色的，访问过的链接是紫色的。</p>
+<p>我在Bing的设置中并没有找到相关的设置项，不知道问题出在了哪里，所以我想寻找一些userscript或者浏览器扩展来解决这个问题。于是我找到了<a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>，它可以自定义所有网站的已访问链接的颜色，而不仅仅是Bing的。我在Edge的<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a>扩展中安装了这个userscript，<a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>用醒目的颜色标记了所有已访问的链接。不过有的网页可能并不需要这个功能，可以在<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a>扩展中排除它们。</p>]]></description>
+</item><item>
     <title>texliveonfly, env: python: No Such File or Directory</title>
     <link>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</link>
     <pubDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</pubDate>
@@ -286,15 +296,5 @@
     <guid>https://www.kayak4665664.com/zh-cn/international-workers-day/</guid>
     <description><![CDATA[<p>全世界无产者，联合起来！</p>
 <p>共同捍卫劳动者的权利，为一个更公平更美好的世界而奋斗。</p>]]></description>
-</item><item>
-    <title>今日开题答辩</title>
-    <link>https://www.kayak4665664.com/zh-cn/todays-thesis-proposal/</link>
-    <pubDate>Wed, 09 Mar 2022 20:57:18 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/todays-thesis-proposal/</guid>
-    <description><![CDATA[<p>今天通过腾讯会议参加了开题答辩。</p>
-<p>原计划下午一点半开始，不知道为啥等到了两点😶。今天下午这一场一共有24名学生，3位评委老师。我排在第12号，等到了四点终于轮到我了。总体还是比较顺利的，不过有一位老师正好是研究计算机网络的，而我的课题涉及到了不少网络的东西，被抓着问了几个问题。</p>
-<p>答辩之后，老师没说可以退出，正好继续待在会议里面看别人答辩。一位保研到计算所的未透露名字的同学，他的毕设是和华为公司合作的，他说他的毕设成果要打败他导师之前的工作，他立志也要投一篇顶会👍。</p>
-<p>这样优秀的同学激励我去做好我自己的工作，继续努力吧👍。</p>]]></description>
 </item></channel>
 </rss>
