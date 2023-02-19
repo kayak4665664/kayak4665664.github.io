@@ -11,7 +11,7 @@
     <author>Author</author>
     <guid>https://www.kayak4665664.com/ncut-pot/</guid>
     <description><![CDATA[<p><strong>NCUT-Pot</strong> is my graduation project, it&rsquo;s a honeypot.</p>
-<p>This honeypot supports <code>Telnet</code> and <code>SSH</code> two protocols, simulates the <code>Linux</code> system, and stores hackers' data in the <code>SQL</code> database. In addition, it also sends alerts to users via SMS and email. Users can customize commands and directories.</p>
+<p>This honeypot supports <code>Telnet</code> and <code>SSH</code> two protocols, simulates the <code>Linux</code> system, and stores hackers&rsquo; data in the <code>SQL</code> database. In addition, it also sends alerts to users via SMS and email. Users can customize commands and directories.</p>
 <p>For more details about <strong>NCUT-Pot</strong> please visit <a href="https://github.com/kayak4665664/NCUT-Pot" target="_blank" rel="noopener noreffer">https://github.com/kayak4665664/FF-Pot</a>(now renamed FF-Pot).</p>]]></description>
 </item><item>
     <title>August 18, a New Beginning</title>

@@ -4,7 +4,20 @@
         <link>https://www.kayak4665664.com/zh-cn/posts/</link>
         <description>所有文章 | kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 13 Feb 2023 22:12:33 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Wed, 15 Feb 2023 22:57:40 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>奶油水果蛋糕——升级版🍰</title>
+    <link>https://www.kayak4665664.com/zh-cn/creamy-fruit-cakean-upgraded-version/</link>
+    <pubDate>Wed, 15 Feb 2023 22:57:40 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/creamy-fruit-cakean-upgraded-version/</guid>
+    <description><![CDATA[<p>美味的奶油水果蛋糕！</p>
+<div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_2109.jpeg" title="奶油水果蛋糕" data-thumbnail="https://cdn.kayak4665664.com/IMG_2109.jpeg">
+        
+    </a>
+</div>
+<p>在去年<a href="https://www.kayak4665664.com/zh-cn/tags/%E8%9B%8B%E7%B3%95/" target="_blank" rel="noopener noreffer">两个蛋糕</a>的基础上，这一次主要加入了奶油和水果，还放了几个奥利奥，味道更有层次感了。唯一的缺点是蛋糕胚不够香甜松软，吃着有点像馒头😂</p>]]></description>
+</item><item>
     <title>Visited Lite: 自定义已访问链接的颜色</title>
     <link>https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
     <pubDate>Mon, 13 Feb 2023 22:12:33 &#43;0800</pubDate>
@@ -81,40 +94,40 @@
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
-    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">plusOne</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">digits</span><span class="o">)</span> <span class="o">{</span>
-        <span class="kt">int</span> <span class="n">end</span> <span class="o">=</span> <span class="n">digits</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="n">1</span><span class="o">;</span>
-        <span class="kt">int</span><span class="o">[]</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">end</span> <span class="o">+</span> <span class="n">1</span><span class="o">];</span>
-        <span class="kt">boolean</span> <span class="n">carry</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
-        <span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">=</span> <span class="n">digits</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">+</span> <span class="n">1</span><span class="o">;</span>
-        <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">==</span> <span class="n">10</span><span class="o">)</span> <span class="o">{</span>
-            <span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
-            <span class="n">carry</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
-        <span class="o">}</span>
-        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">end</span> <span class="o">-</span> <span class="n">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">0</span><span class="o">;</span> <span class="o">--</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span>
-            <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">digits</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
-            <span class="k">if</span> <span class="o">(</span><span class="n">carry</span><span class="o">)</span> <span class="o">{</span>
-                <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">+=</span> <span class="n">1</span><span class="o">;</span>
-                <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">==</span> <span class="n">10</span><span class="o">)</span> <span class="o">{</span>
-                    <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
-                    <span class="n">carry</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
-                <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
-                    <span class="n">carry</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
-                <span class="o">}</span>
-            <span class="o">}</span>
-        <span class="o">}</span>
-        <span class="k">if</span> <span class="o">(</span><span class="n">carry</span><span class="o">)</span> <span class="o">{</span>
-            <span class="kt">int</span><span class="o">[]</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">result</span><span class="o">;</span>
-            <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">end</span> <span class="o">+</span> <span class="n">2</span><span class="o">];</span>
-            <span class="n">result</span><span class="o">[</span><span class="n">0</span><span class="o">]</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
-            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">end</span> <span class="o">+</span> <span class="n">2</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span>
-                <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">tmp</span><span class="o">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">1</span><span class="o">];</span>
-            <span class="o">}</span>
-        <span class="o">}</span>
-        <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
-    <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">plusOne</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">digits</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">end</span> <span class="o">=</span> <span class="n">digits</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span><span class="o">[]</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">end</span> <span class="o">+</span> <span class="mi">1</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">boolean</span> <span class="n">carry</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">=</span> <span class="n">digits</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">==</span> <span class="mi">10</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">result</span><span class="o">[</span><span class="n">end</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">carry</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">end</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="o">--</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">digits</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">carry</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">==</span> <span class="mi">10</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">carry</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">carry</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">(</span><span class="n">carry</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span><span class="o">[]</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">result</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">end</span> <span class="o">+</span> <span class="mi">2</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">            <span class="n">result</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">end</span> <span class="o">+</span> <span class="mi">2</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">tmp</span><span class="o">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
 </item><item>
@@ -286,13 +299,5 @@
 <p>有一说一，隔离酒店的环境还是不错的，吃饭喝水也能保证，这4天来我过得还可以。</p>
 <p>还有3天集中隔离就要结束了，开始7天的居家隔离，其中6月9日我将进行毕设的答辩。</p>
 <p>时间过得太快了，我在3月15日回到学校时，北京还在下雪。一转眼，我突然又回家了。我的4年大学生活马上也要结束了，我会永远记得在北方工业大学的4年。</p>]]></description>
-</item><item>
-    <title>庆祝五一国际劳动节</title>
-    <link>https://www.kayak4665664.com/zh-cn/international-workers-day/</link>
-    <pubDate>Sat, 30 Apr 2022 21:34:53 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/international-workers-day/</guid>
-    <description><![CDATA[<p>全世界无产者，联合起来！</p>
-<p>共同捍卫劳动者的权利，为一个更公平更美好的世界而奋斗。</p>]]></description>
 </item></channel>
 </rss>
