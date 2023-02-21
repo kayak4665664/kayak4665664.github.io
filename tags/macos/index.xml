@@ -66,5 +66,15 @@
 <p>I tried to execute <code>python</code>, and a prompt from Xcode Command Line Tools popped up, saying that I needed to download something, and it downloaded Python3.9, while I already had Python3.8🙃.</p>
 <p>I tried to create a symbolic link with <code>ln</code>, but it didn&rsquo;t work.</p>
 <p>I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</p>]]></description>
+</item><item>
+    <title>AlDente: Limit MacBook Maximum Charging Percentage</title>
+    <link>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</link>
+    <pubDate>Tue, 11 Oct 2022 17:25:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</guid>
+    <description><![CDATA[<p>Since the laptop uses a lithium battery, long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.</p>
+<p>For MacBook, I found a software that can solve this problem: <a href="https://github.com/davidwernhart/AlDente-Charge-Limiter" target="_blank" rel="noopener noreffer">AlDente</a>.</p>
+<p>It can be downloaded from <a href="https://github.com/davidwernhart/AlDente/releases" target="_blank" rel="noopener noreffer">Github</a>, or you can use Homebrew, <code>brew install --cask aldente</code>.</p>
+<p>After launching AlDente, this software appears in the menu bar, which can easily control the maximum charging percentage of MacBook. Afterwards, it can be observed that the power adapter is connected, but the battery is not charging.</p>]]></description>
 </item></channel>
 </rss>
