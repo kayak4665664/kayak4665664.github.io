@@ -57,6 +57,55 @@
 </div>
 </div>]]></description>
 </item><item>
+    <title>Multiple Versions of Edge Browser Appear on Mac</title>
+    <link>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</link>
+    <pubDate>Sun, 19 Feb 2023 22:18:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</guid>
+    <description><![CDATA[<p>Suddenly, I found that there are two Edge Dev on my Mac, 111.0.1660.13 and 111.0.1660.12, and both of them can launch normally. I want to keep the latest version and uninstall the old one.</p>
+<h2 id="method">method</h2>
+<h3 id="1">1</h3>
+<p>Take the Dev version as an example. Switch the directory to the following location</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ Framework.framework/Versions
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You can also press <code>control + shift + G</code> in the Finder to go to the location</p>
+<h3 id="2">2</h3>
+<p>Execute <code>ls -l</code>, you will see similar output</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12
+</span></span><span class="line"><span class="cl">drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13
+</span></span><span class="line"><span class="cl">lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -&gt; 111.0.1660.13
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or click <code>Current</code> in the Finder to confirm the version linked to</p>
+<h3 id="3">3</h3>
+<p>Use <code>rm -rf</code> to remove other older versions, or you can also delete them in Finder</p>
+<h3 id="4">4</h3>
+<p>The last step, this step can also be done in the Finder</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~/Library/Application\Support/Microsoft
+</span></span><span class="line"><span class="cl">rm -rf EdgeUpdater
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
     <title>Depay: a Virtual US Dollar Credit Card for Spending With USDT</title>
     <link>https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</link>
     <pubDate>Sat, 18 Feb 2023 22:06:38 &#43;0800</pubDate>
@@ -256,32 +305,5 @@
 <p>For MacBook, I found a software that can solve this problem: <a href="https://github.com/davidwernhart/AlDente-Charge-Limiter" target="_blank" rel="noopener noreffer">AlDente</a>.</p>
 <p>It can be downloaded from <a href="https://github.com/davidwernhart/AlDente/releases" target="_blank" rel="noopener noreffer">Github</a>, or you can use Homebrew, <code>brew install --cask aldente</code>.</p>
 <p>After launching AlDente, this software appears in the menu bar, which can easily control the maximum charging percentage of MacBook. Afterwards, it can be observed that the power adapter is connected, but the battery is not charging.</p>]]></description>
-</item><item>
-    <title>iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software</title>
-    <link>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
-    <pubDate>Sat, 17 Sep 2022 18:02:30 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
-    <description><![CDATA[<p>There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.</p>
-<p>iconsur&rsquo;s Github homepage: <a href="https://github.com/rikumi/iconsur" target="_blank" rel="noopener noreffer">https://github.com/rikumi/iconsur</a>, can be downloaded in <a href="https://github.com/rikumi/iconsur/releases" target="_blank" rel="noopener noreffer">Releases</a>. You can also use Homebrew: <code>brew install iconsur</code>, or npm: <code>npm install -g iconsur</code>.</p>
-<p>iconsur finds the most similar iOS app for the software in the App Store, and replaces the icon of this software with the icon of the iOS app. For example:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo iconsur set /Applications/Microsoft\ Word.app/
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>In addition, iconsur can also generate icons locally for the software. For example:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo iconsur set /Applications/Visual\ Studio\ Code.app/ -l
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>For other usage, please refer to <a href="https://github.com/rikumi/iconsur" target="_blank" rel="noopener noreffer">Github</a> or execute <code>iconsur help</code>.</p>]]></description>
 </item></channel>
 </rss>
