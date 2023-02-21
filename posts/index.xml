@@ -4,7 +4,47 @@
         <link>https://www.kayak4665664.com/posts/</link>
         <description>All Posts | kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Sat, 18 Feb 2023 10:40:56 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Sat, 18 Feb 2023 22:06:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Depay: a Virtual US Dollar Credit Card for Spending With USDT</title>
+    <link>https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</link>
+    <pubDate>Sat, 18 Feb 2023 22:06:38 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</guid>
+    <description><![CDATA[<p>Depay registration and download link: <a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us</a>, recommendation code: <strong>606096</strong>.</p>
+<p>I found <a href="https://www.v2ex.com/t/912011" target="_blank" rel="noopener noreffer">the topic posted by the boss of Depay on v2ex</a>, the content of this article is mainly based on this topic and my own experience.</p>
+<h2 id="what-can-depay-do">What can Depay do?</h2>
+<p>Through Depay, you can directly recharge with USDT, convert it into US dollars, and then spend with VISA and mastercard.</p>
+<ul>
+<li>You can bind Alipay, WeChat Pay, Meituan Takeaway, Pinduoduo, Paypal (China, American, Hong Kong), Tmall International, etc.</li>
+<li>Support Stripe merchants, Google Play, Youtube Premium, Paypal merchants, US App Store and e-commerce websites that support non-3DS cards</li>
+<li>Support KYC-free card opening to realize completely anonymous payment</li>
+</ul>
+<h2 id="register-and-download">Register and Download</h2>
+<p>Depay registration and download link: <a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us</a>, recommendation code: <strong>606096</strong>.</p>
+<p>Or use your mobile phone to scan the QR code on the poster below:</p>
+<div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_2121.JPG" title="Depay" data-thumbnail="https://cdn.kayak4665664.com/IMG_2121.JPG">
+        
+    </a>
+</div>
+<p>Android can directly download the APK and install it; iOS can be downloaded in non-Chinese regions App Store, or a beta version can be downloaded.</p>
+<h2 id="apply-for-a-virtual-card">Apply for a virtual card</h2>
+<p>After entering the Depay App, click Apply for a card. At the beginning, you can choose a standard card and a Lite card. The Lite card does not require KYC. Now there are 5 types of cards (Lite, Standard, Premium, Platinum, Black Gold). The difference is mainly in the card opening fee, monthly fee and recharge fee. The standard card opening fee is 0, the specific difference can be found on the <a href="https://depay.one/en-us/rights.html" target="_blank" rel="noopener noreffer">official website</a>.</p>
+<h2 id="deposit-convert-usd-recharge-and-activate">Deposit, convert USD, recharge and activate</h2>
+<p>Depay currently supports charging USDT (TRC20), at least 5 USDT at a time. USDT can be exchanged for USD in real time after deposit. To activate the virtual card, you need to recharge the card with US dollars. There will be a certain percentage of handling fee for the recharging. The handling fee for the standard card is at least 1 US dollar each time, so do not recharge frequently in small amounts.</p>
+<p>After activation, you can view the card number and CVV security code.</p>
+<h2 id="black-gold-card">Black Gold Card</h2>
+<p>At present, as long as you invite 20 people to open a card, you can ask the administrator to upgrade the black gold card. The black gold card has no monthly fee, and the recharge fee is relatively low.</p>
+<h2 id="is-depay-safe">Is Depay safe?</h2>
+<p>Depay is a newly established small British company. If you are worried, it is best not to charge too much money, just enough.</p>
+<h2 id="customer-service">Customer service</h2>
+<ul>
+<li>Official website: <a href="https://depay.one/" target="_blank" rel="noopener noreffer">https://depay.one/</a></li>
+<li>Email: <a href="mailto:support@depay.one" rel="">support@depay.one</a></li>
+<li>Telegram group: <a href="https://t.me/depay_visa" target="_blank" rel="noopener noreffer">https://t.me/depay_visa</a></li>
+<li>Twitter: <a href="https://twitter.com/Depay_CN" target="_blank" rel="noopener noreffer">https://twitter.com/Depay_CN</a></li>
+</ul>]]></description>
+</item><item>
     <title>You&#39;re in! Welcome to the New Bing!</title>
     <link>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</link>
     <pubDate>Sat, 18 Feb 2023 10:40:56 &#43;0800</pubDate>
@@ -234,29 +274,5 @@
     <description><![CDATA[<p><strong>NCUT-Pot</strong> is my graduation project, it&rsquo;s a honeypot.</p>
 <p>This honeypot supports <code>Telnet</code> and <code>SSH</code> two protocols, simulates the <code>Linux</code> system, and stores hackers&rsquo; data in the <code>SQL</code> database. In addition, it also sends alerts to users via SMS and email. Users can customize commands and directories.</p>
 <p>For more details about <strong>NCUT-Pot</strong> please visit <a href="https://github.com/kayak4665664/NCUT-Pot" target="_blank" rel="noopener noreffer">https://github.com/kayak4665664/FF-Pot</a>(now renamed FF-Pot).</p>]]></description>
-</item><item>
-    <title>August 18, a New Beginning</title>
-    <link>https://www.kayak4665664.com/august-18-a-new-beginning/</link>
-    <pubDate>Wed, 13 Jul 2022 23:43:27 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://www.kayak4665664.com/august-18-a-new-beginning/</guid>
-    <description><![CDATA[<p>Since the end of the graduation project, I have been looking forward to the letter of admission every day, and it is finally here!</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1547.jpeg" title="letter of admission" data-thumbnail="https://cdn.kayak4665664.com/IMG_1547.jpeg">
-        
-    </a>
-</div>
-<p>Haha, the campus card is here too. I&rsquo;m very much looking forward to the new semester of UCAS, but I have to report on August 18, and I&rsquo;m going to the driving school. I feel that my vacation has ended before it even started🥹</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1544.jpeg" title="degree certificate" data-thumbnail="https://cdn.kayak4665664.com/IMG_1544.jpeg">
-        
-    </a>
-</div>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1546.jpeg" title="graduation certificate" data-thumbnail="https://cdn.kayak4665664.com/IMG_1546.jpeg">
-        
-    </a>
-</div>
-<p>I also received my graduation certificate and degree certificate. I miss those happy days at NCUT.</p>]]></description>
 </item></channel>
 </rss>
