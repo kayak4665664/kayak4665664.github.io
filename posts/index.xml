@@ -4,7 +4,59 @@
         <link>https://www.kayak4665664.com/posts/</link>
         <description>All Posts | kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Sat, 18 Feb 2023 22:06:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Modify the Icons Size in MacOS Launchpad</title>
+    <link>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</link>
+    <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</guid>
+    <description><![CDATA[<p>Icons can be resized by adjusting the number of icons per row and column of Launchpad.</p>
+<h2 id="method">method</h2>
+<p>Execute the following commands in Terminal:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># For example, set to 8 columns</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns -int <span class="m">8</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># For example, set to 6 lines</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows -int <span class="m">6</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Reset Launchpad</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
+</span></span><span class="line"><span class="cl"><span class="c1"># Restart the Dock</span>
+</span></span><span class="line"><span class="cl">killall Dock
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg" title="8*6 Launchpad" data-thumbnail="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg">
+        
+    </a>
+</div>
+<p>Restore default settings:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows Default
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns Default
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
+</span></span><span class="line"><span class="cl">killall Dock
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
     <title>Depay: a Virtual US Dollar Credit Card for Spending With USDT</title>
     <link>https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</link>
     <pubDate>Sat, 18 Feb 2023 22:06:38 &#43;0800</pubDate>
@@ -248,34 +300,5 @@
 <p>After a week, my symptoms gradually disappeared, but I still had some cough and my heart rate was still fast. On December 27, I picked up another antigen test reagent, which was negative this time.</p>
 <p>After more than a week, I finished all the exams, my heart rate was still not normal, so I decided to go to Huairou Hospital for a checkup. I did heart color Doppler ultrasound, chest CT scan and multiple blood tests, and the test results showed no abnormalities. The doctor said that my condition should be the sequelae of the new crown rather than myocarditis, and it would take a long time to recover.</p>
 <p>It is already 2023, I just hope that we can resume our life before the epidemic as soon as possible🙏.</p>]]></description>
-</item><item>
-    <title>I Got My Drivers License🚘</title>
-    <link>https://www.kayak4665664.com/i-got-my-driving-license/</link>
-    <pubDate>Sat, 13 Aug 2022 18:56:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://www.kayak4665664.com/i-got-my-driving-license/</guid>
-    <description><![CDATA[<p>After more than half a month of training, I successfully got my driving license! Thanks to each of my coaches for their patient guidance!</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1636.JPG" title="driving license" data-thumbnail="https://cdn.kayak4665664.com/IMG_1636.JPG">
-        
-    </a>
-</div>
-<p>I also went around the driving school. It&rsquo;s built on a hill and has a wide field of vision.</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1586.jpeg" title="Sun🌞" data-thumbnail="https://cdn.kayak4665664.com/IMG_1586.jpeg">
-        
-    </a>
-</div>
-<p>This driving school even has a few ponies.</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1581.jpeg" title="Pony🐴" data-thumbnail="https://cdn.kayak4665664.com/IMG_1581.jpeg">
-        
-    </a>
-</div>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1614.jpeg" title="Goose🦢 &amp; Duck🦆" data-thumbnail="https://cdn.kayak4665664.com/IMG_1614.jpeg">
-        
-    </a>
-</div>]]></description>
 </item></channel>
 </rss>

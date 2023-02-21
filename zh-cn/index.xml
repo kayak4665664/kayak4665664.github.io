@@ -4,9 +4,61 @@
         <link>https://www.kayak4665664.com/zh-cn/</link>
         <description>kayak4665664的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Sat, 18 Feb 2023 22:06:43 &#43;0800</lastBuildDate>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Tue, 21 Feb 2023 12:23:13 &#43;0800</lastBuildDate>
             <atom:link href="https://www.kayak4665664.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>修改macOS Launchpad的图标大小</title>
+    <link>https://www.kayak4665664.com/zh-cn/modify-the-icons-size-in-macos-launchpad/</link>
+    <pubDate>Tue, 21 Feb 2023 12:23:13 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.kayak4665664.com/zh-cn/modify-the-icons-size-in-macos-launchpad/</guid>
+    <description><![CDATA[<p>通过调整Launchpad每一行和每一列的图标的数量，就可以调整图标的大小。</p>
+<h2 id="方法">方法</h2>
+<p>在Terminal中执行以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 例如设置为8列</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns -int <span class="m">8</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 例如设置为6行</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows -int <span class="m">6</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 重置Launchpad</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
+</span></span><span class="line"><span class="cl"><span class="c1"># 重启Dock</span>
+</span></span><span class="line"><span class="cl">killall Dock
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg" title="8*6 Launchpad" data-thumbnail="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg">
+        
+    </a>
+</div>
+<p>恢复默认设置：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows Default
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns Default
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
+</span></span><span class="line"><span class="cl">killall Dock
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
     <title>Depay: 使用USDT消费的虚拟美元信用卡</title>
     <link>https://www.kayak4665664.com/zh-cn/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</link>
     <pubDate>Sat, 18 Feb 2023 22:06:43 &#43;0800</pubDate>
@@ -250,34 +302,5 @@
 <p>过了一周，我的症状逐渐消失了，只是还是有一些咳嗽，而且心率还是偏快。12月27日，我又领取了一份抗原检测试剂，这一次是阴性。</p>
 <p>又过了一个多星期，我完成了所有的考试，我的心率还是不正常，我决定去怀柔医院检查一下。我做了心脏彩超、胸部CT扫描以及多项血液检测，检测结果并没有出现什么异常，医生说我的情况应该是新冠后遗症而不是心肌炎，需要通过一个较长的时间来慢慢恢复。</p>
 <p>现在已经是2023了，只希望能够尽快恢复疫情前的生活🙏。</p>]]></description>
-</item><item>
-    <title>拿到驾照了🚘</title>
-    <link>https://www.kayak4665664.com/zh-cn/i-got-my-driving-license/</link>
-    <pubDate>Sat, 13 Aug 2022 18:56:50 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.kayak4665664.com/zh-cn/i-got-my-driving-license/</guid>
-    <description><![CDATA[<p>经过了半个多月的训练，顺利拿到驾照！感谢每一位教练的耐心指导！</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1636.JPG" title="驾照" data-thumbnail="https://cdn.kayak4665664.com/IMG_1636.JPG">
-        
-    </a>
-</div>
-<p>我还在驾校转了转，驾校建在一个山头上，视野很开阔。</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1586.jpeg" title="太阳🌞" data-thumbnail="https://cdn.kayak4665664.com/IMG_1586.jpeg">
-        
-    </a>
-</div>
-<p>驾校竟然还养了几只小马。</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1581.jpeg" title="小马🐴" data-thumbnail="https://cdn.kayak4665664.com/IMG_1581.jpeg">
-        
-    </a>
-</div>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_1614.jpeg" title="鹅🦢和鸭子🦆" data-thumbnail="https://cdn.kayak4665664.com/IMG_1614.jpeg">
-        
-    </a>
-</div>]]></description>
 </item></channel>
 </rss>

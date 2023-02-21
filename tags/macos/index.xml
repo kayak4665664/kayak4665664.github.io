@@ -4,7 +4,59 @@
         <link>https://www.kayak4665664.com/tags/macos/</link>
         <description>macOS - Tag - kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
+    <title>Modify the Icons Size in MacOS Launchpad</title>
+    <link>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</link>
+    <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</guid>
+    <description><![CDATA[<p>Icons can be resized by adjusting the number of icons per row and column of Launchpad.</p>
+<h2 id="method">method</h2>
+<p>Execute the following commands in Terminal:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># For example, set to 8 columns</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns -int <span class="m">8</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># For example, set to 6 lines</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows -int <span class="m">6</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Reset Launchpad</span>
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
+</span></span><span class="line"><span class="cl"><span class="c1"># Restart the Dock</span>
+</span></span><span class="line"><span class="cl">killall Dock
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div align="center">
+<a class="lightgallery" href="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg" title="8*6 Launchpad" data-thumbnail="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg">
+        
+    </a>
+</div>
+<p>Restore default settings:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows Default
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns Default
+</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
+</span></span><span class="line"><span class="cl">killall Dock
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
     <title>texliveonfly, env: python: No Such File or Directory</title>
     <link>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</link>
     <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
