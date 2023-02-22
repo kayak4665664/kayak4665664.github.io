@@ -76,7 +76,7 @@
 </div>
 </div><p>You can also press <code>control + shift + G</code> in the Finder to go to the location</p>
 <h3 id="2">2</h3>
-<p>Execute <code>ls -l</code>, you will see similar output</p>
+<p>Execute <code>ls -</code>l`, and you will see similar output</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -100,7 +100,7 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~/Library/Application\Support/Microsoft
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~/Library/Application\ Support/Microsoft
 </span></span><span class="line"><span class="cl">rm -rf EdgeUpdater
 </span></span></code></pre></td></tr></table>
 </div>

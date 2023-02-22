@@ -12,7 +12,7 @@ cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ F
 You can also press `control + shift + G` in the Finder to go to the location
 
 ### 2
-Execute `ls -l`, you will see similar output
+Execute `ls -`l`, and you will see similar output
 ```
 drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12
 drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13
@@ -26,6 +26,6 @@ Use `rm -rf` to remove other older versions, or you can also delete them in Find
 ### 4
 The last step, this step can also be done in the Finder
 ```
-cd ~/Library/Application\Support/Microsoft
+cd ~/Library/Application\ Support/Microsoft
 rm -rf EdgeUpdater
 ```
