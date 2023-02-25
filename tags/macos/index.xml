@@ -4,7 +4,33 @@
         <link>https://www.kayak4665664.com/tags/macos/</link>
         <description>macOS - Tag - kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
+    <title>What Is Kerberos in Mac?</title>
+    <link>https://www.kayak4665664.com/what-is-kerberos-in-mac/</link>
+    <pubDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/what-is-kerberos-in-mac/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-25%20at%2008.59.49.jpeg" referrerpolicy="no-referrer">
+            </div><p>I suddenly found this Kerberos in the notification settings, what is it?</p>
+<p>I asked Bing and it said:</p>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>Quote<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Hello, this is Bing. Kerberos is an authentication system that allows you to securely access various services on the network. Kerberos in Mac is based on the MIT Kerberos implementation and provides Kerberos v5 and v4 protocols, GSSAPI, a graphical authentication interface and a ticket cache. You can use the command line or the Ticket Viewer app to manage your Kerberos tickets.</p>
+<ol>
+<li><a href="https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS" target="_blank" rel="noopener noreffer">https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS</a></li>
+<li><a href="https://web.mit.edu/macdev/www/kerberos.html" target="_blank" rel="noopener noreffer">https://web.mit.edu/macdev/www/kerberos.html</a></li>
+<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web" target="_blank" rel="noopener noreffer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web</a></li>
+<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web" target="_blank" rel="noopener noreffer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web</a></li>
+</ol>
+</div>
+        </div>
+    </div>
+<p>It seems that this Kerberos is included in macOS, it is located in <code>/System/Library/CoreServices/Applications/Ticket Viewer.app</code>, and it is not a malicious program.</p>]]></description>
+</item><item>
     <title>Modify the Icons Size in MacOS Launchpad</title>
     <link>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</link>
     <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>

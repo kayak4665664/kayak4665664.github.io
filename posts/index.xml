@@ -4,7 +4,33 @@
         <link>https://www.kayak4665664.com/posts/</link>
         <description>All Posts | kayak4665664</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>What Is Kerberos in Mac?</title>
+    <link>https://www.kayak4665664.com/what-is-kerberos-in-mac/</link>
+    <pubDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://www.kayak4665664.com/what-is-kerberos-in-mac/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-25%20at%2008.59.49.jpeg" referrerpolicy="no-referrer">
+            </div><p>I suddenly found this Kerberos in the notification settings, what is it?</p>
+<p>I asked Bing and it said:</p>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>Quote<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Hello, this is Bing. Kerberos is an authentication system that allows you to securely access various services on the network. Kerberos in Mac is based on the MIT Kerberos implementation and provides Kerberos v5 and v4 protocols, GSSAPI, a graphical authentication interface and a ticket cache. You can use the command line or the Ticket Viewer app to manage your Kerberos tickets.</p>
+<ol>
+<li><a href="https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS" target="_blank" rel="noopener noreffer">https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS</a></li>
+<li><a href="https://web.mit.edu/macdev/www/kerberos.html" target="_blank" rel="noopener noreffer">https://web.mit.edu/macdev/www/kerberos.html</a></li>
+<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web" target="_blank" rel="noopener noreffer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web</a></li>
+<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web" target="_blank" rel="noopener noreffer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web</a></li>
+</ol>
+</div>
+        </div>
+    </div>
+<p>It seems that this Kerberos is included in macOS, it is located in <code>/System/Library/CoreServices/Applications/Ticket Viewer.app</code>, and it is not a malicious program.</p>]]></description>
+</item><item>
     <title>Modify the Icons Size in MacOS Launchpad</title>
     <link>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</link>
     <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>
@@ -336,24 +362,5 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
-</item><item>
-    <title>Use Phone Buddy on Apple Watch to Prevent Forgotten iPhone</title>
-    <link>https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</link>
-    <pubDate>Wed, 18 Jan 2023 10:45:44 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</guid>
-    <description><![CDATA[<p>Today my dad drove me to a place. After I got off the car and walked for 3 minutes, I suddenly found that my mobile phone was missing&hellip;</p>
-<p>I hurried back to the same place to look for my mobile phone, but I couldn&rsquo;t find it. Finally, I borrowed a mobile phone from the traffic police on the side of the road and called my father to confirm that my mobile phone was left in the car.</p>
-<p>Although Find My has been set to send a notification on the Apple Watch when I leave my iPhone, it seems that this function needs to be at a relatively long distance to take effect.</p>
-<p>So I found <a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391" target="_blank" rel="noopener noreffer">Phone Buddy</a>, the price is $4.99, I <a href="https://www.kayak4665664.com/buy-us-app-store-gift-cards-with-alipay/" target="_blank" rel="noopener noreffer">bought a US App Store Gift Card with Alipay</a> to recharge and purchase this App.</p>
-<div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent to the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between the Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.</div>
-        </div>
-    </div>
-<p>The only downside is that this App will shorten the battery life of the Apple Watch, but compared to losing my iPhone, this price is acceptable.</p>]]></description>
 </item></channel>
 </rss>
