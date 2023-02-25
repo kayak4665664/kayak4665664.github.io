@@ -1,6 +1,6 @@
 # LeetCode 66
 
-[LeetCode 66.Plus One](https://leetcode.com/problems/plus-one/description/), a easy problem. I just want to practice Java, it's been a long time since I wrote Java.
+[LeetCode 66.Plus One](https://leetcode.com/problems/plus-one/description/), is an easy problem. I just want to practice Java, it's been a long time since I wrote Java.
 <!--more-->
 
 My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.

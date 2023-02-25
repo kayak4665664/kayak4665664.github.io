@@ -8,6 +8,8 @@ Although Find My has been set to send a notification on the Apple Watch when I l
 
 So I found [Phone Buddy](https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391), the price is $4.99, I [bought a US App Store Gift Card with Alipay](https://www.kayak4665664.com/buy-us-app-store-gift-cards-with-alipay/) to recharge and purchase this App.
 
-After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent on the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.
+{{< admonition note >}}
+After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent to the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between the Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.
+{{< /admonition >}}
 
 The only downside is that this App will shorten the battery life of the Apple Watch, but compared to losing my iPhone, this price is acceptable.

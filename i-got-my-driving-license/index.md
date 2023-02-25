@@ -4,21 +4,21 @@ After more than half a month of training, I successfully got my driving license!
 <!--more-->
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1636.JPG" title="driving license" alt="driving license">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1636.JPG" title="driving license" alt="driving license">}}
 </div>
 
 I also went around the driving school. It's built on a hill and has a wide field of vision.
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1586.jpeg" title="Sun🌞" alt="Sun🌞">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1586.jpeg" title="Sun🌞" alt="Sun🌞">}}
 </div>
 
 This driving school even has a few ponies.
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1581.jpeg" title="Pony🐴" alt="Pony🐴">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1581.jpeg" title="Pony🐴" alt="Pony🐴">}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_1614.jpeg" title="Goose🦢 & Duck🦆" alt="Goose🦢 & Duck🦆">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1614.jpeg" title="Goose🦢 & Duck🦆" alt="Goose🦢 & Duck🦆">}}
 </div>

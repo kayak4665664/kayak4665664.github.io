@@ -5,7 +5,7 @@ Icons can be resized by adjusting the number of icons per row and column of Laun
 
 ## method
 
-Execute the following commands in Terminal:
+Execute the following commands in the Terminal:
 ```shell
 # For example, set to 8 columns
 defaults write com.apple.dock springboard-columns -int 8
@@ -16,10 +16,6 @@ defaults write com.apple.dock ResetLaunchPad -bool TRUE
 # Restart the Dock
 killall Dock
 ```
-
-<div align="center">
-{{< image src="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg" title="8*6 Launchpad" alt="8*6 Launchpad">}}
-</div>
 
 Restore default settings:
 ```shell

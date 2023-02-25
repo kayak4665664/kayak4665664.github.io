@@ -10,7 +10,7 @@
     <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/leetcode-66/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>, a easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
+    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -95,7 +95,7 @@
 <p>Given <code>n</code> non-negative integers representing an elevation map where the width of each bar is <code>1</code>, compute how much water it can trap after raining.</p>
 <p><strong>Example:</strong></p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/rainwatertrap.png" title="rainwatertrap" data-thumbnail="https://cdn.kayak4665664.com/rainwatertrap.png">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" title="rainwatertrap" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png">
         
     </a>
 </div>

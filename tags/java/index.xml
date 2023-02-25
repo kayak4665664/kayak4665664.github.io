@@ -10,7 +10,7 @@
     <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/leetcode-66/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>, a easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
+    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

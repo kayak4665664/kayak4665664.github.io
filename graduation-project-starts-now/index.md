@@ -1,7 +1,7 @@
 # Graduation Project Starts Now
 
 
-This week my school started the work of the graduation project, and now I have determined the topic and officially started my graduation project.
+This week my school started the work on the graduation project, and now I have determined the topic and officially started my graduation project.
 <!--more-->
 
 ## Topic selection
@@ -20,17 +20,17 @@ Although I selected a topic before, I still need to think about it seriously. Af
 
 {{< admonition quote "What the adviser said: ">}}
 
-The 题目 (tímù, It means "title" or "topic" in Chinese.) is incomplete.
+The 题目 (tímù, Which means "title" or "topic" in Chinese.) is incomplete.
 
 Write a complete one.
 
 {{< /admonition >}}
 
-Okay, I described my topic more completely, waiting for his opinion. The message has been read, but there has been no reply. It's inexplicable, wouldn't he forget it? The next day, I sent him a message and asked his opinion again, and suddenly received a 59 second voice message.
+Okay, I described my topic more completely, waiting for his opinion. The message has been read, but there has been no reply. It's inexplicable, wouldn't he forget it? The next day, I sent him a message and asked his opinion again, and suddenly received a 59-second voice message.
 
 {{< admonition quote "What the adviser said: ">}}
 
-... Yous is not a 题目 at all, yours is just a spoken expression. How could that be a 题目? And the work you will do, to be honest, is too searchable. I can’t say... If I don’t see the specific content. Then what you do can be more or less. The requirements for you, I don’t know... If it’s low, it’s very simple and not too difficult; if it's high, that's a certain degree of difficulty, okay? Then you wrote so much, how could yours be a 题目? Yours is Just a Spoken Expression! Your spoken expression, how can I decide for you? You want to determine it, can I decide a spoken expression for you? Can it be a 题目? You can't write a 题目 yourself, you ask me to decide? Deciding a spoken expression for you, is appropriate? Ok? After you’ve thought about it yourself, we will have a basis for discussion. Otherwise, there is nothing to say!
+... Yous is not a 题目 at all, yours is just a spoken expression. How could that be a 题目? And the work you will do, to be honest, is too searchable. I can’t say... If I don’t see the specific content. Then what you do can be more or less. The requirements for you, I don’t know... If it’s low, it’s very simple and not too difficult; if it's high, that's a certain degree of difficulty, okay? Then you wrote so much, how could yours be a 题目? Yours is Just a Spoken Expression! Your spoken expression, how can I decide for you? You want to determine it, can I decide on a spoken expression for you? Can it be a 题目? You can't write a 题目 yourself, you ask me to decide? Deciding a spoken expression for you, is appropriate? Ok? After you’ve thought about it yourself, we will have a basis for discussion. Otherwise, there is nothing to say!
 
 {{< /admonition >}}
 
@@ -44,13 +44,13 @@ Why?
 
 {{< /admonition >}}
 
-I also showed her the voice of my adviser, and she helped me determine a title. Here I suddenly discovered that there may be a misunderstanding. Does the "题目" mentioned by my adviser refer to the "title" or the "topic"? I checked the *Modern Chinese Normative Dictionary*, "题目" does have multiple meanings. He said that my "题目" was a "spoken expression", and it seemed that the "题目" mentioned by him refers to the "title".
+I also showed her the voice of my adviser, and she helped me determine a title. Here I suddenly discovered that there may be a misunderstanding. Does the "题目" mentioned by my adviser refer to the "title" or the "topic"? I checked the *Modern Chinese Normative Dictionary*, and "题目" does have multiple meanings. He said that my "题目" was a "spoken expression", and it seemed that the "题目" mentioned by him refers to the "title".
 
 If so, why didn't he make it clear at the beginning that he was talking about a title?
 
 Well, he said that I can't write a title myself, and there is no basis for discussion. Then I sent him the determined title, hoping for further discussion. However, he still has nothing to say.
 
-At that time, I felt that the "title" or "topic" may not be the key. I thought of him saying in the group, "from this class, the educational administration is going to start the graduation project management system", "all through the system", "leave traces". "Moreover", "qualification for the Washington Accord is in progress", "advisers strictly control the quality of topics". I thought it may not be easy for him to check the professional level and workload of this topic. After all, he is not researching cyber security, and there should be no similar topics in the past. He has been difficult to conclude, so he has nothing to say.
+At that time, I felt that the "title" or "topic" may not be the key. I thought of him saying in the group, "from this class, the educational administration is going to start the graduation project management system", "all through the system", and "leave traces". "Moreover", "qualification for the Washington Accord is in progress", and "advisers strictly control the quality of topics". I thought it may not be easy for him to check the professional level and workload of this topic. After all, he is not researching cyber security, and there should be no similar topics in the past. He has been difficult to conclude, so he has nothing to say.
 
 I told my master tutor what I thought, and she suggested that I explain it to him in more detail. Therefore, I wrote a document that was a bit like an opening report. I wrote out the specific tasks to be done, and also initially planned the time allocation for each task. I sent it to my adviser and asked him to express his opinions directly if he had any questions.
 

@@ -5,25 +5,21 @@
 <!--more-->
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_0807.jpeg" alt="天安门城楼" caption="天安门城楼">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0815.jpeg" alt="人民英雄纪念碑（北面）" caption="人民英雄纪念碑（北面）">}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_0815.jpeg" alt="人民英雄纪念碑（北面）" caption="人民英雄纪念碑（北面）">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0819.jpeg" alt="人民英雄纪念碑（南面）" caption="人民英雄纪念碑（南面）">}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_0819.jpeg" alt="人民英雄纪念碑（南面）" caption="人民英雄纪念碑（南面）">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0821.jpeg" alt="毛主席纪念堂" caption="毛主席纪念堂">}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_0821.jpeg" alt="毛主席纪念堂" caption="毛主席纪念堂">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0816.jpeg" alt="人民大会堂" caption="人民大会堂">}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_0816.jpeg" alt="人民大会堂" caption="人民大会堂">}}
-</div>
-
-<div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_0828.jpeg" alt="新华门" caption="新华门">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0828.jpeg" alt="新华门" caption="新华门">}}
 </div>

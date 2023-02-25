@@ -10,9 +10,23 @@
     <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</guid>
-    <description><![CDATA[<p>Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</p>
+    <description><![CDATA[<div class="details admonition failure open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-times-circle fa-fw"></i>Failure<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</div>
+        </div>
+    </div>
 <p>I tried to execute <code>python</code>, and a prompt from Xcode Command Line Tools popped up, saying that I needed to download something, and it downloaded Python3.9, while I already had Python3.8🙃.</p>
 <p>I tried to create a symbolic link with <code>ln</code>, but it didn&rsquo;t work.</p>
-<p>I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</p>]]></description>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Success<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</div>
+        </div>
+    </div>]]></description>
 </item></channel>
 </rss>

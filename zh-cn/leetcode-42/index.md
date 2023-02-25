@@ -1,14 +1,14 @@
 # LeetCode 42
 
 
-[LeetCode 42.Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)，一道挺有意思的题。
+https://cdn.jsdelivr.net/gh/kayak4665664/My-images
 <!--more-->
 
 给定 `n` 个非负整数表示每个宽度为 `1` 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
 
 **示例：**
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/rainwatertrap.png" title="rainwatertrap" alt="rainwatertrap" height="60%" width="60%">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" title="rainwatertrap" alt="rainwatertrap" height="60%" width="60%">}}
 </div>
 
 **输入**：height = `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`  

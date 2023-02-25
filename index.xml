@@ -12,9 +12,11 @@
     <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</guid>
-    <description><![CDATA[<p>Icons can be resized by adjusting the number of icons per row and column of Launchpad.</p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-21%20at%2012.34.40.jpg" referrerpolicy="no-referrer">
+            </div><p>Icons can be resized by adjusting the number of icons per row and column of Launchpad.</p>
 <h2 id="method">method</h2>
-<p>Execute the following commands in Terminal:</p>
+<p>Execute the following commands in the Terminal:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -37,12 +39,7 @@
 </span></span><span class="line"><span class="cl">killall Dock
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg" title="8*6 Launchpad" data-thumbnail="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg">
-        
-    </a>
-</div>
-<p>Restore default settings:</p>
+</div><p>Restore default settings:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -78,7 +75,7 @@
 </div>
 </div><p>You can also press <code>control + shift + G</code> in the Finder to go to the location</p>
 <h3 id="2">2</h3>
-<p>Execute <code>ls -</code>l`, and you will see similar output</p>
+<p>Execute <code>ls -l</code>, and you will see similar output</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -113,33 +110,62 @@
     <pubDate>Sat, 18 Feb 2023 22:06:38 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</guid>
-    <description><![CDATA[<p>Depay registration and download link: <a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us</a>, recommendation code: <strong>606096</strong>.</p>
+    <description><![CDATA[<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Info<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Depay registration and download link: <a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us</a>, recommendation code: <strong>606096</strong>.</div>
+        </div>
+    </div>
 <p>I found <a href="https://www.v2ex.com/t/912011" target="_blank" rel="noopener noreffer">the topic posted by the boss of Depay on v2ex</a>, the content of this article is mainly based on this topic and my own experience.</p>
 <h2 id="what-can-depay-do">What can Depay do?</h2>
-<p>Through Depay, you can directly recharge with USDT, convert it into US dollars, and then spend with VISA and mastercard.</p>
+<p>Through Depay, you can directly recharge with USDT, convert it into US dollars, and then spend with VISA and MasterCard.</p>
 <ul>
 <li>You can bind Alipay, WeChat Pay, Meituan Takeaway, Pinduoduo, Paypal (China, American, Hong Kong), Tmall International, etc.</li>
-<li>Support Stripe merchants, Google Play, Youtube Premium, Paypal merchants, US App Store and e-commerce websites that support non-3DS cards</li>
+<li>Support Stripe merchants, Google Play, Youtube Premium, Paypal merchants, US App Store, and e-commerce websites that support non-3DS cards</li>
 <li>Support KYC-free card opening to realize completely anonymous payment</li>
 </ul>
 <h2 id="register-and-download">Register and Download</h2>
-<p>Depay registration and download link: <a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us</a>, recommendation code: <strong>606096</strong>.</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Info<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Depay registration and download link: <a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=en-us</a>, recommendation code: <strong>606096</strong>.</div>
+        </div>
+    </div>
 <p>Or use your mobile phone to scan the QR code on the poster below:</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_2121.JPG" title="Depay" data-thumbnail="https://cdn.kayak4665664.com/IMG_2121.JPG">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/IMG_2121.JPG" title="Depay" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/IMG_2121.JPG">
         
     </a>
 </div>
 <p>Android can directly download the APK and install it; iOS can be downloaded in non-Chinese regions App Store, or a beta version can be downloaded.</p>
 <h2 id="apply-for-a-virtual-card">Apply for a virtual card</h2>
-<p>After entering the Depay App, click Apply for a card. At the beginning, you can choose a standard card and a Lite card. The Lite card does not require KYC. Now there are 5 types of cards (Lite, Standard, Premium, Platinum, Black Gold). The difference is mainly in the card opening fee, monthly fee and recharge fee. The standard card opening fee is 0, the specific difference can be found on the <a href="https://depay.one/en-us/rights.html" target="_blank" rel="noopener noreffer">official website</a>.</p>
-<h2 id="deposit-convert-usd-recharge-and-activate">Deposit, convert USD, recharge and activate</h2>
-<p>Depay currently supports charging USDT (TRC20), at least 5 USDT at a time. USDT can be exchanged for USD in real time after deposit. To activate the virtual card, you need to recharge the card with US dollars. There will be a certain percentage of handling fee for the recharging. The handling fee for the standard card is at least 1 US dollar each time, so do not recharge frequently in small amounts.</p>
+<p>After entering the Depay App, click Apply for a card. In the beginning, you can choose a standard card and a Lite card. The Lite card does not require KYC. Now there are 5 types of cards (Lite, Standard, Premium, Platinum, and Black Gold). The difference is mainly in the card opening fee, monthly fee, and recharge fee. The standard card opening fee is 0, the specific difference can be found on the <a href="https://depay.one/en-us/rights.html" target="_blank" rel="noopener noreffer">official website</a>.</p>
+<h2 id="deposit-convert-usd-recharge-and-activate">Deposit, convert USD, recharge, and activate</h2>
+<p>Depay currently supports charging USDT (TRC20), at least 5 USDT at a time. USDT can be exchanged for USD in real-time after the deposit.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">To activate the virtual card, you need to recharge the card with US dollars. There will be a certain percentage of the handling fee for the recharging. The handling fee for the standard card is at least 1 US dollar each time, so do not recharge frequently in small amounts.</div>
+        </div>
+    </div>
 <p>After activation, you can view the card number and CVV security code.</p>
 <h2 id="black-gold-card">Black Gold Card</h2>
 <p>At present, as long as you invite 20 people to open a card, you can ask the administrator to upgrade the black gold card. The black gold card has no monthly fee, and the recharge fee is relatively low.</p>
 <h2 id="is-depay-safe">Is Depay safe?</h2>
-<p>Depay is a newly established small British company. If you are worried, it is best not to charge too much money, just enough.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Depay is a newly established small British company. If you are worried, it is best not to charge too much money, just enough.</div>
+        </div>
+    </div>
 <h2 id="customer-service">Customer service</h2>
 <ul>
 <li>Official website: <a href="https://depay.one/" target="_blank" rel="noopener noreffer">https://depay.one/</a></li>
@@ -153,10 +179,17 @@
     <pubDate>Sat, 18 Feb 2023 10:40:56 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</guid>
-    <description><![CDATA[<p>Since joining <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a> on February 11th, I finally received an email today that I can use the new Bing.</p>
-<p>I couldn&rsquo;t wait to open Edge Dev and enter CHAT, but I soon found that I couldn&rsquo;t input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.</p>
+    <description><![CDATA[<p>Since joining the <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a> on February 11th, I finally received an email today that I can use the new Bing.</p>
+<div class="details admonition bug open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">I couldn&rsquo;t wait to open Edge Dev and enter CHAT, but I soon found that I couldn&rsquo;t input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.</div>
+        </div>
+    </div>
 <p>After a few rounds of conversations with the new Bing, it felt like it was a bit lacking in conversational enthusiasm, often asking me to change the subject. Moreover, the prompt “This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?” appeared within a few minutes.</p>
-<p>I have to say that a very useful feature of the new Bing is that it can obtain information from the web pages and documents we are reading. I tested it, I opened a local PDF file with Edge Dev, clicked the Discover button to chat, and the new Bing can summarize the main points in this file. In addition, it can also easily generate some text in Discover.</p>
+<p>I have to say that a very useful feature of the new Bing is that it can obtain information from the web pages and documents we are reading. I tested it, opened a local PDF file with Edge Dev, clicked the Discover button to chat, and the new Bing can summarize the main points in this file. In addition, it can also easily generate some text in Discover.</p>
 <p>According to my experience, I think the new Bing is really good, and I am very much looking forward to the official version in the future.</p>]]></description>
 </item><item>
     <title>Creamy Fruit Cake——An Upgraded Version🍰</title>
@@ -164,13 +197,10 @@
     <pubDate>Wed, 15 Feb 2023 22:57:33 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/creamy-fruit-cakean-upgraded-version/</guid>
-    <description><![CDATA[<p>Delicious Creamy Fruit Cake!</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_2109.jpeg" title="Cream Fruit Cake" data-thumbnail="https://cdn.kayak4665664.com/IMG_2109.jpeg">
-        
-    </a>
-</div>
-<p>On the basis of <a href="https://www.kayak4665664.com/tags/cake/" target="_blank" rel="noopener noreffer">two cakes</a> last year, this time added cream and fruit, and put a few Oreos. The taste was more varied. The only downside was that the cake base was not sweet and soft enough. It tasted a bit like mantou(Chinese steamed bun)😂</p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2109.jpeg" referrerpolicy="no-referrer">
+            </div><p>Delicious Creamy Fruit Cake!</p>
+<p>Based on <a href="https://www.kayak4665664.com/tags/cake/" target="_blank" rel="noopener noreffer">two cakes</a> last year, this time added cream and fruit and put a few Oreos. The taste was more varied. The only downside was that the cake base was not sweet and soft enough. It tasted a bit like mantou(Chinese steamed bun)😂</p>]]></description>
 </item><item>
     <title>Visited Lite &amp; Color Links: mark all visited links as custom color</title>
     <link>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
@@ -178,11 +208,17 @@
     <author>Author</author>
     <guid>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
     <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> is a userscript to customize the color of visited links, and <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a> is a browser extension with similar function.</p>
-<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they&rsquo;re really good. And last year I experienced <a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer">ChatGPT</a> for the first time, so this time I am looking forward to the new version of Bing and Edge, and applied to join <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a>.</p>
-<p>In the process of using Bing, I suddenly discovered a problem. In Bing&rsquo;s search results, the visited links and unvisited links were both purple, it&rsquo;s difficult to distinguish which links are visited and which are not. I have been using Google before, the unvisited links are blue, and the visited links are purple.</p>
-<p>I didn&rsquo;t find the relevant settings in Bing and I didn&rsquo;t know where the problem was. So I looked for some userscripts or browser extensions to solve this problem.</p>
+<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they were really good. And last year I experienced <a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer">ChatGPT</a> for the first time, so this time I am looking forward to the new version of Bing and Edge and applied to join the <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a>.</p>
+<div class="details admonition question open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw"></i>Question<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">In the process of using Bing, I suddenly discovered a problem. In Bing&rsquo;s search results, the visited links and unvisited links were both purple, it&rsquo;s difficult to distinguish which links are visited and which are not. I have been using Google before, the unvisited links are blue, and the visited links are purple. I didn&rsquo;t find the relevant settings in Bing and I didn&rsquo;t know where the problem was. So I looked for some userscripts or browser extensions to solve this problem.</div>
+        </div>
+    </div>
 <h2 id="visited-lite">Visited Lite</h2>
-<p>I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded in the <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a> extension.</p>
+<p>I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded from the <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a>](<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">https://www.tampermonkey.net/</a>) extension.</p>
 <h2 id="color-links">Color Links</h2>
 <p>After that, I found <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a> in the chrome web store. The main difference from <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> is that <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a> need to manually enable the marking function for each website.</p>]]></description>
 </item><item>
@@ -191,10 +227,24 @@
     <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</guid>
-    <description><![CDATA[<p>Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</p>
+    <description><![CDATA[<div class="details admonition failure open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-times-circle fa-fw"></i>Failure<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</div>
+        </div>
+    </div>
 <p>I tried to execute <code>python</code>, and a prompt from Xcode Command Line Tools popped up, saying that I needed to download something, and it downloaded Python3.9, while I already had Python3.8🙃.</p>
 <p>I tried to create a symbolic link with <code>ln</code>, but it didn&rsquo;t work.</p>
-<p>I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</p>]]></description>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Success<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</div>
+        </div>
+    </div>]]></description>
 </item><item>
     <title>Focus Statistics (Week 03, 2023)</title>
     <link>https://www.kayak4665664.com/focus-statistics-03-2023/</link>
@@ -203,7 +253,7 @@
     <guid>https://www.kayak4665664.com/focus-statistics-03-2023/</guid>
     <description><![CDATA[<br/>
 <div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/focus%20statistics/IMG_2097.JPG" title="Focus Statistics (Week 03, 2023)" data-thumbnail="https://cdn.kayak4665664.com/focus%20statistics/IMG_2097.JPG">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2097.JPG" title="Focus Statistics (Week 03, 2023)" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2097.JPG">
         
     </a>
 </div>]]></description>
@@ -213,7 +263,7 @@
     <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://www.kayak4665664.com/leetcode-66/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>, a easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
+    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer">LeetCode 66.Plus One</a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -298,7 +348,14 @@
 <p>I hurried back to the same place to look for my mobile phone, but I couldn&rsquo;t find it. Finally, I borrowed a mobile phone from the traffic police on the side of the road and called my father to confirm that my mobile phone was left in the car.</p>
 <p>Although Find My has been set to send a notification on the Apple Watch when I leave my iPhone, it seems that this function needs to be at a relatively long distance to take effect.</p>
 <p>So I found <a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391" target="_blank" rel="noopener noreffer">Phone Buddy</a>, the price is $4.99, I <a href="https://www.kayak4665664.com/buy-us-app-store-gift-cards-with-alipay/" target="_blank" rel="noopener noreffer">bought a US App Store Gift Card with Alipay</a> to recharge and purchase this App.</p>
-<p>After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent on the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent to the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between the Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.</div>
+        </div>
+    </div>
 <p>The only downside is that this App will shorten the battery life of the Apple Watch, but compared to losing my iPhone, this price is acceptable.</p>]]></description>
 </item></channel>
 </rss>

@@ -1,6 +1,8 @@
 # Depay: 使用USDT消费的虚拟美元信用卡
 
+{{< admonition info >}}
 Depay的注册和下载链接：[https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=zh-cn](https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=zh-cn)，推荐码：**606096**。
+{{< /admonition >}}
 <!--more-->
 
 我找到了[Depay老板在v2ex上发的主题](https://www.v2ex.com/t/912011)，本文的内容主要根据这个主题以及我自己的体验。
@@ -14,13 +16,14 @@ Depay的注册和下载链接：[https://depay.depay.one/web-app/register-h5?inv
 - 支持免KYC开卡，实现完全匿名付款
 
 ## 注册和下载
-
+{{< admonition info >}}
 Depay的注册和下载链接：[https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=zh-cn](https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=zh-cn)，推荐码：**606096**。
+{{< /admonition >}}
 
 或者用手机扫描下方海报上的二维码：
 
 <div align="center">
-{{< image src="https://cdn.kayak4665664.com/IMG_2120.JPG" title="Depay" alt="Depay">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" title="Depay" alt="Depay">}}
 </div>
 
 安卓直接下载APK安装；iOS可以在非中国区下载，也可以下载测试版。
@@ -31,7 +34,11 @@ Depay的注册和下载链接：[https://depay.depay.one/web-app/register-h5?inv
 
 ## 充币、兑换美元、充值和激活
 
-Depay目前支持充USDT(TRC20)，一次至少5USDT。充币之后可以将USDT实时兑换成美元。激活虚拟卡需要往卡里充值美元，充值会有一定比例的手续费，标准卡的手续费每次最少1美元，所以不要频繁地小额充值。
+Depay目前支持充USDT(TRC20)，一次至少5USDT。充币之后可以将USDT实时兑换成美元。
+
+{{< admonition tip >}}
+激活虚拟卡需要往卡里充值美元，充值会有一定比例的手续费，标准卡的手续费每次最少1美元，所以不要频繁地小额充值。
+{{< /admonition >}}
 
 激活之后就可以查看卡号和CVV安全码了。
 
@@ -40,8 +47,9 @@ Depay目前支持充USDT(TRC20)，一次至少5USDT。充币之后可以将USDT�
 目前只要邀请20个人开卡，可以找管理员升级黑金卡。黑金卡没有月费，充值手续费也比较低。
 
 ## Depay是否安全？
-
+{{< admonition warning >}}
 Depay是一个刚成立的英国小公司，不放心的话最好不要充太多的钱，够用就行。
+{{< /admonition >}}
 
 ## 客服
 - 官网：[https://depay.one/](https://depay.one/)

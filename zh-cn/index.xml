@@ -12,7 +12,9 @@
     <pubDate>Tue, 21 Feb 2023 12:23:13 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.kayak4665664.com/zh-cn/modify-the-icons-size-in-macos-launchpad/</guid>
-    <description><![CDATA[<p>通过调整Launchpad每一行和每一列的图标的数量，就可以调整图标的大小。</p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-21%20at%2012.34.40.jpg" referrerpolicy="no-referrer">
+            </div><p>通过调整Launchpad每一行和每一列的图标的数量，就可以调整图标的大小。</p>
 <h2 id="方法">方法</h2>
 <p>在Terminal中执行以下命令：</p>
 <div class="highlight"><div class="chroma">
@@ -37,12 +39,7 @@
 </span></span><span class="line"><span class="cl">killall Dock
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg" title="8*6 Launchpad" data-thumbnail="https://cdn.kayak4665664.com/Screenshot%202023-02-21%20at%2012.34.40.jpg">
-        
-    </a>
-</div>
-<p>恢复默认设置：</p>
+</div><p>恢复默认设置：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -113,7 +110,14 @@
     <pubDate>Sat, 18 Feb 2023 22:06:43 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.kayak4665664.com/zh-cn/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/</guid>
-    <description><![CDATA[<p>Depay的注册和下载链接：<a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn</a>，推荐码：<strong>606096</strong>。</p>
+    <description><![CDATA[<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Depay的注册和下载链接：<a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn</a>，推荐码：<strong>606096</strong>。</div>
+        </div>
+    </div>
 <p>我找到了<a href="https://www.v2ex.com/t/912011" target="_blank" rel="noopener noreffer">Depay老板在v2ex上发的主题</a>，本文的内容主要根据这个主题以及我自己的体验。</p>
 <h2 id="depay可以做什么">Depay可以做什么</h2>
 <p>通过Depay可以直接用USDT充值，兑换成美元，然后用VISA和mastercard消费。</p>
@@ -123,10 +127,17 @@
 <li>支持免KYC开卡，实现完全匿名付款</li>
 </ul>
 <h2 id="注册和下载">注册和下载</h2>
-<p>Depay的注册和下载链接：<a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn</a>，推荐码：<strong>606096</strong>。</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Depay的注册和下载链接：<a href="https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn" target="_blank" rel="noopener noreffer">https://depay.depay.one/web-app/register-h5?invitCode=606096&amp;lang=zh-cn</a>，推荐码：<strong>606096</strong>。</div>
+        </div>
+    </div>
 <p>或者用手机扫描下方海报上的二维码：</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_2120.JPG" title="Depay" data-thumbnail="https://cdn.kayak4665664.com/IMG_2120.JPG">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" title="Depay" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG">
         
     </a>
 </div>
@@ -134,12 +145,27 @@
 <h2 id="申请虚拟卡">申请虚拟卡</h2>
 <p>进入Depay App后，点击申请卡，一开始可以选择标准卡和Lite卡，Lite卡不需要KYC。现在一共有5种卡（Lite、标准、高级、白金、黑金），区别主要在于开卡费、月费和充值手续费不同，标准卡的开卡费是0，具体的区别可以看<a href="https://depay.one/zh-cn/rights.html" target="_blank" rel="noopener noreffer">官网</a>。</p>
 <h2 id="充币兑换美元充值和激活">充币、兑换美元、充值和激活</h2>
-<p>Depay目前支持充USDT(TRC20)，一次至少5USDT。充币之后可以将USDT实时兑换成美元。激活虚拟卡需要往卡里充值美元，充值会有一定比例的手续费，标准卡的手续费每次最少1美元，所以不要频繁地小额充值。</p>
+<p>Depay目前支持充USDT(TRC20)，一次至少5USDT。充币之后可以将USDT实时兑换成美元。</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>技巧<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">激活虚拟卡需要往卡里充值美元，充值会有一定比例的手续费，标准卡的手续费每次最少1美元，所以不要频繁地小额充值。</div>
+        </div>
+    </div>
 <p>激活之后就可以查看卡号和CVV安全码了。</p>
 <h2 id="黑金卡">黑金卡</h2>
 <p>目前只要邀请20个人开卡，可以找管理员升级黑金卡。黑金卡没有月费，充值手续费也比较低。</p>
 <h2 id="depay是否安全">Depay是否安全？</h2>
-<p>Depay是一个刚成立的英国小公司，不放心的话最好不要充太多的钱，够用就行。</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Depay是一个刚成立的英国小公司，不放心的话最好不要充太多的钱，够用就行。</div>
+        </div>
+    </div>
 <h2 id="客服">客服</h2>
 <ul>
 <li>官网：<a href="https://depay.one/" target="_blank" rel="noopener noreffer">https://depay.one/</a></li>
@@ -154,7 +180,14 @@
     <author>作者</author>
     <guid>https://www.kayak4665664.com/zh-cn/you-re-in-welcome-to-the-new-bing/</guid>
     <description><![CDATA[<p>自从2月11日加入了<a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a>，今天终于收到邮件，我可以使用新Bing了。</p>
-<p>迫不及待地打开了Edge Dev，进入CHAT，但是我很快就发现无法在输入框里正常地输入所有的字符。我又在Safari上试了试，发现完全正常，所以很可能是Edge Dev存在一些问题。</p>
+<div class="details admonition bug open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">迫不及待地打开了Edge Dev，进入CHAT，但是我很快就发现无法在输入框里正常地输入所有的字符。我又在Safari上试了试，发现完全正常，所以很可能是Edge Dev存在一些问题。</div>
+        </div>
+    </div>
 <p>之后和新Bing进行了几轮对话，感觉它似乎有点缺少对话的积极性，经常会让我换个话题。而且，没几分钟就出现了“This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?”的提示。</p>
 <p>不得不说，新Bing一个很有用的功能是它可以从我们正在阅读的网页和文件中获取信息。我测试了一下，我用Edge Dev打开了一个本地的PDF文件，点击Discover按钮进行Chat，新Bing可以总结这个文件中的要点。另外，它也可以在Discover中很方便地生成一些文字。</p>
 <p>根据我的体验，我认为新Bing还是很不错的，非常期待之后的正式版本。</p>]]></description>
@@ -164,12 +197,9 @@
     <pubDate>Wed, 15 Feb 2023 22:57:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.kayak4665664.com/zh-cn/creamy-fruit-cakean-upgraded-version/</guid>
-    <description><![CDATA[<p>美味的奶油水果蛋糕！</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/IMG_2109.jpeg" title="奶油水果蛋糕" data-thumbnail="https://cdn.kayak4665664.com/IMG_2109.jpeg">
-        
-    </a>
-</div>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2109.jpeg" referrerpolicy="no-referrer">
+            </div><p>美味的奶油水果蛋糕！</p>
 <p>在去年<a href="https://www.kayak4665664.com/zh-cn/tags/%E8%9B%8B%E7%B3%95/" target="_blank" rel="noopener noreffer">两个蛋糕</a>的基础上，这一次主要加入了奶油和水果，还放了几个奥利奥，味道更有层次感了。唯一的缺点是蛋糕胚不够香甜松软，吃着有点像馒头😂</p>]]></description>
 </item><item>
     <title>Visited Lite &amp; Color Links: 自定义已访问链接的颜色</title>
@@ -179,7 +209,14 @@
     <guid>https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
     <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>是一个自定义已访问链接的颜色的userscript，而<a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a>是具有相似功能的浏览器扩展。</p>
 <p>前几天微软公司推出了结合GPT技术的新版Bing和Edge浏览器，我看了网上对它们的介绍，感觉真的很不错。而且去年我也第一时间体验了<a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer">ChatGPT</a>，所以这一次我非常期待新版Bing和Edge，申请加入了<a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a>。</p>
-<p>在使用Bing的过程中，我忽然发现了一个问题，在Bing的搜索结果中，已访问的链接和未访问的链接都是紫色的，这样就很难区分哪些链接是已访问的，哪些链接是未访问的。而我之前一直使用Google，未访问的链接是蓝色的，访问过的链接是紫色的。我在Bing的设置中并没有找到相关的设置项，不知道问题出在了哪里，所以我想寻找一些userscript或者浏览器扩展来解决这个问题。</p>
+<div class="details admonition question open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw"></i>问题<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">在使用Bing的过程中，我忽然发现了一个问题，在Bing的搜索结果中，已访问的链接和未访问的链接都是紫色的，这样就很难区分哪些链接是已访问的，哪些链接是未访问的。而我之前一直使用Google，未访问的链接是蓝色的，访问过的链接是紫色的。我在Bing的设置中并没有找到相关的设置项，不知道问题出在了哪里，所以我想寻找一些userscript或者浏览器扩展来解决这个问题。</div>
+        </div>
+    </div>
 <h2 id="visited-lite">Visited Lite</h2>
 <p>于是我找到了<a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>，它可以自定义所有网站的已访问链接的颜色，而不仅仅是Bing的。我在Edge的<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a>扩展中安装了这个userscript，<a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>用醒目的颜色标记了所有已访问的链接。不过有的网页可能并不需要这个功能，可以在<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a>扩展中排除它们。</p>
 <h2 id="color-links">Color Links</h2>
@@ -190,10 +227,24 @@
     <pubDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</guid>
-    <description><![CDATA[<p>昨天用了一下texliveonfly宏包，直接出现了<code>env: python: No Such File or Directory</code>。</p>
+    <description><![CDATA[<div class="details admonition failure open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-times-circle fa-fw"></i>失败<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">昨天用了一下texliveonfly宏包，直接出现了<code>env: python: No Such File or Directory</code>。</div>
+        </div>
+    </div>
 <p>我试着执行了一下<code>python</code>，结果弹出了一个Xcode Command Line Tools的提示，说要下载一些东西，然后它下载了Python3.9，而我之前已经有了Python3.8🙃。</p>
 <p>我试着用<code>ln</code>建立软连接，但是没有用。</p>
-<p>我想既然texliveonfly是用Python写的，我可以直接编辑它。于是我找到了<code>/Library/TeX/texbin/texliveonfly</code>，然后将这个文件第一行的<code>#!/usr/bin/env python</code>改成了<code>#!/usr/bin/env python3</code>，这样就解决了。</p>]]></description>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>成功<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">我想既然texliveonfly是用Python写的，我可以直接编辑它。于是我找到了<code>/Library/TeX/texbin/texliveonfly</code>，然后将这个文件第一行的<code>#!/usr/bin/env python</code>改成了<code>#!/usr/bin/env python3</code>，这样就解决了。</div>
+        </div>
+    </div>]]></description>
 </item><item>
     <title>专注统计 (2023 03周)</title>
     <link>https://www.kayak4665664.com/zh-cn/focus-statistics-03-2023/</link>
@@ -202,7 +253,7 @@
     <guid>https://www.kayak4665664.com/zh-cn/focus-statistics-03-2023/</guid>
     <description><![CDATA[<br/> 
 <div align="center">
-<a class="lightgallery" href="https://cdn.kayak4665664.com/focus%20statistics/IMG_2097.JPG" title="专注统计 (2023 03周)" data-thumbnail="https://cdn.kayak4665664.com/focus%20statistics/IMG_2097.JPG">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2097.JPG" title="专注统计 (2023 03周)" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2097.JPG">
         
     </a>
 </div>]]></description>
@@ -297,7 +348,14 @@
 <p>我赶紧返回原路找我的手机，但是没有找到。最后和路边的交警同志借了手机给我爸爸打了一个电话，才确认我的手机落在了车里。</p>
 <p>虽然在Find My中已经设置了离开iPhone时在Apple Watch上发出通知，但是似乎这个功能需要在一个比较远的距离才能生效。</p>
 <p>所以我就找到了<a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391" target="_blank" rel="noopener noreffer">Phone Buddy</a>，售价$4.99，我<a href="https://www.kayak4665664.com/zh-cn/buy-us-app-store-gift-cards-with-alipay/" target="_blank" rel="noopener noreffer">用支付宝购买美区App Store礼品卡</a>的方法充值购买了这个App。</p>
-<p>下载Phone Buddy之后，在Apple Watch上开启Lost Phone Alert，当Apple Watch断开了和iPhone之间的蓝牙连接时就会在Apple Watch上发出警报。并且还可以有基于距离的Distance Alert，当Apple Watch和iPhone之间的蓝牙信号强度随着距离的增加衰减到设定的阈值以下时也可以发出警报，这样可以在完全断开蓝牙连接之前多一次警报。同样的，还可以设置在Apple Watch断开连接后在iPhone上发出警报，可以防止丢失或遗忘Apple Watch。</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>注意<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">下载Phone Buddy之后，在Apple Watch上开启Lost Phone Alert，当Apple Watch断开了和iPhone之间的蓝牙连接时就会在Apple Watch上发出警报。并且还可以有基于距离的Distance Alert，当Apple Watch和iPhone之间的蓝牙信号强度随着距离的增加衰减到设定的阈值以下时也可以发出警报，这样可以在完全断开蓝牙连接之前多一次警报。同样的，还可以设置在Apple Watch断开连接后在iPhone上发出警报，可以防止丢失或遗忘Apple Watch。</div>
+        </div>
+    </div>
 <p>唯一不足的是，这个App会缩短Apple Watch的续航时间，不过比起丢失了iPhone，这个代价是可以接受的。</p>]]></description>
 </item></channel>
 </rss>
