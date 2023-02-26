@@ -8,7 +8,7 @@
 5月27日中午，我和往常一样去食堂吃了午餐，刚回到宿舍，突然就收到了学校要求毕业生尽快离校的通知。我马上就意识到，这将是我在北方工业大学最后的几天了。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg" title="离校通知" alt="离校通知">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg" title="离校通知" alt="离校通知" caption="离校通知" >}}
 </div>
 
 我冷静了一下，立刻开始计划离校前必须做的事情。首先要考虑的就是我的行李，还好学校承诺是可以免费邮寄的，不然邮寄那么多东西的费用我是有点负担不起的。然而，我并没有用来打包的纸箱子。我问了问辅导员，他只说晚些时候会发放。我感觉他的回答太模糊了，我决定自己先去买几个纸箱子。我去学校快递点找到了那里的老板，他告诉我，我们学院之前找他拿了一百多个纸箱子。我估计了一下，一个学生应该只能领取到1个纸箱子。所以，我和老板买了4个大纸箱子，花了45元。
@@ -28,7 +28,7 @@
 由于学校要求毕业生离校的通知比较仓促，快递点老板坦白说他们也不知道怎么处理这么多人的行李，而整个快递点只有2个人。当我推着平板车过去时，我看到快递点外面已经堆了不少箱子了。我有点担心这么多箱子最后会被搞混，所以我请求老板先给我的行李贴上快递单，这样我也方便查快递。等我处理好行李，已经12点多了，到了食堂，煮了一大盘饺子。不得不说，食堂的饺子真的太好吃了，里面肉是真的多。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg" title="饺子" alt="饺子">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg" title="饺子" alt="饺子" caption="饺子" >}}
 </div>
 
 晚上，我查到我的快递已经发出去了，感觉效率还是很高的。
@@ -48,7 +48,7 @@
 就这样，我就离开了学校，可能永远不会回去了。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG" title="NCUT" alt="NCUT">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG" title="NCUT" alt="NCUT" caption="NCUT" >}}
 </div>
 
 上面这张照片是31日的。30日下午我就看见有人在摆弄这几个牌子，不过当时上面还是2021😂。

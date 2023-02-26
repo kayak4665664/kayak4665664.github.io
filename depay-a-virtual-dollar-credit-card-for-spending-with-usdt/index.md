@@ -23,7 +23,7 @@ Depay registration and download link: [https://depay.depay.one/web-app/register-
 Or use your mobile phone to scan the QR code on the poster below:
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/IMG_2121.JPG" title="Depay" alt="Depay">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG" title="Depay" alt="Depay">}}
 </div>
 
 Android can directly download the APK and install it; iOS can be downloaded in non-Chinese regions App Store, or a beta version can be downloaded.

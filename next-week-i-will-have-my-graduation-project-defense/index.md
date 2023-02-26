@@ -8,7 +8,7 @@ Now that I have completed most of the work on my graduation project, these last 
 At noon on May 27, I went to the canteen to have lunch as usual. As soon as I returned to my dormitory, I suddenly received a notice from the school asking graduates to leave the school as soon as possible. I realized right away that this would be my last few days at the North China University of Technology.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg" title="the notice" alt="the notice">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg" title="the notice" alt="the notice" caption="the notice" >}}
 </div>
 
 I calmed down a bit and immediately started planning what I had to do before I left school. The first thing to consider is my luggage. Fortunately, the school promised that it can be delivered for free. Otherwise, I can't afford the cost of expressing so many things. However, I didn't have a cardboard box for packing. I asked the counselor and he only said it would be released later. I felt his answer was too vague, and I decided to go buy a few cardboard boxes myself. I went to the school express outlet and found the boss there. He told me that our college had taken more than 100 cardboard boxes from him before. I estimated that a student should only get 1 cardboard box. So, I bought 4 large cardboard boxes from the boss for ¥45.
@@ -22,13 +22,13 @@ In the evening, the counselor finally informed us that we could go get the cardb
 On the morning of May 28, I went to the supermarket to buy a marker and I had to mark my address on the box. I walked into the dormitory building, and a dormitory administrator who was familiar with me told me that I could take my luggage to the express outlet now, and reminded me to hurry up. Considering that I have to move 4 cartons and 1 sack from the dormitory to the outlet, it is not easy to rely on only two hands, so I went to the outlet and borrowed a flatbed trolley from the boss. I went back to my dormitory, marked all 5 items with my information, put them all on the trolley, and all of them were shipped to the express outlet at once.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg" title="the flatbed trolley" alt="the flatbed trolley">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg" title="the flatbed trolley" alt="the flatbed trolley" caption="the flatbed trolley" >}}
 </div>
 
 Since the notice of the graduates leaving the school was rushed, the boss of the express outlet frankly said that they did not know how to handle the luggage of so many students, and there were only two people in the entire outlet including him. When I pushed the flat trolley to the outlet, I saw that there were already many boxes piled up outside. I was a little worried that so many boxes would be confused, so I asked the boss to affix notes to my luggage first so that I could also track it easily. By the time I had dealt with all this, it was already past noon. When I arrived at the canteen, I bought a large plate of Jiaozi. I have to say that it is delicious, with a lot of meat in it.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg" title="Jiaozi" alt="Jiaozi">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg" title="Jiaozi" alt="Jiaozi" caption="Jiaozi" >}}
 </div>
 
 At night, I tracked that my luggage had been sent out, and I felt that they were efficient.
@@ -48,7 +48,7 @@ At about 3 pm, I packed my suitcase, closed the windows, turned off the electric
 And then I left school and probably never went back.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG" title="NCUT" alt="NCUT">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG" title="NCUT" alt="NCUT" caption="NCUT" >}}
 </div>
 
 The photo above was taken on the 31st. On the afternoon of the 30th, I saw someone playing with these signs, but it was still 2021 at that time.

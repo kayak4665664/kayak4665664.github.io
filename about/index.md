@@ -3,12 +3,9 @@
 
 ## kayak4665664
 
-<div align="center">
-{{< image src="/images/avatar.svg" title="kayak4665664" alt="kayak4665664">}}
-</div>
-
 Hey, Nice to Meet You, You Found My Blog!  
 I'm **kayak4665664**, a student of University of Chinese Academy of Sciences.
+
 {{< mapbox lng=116.676 lat=40.408 zoom=12 >}}
 
 ## Help
@@ -21,9 +18,6 @@ If you don’t want to install an RSS reader, you can also:
 Just enter your comment and click `Submit`. You can also enter your nickname, email and website. If you enter a Gravtar email address, your avatar can be displayed.
 
 ## License
-<div align="center"><big><big><big><big><big><big>
-{{< image src="/images/by-nc-sa.svg" rel="license" linked="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="by-nc-sa">}}</big></big></big></big></big></big>
-</div>
 All content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ### You are free to:

@@ -8,7 +8,7 @@
     <title>Binary Search</title>
     <link>https://www.kayak4665664.com/binary-search/</link>
     <pubDate>Sat, 29 Jan 2022 22:01:34 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>kayak4665664</author>
     <guid>https://www.kayak4665664.com/binary-search/</guid>
     <description><![CDATA[<p>This is a C++ template for the binary search algorithm, and a simple application of the binary search functions <code>std::lower_bound</code> and <code>std::upper_bound</code> in the C++ standard template library <code>&lt;algorithm&gt;</code> header file.</p>
 <div class="highlight"><div class="chroma">
@@ -73,7 +73,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Used this template and completed <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/" target="_blank" rel="noopener noreffer">34. Find First and Last Position of Element in Sorted Array</a> in LeetCode.</p>
+</div><p>Used this template and completed <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/" target="_blank" rel="noopener noreffer ">34. Find First and Last Position of Element in Sorted Array</a> in LeetCode.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -149,5 +149,6 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
-</item></channel>
+</item>
+</channel>
 </rss>

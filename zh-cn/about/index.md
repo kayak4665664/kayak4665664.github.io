@@ -3,12 +3,9 @@
 
 ## kayak4665664
 
-<div align="center">
-{{< image src="/images/avatar.svg" title="kayak4665664" alt="kayak4665664">}}
-</div>
-
 嘿，很高兴认识你，你找到了我的博客！  
 我是**kayak4665664**，中国科学院大学学生。
+
 {{< mapbox lng=116.676 lat=40.408 zoom=12 >}}
 
 ## 帮助
@@ -22,9 +19,6 @@
 输入评论，点击`提交`即可。你还可以输入你的昵称、邮箱和网址。如果你输入了Gravtar邮箱，你的头像可以显示出来。
 
 ## 许可协议
-<div align="center"><big><big><big><big><big><big>
-{{< image src="/images/by-nc-sa.svg" rel="license" linked="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="by-nc-sa">}}</big></big></big></big></big></big>
-</div>
 本站所有内容采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 
 ### 您可以自由地：

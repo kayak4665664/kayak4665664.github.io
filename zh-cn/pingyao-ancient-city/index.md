@@ -5,5 +5,5 @@
 <!--more-->
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0988.jpeg" alt="红衣大炮" caption="红衣大炮">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0988.jpeg" alt="红衣大炮">}}
 </div>

@@ -8,7 +8,7 @@
     <title>Multiple Versions of Edge Browser Appear on Mac</title>
     <link>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</link>
     <pubDate>Sun, 19 Feb 2023 22:18:43 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>kayak4665664</author>
     <guid>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</guid>
     <description><![CDATA[<p>Suddenly, I found that there are two Edge Dev on my Mac, 111.0.1660.13 and 111.0.1660.12, and both of them can launch normally. I want to keep the latest version and uninstall the old one.</p>
 <h2 id="method">method</h2>
@@ -53,16 +53,17 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
-</item><item>
+</item>
+<item>
     <title>You&#39;re in! Welcome to the New Bing!</title>
     <link>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</link>
     <pubDate>Sat, 18 Feb 2023 10:40:56 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>kayak4665664</author>
     <guid>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</guid>
-    <description><![CDATA[<p>Since joining the <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a> on February 11th, I finally received an email today that I can use the new Bing.</p>
+    <description><![CDATA[<p>Since joining the <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer ">waitlist</a> on February 11th, I finally received an email today that I can use the new Bing.</p>
 <div class="details admonition bug open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-bug fa-fw" aria-hidden="true"></i>Bug<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">I couldn&rsquo;t wait to open Edge Dev and enter CHAT, but I soon found that I couldn&rsquo;t input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.</div>
@@ -71,25 +72,27 @@
 <p>After a few rounds of conversations with the new Bing, it felt like it was a bit lacking in conversational enthusiasm, often asking me to change the subject. Moreover, the prompt “This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?” appeared within a few minutes.</p>
 <p>I have to say that a very useful feature of the new Bing is that it can obtain information from the web pages and documents we are reading. I tested it, opened a local PDF file with Edge Dev, clicked the Discover button to chat, and the new Bing can summarize the main points in this file. In addition, it can also easily generate some text in Discover.</p>
 <p>According to my experience, I think the new Bing is really good, and I am very much looking forward to the official version in the future.</p>]]></description>
-</item><item>
+</item>
+<item>
     <title>Visited Lite &amp; Color Links: mark all visited links as custom color</title>
     <link>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
     <pubDate>Mon, 13 Feb 2023 22:12:23 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>kayak4665664</author>
     <guid>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
-    <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> is a userscript to customize the color of visited links, and <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a> is a browser extension with similar function.</p>
-<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they were really good. And last year I experienced <a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer">ChatGPT</a> for the first time, so this time I am looking forward to the new version of Bing and Edge and applied to join the <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer">waitlist</a>.</p>
+    <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer ">Visited Lite</a> is a userscript to customize the color of visited links, and <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer ">Color Links</a> is a browser extension with similar function.</p>
+<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they were really good. And last year I experienced <a href="https://chat.openai.com/chat" target="_blank" rel="noopener noreffer ">ChatGPT</a> for the first time, so this time I am looking forward to the new version of Bing and Edge and applied to join the <a href="https://www.bing.com/new" target="_blank" rel="noopener noreffer ">waitlist</a>.</p>
 <div class="details admonition question open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-question-circle fa-fw"></i>Question<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Question<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">In the process of using Bing, I suddenly discovered a problem. In Bing&rsquo;s search results, the visited links and unvisited links were both purple, it&rsquo;s difficult to distinguish which links are visited and which are not. I have been using Google before, the unvisited links are blue, and the visited links are purple. I didn&rsquo;t find the relevant settings in Bing and I didn&rsquo;t know where the problem was. So I looked for some userscripts or browser extensions to solve this problem.</div>
         </div>
     </div>
 <h2 id="visited-lite">Visited Lite</h2>
-<p>I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded from the <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">Tampermonkey</a>](<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer">https://www.tampermonkey.net/</a>) extension.</p>
+<p>I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer ">Visited Lite</a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer ">Tampermonkey</a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer ">Visited Lite</a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded from the <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer ">Tampermonkey</a>](<a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreffer ">https://www.tampermonkey.net/</a>) extension.</p>
 <h2 id="color-links">Color Links</h2>
-<p>After that, I found <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a> in the chrome web store. The main difference from <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer">Visited Lite</a> is that <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer">Color Links</a> need to manually enable the marking function for each website.</p>]]></description>
-</item></channel>
+<p>After that, I found <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer ">Color Links</a> in the chrome web store. The main difference from <a href="https://greasyfork.org/en/scripts/15173-visited-lite" target="_blank" rel="noopener noreffer ">Visited Lite</a> is that <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related" target="_blank" rel="noopener noreffer ">Color Links</a> need to manually enable the marking function for each website.</p>]]></description>
+</item>
+</channel>
 </rss>

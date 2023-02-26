@@ -5,5 +5,5 @@ A few days ago, I went to Pingyao Ancient City. The entire ancient city preserve
 <!--more-->
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0988.jpeg" alt="hongyi cannons" caption="hongyi cannons">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0988.jpeg" alt="hongyi cannons">}}
 </div>
