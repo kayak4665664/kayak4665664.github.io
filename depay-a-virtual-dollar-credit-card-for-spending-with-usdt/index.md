@@ -58,3 +58,9 @@ Depay is a newly established small British company. If you are worried, it is be
 - Telegram group: [https://t.me/depay_visa](https://t.me/depay_visa)
 - Twitter: [https://twitter.com/Depay_CN](https://twitter.com/Depay_CN)
 
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/  
+

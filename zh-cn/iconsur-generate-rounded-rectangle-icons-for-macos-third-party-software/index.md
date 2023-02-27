@@ -18,3 +18,9 @@ sudo iconsur set /Applications/Visual\ Studio\ Code.app/ -l
 ```
 
 其他用法可以参照[Github](https://github.com/rikumi/iconsur)或是执行`iconsur help`。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/  
+

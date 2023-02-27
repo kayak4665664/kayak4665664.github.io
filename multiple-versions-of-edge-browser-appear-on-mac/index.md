@@ -29,3 +29,9 @@ The last step, this step can also be done in the Finder
 cd ~/Library/Application\ Support/Microsoft
 rm -rf EdgeUpdater
 ```
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/  
+

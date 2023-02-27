@@ -12,3 +12,9 @@
 不得不说，新Bing一个很有用的功能是它可以从我们正在阅读的网页和文件中获取信息。我测试了一下，我用Edge Dev打开了一个本地的PDF文件，点击Discover按钮进行Chat，新Bing可以总结这个文件中的要点。另外，它也可以在Discover中很方便地生成一些文字。
 
 根据我的体验，我认为新Bing还是很不错的，非常期待之后的正式版本。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/you-re-in-welcome-to-the-new-bing/  
+

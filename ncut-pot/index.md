@@ -8,3 +8,9 @@ This honeypot supports `Telnet` and `SSH` two protocols, simulates the `Linux` s
 {{< admonition info >}}
 For more details about **NCUT-Pot** please visit [https://github.com/kayak4665664/FF-Pot](https://github.com/kayak4665664/NCUT-Pot)(now renamed FF-Pot).
 {{< /admonition >}}
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/ncut-pot/  
+

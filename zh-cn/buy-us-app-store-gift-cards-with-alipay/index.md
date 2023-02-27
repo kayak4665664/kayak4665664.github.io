@@ -12,3 +12,9 @@
 6. 搜索“App Store”
 7. 输入正确的邮箱账号
 8. 输入要购买的数值，至少$2，“Purchase card”
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/buy-us-app-store-gift-cards-with-alipay/  
+

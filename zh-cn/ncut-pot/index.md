@@ -8,3 +8,9 @@
 {{< admonition info >}}
 关于**NCUT-Pot**的更多细节请访问[https://github.com/kayak4665664/FF-Pot](https://github.com/kayak4665664/FF-Pot)（现已改名为FF-Pot）。
 {{< /admonition >}}
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/ncut-pot/  
+

@@ -56,3 +56,9 @@ Depay是一个刚成立的英国小公司，不放心的话最好不要充太多
 - 邮箱：[support@depay.one](mailto:support@depay.one)
 - Telegram群：[https://t.me/depay_visa](https://t.me/depay_visa)
 - Twitter：[https://twitter.com/Depay_CN](https://twitter.com/Depay_CN)
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/  
+

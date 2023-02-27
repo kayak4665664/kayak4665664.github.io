@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Java - Tag - kayak4665664</title>
-        <link>https://www.kayak4665664.com/tags/java/</link>
-        <description>Java - Tag - kayak4665664</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/java/" rel="self" type="application/rss+xml" /><item>
-    <title>LeetCode 66</title>
-    <link>https://www.kayak4665664.com/leetcode-66/</link>
-    <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/leetcode-66/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer ">LeetCode 66.Plus One</a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
+  <channel>
+    <title>Java - Tag - kayak4665664&#39;s Blog</title>
+    <link>https://www.kayak4665664.com/tags/java/</link>
+    <description>Java - Tag - kayak4665664&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/java/" rel="self" type="application/rss+xml" /><item>
+  <title>LeetCode 66</title>
+  <link>https://www.kayak4665664.com/leetcode-66/</link>
+  <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/leetcode-66/</guid>
+  <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 66.Plus One<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

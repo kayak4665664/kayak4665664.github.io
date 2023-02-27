@@ -17,3 +17,9 @@
 </div>
 
 我的毕业证和学位证也回来了，怀念在北方工大那些快乐的日子。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/  
+

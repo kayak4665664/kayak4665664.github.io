@@ -1,20 +1,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>WeChat - Tag - kayak4665664</title>
-        <link>https://www.kayak4665664.com/tags/wechat/</link>
-        <description>WeChat - Tag - kayak4665664</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Wed, 16 Nov 2022 21:05:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/wechat/" rel="self" type="application/rss+xml" /><item>
-    <title>Turn Idle WeChat Official Account Into a Robot</title>
-    <link>https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/</link>
-    <pubDate>Wed, 16 Nov 2022 21:05:57 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/</guid>
-    <description><![CDATA[<p>It only takes 5 minutes to turn the WeChat official account into a robot🤖.</p>
+  <channel>
+    <title>WeChat - Tag - kayak4665664&#39;s Blog</title>
+    <link>https://www.kayak4665664.com/tags/wechat/</link>
+    <description>WeChat - Tag - kayak4665664&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Wed, 16 Nov 2022 21:05:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/wechat/" rel="self" type="application/rss+xml" /><item>
+  <title>Turn Idle WeChat Official Account Into a Robot</title>
+  <link>https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/</link>
+  <pubDate>Wed, 16 Nov 2022 21:05:57 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/</guid>
+  <description><![CDATA[<p>It only takes 5 minutes to turn the WeChat official account into a robot🤖.</p>
 <p>I registered a WeChat official account before, but it has been idle, so I want to turn it into a robot and play a little role.</p>
 <h2 id="method">method</h2>
 <ol>
-<li>Use WeChat scan QR code to log in <a href="http://chatbot.weixin.qq.com/" target="_blank" rel="noopener noreffer ">微信对话开放平台</a></li>
+<li>Use WeChat scan QR code to log in <a href="http://chatbot.weixin.qq.com/"target="_blank" rel="external nofollow noopener noreferrer">微信对话开放平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 <li>Set the name of the robot on the robot creation page to complete the robot creation</li>
 <li>Turn on the robot&rsquo;s &ldquo;预置技能&rdquo; as needed, such as English translation, weather, stocks, news, jokes, etc.</li>
 <li>Bind the WeChat official account in &ldquo;应用绑定&rdquo;</li>
@@ -22,9 +22,7 @@
 </ol>
 <p>Really simple!</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" title="robot" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg">
-        
-    </a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-sub-html="<h2>robot</h2><p>robot</p>"></a>
 </div>]]></description>
 </item>
 </channel>

@@ -29,3 +29,9 @@ lrwxrwxr-x   1 user  admin   13 Feb 17 08:54 Current -> 111.0.1660.13
 cd ~/Library/Application\ Support/Microsoft
 rm -rf EdgeUpdater
 ```
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/multiple-versions-of-edge-browser-appear-on-mac/  
+

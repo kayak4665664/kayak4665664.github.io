@@ -12,3 +12,9 @@
 {{< admonition success >}}
 我想既然texliveonfly是用Python写的，我可以直接编辑它。于是我找到了`/Library/TeX/texbin/texliveonfly`，然后将这个文件第一行的`#!/usr/bin/env python`改成了`#!/usr/bin/env python3`，这样就解决了。
 {{< /admonition >}}
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/  
+

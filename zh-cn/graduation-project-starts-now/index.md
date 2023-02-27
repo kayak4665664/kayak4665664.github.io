@@ -48,3 +48,9 @@
 
 ## 最后
 不管怎样，题目定下来了，现在开始做毕设了。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/  
+

@@ -14,3 +14,9 @@
 
 ## Color Links
 之后，我又在chrome web store中找到了[Color Links](https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related)。与[Visited Lite](https://greasyfork.org/en/scripts/15173-visited-lite)的不同主要在于，[Color Links](https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related)需要为每一个网站手动开启标记颜色的功能。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/  
+

@@ -52,3 +52,9 @@ class Solution {
 ```
 
 这道题解法应该挺多的。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/leetcode-42/  
+

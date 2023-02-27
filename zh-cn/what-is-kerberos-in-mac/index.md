@@ -15,3 +15,9 @@
 {{< /admonition >}}
 
 看来这个Kerberos是包含在macOS中的，它就位于`/System/Library/CoreServices/Applications/Ticket Viewer.app`，并不是恶意程序。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/what-is-kerberos-in-mac/  
+

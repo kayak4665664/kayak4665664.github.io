@@ -10,3 +10,9 @@ For MacBook, I found software that can solve this problem: [AlDente](https://git
 It can be downloaded from [Github](https://github.com/davidwernhart/AlDente/releases), or you can use Homebrew, `brew install --cask aldente`.
 
 After launching AlDente, this software appears in the menu bar, which can easily control the maximum charging percentage of the MacBook. Afterward, it can be observed that the power adapter is connected, but the battery is not charging.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/  
+

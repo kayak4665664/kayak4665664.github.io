@@ -17,3 +17,9 @@
 <div align="center">
 {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" title="机器人" alt="机器人">}}
 </div>
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/turn-idle-wechat-official-account-into-a-robot/  
+

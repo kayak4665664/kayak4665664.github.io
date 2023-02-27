@@ -14,3 +14,9 @@ sudo iconsur set /Applications/Microsoft\ Word.app/
 In addition, iconsur can also generate icons locally for the software. For example:
 
 For another usage, please refer to [Github](https://github.com/rikumi/iconsur) or execute `iconsur help`.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/  
+

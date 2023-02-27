@@ -1,45 +1,45 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>macOS - Tag - kayak4665664</title>
-        <link>https://www.kayak4665664.com/tags/macos/</link>
-        <description>macOS - Tag - kayak4665664</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
-    <title>What Is Kerberos in Mac?</title>
-    <link>https://www.kayak4665664.com/what-is-kerberos-in-mac/</link>
-    <pubDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/what-is-kerberos-in-mac/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-25%20at%2008.59.49.jpeg" referrerpolicy="no-referrer">
-            </div><p>I suddenly found this Kerberos in the notification settings, what is it?</p>
+  <channel>
+    <title>macOS - Tag - kayak4665664&#39;s Blog</title>
+    <link>https://www.kayak4665664.com/tags/macos/</link>
+    <description>macOS - Tag - kayak4665664&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/macos/" rel="self" type="application/rss+xml" /><item>
+  <title>What Is Kerberos in Mac?</title>
+  <link>https://www.kayak4665664.com/what-is-kerberos-in-mac/</link>
+  <pubDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/what-is-kerberos-in-mac/</guid>
+  <description><![CDATA[<div class="featured-image">
+        <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-25%20at%2008.59.49.jpeg" referrerpolicy="no-referrer">
+      </div><p>I suddenly found this Kerberos in the notification settings, what is it?</p>
 <p>I asked Bing and it said:</p>
 <div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>Quote<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Hello, this is Bing. Kerberos is an authentication system that allows you to securely access various services on the network. Kerberos in Mac is based on the MIT Kerberos implementation and provides Kerberos v5 and v4 protocols, GSSAPI, a graphical authentication interface and a ticket cache. You can use the command line or the Ticket Viewer app to manage your Kerberos tickets.</p>
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-quote-right fa-fw" aria-hidden="true"></i>Quote<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content"><p>Hello, this is Bing. Kerberos is an authentication system that allows you to securely access various services on the network. Kerberos in Mac is based on the MIT Kerberos implementation and provides Kerberos v5 and v4 protocols, GSSAPI, a graphical authentication interface and a ticket cache. You can use the command line or the Ticket Viewer app to manage your Kerberos tickets.</p>
 <ol>
-<li><a href="https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS" target="_blank" rel="noopener noreffer ">https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS</a></li>
-<li><a href="https://web.mit.edu/macdev/www/kerberos.html" target="_blank" rel="noopener noreffer ">https://web.mit.edu/macdev/www/kerberos.html</a></li>
-<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web" target="_blank" rel="noopener noreffer ">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web</a></li>
-<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web" target="_blank" rel="noopener noreffer ">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web</a></li>
+<li><a href="https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS"target="_blank" rel="external nofollow noopener noreferrer">https://uit.stanford.edu/service/ess/mac/docs/kerberos_macOS<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li><a href="https://web.mit.edu/macdev/www/kerberos.html"target="_blank" rel="external nofollow noopener noreferrer">https://web.mit.edu/macdev/www/kerberos.html<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web"target="_blank" rel="external nofollow noopener noreferrer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web"target="_blank" rel="external nofollow noopener noreferrer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 </ol>
 </div>
-        </div>
     </div>
+  </div>
 <p>It seems that this Kerberos is included in macOS, it is located in <code>/System/Library/CoreServices/Applications/Ticket Viewer.app</code>, and it is not a malicious program.</p>]]></description>
 </item>
 <item>
-    <title>Modify the Icons Size in MacOS Launchpad</title>
-    <link>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</link>
-    <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-21%20at%2012.34.40.jpg" referrerpolicy="no-referrer">
-            </div><p>Icons can be resized by adjusting the number of icons per row and column of Launchpad.</p>
+  <title>Modify the Icons Size in MacOS Launchpad</title>
+  <link>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</link>
+  <pubDate>Tue, 21 Feb 2023 12:23:04 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/modify-the-icons-size-in-macos-launchpad/</guid>
+  <description><![CDATA[<div class="featured-image">
+        <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-21%20at%2012.34.40.jpg" referrerpolicy="no-referrer">
+      </div><p>Icons can be resized by adjusting the number of icons per row and column of Launchpad.</p>
 <h2 id="method">method</h2>
 <p>Execute the following commands in the Terminal:</p>
 <div class="highlight"><div class="chroma">
@@ -82,12 +82,12 @@
 </div>]]></description>
 </item>
 <item>
-    <title>Multiple Versions of Edge Browser Appear on Mac</title>
-    <link>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</link>
-    <pubDate>Sun, 19 Feb 2023 22:18:43 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</guid>
-    <description><![CDATA[<p>Suddenly, I found that there are two Edge Dev on my Mac, 111.0.1660.13 and 111.0.1660.12, and both of them can launch normally. I want to keep the latest version and uninstall the old one.</p>
+  <title>Multiple Versions of Edge Browser Appear on Mac</title>
+  <link>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</link>
+  <pubDate>Sun, 19 Feb 2023 22:18:43 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/multiple-versions-of-edge-browser-appear-on-mac/</guid>
+  <description><![CDATA[<p>Suddenly, I found that there are two Edge Dev on my Mac, 111.0.1660.13 and 111.0.1660.12, and both of them can launch normally. I want to keep the latest version and uninstall the old one.</p>
 <h2 id="method">method</h2>
 <h3 id="1">1</h3>
 <p>Take the Dev version as an example. Switch the directory to the following location</p>
@@ -132,56 +132,56 @@
 </div>]]></description>
 </item>
 <item>
-    <title>texliveonfly, env: python: No Such File or Directory</title>
-    <link>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</link>
-    <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</guid>
-    <description><![CDATA[<div class="details admonition failure open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-times-circle fa-fw" aria-hidden="true"></i>Failure<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</div>
-        </div>
+  <title>texliveonfly, env: python: No Such File or Directory</title>
+  <link>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</link>
+  <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</guid>
+  <description><![CDATA[<div class="details admonition failure open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>Failure<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
     </div>
+    <div class="details-content">
+      <div class="admonition-content">Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</div>
+    </div>
+  </div>
 <p>I tried to execute <code>python</code>, and a prompt from Xcode Command Line Tools popped up, saying that I needed to download something, and it downloaded Python3.9, while I already had Python3.8🙃.</p>
 <p>I tried to create a symbolic link with <code>ln</code>, but it didn&rsquo;t work.</p>
 <div class="details admonition success open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Success<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</div>
-        </div>
-    </div>]]></description>
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-check-circle fa-fw" aria-hidden="true"></i>Success<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</div>
+    </div>
+  </div>]]></description>
 </item>
 <item>
-    <title>AlDente: Limit MacBook Maximum Charging Percentage</title>
-    <link>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</link>
-    <pubDate>Tue, 11 Oct 2022 17:25:14 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</guid>
-    <description><![CDATA[<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Since the laptop uses a lithium battery, a long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.</div>
-        </div>
+  <title>AlDente: Limit MacBook Maximum Charging Percentage</title>
+  <link>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</link>
+  <pubDate>Tue, 11 Oct 2022 17:25:14 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</guid>
+  <description><![CDATA[<div class="details admonition tip open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
     </div>
-<p>For MacBook, I found software that can solve this problem: <a href="https://github.com/davidwernhart/AlDente-Charge-Limiter" target="_blank" rel="noopener noreffer ">AlDente</a>.</p>
-<p>It can be downloaded from <a href="https://github.com/davidwernhart/AlDente/releases" target="_blank" rel="noopener noreffer ">Github</a>, or you can use Homebrew, <code>brew install --cask aldente</code>.</p>
+    <div class="details-content">
+      <div class="admonition-content">Since the laptop uses a lithium battery, a long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.</div>
+    </div>
+  </div>
+<p>For MacBook, I found software that can solve this problem: <a href="https://github.com/davidwernhart/AlDente-Charge-Limiter"target="_blank" rel="external nofollow noopener noreferrer">AlDente<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
+<p>It can be downloaded from <a href="https://github.com/davidwernhart/AlDente/releases"target="_blank" rel="external nofollow noopener noreferrer">Github<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, or you can use Homebrew, <code>brew install --cask aldente</code>.</p>
 <p>After launching AlDente, this software appears in the menu bar, which can easily control the maximum charging percentage of the MacBook. Afterward, it can be observed that the power adapter is connected, but the battery is not charging.</p>]]></description>
 </item>
 <item>
-    <title>iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software</title>
-    <link>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
-    <pubDate>Sat, 17 Sep 2022 18:02:30 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
-    <description><![CDATA[<p>There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.</p>
-<p>iconsur&rsquo;s Github homepage: <a href="https://github.com/rikumi/iconsur" target="_blank" rel="noopener noreffer ">https://github.com/rikumi/iconsur</a>, can be downloaded in <a href="https://github.com/rikumi/iconsur/releases" target="_blank" rel="noopener noreffer ">Releases</a>. You can also use Homebrew: <code>brew install iconsur</code>, or npm: <code>npm install -g iconsur</code>.</p>
+  <title>iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software</title>
+  <link>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
+  <pubDate>Sat, 17 Sep 2022 18:02:30 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
+  <description><![CDATA[<p>There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.</p>
+<p>iconsur&rsquo;s Github homepage: <a href="https://github.com/rikumi/iconsur"target="_blank" rel="external nofollow noopener noreferrer">https://github.com/rikumi/iconsur<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, can be downloaded in <a href="https://github.com/rikumi/iconsur/releases"target="_blank" rel="external nofollow noopener noreferrer">Releases<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>. You can also use Homebrew: <code>brew install iconsur</code>, or npm: <code>npm install -g iconsur</code>.</p>
 <p>iconsur finds the most similar iOS app for the software in the App Store and replaces the icon of this software with the icon of the iOS app. For example:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -192,7 +192,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>In addition, iconsur can also generate icons locally for the software. For example:</p>
-<p>For another usage, please refer to <a href="https://github.com/rikumi/iconsur" target="_blank" rel="noopener noreffer ">Github</a> or execute <code>iconsur help</code>.</p>]]></description>
+<p>For another usage, please refer to <a href="https://github.com/rikumi/iconsur"target="_blank" rel="external nofollow noopener noreferrer">Github<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> or execute <code>iconsur help</code>.</p>]]></description>
 </item>
 </channel>
 </rss>

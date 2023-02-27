@@ -1,132 +1,197 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>我的网站是如何建立的？ - kayak4665664</title><meta name="Description" content="kayak4665664的博客"><meta property="og:title" content="我的网站是如何建立的？" />
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>我的网站是如何建立的？ - kayak4665664的博客</title><meta name="author" content="kayak4665664">
+<meta name="author-link" content="https://github.com/kayak4665664">
+<meta name="description" content="目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。" /><meta name="keywords" content='我的网站, Github Pages, Jekyll, Hugo' /><meta itemprop="name" content="我的网站是如何建立的？">
+<meta itemprop="description" content="目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。"><meta itemprop="datePublished" content="2021-12-22T17:17:40+08:00" />
+<meta itemprop="dateModified" content="2023-02-27T17:45:55+08:00" />
+<meta itemprop="wordCount" content="3176"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
+<meta itemprop="keywords" content="我的网站,Github Pages,Jekyll,Hugo," /><meta property="og:title" content="我的网站是如何建立的？" />
 <meta property="og:description" content="目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-22T17:17:40+08:00" />
-<meta property="article:modified_time" content="2023-02-26T22:45:35+08:00" />
+<meta property="article:modified_time" content="2023-02-27T17:45:55+08:00" /><meta property="og:site_name" content="kayak4665664的博客" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.kayak4665664.com/images/avatar.png"/>
 
 <meta name="twitter:title" content="我的网站是如何建立的？"/>
 <meta name="twitter:description" content="目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。"/>
 <meta name="application-name" content="kayak4665664">
-<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" /><link rel="prev" href="https://www.kayak4665664.com/zh-cn/google-has-indexed-my-website/" /><link rel="next" href="https://www.kayak4665664.com/zh-cn/i-went-to-tiananmen-today/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "我的网站是如何建立的？",
-        "inLanguage": "zh-CN",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/www.kayak4665664.com\/zh-cn\/how-my-wesite-was-built\/"
-        },"image": [{
-                            "@type": "ImageObject",
-                            "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
-                            "width":  450 ,
-                            "height":  450 
-                        }],"genre": "posts","keywords": "我的网站, Github Pages, Jekyll, Hugo","wordcount":  3176 ,
-        "url": "https:\/\/www.kayak4665664.com\/zh-cn\/how-my-wesite-was-built\/","datePublished": "2021-12-22T17:17:40+08:00","dateModified": "2023-02-26T22:45:35+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.","publisher": {
-            "@type": "Organization",
-            "name": "kayak4665664","logo": {
-                    "@type": "ImageObject",
-                    "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
-                    "width":  450 ,
-                    "height":  450 
-                }},"author": {
-                "@type": "Person",
-                "name": "kayak4665664"
-            },"description": ""
-    }
-    </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" /><link rel="prev" href="https://www.kayak4665664.com/zh-cn/google-has-indexed-my-website/" /><link rel="next" href="https://www.kayak4665664.com/zh-cn/i-went-to-tiananmen-today/" /><link rel="stylesheet" href="/css/style.min.a73d238febcc2c3f1404ae0367453f27eb79414f9600da43af5fe25d1f7c84a8.css" integrity="sha256-pz0jj&#43;vMLD8UBK4DZ0U/J&#43;t5QU&#43;WANpDr1/iXR98hKg="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "我的网站是如何建立的？",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/www.kayak4665664.com\/zh-cn\/how-my-wesite-was-built\/"
+    },"image": [{
+              "@type": "ImageObject",
+              "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
+              "width":  450 ,
+              "height":  450 
+            }],"genre": "posts","keywords": "我的网站, Github Pages, Jekyll, Hugo","wordcount":  3176 ,
+    "url": "https:\/\/www.kayak4665664.com\/zh-cn\/how-my-wesite-was-built\/","datePublished": "2021-12-22T17:17:40+08:00","dateModified": "2023-02-27T17:45:55+08:00","publisher": {
+      "@type": "Organization",
+      "name": "kayak4665664","logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
+          "width":  450 ,
+          "height":  450 
+        }},"author": {
+        "@type": "Person",
+        "name": "kayak4665664"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper" data-github-corner="left">
+    <div class="header-title">
+      <a href="/zh-cn/" title="kayak4665664的博客"><span class="header-title-text">kayak4665664</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/zh-cn/posts/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 文章</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/zh-cn/categories/"
+                
+                
+              ><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/zh-cn/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/zh-cn/about/"
+                
+                
+              ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item language">
+            <span role="button" aria-label="选择语言" title="选择语言">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <ul class="sub-menu"><li class="menu-item">
+                      <a href="/how-my-wesite-was-built/" class="menu-link" title="English">English</a>
+                    </li></ul>
+          </li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
     <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/zh-cn/" title="kayak4665664">kayak4665664</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"><i class="far fa-list-alt"></i> 文章 </a><a class="menu-item" href="/zh-cn/tags/"><i class="fas fa-tag"></i> 标签 </a><a class="menu-item" href="/zh-cn/categories/"><i class="far fa-folder"></i> 分类 </a><a class="menu-item" href="/zh-cn/about/"><i class="fas fa-info-circle fa-spin"></i> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
-                    <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/how-my-wesite-was-built/">English</option><option value="/zh-cn/how-my-wesite-was-built/" selected>简体中文</option></select>
-                </a></div>
-        </div>
+      <div class="header-title">
+        <a href="/zh-cn/" title="kayak4665664的博客"><span class="header-title-text">kayak4665664</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
     </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/zh-cn/" title="kayak4665664">kayak4665664</a>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
             </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        取消
-                    </a>
-                </div><a class="menu-item" href="/zh-cn/posts/" title=""><i class="far fa-list-alt"></i>文章</a><a class="menu-item" href="/zh-cn/tags/" title=""><i class="fas fa-tag"></i>标签</a><a class="menu-item" href="/zh-cn/categories/" title=""><i class="far fa-folder"></i>分类</a><a class="menu-item" href="/zh-cn/about/" title=""><i class="fas fa-info-circle fa-spin"></i>关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/how-my-wesite-was-built/">English</option><option value="/zh-cn/how-my-wesite-was-built/" selected>简体中文</option></select>
-                </a></div>
-    </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/zh-cn/posts/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 文章</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/zh-cn/categories/"
+                  
+                  
+                ><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/zh-cn/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/zh-cn/about/"
+                  
+                  
+                ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li><li class="menu-item language">
+            <span role="button" aria-label="选择语言" title="选择语言">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <select class="language-select" onchange="location = this.value;"><option value="/how-my-wesite-was-built/">English</option><option value="/zh-cn/how-my-wesite-was-built/" selected disabled>简体中文</option></select>
+          </li></ul>
+    </nav>
+  </div>
 </header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">目录</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">我的网站是如何建立的？</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://github.com/kayak4665664" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>kayak4665664</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>笔记</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-12-22">2021-12-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3176 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 7 分钟&nbsp;<span id="/zh-cn/how-my-wesite-was-built/" class="leancloud_visitors" data-flag-title="我的网站是如何建立的？">
-                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
-                    </span>&nbsp;</div>
-        </div><div class="details toc" id="toc-static"  data-kept="">
-                <div class="details-summary toc-title">
-                    <span>目录</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
-                </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container" data-page-style="normal"><aside class="toc" id="toc-auto"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside>
+
+  <aside class="aside-custom">
+    </aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX">
+        <span>我的网站是如何建立的？</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><a href="https://github.com/kayak4665664" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" sizes="auto" data-title="kayak4665664" data-alt="kayak4665664" width="450" height="450" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;kayak4665664</a></span>
+          <span class="post-category">收录于 <a href="/zh-cn/categories/%E7%AC%94%E8%AE%B0/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 笔记</a></span></div>
+      <div class="post-meta-line"><span title=2021-12-22&#32;17:17:40><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-12-22">2021-12-22</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 约 3176 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> 预计阅读 7 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="我的网站是如何建立的？">
+              <i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
+            </span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#开始">开始</a></li>
     <li><a href="#准备">准备</a>
@@ -155,138 +220,170 @@
     <li><a href="#最后">最后</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。</p>
+      </div><div class="content" id="content"><p>目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。</p>
 <h2 id="开始">开始</h2>
-<p>上上周看到有人用Github作免费网盘，我以前还见过有人专门建了repository来记笔记、写博客，我忽然也想有个写点东西记录自己的地方。我就查了一下如何用Github写博客，我才知道了<a href="https://pages.github.com" target="_blank" rel="noopener noreffer ">Github Pages</a>。简单来说它可以免费自动托管静态网页，用它做一个自己的博客是绰绰有余的。</p>
+<p>上上周看到有人用Github作免费网盘，我以前还见过有人专门建了repository来记笔记、写博客，我忽然也想有个写点东西记录自己的地方。我就查了一下如何用Github写博客，我才知道了<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。简单来说它可以免费自动托管静态网页，用它做一个自己的博客是绰绰有余的。</p>
 <h2 id="准备">准备</h2>
 <h3 id="域名">域名</h3>
-<p><a href="https://pages.github.com" target="_blank" rel="noopener noreffer ">Github Pages</a>是免费的，不过它的网址都长<code>username.github.io</code>这样，感觉不够个性化。好在它是支持自定义域名的，我决定买一个。网站还没有建起来，但我还是先买了。我听说国内买域名需要实名审核，并且审核需要好几天。我一边等待审核通过，一边建网站，这样更省时间。最后我买了<code>kayak4665664.com</code>。</p>
+<p><a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>是免费的，不过它的网址都长<code>username.github.io</code>这样，感觉不够个性化。好在它是支持自定义域名的，我决定买一个。网站还没有建起来，但我还是先买了。我听说国内买域名需要实名审核，并且审核需要好几天。我一边等待审核通过，一边建网站，这样更省时间。最后我买了<code>kayak4665664.com</code>。</p>
 <div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>技巧<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">有的域名首年注册时看起来便宜，但以后续费比<code>.com</code>域名还要贵。</div>
-        </div>
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>技巧<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
     </div>
+    <div class="details-content">
+      <div class="admonition-content">有的域名首年注册时看起来便宜，但以后续费比<code>.com</code>域名还要贵。</div>
+    </div>
+  </div>
 <h3 id="usernamegithubio">username.github.io</h3>
-<p>新建了一个repository，进行<code>Pages</code>设置。<a href="https://pages.github.com" target="_blank" rel="noopener noreffer ">Github Pages</a>使用<code>Jekyll</code>将纯文本转化为静态网站，所以在设置过程中它会让你选择你的<code>Jekyll</code>主题。我还认真地比较了一下那几个主题，选了我觉得最好看的一个。其实后面很快我就发现，这些主题过于简单，不满足我的需求。之后用<code>git</code>克隆repository到了本地。</p>
+<p>新建了一个repository，进行<code>Pages</code>设置。<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>使用<code>Jekyll</code>将纯文本转化为静态网站，所以在设置过程中它会让你选择你的<code>Jekyll</code>主题。我还认真地比较了一下那几个主题，选了我觉得最好看的一个。其实后面很快我就发现，这些主题过于简单，不满足我的需求。之后用<code>git</code>克隆repository到了本地。</p>
 <h3 id="设计">设计</h3>
 <p>我看了一些其他人的网站，初步确定我的网站要有评论、访问统计、站内搜索这几个功能。另外还要加入百度和谷歌分析，并且让它们收录我的网站。</p>
 <h3 id="工具">工具</h3>
-<p>除了<code>Jekyll</code>，还有很多将纯文本转化为静态网站和博客的工具，比如我现在用的<code>Hugo</code>。由于<a href="https://pages.github.com" target="_blank" rel="noopener noreffer ">Github Pages</a>默认使用<code>Jekyll</code>，我就选择了<code>Jekyll</code>。</p>
+<p>除了<code>Jekyll</code>，还有很多将纯文本转化为静态网站和博客的工具，比如我现在用的<code>Hugo</code>。由于<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>默认使用<code>Jekyll</code>，我就选择了<code>Jekyll</code>。</p>
 <p><code>Jekyll</code>基于<code>Ruby</code>，可以用<code>gem</code>来安装。我使用的macOS自带一个<code>Ruby</code>，我就直接执行<code>gem install jekyll bundler</code>开始安装<code>Jekyll</code>、<code>Bundler</code>以及它们的依赖。安装一半，出现<code>fatal error: 'ruby/config.h' file not found</code>。谷歌了一下有人说是自带的<code>Ruby</code>版本太低，还有人说是<code>Xcode CommandLineTools</code>的问题。我直接用<code>Homebrew</code>安装了一个新的<code>Ruby</code>。安装之后设置了终端的环境变量，重新执行<code>gem install jekyll bundler</code>，这次安装好了。</p>
 <div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>警告<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">我还查了一下怎么清理之前<code>gem install jekyll bundler</code>时的缓存和已安装的包，结果没有找到。我只好手动卸载了那些已安装的包、删除了缓存所在的目录，感觉根本没清理干净。</div>
-        </div>
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-exclamation-triangle fa-fw" aria-hidden="true"></i>警告<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
     </div>
+    <div class="details-content">
+      <div class="admonition-content">我还查了一下怎么清理之前<code>gem install jekyll bundler</code>时的缓存和已安装的包，结果没有找到。我只好手动卸载了那些已安装的包、删除了缓存所在的目录，感觉根本没清理干净。</div>
+    </div>
+  </div>
 <h2 id="jekyll">Jekyll</h2>
 <h3 id="上手">上手</h3>
 <p>在工作目录执行<code>bundle exec jekyll serve</code>，出现<code>cannot load such file -- webrick (LoadError)</code>。谷歌了一下，用<code>bundle add webrick</code>解决。</p>
 <p>在本地预览了一下感觉没有问题，准备<code>push</code>到Github上用手机测试。但是出现了问题，<code>push</code>不上去。谷歌了一下没找到，百度了一下发现可能是<code>proxy</code>的问题，取消<code>git</code>设置的代理后解决。</p>
 <p>用手机看了一下，网页是自动适配移动端的。这时候发现这个主题太简陋了，甚至没有分页的功能。刚开始我还准备自己实现出来，但又想想那么多功能都得一个个实现，工作量巨大，我还是找一个功能比较完整的主题吧。</p>
 <h3 id="主题">主题</h3>
-<p>网上有不少<code>Jekyll</code>主题，我最后下载了<a href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank" rel="noopener noreffer ">YAT</a>。它支持不少功能，可以用<a href="Disqus.com" rel="">Disqus</a>和<a href="https://github.com/imsun/gitment" target="_blank" rel="noopener noreffer ">Gitment</a>来评论。</p>
-<p>下载之后，想要执行<code>bundle exec jekyll serve</code>预览一下，报错<code>Could not find gem 'jekyll-spaceship (~&gt; 0.2)'</code>。我通过在<code>gem</code>安装<code>jekyll-spaceship</code>时设置版本为<code>0.2</code>来解决。在这里我还发现安装过程卡住了，但没有报错。用<code>Activity Monitor</code>看到<code>Ruby</code>的<code>Rcvd Bytes</code>是一直缓慢增加的，应该是国内网络的问题。谷歌了一下，在<a href="https://gems.ruby-china.com" target="_blank" rel="noopener noreffer ">Ruby China</a>找到了换源的方法，换源之后成功安装。</p>
+<p>网上有不少<code>Jekyll</code>主题，我最后下载了<a href="https://github.com/jeffreytse/jekyll-theme-yat"target="_blank" rel="external nofollow noopener noreferrer">YAT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。它支持不少功能，可以用<a href="Disqus.com">Disqus</a>和<a href="https://github.com/imsun/gitment"target="_blank" rel="external nofollow noopener noreferrer">Gitment<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>来评论。</p>
+<p>下载之后，想要执行<code>bundle exec jekyll serve</code>预览一下，报错<code>Could not find gem 'jekyll-spaceship (~&gt; 0.2)'</code>。我通过在<code>gem</code>安装<code>jekyll-spaceship</code>时设置版本为<code>0.2</code>来解决。在这里我还发现安装过程卡住了，但没有报错。用<code>Activity Monitor</code>看到<code>Ruby</code>的<code>Rcvd Bytes</code>是一直缓慢增加的，应该是国内网络的问题。谷歌了一下，在<a href="https://gems.ruby-china.com"target="_blank" rel="external nofollow noopener noreferrer">Ruby China<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>找到了换源的方法，换源之后成功安装。</p>
 <p>再次执行<code>bundle exec jekyll serve</code>，这次可以预览新主题了。</p>
 <h3 id="个性化">个性化</h3>
-<p>根据自己的需求来对主题进行个性化修改，如标题、图片等。我本来想用<a href="https://github.com/imsun/gitment" target="_blank" rel="noopener noreffer ">Gitment</a>，但我发现它不能登录Github账号，看了一下它的<a href="https://github.com/imsun/gitment/issues" target="_blank" rel="noopener noreffer ">Issues</a>应该是停止服务了。所以只能用<a href="Disqus.com" rel="">Disqus</a>，我注册了<a href="Disqus.com" rel="">Disqus</a>账号，开启了评论功能。此外我还用了<a href="http://busuanzi.ibruce.info" target="_blank" rel="noopener noreffer ">不蒜子</a>进行网站访问量统计，只需两行代码。</p>
-<p>之后我开始增加一些内容。在预览内容的过程中渐渐发现了一些问题，这个主题它的字体偏小，不论在浅色还是深色模式下文字与背景的对比较低，总之我感觉读起来费眼睛。然而无法在配置文件中对字体进行设置，我只能直接去挨个修改<code>.scss</code>文件，比较麻烦。而它的翻译功能，调用了谷歌的网页翻译接口，在国内网络下几乎无法使用，导致网页变得卡顿，我直接将源代码中翻译相关的部分删除了。除此之外，<a href="Disqus.com" rel="">Disqus</a>在国内网络下无法登录账号，测试了一下只能使用访客匿名评论，这也是一个缺点。</p>
+<p>根据自己的需求来对主题进行个性化修改，如标题、图片等。我本来想用<a href="https://github.com/imsun/gitment"target="_blank" rel="external nofollow noopener noreferrer">Gitment<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，但我发现它不能登录Github账号，看了一下它的<a href="https://github.com/imsun/gitment/issues"target="_blank" rel="external nofollow noopener noreferrer">Issues<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>应该是停止服务了。所以只能用<a href="Disqus.com">Disqus</a>，我注册了<a href="Disqus.com">Disqus</a>账号，开启了评论功能。此外我还用了<a href="http://busuanzi.ibruce.info"target="_blank" rel="external nofollow noopener noreferrer">不蒜子<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>进行网站访问量统计，只需两行代码。</p>
+<p>之后我开始增加一些内容。在预览内容的过程中渐渐发现了一些问题，这个主题它的字体偏小，不论在浅色还是深色模式下文字与背景的对比较低，总之我感觉读起来费眼睛。然而无法在配置文件中对字体进行设置，我只能直接去挨个修改<code>.scss</code>文件，比较麻烦。而它的翻译功能，调用了谷歌的网页翻译接口，在国内网络下几乎无法使用，导致网页变得卡顿，我直接将源代码中翻译相关的部分删除了。除此之外，<a href="Disqus.com">Disqus</a>在国内网络下无法登录账号，测试了一下只能使用访客匿名评论，这也是一个缺点。</p>
 <h3 id="放弃">放弃</h3>
-<p>个性化之后，我感觉没有问题了。这时忽然想到<a href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank" rel="noopener noreffer ">YAT</a>主题还支持PlantUML、Mermaid、Mathjax、Vedio、Audio等，我应该再测试一下。我直接用作者的<code>markdown</code>文件进行测试，结果发现这些东西都没有正常显示出来。</p>
+<p>个性化之后，我感觉没有问题了。这时忽然想到<a href="https://github.com/jeffreytse/jekyll-theme-yat"target="_blank" rel="external nofollow noopener noreferrer">YAT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>主题还支持PlantUML、Mermaid、Mathjax、Vedio、Audio等，我应该再测试一下。我直接用作者的<code>markdown</code>文件进行测试，结果发现这些东西都没有正常显示出来。</p>
 <p>我还以为是我把源代码改坏了，我直接克隆了一份作者的repository。经测试发现同样不行，看来不是我修改代码的问题。但是问题在哪我也一直没有找到，考虑到这个主题还存在其他的缺点，我选择放弃它。</p>
-<p>我又开始找主题，这一次更加仔细。最后找到了<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer ">LoveIt</a>主题，也就是我现在用的。</p>
+<p>我又开始找主题，这一次更加仔细。最后找到了<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>主题，也就是我现在用的。</p>
 <p>这是一个基于<code>Hugo</code>的主题，所以<code>Ruby</code>就没用了，我把它卸载了。</p>
 <h2 id="hugo">Hugo</h2>
 <h3 id="上手-1">上手</h3>
-<p>先用<code>Homebrew</code>安装<code>Hugo</code>，<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer ">LoveIt</a>文档中推荐安装<code>extended</code>版本的<code>Hugo</code>，而<code>Homebrew</code>安装的<code>Hugo</code>就是<code>extended</code>版本的。</p>
-<p><code>Hugo</code>的目录结构和<code>Jekyll</code>的还是不太一样，用了一些时间才熟悉了。<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer ">LoveIt</a>的配置项非常多，也是需要先看一看文档的。</p>
+<p>先用<code>Homebrew</code>安装<code>Hugo</code>，<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>文档中推荐安装<code>extended</code>版本的<code>Hugo</code>，而<code>Homebrew</code>安装的<code>Hugo</code>就是<code>extended</code>版本的。</p>
+<p><code>Hugo</code>的目录结构和<code>Jekyll</code>的还是不太一样，用了一些时间才熟悉了。<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>的配置项非常多，也是需要先看一看文档的。</p>
 <p>大概配置了一下，执行<code>hugo serve -e production --disableFastRender</code>进行预览。</p>
 <h3 id="个性化-1">个性化</h3>
 <p>之后就是个性化地设置，还有：</p>
 <ol>
-<li>注册<a href="https://www.leancloud.cn" target="_blank" rel="noopener noreffer ">LeanCloud</a>以及<a href="https://valine.js.org" target="_blank" rel="noopener noreffer ">Valine</a>用于评论和访问统计</li>
-<li>利用<a href="https://realfavicongenerator.net" target="_blank" rel="noopener noreffer ">https://realfavicongenerator.net</a>生成网站图标</li>
-<li>注册<a href="http://Gravatar.com" target="_blank" rel="noopener noreffer ">Gravartar</a>头像</li>
-<li>注册<a href="https://www.algolia.com" target="_blank" rel="noopener noreffer ">Algolia</a>用于站内搜索</li>
-<li>使用<code>node.js</code>执行<code>npm install atomic-algolia</code>安装<a href="https://github.com/chrisdmacrae/atomic-algolia" target="_blank" rel="noopener noreffer ">atomic-algolia</a>，用于自动化上传索引文件至<a href="https://www.algolia.com" target="_blank" rel="noopener noreffer ">Algolia</a></li>
-<li>注册<a href="https://www.mapbox.com" target="_blank" rel="noopener noreffer ">Mapbox</a></li>
+<li>注册<a href="https://www.leancloud.cn"target="_blank" rel="external nofollow noopener noreferrer">LeanCloud<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>以及<a href="https://valine.js.org"target="_blank" rel="external nofollow noopener noreferrer">Valine<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>用于评论和访问统计</li>
+<li>利用<a href="https://realfavicongenerator.net"target="_blank" rel="external nofollow noopener noreferrer">https://realfavicongenerator.net<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>生成网站图标</li>
+<li>注册<a href="http://Gravatar.com"target="_blank" rel="external nofollow noopener noreferrer">Gravartar<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>头像</li>
+<li>注册<a href="https://www.algolia.com"target="_blank" rel="external nofollow noopener noreferrer">Algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>用于站内搜索</li>
+<li>使用<code>node.js</code>执行<code>npm install atomic-algolia</code>安装<a href="https://github.com/chrisdmacrae/atomic-algolia"target="_blank" rel="external nofollow noopener noreferrer">atomic-algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，用于自动化上传索引文件至<a href="https://www.algolia.com"target="_blank" rel="external nofollow noopener noreferrer">Algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li>注册<a href="https://www.mapbox.com"target="_blank" rel="external nofollow noopener noreferrer">Mapbox<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 </ol>
 <p>在这中间我还发现一个问题，本地预览的时候不能显示自定义的<code>404</code>模版，谷歌了一下发现：
 <div class="details admonition info open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><code>hugo server</code> will not automatically load your custom <code>404.html</code> file, but you can test the appearance of your custom “not found” page by navigating your browser to <code>/404.html</code>.</div>
-        </div>
-    </div></p>
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content"><code>hugo server</code> will not automatically load your custom <code>404.html</code> file, but you can test the appearance of your custom “not found” page by navigating your browser to <code>/404.html</code>.</div>
+    </div>
+  </div></p>
 <h3 id="扩展">扩展</h3>
-<p>网站差不多建起来了。执行<code>hugo</code>，就会出现<code>/public</code>目录，把<code>/public</code>和自己的repository同步，就可以把网页托管到<a href="https://pages.github.com" target="_blank" rel="noopener noreffer ">Github Pages</a>。之后再用<a href="https://github.com/chrisdmacrae/atomic-algolia" target="_blank" rel="noopener noreffer ">atomic-algolia</a>上传生成的索引文件至<a href="https://www.algolia.com" target="_blank" rel="noopener noreffer ">Algolia</a>。经过这两个步骤就完成了一次网站的部署。</p>
+<p>网站差不多建起来了。执行<code>hugo</code>，就会出现<code>/public</code>目录，把<code>/public</code>和自己的repository同步，就可以把网页托管到<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。之后再用<a href="https://github.com/chrisdmacrae/atomic-algolia"target="_blank" rel="external nofollow noopener noreferrer">atomic-algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>上传生成的索引文件至<a href="https://www.algolia.com"target="_blank" rel="external nofollow noopener noreferrer">Algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。经过这两个步骤就完成了一次网站的部署。</p>
 <p>另外，我又建了一个私有的repository，用于同步<code>/public</code>之外的源代码，所以每次部署都需要多同步一次。为了自动化这三个过程，我写了一个<code>Shell</code>脚本，一步到位。</p>
 <p>这时候，我的域名终于通过了实名审核。我开始进行一些扩展：</p>
 <ol>
 <li>在Github上设置<code>CNAME</code></li>
-<li>将repository导入<a href="https://vercel.com/" target="_blank" rel="noopener noreffer ">Vercel</a>，这样每次更新repository，都会自动部署到<a href="https://vercel.com/" target="_blank" rel="noopener noreffer ">Vercel</a>。据说百度不会收录<a href="https://pages.github.com" target="_blank" rel="noopener noreffer ">Github Pages</a>托管的网站，而部署到<a href="https://vercel.com/" target="_blank" rel="noopener noreffer ">Vercel</a>之后可以被收录</li>
-<li>在<a href="https://vercel.com/" target="_blank" rel="noopener noreffer ">Vercel</a>中设置自定义域名</li>
-<li>加入<a href="https://tongji.baidu.com/" target="_blank" rel="noopener noreffer ">百度统计</a>和<a href="https://analytics.google.com/" target="_blank" rel="noopener noreffer ">谷歌Analytics</a></li>
-<li>向<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener noreffer ">百度搜索资源平台</a>和<a href="https://search.google.com" target="_blank" rel="noopener noreffer ">谷歌Search Console</a>提交<code>sitemap</code>，在<a href="https://www.bing.com/webmasters/" target="_blank" rel="noopener noreffer ">必应Webmaster Tools</a>中直接导入<a href="https://search.google.com" target="_blank" rel="noopener noreffer ">谷歌Search Console</a>中已经提交的<code>sitemap</code></li>
+<li>将repository导入<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，这样每次更新repository，都会自动部署到<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。据说百度不会收录<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>托管的网站，而部署到<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>之后可以被收录</li>
+<li>在<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中设置自定义域名</li>
+<li>加入<a href="https://tongji.baidu.com/"target="_blank" rel="external nofollow noopener noreferrer">百度统计<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>和<a href="https://analytics.google.com/"target="_blank" rel="external nofollow noopener noreferrer">谷歌Analytics<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li>向<a href="https://ziyuan.baidu.com/"target="_blank" rel="external nofollow noopener noreferrer">百度搜索资源平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>和<a href="https://search.google.com"target="_blank" rel="external nofollow noopener noreferrer">谷歌Search Console<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>提交<code>sitemap</code>，在<a href="https://www.bing.com/webmasters/"target="_blank" rel="external nofollow noopener noreferrer">必应Webmaster Tools<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中直接导入<a href="https://search.google.com"target="_blank" rel="external nofollow noopener noreferrer">谷歌Search Console<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中已经提交的<code>sitemap</code></li>
 </ol>
 <h2 id="最后">最后</h2>
 <p>未来我还打算加入一点谷歌广告，这也是大部分网站都有的功能。</p>
-<p>总的来说，这次的收获还是很多的！</p></div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>更新于 2023-02-26&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/2572ac13a3f1f5e3782f7023548c888a7000694d" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) 2572ac13a3f1f5e3782f7023548c888a7000694d: update">
-                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>2572ac1</a></span>
-            </div></div>
-        <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？" data-hashtags="我的网站,Github Pages,Jekyll,Hugo"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-hashtag="我的网站"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
-            </div>
-        </div>
+<p>总的来说，这次的收获还是很多的！</p></div><div class="post-reward">
+    <div class="comment"></div>
+    <input type="checkbox" class="reward-input" name="reward" id="fi-reward" hidden />
+    <label class="reward-button" for="fi-reward">赞赏</label>
+    <div class="reward-ways"><div><img loading="lazy" src="/images/bitcoin.jpg" srcset="/images/bitcoin.jpg, /images/bitcoin.jpg 1.5x, /images/bitcoin.jpg 2x" sizes="auto" data-title="kayak4665664 比特币" data-alt="kayak4665664 比特币" width="200" height="200" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span data-animation>比特币</span>
+          </div></div>
+  </div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title=2023-02-27&#32;17:45:55>更新于 2023-02-27&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/f1669f81c01bc338741f05bd847b9a7666dd1140" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) f1669f81c01bc338741f05bd847b9a7666dd1140: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>f1669f8</a></span>
+      </div><div class="post-info-license">
+          <span><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+        </div></div>
+    <div class="post-info-line">
+      <div class="post-info-md"></div>
+      <div class="post-info-share">
+        <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？" data-hashtags="我的网站,Github Pages,Jekyll,Hugo"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-hashtag="我的网站"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/" data-title="我的网站是如何建立的？"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
+  </span>
+      </div>
     </div>
+  </div>
 
-    <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99/">我的网站</a>,&nbsp;<a href="/zh-cn/tags/github-pages/">Github Pages</a>,&nbsp;<a href="/zh-cn/tags/jekyll/">Jekyll</a>,&nbsp;<a href="/zh-cn/tags/hugo/">Hugo</a></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
-        </section>
-    </div>
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/zh-cn/tags/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99/' class="post-tag">我的网站</a><a href='/zh-cn/tags/github-pages/' class="post-tag">Github Pages</a><a href='/zh-cn/tags/jekyll/' class="post-tag">Jekyll</a><a href='/zh-cn/tags/hugo/' class="post-tag">Hugo</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+    </section>
+  </div>
 
-    <div class="post-nav"><a href="/zh-cn/google-has-indexed-my-website/" class="prev" rel="prev" title="谷歌收录了我的网站"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>谷歌收录了我的网站</a>
-            <a href="/zh-cn/i-went-to-tiananmen-today/" class="next" rel="next" title="今天到天安门走了走">今天到天安门走了走<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav"><a href="/zh-cn/google-has-indexed-my-website/" class="post-nav-item" rel="prev" title="谷歌收录了我的网站"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>谷歌收录了我的网站</a>
+      <a href="/zh-cn/i-went-to-tiananmen-today/" class="post-nav-item" rel="next" title="今天到天安门走了走">今天到天安门走了走<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-<div id="comments"><div id="valine" class="comment"></div><noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
-            </noscript></div></article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/kayak4665664" target="_blank">kayak4665664</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
+<div id="comments"><div id="giscus">
+          <script
+            src="https://giscus.app/client.js"
+            data-repo="kayak4665664/kayak4665664.github.io"
+            data-repo-id="R_kgDOG1hwpg"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOG1hwps4CUfaD"
+            data-mapping="pathname"
+            
+            data-theme="preferred_color_scheme"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-lang="zh-CN"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async
+            defer
+          ></script>
         </div>
-    </footer></div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"K9cqoML4pL8jriBK0pt7mPHR-gzGzoHsz","appKey":"fGWaqxRTRTHkCbpU00sbP5EL","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-apple@14.0.0/img/apple/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":true,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://k9cqoml4.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"YIRFPCCVPI","algoliaIndex":"index.zh-cn","algoliaSearchKey":"47a07b0b4a154fa4d7cb5962a6b636d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.b0df51c2c57145081cc73960e9aa780e6f5f56d06cf4ef0f96da8ce1619d1e12.js" integrity="sha256-sN9RwsVxRQgcxzlg6ap4Dm9fVtBs9O8PltqM4WGdHhI="></script><script type="text/javascript">
-            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-FTN3B0X0DM');
-        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-FTN3B0X0DM" async></script><script>
-            var _hmt = _hmt || [];
-            (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?1c3782ed2766e5a8bd2d8d1b40713178";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-            })();
-        </script><script data-ad-client="ca-pub-2852568572426321" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2852568572426321" crossorigin="anonymous"></script></body>
+        <noscript>
+          Please enable JavaScript to view the comments powered by <a href="https://giscus.app/" rel="external nofollow noopener noreferrer">giscus</a>.
+        </noscript></div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://github.com/kayak4665664"target="_blank" rel="external nofollow noopener noreferrer">kayak4665664</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line statistics"><span class="site-time" title='网站运行中……'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="run-times ms-1">网站运行中……</span></span></div><div class="footer-line visitor">
+          <span id="busuanzi_container_site_uv" title='总访客数'><i class="fa-regular fa-user fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span><span id="busuanzi_container_site_pv" class="footer-divider" title='总访问量'><i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span>
+        </div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="查看评论"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><a href="https://github.com/kayak4665664/kayak4665664.github.io" title="kayak4665664.github.io"target="_blank" rel="external nofollow" class="github-corner left d-none-mobile"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--progress-h: 5px;"></div><noscript>
+    <div class="noscript-warning">FixIt 主题在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-center-radar.css"><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.umd.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.1/instantpage.min.js" async defer type="module"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/zoom/lg-zoom.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js" async defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/mhchem.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/cell-watermark@1.0.3/src/watermark.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" async defer></script><script>window.config={"autoBookmark":true,"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"enable":true,"expired":false,"giscus":{"darkTheme":"dark","lightTheme":"light"}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"enablePWA":true,"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"pangu":{"enable":true,"selector":"article"},"search":{"algoliaAppID":"YIRFPCCVPI","algoliaIndex":"index.zh-cn","algoliaSearchKey":"47a07b0b4a154fa4d7cb5962a6b636d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"},"siteTime":"2021-12-12T21:06:46+08:00","watermark":{"appendto":".wrapper\u003emain","colspacing":30,"content":"kayak4665664","enable":true,"fontfamily":"inherit","fontsize":0.85,"height":20,"opacity":0.1,"rotate":15,"rowspacing":60,"width":150}};</script><script src="/js/theme.min.3a644f1974b1a5147db2d33a5280ac330e360ea5a40f77faac70087886f48252.js" integrity="sha256-OmRPGXSxpRR9stM6UoCsMw42DqWkD3f6rHAIeIb0glI=" defer></script><script>
+      window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+      gtag('config', 'G-FTN3B0X0DM');
+    </script><script src="https://www.googletagmanager.com/gtag/js?id=G-FTN3B0X0DM" async></script><script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?1c3782ed2766e5a8bd2d8d1b40713178";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script><script data-ad-client="ca-pub-2852568572426321" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2852568572426321" crossorigin="anonymous"></script></body>
 </html>

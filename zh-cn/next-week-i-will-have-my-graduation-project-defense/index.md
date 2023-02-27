@@ -68,3 +68,9 @@
 还有3天集中隔离就要结束了，开始7天的居家隔离，其中6月9日我将进行毕设的答辩。
 
 时间过得太快了，我在3月15日回到学校时，北京还在下雪。一转眼，我突然又回家了。我的4年大学生活马上也要结束了，我会永远记得在北方工业大学的4年。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/next-week-i-will-have-my-graduation-project-defense/  
+

@@ -96,3 +96,9 @@ At this time, my domain finally passed the real-name verification. I started to 
 In the future, I also plan to add a little Google advertisement, which is also a feature of most websites.
 
 In general, there are a lot of gains this time!
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/how-my-wesite-was-built/  
+

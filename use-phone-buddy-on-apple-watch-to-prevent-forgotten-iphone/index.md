@@ -13,3 +13,9 @@ After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and 
 {{< /admonition >}}
 
 The only downside is that this App will shorten the battery life of the Apple Watch, but compared to losing my iPhone, this price is acceptable.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/  
+

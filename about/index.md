@@ -3,6 +3,10 @@
 
 ## kayak4665664
 
+<div align="center">
+{{< image src="/images/avatar.svg" title="kayak4665664" alt="kayak4665664">}}
+</div>
+
 Hey, Nice to Meet You, You Found My Blog!  
 I'm **kayak4665664**, a student of University of Chinese Academy of Sciences.
 
@@ -18,6 +22,11 @@ If you don’t want to install an RSS reader, you can also:
 Just enter your comment and click `Submit`. You can also enter your nickname, email and website. If you enter a Gravtar email address, your avatar can be displayed.
 
 ## License
+
+<div align="center"><big><big><big><big><big><big>
+{{< image src="/images/by-nc-sa.svg" rel="license" linked="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="by-nc-sa">}}</big></big></big></big></big></big>
+</div>
+
 All content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ### You are free to:
@@ -33,3 +42,9 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 ### Notices:
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.  
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.  
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/about/  
+

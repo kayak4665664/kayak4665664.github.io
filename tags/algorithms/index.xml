@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>algorithms - Tag - kayak4665664</title>
-        <link>https://www.kayak4665664.com/tags/algorithms/</link>
-        <description>algorithms - Tag - kayak4665664</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-            <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright><lastBuildDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/algorithms/" rel="self" type="application/rss+xml" /><item>
-    <title>LeetCode 66</title>
-    <link>https://www.kayak4665664.com/leetcode-66/</link>
-    <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/leetcode-66/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/" target="_blank" rel="noopener noreffer ">LeetCode 66.Plus One</a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
+  <channel>
+    <title>algorithms - Tag - kayak4665664&#39;s Blog</title>
+    <link>https://www.kayak4665664.com/tags/algorithms/</link>
+    <description>algorithms - Tag - kayak4665664&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/algorithms/" rel="self" type="application/rss+xml" /><item>
+  <title>LeetCode 66</title>
+  <link>https://www.kayak4665664.com/leetcode-66/</link>
+  <pubDate>Sun, 22 Jan 2023 17:47:38 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/leetcode-66/</guid>
+  <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 66.Plus One<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -87,18 +87,16 @@
 </div>]]></description>
 </item>
 <item>
-    <title>LeetCode 42</title>
-    <link>https://www.kayak4665664.com/leetcode-42/</link>
-    <pubDate>Fri, 18 Feb 2022 14:32:58 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/leetcode-42/</guid>
-    <description><![CDATA[<p><a href="https://leetcode.com/problems/trapping-rain-water/description/" target="_blank" rel="noopener noreffer ">LeetCode 42.Trapping Rain Water</a>, a very interesting problem.</p>
+  <title>LeetCode 42</title>
+  <link>https://www.kayak4665664.com/leetcode-42/</link>
+  <pubDate>Fri, 18 Feb 2022 14:32:58 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/leetcode-42/</guid>
+  <description><![CDATA[<p><a href="https://leetcode.com/problems/trapping-rain-water/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 42.Trapping Rain Water<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, a very interesting problem.</p>
 <p>Given <code>n</code> non-negative integers representing an elevation map where the width of each bar is <code>1</code>, compute how much water it can trap after raining.</p>
 <p><strong>Example:</strong></p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" title="rainwatertrap" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png">
-        
-    </a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" data-sub-html="<h2>rainwatertrap</h2><p>rainwatertrap</p>"></a>
 </div>
 <p><strong>Input</strong>: height = <code>[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]</code><br>
 <strong>Output</strong>: <code>6</code><br>
@@ -174,12 +172,12 @@
 </div><p>There should be many solutions to this problem.</p>]]></description>
 </item>
 <item>
-    <title>Binary Search</title>
-    <link>https://www.kayak4665664.com/binary-search/</link>
-    <pubDate>Sat, 29 Jan 2022 22:01:34 &#43;0800</pubDate>
-    <author>kayak4665664</author>
-    <guid>https://www.kayak4665664.com/binary-search/</guid>
-    <description><![CDATA[<p>This is a C++ template for the binary search algorithm, and a simple application of the binary search functions <code>std::lower_bound</code> and <code>std::upper_bound</code> in the C++ standard template library <code>&lt;algorithm&gt;</code> header file.</p>
+  <title>Binary Search</title>
+  <link>https://www.kayak4665664.com/binary-search/</link>
+  <pubDate>Sat, 29 Jan 2022 22:01:34 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/binary-search/</guid>
+  <description><![CDATA[<p>This is a C++ template for the binary search algorithm, and a simple application of the binary search functions <code>std::lower_bound</code> and <code>std::upper_bound</code> in the C++ standard template library <code>&lt;algorithm&gt;</code> header file.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -242,7 +240,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Used this template and completed <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/" target="_blank" rel="noopener noreffer ">34. Find First and Last Position of Element in Sorted Array</a> in LeetCode.</p>
+</div><p>Used this template and completed <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">34. Find First and Last Position of Element in Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> in LeetCode.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1

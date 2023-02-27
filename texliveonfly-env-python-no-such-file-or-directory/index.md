@@ -12,3 +12,9 @@ I tried to create a symbolic link with `ln`, but it didn't work.
 {{< admonition success >}}
 I thought since texliveonfly was written in Python, I could edit it directly. So I found `/Library/TeX/texbin/texliveonfly` and changed the first line of this file from `#!/usr/bin/env python` to `#!/usr/bin/env python3`, which solved the problem.
 {{< /admonition >}}
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/  
+

@@ -65,3 +65,9 @@ You can submit it.
 ## End
 
 In any case, the topic has been determined, and now it's time to complete the project.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/graduation-project-starts-now/  
+

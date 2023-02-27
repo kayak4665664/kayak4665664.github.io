@@ -17,3 +17,9 @@ Haha, the campus card is here too. I'm very much looking forward to the new seme
 </div>
 
 I also received my graduation certificate and degree certificate. I miss those happy days at NCUT.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/august-18-a-new-beginning/  
+

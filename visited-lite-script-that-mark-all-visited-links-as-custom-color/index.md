@@ -15,3 +15,9 @@ I found [Visited Lite](https://greasyfork.org/en/scripts/15173-visited-lite), wh
 
 ## Color Links
 After that, I found [Color Links](https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related) in the chrome web store. The main difference from [Visited Lite](https://greasyfork.org/en/scripts/15173-visited-lite) is that [Color Links](https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related) need to manually enable the marking function for each website.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/  
+

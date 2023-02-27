@@ -68,3 +68,9 @@ To be honest, the environment of the hotel is not bad, I can eat and drink on ti
 There are still 3 days of centralized quarantine that will end, and 7 days of home quarantine will begin. During this period, the final defense will be held on June 9.
 
 Time flies so fast. When I went back to school on March 15, it was still snowing in Beijing. In a blink of an eye, I suddenly went home again. My 4 years of university life are coming to an end soon, and I will always remember the 4 years at the North China University of Technology.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/next-week-i-will-have-my-graduation-project-defense/  
+

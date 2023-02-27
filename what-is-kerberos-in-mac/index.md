@@ -15,3 +15,9 @@ Hello, this is Bing. Kerberos is an authentication system that allows you to sec
 {{< /admonition >}}
 
 It seems that this Kerberos is included in macOS, it is located in `/System/Library/CoreServices/Applications/Ticket Viewer.app`, and it is not a malicious program.
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/what-is-kerberos-in-mac/  
+

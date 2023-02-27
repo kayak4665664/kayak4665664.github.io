@@ -13,3 +13,9 @@
 {{< /admonition >}}
 
 唯一不足的是，这个App会缩短Apple Watch的续航时间，不过比起丢失了iPhone，这个代价是可以接受的。
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/  
+

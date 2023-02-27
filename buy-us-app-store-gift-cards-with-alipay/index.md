@@ -12,3 +12,9 @@ Today I learned a way to directly use Alipay to buy US App Store gift cards, so 
 6. Search for "App Store"
 7. Enter the correct email account
 8. Enter the value you want to buy, at least $2, "Purchase card"
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/buy-us-app-store-gift-cards-with-alipay/  
+

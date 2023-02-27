@@ -24,3 +24,9 @@ defaults write com.apple.dock springboard-columns Default
 defaults write com.apple.dock ResetLaunchPad -bool TRUE
 killall Dock
 ```
+
+---
+
+> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/zh-cn/modify-the-icons-size-in-macos-launchpad/  
+
