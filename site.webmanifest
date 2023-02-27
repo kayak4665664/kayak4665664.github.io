@@ -1,7 +1,18 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "kayak4665664",
+    "short_name": "kayak4665664",
+    "start_url": "/",
+    "description": "kayak4665664's Blog",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
     "icons": [
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+          },
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
@@ -12,8 +23,5 @@
             "sizes": "384x384",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    ]
 }
