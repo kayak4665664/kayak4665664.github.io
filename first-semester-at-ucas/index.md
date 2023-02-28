@@ -12,11 +12,11 @@ I arrived in Huaibei Town, Huairou District, Beijing on August 17, 2022. I visit
 After staying in a farmhouse inn in the village next to Yanqi Lake for one night, I went to UCAS early the next morning. It rained🌧️ all day, and my clothes and shoes were soaked, but when I first arrived at school, everything felt so fresh and I was in a good mood🙂.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1738.jpeg" title="The lotus🪷 pond in the West District of Yanqi Lake Campus of UCAS" alt="The lotus🪷 pond in the West District of Yanqi Lake Campus of UCAS" caption="The lotus🪷 pond in the West District of Yanqi Lake Campus of UCAS" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1738.jpeg" title="The lotus🪷 pond in the West District of Yanqi Lake Campus of UCAS" alt="The lotus🪷 pond in the West District of Yanqi Lake Campus of UCAS" caption="The lotus pond in the West District of Yanqi Lake Campus of UCAS" >}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1672.jpeg" title="🌇" alt="🌇" caption="🌇" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1672.jpeg" title="🌇" alt="🌇" caption="The sunset" >}}
 </div>
 
 <div align="center">
@@ -26,7 +26,7 @@ After staying in a farmhouse inn in the village next to Yanqi Lake for one night
 With the nucleic acid test every two days, this semester started. The quality and difficulty of the courses offered by UCAS are indeed higher than those offered by NCUT, and I feel that I have gained more. In addition to class, I often ride a bicycle🚲 around the school to see the scenery of the campus. Because the school is backed by mountains and Yanqi Lake, the ecological environment of the school is very good. There are often little animals🐱, and it is said that there are beasts of prey such as boars🐗 and snakes🐍.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1901.jpeg" title="Mountains⛰️ in autumn" alt="Mountains⛰️in Autumn" caption="Mountains⛰️ in Autumn" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1901.jpeg" title="Mountains⛰️ in autumn" alt="Mountains⛰️in Autumn" caption="Mountains in Autumn" >}}
 </div>
 
 <div align="center">
@@ -48,13 +48,13 @@ With the nucleic acid test every two days, this semester started. The quality an
 I have to say that UCAS has planted many fruit trees in the mountains. After the autumn harvest, we ate a lot of free fruits.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1872.jpeg" title="Pear🍐" alt="Pear🍐" caption="Pear🍐" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1872.jpeg" title="Pear🍐" alt="Pear🍐" caption="Pear" >}}
 </div>
 
 In the early morning of October 15th, our entire dormitory was suddenly notified to be quarantined on the spot, and each of us was sent a hearty breakfast and a large bucket of water. Before I finished eating, We were notified again that the quarantine is over, which is inexplicable😅.
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1882.jpeg" title="Breakfast🥣" alt="Breakfast🥣" caption="Breakfast🥣" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1882.jpeg" title="Breakfast🥣" alt="Breakfast🥣" caption="Breakfast" >}}
 </div>
 
 At the end of November, the school became not so peaceful. As the Omicron epidemic became more serious in winter, many colleges and universities in Beijing began to arrange for students to return home. In the beginning, UCAS still required students to complete all the exams at school, and then finally allowed students to return to their hometowns on November 29. All kinds of gossip spread in the school for a while: some people said that there was a student who tested positive for nucleic acid in the school, and all the students could not go home, and they might be quarantined in the dormitory; someone said that after leaving the school and entering the urban area of Beijing, someone would search the mobile phone at the train station or other places... It feels a bit panicky.

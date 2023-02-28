@@ -11,17 +11,17 @@
 我还在驾校转了转，驾校建在一个山头上，视野很开阔。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1586.jpeg" title="太阳🌞" alt="太阳🌞" caption="太阳🌞" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1586.jpeg" title="太阳🌞" alt="太阳🌞" caption="太阳" >}}
 </div>
 
 驾校竟然还养了几只小马。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1581.jpeg" title="小马🐴" alt="小马🐴" caption="小马🐴" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1581.jpeg" title="小马🐴" alt="小马🐴" caption="小马" >}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1614.jpeg" title="鹅🦢和鸭子🦆" alt="鹅🦢和鸭子🦆" caption="鹅🦢和鸭子🦆" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1614.jpeg" title="鹅🦢和鸭子🦆" alt="鹅🦢和鸭子🦆" caption="鹅和鸭子" >}}
 </div>
 
 ---
