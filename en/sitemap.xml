@@ -505,4 +505,12 @@
           hreflang="en"
           href="https://www.kayak4665664.com/hello-world/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/offline/</loc><lastmod>2023-03-01T19:35:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+      <loc>https://www.kayak4665664.com/offline/</loc><lastmod>2023-03-01T19:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://www.kayak4665664.com/zh-cn/offline/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://www.kayak4665664.com/offline/"
+          /></url></urlset>
