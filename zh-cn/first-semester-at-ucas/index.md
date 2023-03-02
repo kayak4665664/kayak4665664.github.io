@@ -12,11 +12,11 @@
 在雁栖湖旁边村里的农家乐住了一晚上后，我第二天一早就前往了国科大。虽然那天下了一整天雨🌧️，我的衣服和鞋子都湿透了，但是刚到学校，感觉一切都是那么新鲜，心情还是很不错的🙂。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1738.jpeg" title="国科大雁栖湖校区西区荷花池🪷" alt="国科大雁栖湖校区西区荷花池🪷" caption="国科大雁栖湖校区西区荷花池" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1738.jpeg" title="国科大雁栖湖校区西区荷花池" alt="国科大雁栖湖校区西区荷花池" caption="国科大雁栖湖校区西区荷花池" >}}
 </div>
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1672.jpeg" title="🌇" alt="🌇" caption="夕阳" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1672.jpeg" title="夕阳" alt="夕阳" caption="夕阳" >}}
 </div>
 
 <div align="center">
@@ -26,7 +26,7 @@
 伴随着两天一次的核酸，这个学期就这样开始了。国科大的课程的质量和难度确实要比北方工大的高，感觉收获也要更多一些。除了上课，我也经常在学校里骑着自行车🚲转一转，看看校园的景色。因为学校背靠着大山和雁栖湖，所以学校的生态环境很不错，经常有小动物🐱出没，据说还有野猪🐗和蛇🐍这样的猛兽。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1901.jpeg" title="秋天的山⛰️" alt="秋天的山⛰️" caption="秋天的山" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1901.jpeg" title="秋天的山" alt="秋天的山" caption="秋天的山" >}}
 </div>
 
 <div align="center">
@@ -48,13 +48,13 @@
 不得不说，国科大在山上种了好多果树，秋天丰收之后，我们吃到了不少免费的水果。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1872.jpeg" title="梨🍐" alt="梨🍐" caption="梨" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1872.jpeg" title="梨" alt="梨" caption="梨" >}}
 </div>
 
 10月15日一大早，我们整个宿舍突然被通知要就地隔离了，还给我们每个人送过来丰盛的早餐和一大桶水。还没吃完，又接到通知，隔离结束了，真的是莫名其妙😅。
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1882.jpeg" title="早餐🥣" alt="早餐🥣" caption="早餐" >}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1882.jpeg" title="早餐" alt="早餐" caption="早餐" >}}
 </div>
 
 到了11月底，学校变得不是那么平静。由于进入冬季奥密克戎疫情又变得严重，当时北京许多高校都开始安排学生返乡。刚开始国科大还是要求学生必须在校完成所有考试，后来在11月29日终于允许学生返乡。一时间各种小道消息在学校传播：有人说学校里有一名核酸检测呈阳性的学生，所有学生都不能回家了，可能都要隔离在宿舍里；有人说出校之后进入北京市区，在火车站等一些地方会有人搜查手机……有点人心惶惶的感觉。
