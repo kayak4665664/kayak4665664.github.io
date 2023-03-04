@@ -3,7 +3,11 @@
 There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.
 <!--more-->
 
-iconsur's Github homepage: [https://github.com/rikumi/iconsur](https://github.com/rikumi/iconsur), can be downloaded in [Releases](https://github.com/rikumi/iconsur/releases). You can also use Homebrew: `brew install iconsur`, or npm: `npm install -g iconsur`.
+iconsur's Github homepage:
+
+{{< link href="https://github.com/rikumi/iconsur" content="iconsur" title="iconsur" card=true >}}
+
+It can be downloaded in [Releases](https://github.com/rikumi/iconsur/releases). You can also use Homebrew: `brew install iconsur`, or npm: `npm install -g iconsur`.
 
 iconsur finds the most similar iOS app for the software in the App Store and replaces the icon of this software with the icon of the iOS app. For example:
 

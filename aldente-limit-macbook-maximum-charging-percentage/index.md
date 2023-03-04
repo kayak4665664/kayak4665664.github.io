@@ -5,7 +5,9 @@ Since the laptop uses a lithium battery, a long-term connection to the power ada
 {{< /admonition >}}
 <!--more-->
 
-For MacBook, I found software that can solve this problem: [AlDente](https://github.com/davidwernhart/AlDente-Charge-Limiter).
+For MacBook, I found software that can solve this problem:
+
+{{< link href="https://github.com/davidwernhart/AlDente-Charge-Limiter" content="AlDente" title="AlDente" card=true >}}
 
 It can be downloaded from [Github](https://github.com/davidwernhart/AlDente/releases), or you can use Homebrew, `brew install --cask aldente`.
 

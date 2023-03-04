@@ -4,7 +4,333 @@
     <link>https://www.kayak4665664.com/posts/</link>
     <description>All Posts | kayak4665664&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sun, 26 Feb 2023 23:06:13 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 03 Mar 2023 22:58:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software</title>
+  <link>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
+  <pubDate>Sat, 17 Sep 2022 18:02:30 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
+  <description><![CDATA[<p>There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.</p>
+<p>iconsur&rsquo;s Github homepage:</p>
+<a href="https://github.com/rikumi/iconsur" title="iconsur"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">iconsur</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://github.com/rikumi/iconsur</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>It can be downloaded in <a href="https://github.com/rikumi/iconsur/releases"target="_blank" rel="external nofollow noopener noreferrer">Releases<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>. You can also use Homebrew: <code>brew install iconsur</code>, or npm: <code>npm install -g iconsur</code>.</p>
+<p>iconsur finds the most similar iOS app for the software in the App Store and replaces the icon of this software with the icon of the iOS app. For example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo iconsur set /Applications/Microsoft\ Word.app/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In addition, iconsur can also generate icons locally for the software. For example:</p>
+<p>For another usage, please refer to <a href="https://github.com/rikumi/iconsur"target="_blank" rel="external nofollow noopener noreferrer">Github<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> or execute <code>iconsur help</code>.</p>]]></description>
+</item>
+<item>
+  <title>AlDente: Limit MacBook Maximum Charging Percentage</title>
+  <link>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</link>
+  <pubDate>Tue, 11 Oct 2022 17:25:14 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</guid>
+  <description><![CDATA[<div class="details admonition tip open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">Since the laptop uses a lithium battery, a long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.</div>
+    </div>
+  </div>
+<p>For MacBook, I found software that can solve this problem:</p>
+<a href="https://github.com/davidwernhart/AlDente-Charge-Limiter" title="AlDente"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">AlDente</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://github.com/davidwernhart/AlDente-Charge-Limiter</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>It can be downloaded from <a href="https://github.com/davidwernhart/AlDente/releases"target="_blank" rel="external nofollow noopener noreferrer">Github<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, or you can use Homebrew, <code>brew install --cask aldente</code>.</p>
+<p>After launching AlDente, this software appears in the menu bar, which can easily control the maximum charging percentage of the MacBook. Afterward, it can be observed that the power adapter is connected, but the battery is not charging.</p>]]></description>
+</item>
+<item>
+  <title>Use Phone Buddy on Apple Watch to Prevent Forgotten iPhone</title>
+  <link>https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</link>
+  <pubDate>Wed, 18 Jan 2023 10:45:44 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</guid>
+  <description><![CDATA[<p>Today my dad drove me to a place. After I got off the car and walked for 3 minutes, I suddenly found that my mobile phone was missing&hellip;</p>
+<p>I hurried back to the same place to look for my mobile phone, but I couldn&rsquo;t find it. Finally, I borrowed a mobile phone from the traffic police on the side of the road and called my father to confirm that my mobile phone was left in the car.</p>
+<p>Although Find My has been set to send a notification on the Apple Watch when I leave my iPhone, it seems that this function needs to be at a relatively long distance to take effect.</p>
+<p>So I found Phone Buddy:</p>
+<a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391" title="Phone Buddy"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">Phone Buddy</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>The price is $4.99, I <a href="https://www.kayak4665664.com/buy-us-app-store-gift-cards-with-alipay/"target="_blank" rel="external nofollow noopener noreferrer">bought a US App Store Gift Card with Alipay<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> to recharge and purchase this App.</p>
+<div class="details admonition note open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent to the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between the Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.</div>
+    </div>
+  </div>
+<p>The only downside is that this App will shorten the battery life of the Apple Watch, but compared to losing my iPhone, this price is acceptable.</p>]]></description>
+</item>
+<item>
+  <title>Visited Lite &amp; Color Links: mark all visited links as custom color</title>
+  <link>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
+  <pubDate>Mon, 13 Feb 2023 22:12:23 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
+  <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is a userscript to customize the color of visited links, and <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is a browser extension with similar function.</p>
+<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they were really good. And last year I experienced <a href="https://chat.openai.com/chat"target="_blank" rel="external nofollow noopener noreferrer">ChatGPT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> for the first time, so this time I am looking forward to the new version of Bing and Edge and applied to join the <a href="https://www.bing.com/new"target="_blank" rel="external nofollow noopener noreferrer">waitlist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
+<div class="details admonition question open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-question-circle fa-fw" aria-hidden="true"></i>Question<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">In the process of using Bing, I suddenly discovered a problem. In Bing&rsquo;s search results, the visited links and unvisited links were both purple, it&rsquo;s difficult to distinguish which links are visited and which are not. I have been using Google before, the unvisited links are blue, and the visited links are purple. I didn&rsquo;t find the relevant settings in Bing and I didn&rsquo;t know where the problem was. So I looked for some userscripts or browser extensions to solve this problem.</div>
+    </div>
+  </div>
+<h2 id="visited-lite">Visited Lite</h2>
+<p>I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">Tampermonkey<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded from the <a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">Tampermonkey<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>](<a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">https://www.tampermonkey.net/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>) extension.</p>
+<h2 id="color-links">Color Links</h2>
+<p>After that, I found <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> in the chrome web store. The main difference from <a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is that <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> need to manually enable the marking function for each website.</p>]]></description>
+</item>
+<item>
+  <title>You&#39;re in! Welcome to the New Bing!</title>
+  <link>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</link>
+  <pubDate>Sat, 18 Feb 2023 10:40:56 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</guid>
+  <description><![CDATA[<p>Since joining the <a href="https://www.bing.com/new"target="_blank" rel="external nofollow noopener noreferrer">waitlist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> on February 11th, I finally received an email today that I can use the new Bing.</p>
+<div class="details admonition bug open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-bug fa-fw" aria-hidden="true"></i>Bug<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">I couldn&rsquo;t wait to open Edge Dev and enter CHAT, but I soon found that I couldn&rsquo;t input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.</div>
+    </div>
+  </div>
+<p>After a few rounds of conversations with the new Bing, it felt like it was a bit lacking in conversational enthusiasm, often asking me to change the subject. Moreover, the prompt “This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?” appeared within a few minutes.</p>
+<p>I have to say that a very useful feature of the new Bing is that it can obtain information from the web pages and documents we are reading. I tested it, opened a local PDF file with Edge Dev, clicked the Discover button to chat, and the new Bing can summarize the main points in this file. In addition, it can also easily generate some text in Discover.</p>
+<p>According to my experience, I think the new Bing is really good, and I am very much looking forward to the official version in the future.</p>]]></description>
+</item>
+<item>
+  <title>Using the ChatGPT API in Python</title>
+  <link>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</link>
+  <pubDate>Fri, 03 Mar 2023 22:58:04 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</guid>
+  <description><![CDATA[<div class="details admonition abstract open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-list-ul fa-fw" aria-hidden="true"></i>Abstract<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">ChatGPT&rsquo;s API is officially released and can be used in Python.</div>
+    </div>
+  </div>
+<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="Introducing ChatGPT API"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">Introducing ChatGPT API</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://openai.com/blog/introducing-chatgpt-and-whisper-apis</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>After registering an OpenAI account, create an API Key in <a href="https://platform.openai.com/account/api-keys"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/api-keys<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>. You can see in <a href="https://platform.openai.com/account/usage"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/usage<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> that there is a free trial usage of $18 in the account, which expires on April 1.</p>
+<p>This time the released ChatGPT model gpt-3.5-turbo is the same as the model used in the ChatGPT product. In addition, gpt-3.5-turbo-0301 has also been released, and this model is at least supported until June 1.</p>
+<p>The complete API usage guide can be found here:</p>
+<a href="https://platform.openai.com/docs/guides/chat" title="ChatGPT API Usage Guide"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">ChatGPT API Usage Guide</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://platform.openai.com/docs/guides/chat</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>In short, to use the ChatGPT API in Python, you need to install the <code>openai</code> Python package.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># If you haven&#39;t installed openai, you can use the following command to install</span>
+</span></span><span class="line"><span class="cl">pip install openai
+</span></span><span class="line"><span class="cl"><span class="c1"># If you have installed openai, use the following command to update</span>
+</span></span><span class="line"><span class="cl">pip install openai --upgrade
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Then, <code>import openai</code>, and then use the <code>openai.Completion.create</code> function to call the API.</p>
+<p>Here is a simple Python script I wrote that can have a multi-turn conversation with ChatGPT.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">openai</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># here you need to replace the API key with your own</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&#34;OPENAI_API_KEY&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">openai</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&#34;OPENAI_API_KEY&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;system&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="s2">&#34;You are a helpful assistant.&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># this function is used to call the API</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">get_response</span><span class="p">(</span><span class="n">messages</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">completion</span> <span class="o">=</span> <span class="n">openai</span><span class="o">.</span><span class="n">ChatCompletion</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">model</span><span class="o">=</span><span class="s2">&#34;gpt-3.5-turbo&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span>  <span class="c1"># type: ignore</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">user_content</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;You: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">user_content</span> <span class="o">==</span> <span class="s2">&#34;quit&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">break</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="n">user_content</span> <span class="o">==</span> <span class="s2">&#34;new&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;system&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="s2">&#34;You are a helpful assistant.&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;new conversation started</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;user&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">user_content</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="n">response</span> <span class="o">=</span> <span class="n">get_response</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Assistant:&#34;</span><span class="p">,</span> <span class="n">response</span> <span class="o">+</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="c1"># append the response to the messages list for the next turn</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;assistant&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">response</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The output is as follows:</p>
+<div class="details admonition example open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>Example<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content"><p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: What is the biggest animal in the world?<br>
+<strong>Assistant</strong>: The biggest animal in the world is the blue whale. It can grow up to 100 feet long and weigh as much as 200 tons.</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: Please write a poem about blue whales.<br>
+<strong>Assistant</strong>: Majestic and mighty,<br>
+The blue whale swims through the sea,<br>
+Largest creature on earth,<br>
+Behold its great beauty.</p>
+<p>A vast and gentle giant,<br>
+Graceful in every move,<br>
+Plunge deep into the ocean,<br>
+Embrace the whale and groove.</p>
+<p>With a heart that&rsquo;s enormous,<br>
+And lungs as large as a car,<br>
+Sing to the depths of the ocean,<br>
+Your melodic, haunting bar.</p>
+<p>A creature so magnificent,<br>
+Awe inspiring, and grand,<br>
+Nowhere else found on earth,<br>
+A true wonder of the land.</p>
+<p>Let us protect this great whale,<br>
+So that it may flourish and thrive,<br>
+For a world without the blue whale,<br>
+Is a world less truly alive.</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: new<br>
+<em>new conversation started</em></p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: 世界上最大的动物是什么？<br>
+<strong>Assistant</strong>: 世界上最大的动物是蓝鲸。它们可以长达30米长，重达173吨，是地球上已知最大的动物。</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: 请写一首关于蓝鲸的诗。<br>
+<strong>Assistant</strong>: 在深深的海洋里<br>
+有一种生物，比海洋还大<br>
+它游荡于大海之中<br>
+它的名字叫做蓝鲸</p>
+<p>蓝鲸身长三十米<br>
+重达一百七十三吨<br>
+它们是地球上最大的动物<br>
+不同寻常的存在</p>
+<p>它们的歌声遥远而美丽<br>
+在海洋里有时听得见<br>
+它们善良而又神秘<br>
+是这片蔚蓝海洋之主</p>
+<p>蓝鲸，你的身影<br>
+在海洋中，如此崇高<br>
+你的力量与恩宠<br>
+在人间，永世留存</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: quit</p>
+</div>
+    </div>
+  </div>]]></description>
+</item>
+<item>
   <title>Made a Cake🍰</title>
   <link>https://www.kayak4665664.com/made-a-cake/</link>
   <pubDate>Tue, 18 Jan 2022 22:00:24 &#43;0800</pubDate>
@@ -1054,44 +1380,6 @@
   </div>]]></description>
 </item>
 <item>
-  <title>iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software</title>
-  <link>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
-  <pubDate>Sat, 17 Sep 2022 18:02:30 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
-  <description><![CDATA[<p>There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.</p>
-<p>iconsur&rsquo;s Github homepage: <a href="https://github.com/rikumi/iconsur"target="_blank" rel="external nofollow noopener noreferrer">https://github.com/rikumi/iconsur<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, can be downloaded in <a href="https://github.com/rikumi/iconsur/releases"target="_blank" rel="external nofollow noopener noreferrer">Releases<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>. You can also use Homebrew: <code>brew install iconsur</code>, or npm: <code>npm install -g iconsur</code>.</p>
-<p>iconsur finds the most similar iOS app for the software in the App Store and replaces the icon of this software with the icon of the iOS app. For example:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo iconsur set /Applications/Microsoft\ Word.app/
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>In addition, iconsur can also generate icons locally for the software. For example:</p>
-<p>For another usage, please refer to <a href="https://github.com/rikumi/iconsur"target="_blank" rel="external nofollow noopener noreferrer">Github<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> or execute <code>iconsur help</code>.</p>]]></description>
-</item>
-<item>
-  <title>AlDente: Limit MacBook Maximum Charging Percentage</title>
-  <link>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</link>
-  <pubDate>Tue, 11 Oct 2022 17:25:14 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</guid>
-  <description><![CDATA[<div class="details admonition tip open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">Since the laptop uses a lithium battery, a long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.</div>
-    </div>
-  </div>
-<p>For MacBook, I found software that can solve this problem: <a href="https://github.com/davidwernhart/AlDente-Charge-Limiter"target="_blank" rel="external nofollow noopener noreferrer">AlDente<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
-<p>It can be downloaded from <a href="https://github.com/davidwernhart/AlDente/releases"target="_blank" rel="external nofollow noopener noreferrer">Github<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, or you can use Homebrew, <code>brew install --cask aldente</code>.</p>
-<p>After launching AlDente, this software appears in the menu bar, which can easily control the maximum charging percentage of the MacBook. Afterward, it can be observed that the power adapter is connected, but the battery is not charging.</p>]]></description>
-</item>
-<item>
   <title>Turn Idle WeChat Official Account Into a Robot</title>
   <link>https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/</link>
   <pubDate>Wed, 16 Nov 2022 21:05:57 &#43;0800</pubDate>
@@ -1111,26 +1399,6 @@
 <div align="center">
 <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-sub-html="<h2>robot</h2><p>robot</p>"></a>
 </div>]]></description>
-</item>
-<item>
-  <title>Use Phone Buddy on Apple Watch to Prevent Forgotten iPhone</title>
-  <link>https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</link>
-  <pubDate>Wed, 18 Jan 2023 10:45:44 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</guid>
-  <description><![CDATA[<p>Today my dad drove me to a place. After I got off the car and walked for 3 minutes, I suddenly found that my mobile phone was missing&hellip;</p>
-<p>I hurried back to the same place to look for my mobile phone, but I couldn&rsquo;t find it. Finally, I borrowed a mobile phone from the traffic police on the side of the road and called my father to confirm that my mobile phone was left in the car.</p>
-<p>Although Find My has been set to send a notification on the Apple Watch when I leave my iPhone, it seems that this function needs to be at a relatively long distance to take effect.</p>
-<p>So I found <a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391"target="_blank" rel="external nofollow noopener noreferrer">Phone Buddy<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, the price is $4.99, I <a href="https://www.kayak4665664.com/buy-us-app-store-gift-cards-with-alipay/"target="_blank" rel="external nofollow noopener noreferrer">bought a US App Store Gift Card with Alipay<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> to recharge and purchase this App.</p>
-<div class="details admonition note open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">After downloading Phone Buddy, turn on Lost Phone Alert on the Apple Watch, and when the Apple Watch loses the Bluetooth connection with the iPhone, an alert will be sent to the Apple Watch. And there can also be a Distance Alert. When the Bluetooth signal strength between the Apple Watch and iPhone decays below the set threshold with the increase of distance, an alert can also be issued, so that it can be one more time before the Bluetooth connection is completely disconnected. Similarly, you can also set an alert on the iPhone after the Apple Watch is disconnected, which can prevent the Apple Watch from being lost or forgotten.</div>
-    </div>
-  </div>
-<p>The only downside is that this App will shorten the battery life of the Apple Watch, but compared to losing my iPhone, this price is acceptable.</p>]]></description>
 </item>
 <item>
   <title>LeetCode 66</title>
@@ -1249,46 +1517,6 @@
       <div class="admonition-content">I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</div>
     </div>
   </div>]]></description>
-</item>
-<item>
-  <title>Visited Lite &amp; Color Links: mark all visited links as custom color</title>
-  <link>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
-  <pubDate>Mon, 13 Feb 2023 22:12:23 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
-  <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is a userscript to customize the color of visited links, and <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is a browser extension with similar function.</p>
-<p>A few days ago, Microsoft launched new versions of Bing and Edge browsers combined with GPT. I read their introductions on the Internet and felt they were really good. And last year I experienced <a href="https://chat.openai.com/chat"target="_blank" rel="external nofollow noopener noreferrer">ChatGPT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> for the first time, so this time I am looking forward to the new version of Bing and Edge and applied to join the <a href="https://www.bing.com/new"target="_blank" rel="external nofollow noopener noreferrer">waitlist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
-<div class="details admonition question open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-question-circle fa-fw" aria-hidden="true"></i>Question<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">In the process of using Bing, I suddenly discovered a problem. In Bing&rsquo;s search results, the visited links and unvisited links were both purple, it&rsquo;s difficult to distinguish which links are visited and which are not. I have been using Google before, the unvisited links are blue, and the visited links are purple. I didn&rsquo;t find the relevant settings in Bing and I didn&rsquo;t know where the problem was. So I looked for some userscripts or browser extensions to solve this problem.</div>
-    </div>
-  </div>
-<h2 id="visited-lite">Visited Lite</h2>
-<p>I found <a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which can customize the color of visited links for all websites, not just Bing&rsquo;s. I installed this userscript in Edge&rsquo;s <a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">Tampermonkey<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> extension. <a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> marks all visited links with bold color. However, some web pages may not need this function, and they can be excluded from the <a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">Tampermonkey<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>](<a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">https://www.tampermonkey.net/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>) extension.</p>
-<h2 id="color-links">Color Links</h2>
-<p>After that, I found <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> in the chrome web store. The main difference from <a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is that <a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> need to manually enable the marking function for each website.</p>]]></description>
-</item>
-<item>
-  <title>You&#39;re in! Welcome to the New Bing!</title>
-  <link>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</link>
-  <pubDate>Sat, 18 Feb 2023 10:40:56 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/you-re-in-welcome-to-the-new-bing/</guid>
-  <description><![CDATA[<p>Since joining the <a href="https://www.bing.com/new"target="_blank" rel="external nofollow noopener noreferrer">waitlist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> on February 11th, I finally received an email today that I can use the new Bing.</p>
-<div class="details admonition bug open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-bug fa-fw" aria-hidden="true"></i>Bug<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">I couldn&rsquo;t wait to open Edge Dev and enter CHAT, but I soon found that I couldn&rsquo;t input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.</div>
-    </div>
-  </div>
-<p>After a few rounds of conversations with the new Bing, it felt like it was a bit lacking in conversational enthusiasm, often asking me to change the subject. Moreover, the prompt “This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?” appeared within a few minutes.</p>
-<p>I have to say that a very useful feature of the new Bing is that it can obtain information from the web pages and documents we are reading. I tested it, opened a local PDF file with Edge Dev, clicked the Discover button to chat, and the new Bing can summarize the main points in this file. In addition, it can also easily generate some text in Discover.</p>
-<p>According to my experience, I think the new Bing is really good, and I am very much looking forward to the official version in the future.</p>]]></description>
 </item>
 <item>
   <title>Depay: a Virtual US Dollar Credit Card for Spending With USDT</title>
@@ -1504,6 +1732,205 @@
   <guid>https://www.kayak4665664.com/hello-world/</guid>
   <description><![CDATA[<h2 id="hello-world">Hello World!</h2>
 ]]></description>
+</item>
+<item>
+  <title>Using the ChatGPT API in Python</title>
+  <link>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</link>
+  <pubDate>Fri, 03 Mar 2023 22:58:04 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</guid>
+  <description><![CDATA[<div class="details admonition abstract open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-list-ul fa-fw" aria-hidden="true"></i>Abstract<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">ChatGPT&rsquo;s API is officially released and can be used in Python.</div>
+    </div>
+  </div>
+<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="Introducing ChatGPT API"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">Introducing ChatGPT API</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://openai.com/blog/introducing-chatgpt-and-whisper-apis</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>After registering an OpenAI account, create an API Key in <a href="https://platform.openai.com/account/api-keys"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/api-keys<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>. You can see in <a href="https://platform.openai.com/account/usage"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/usage<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> that there is a free trial usage of $18 in the account, which expires on April 1.</p>
+<p>This time the released ChatGPT model gpt-3.5-turbo is the same as the model used in the ChatGPT product. In addition, gpt-3.5-turbo-0301 has also been released, and this model is at least supported until June 1.</p>
+<p>The complete API usage guide can be found here:</p>
+<a href="https://platform.openai.com/docs/guides/chat" title="ChatGPT API Usage Guide"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">ChatGPT API Usage Guide</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://platform.openai.com/docs/guides/chat</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>In short, to use the ChatGPT API in Python, you need to install the <code>openai</code> Python package.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># If you haven&#39;t installed openai, you can use the following command to install</span>
+</span></span><span class="line"><span class="cl">pip install openai
+</span></span><span class="line"><span class="cl"><span class="c1"># If you have installed openai, use the following command to update</span>
+</span></span><span class="line"><span class="cl">pip install openai --upgrade
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Then, <code>import openai</code>, and then use the <code>openai.Completion.create</code> function to call the API.</p>
+<p>Here is a simple Python script I wrote that can have a multi-turn conversation with ChatGPT.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">openai</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># here you need to replace the API key with your own</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&#34;OPENAI_API_KEY&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">openai</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&#34;OPENAI_API_KEY&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;system&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="s2">&#34;You are a helpful assistant.&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># this function is used to call the API</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">get_response</span><span class="p">(</span><span class="n">messages</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">completion</span> <span class="o">=</span> <span class="n">openai</span><span class="o">.</span><span class="n">ChatCompletion</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">model</span><span class="o">=</span><span class="s2">&#34;gpt-3.5-turbo&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span>  <span class="c1"># type: ignore</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">user_content</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;You: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">user_content</span> <span class="o">==</span> <span class="s2">&#34;quit&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">break</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="n">user_content</span> <span class="o">==</span> <span class="s2">&#34;new&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;system&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="s2">&#34;You are a helpful assistant.&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;new conversation started</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;user&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">user_content</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="n">response</span> <span class="o">=</span> <span class="n">get_response</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Assistant:&#34;</span><span class="p">,</span> <span class="n">response</span> <span class="o">+</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="c1"># append the response to the messages list for the next turn</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;assistant&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">response</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The output is as follows:</p>
+<div class="details admonition example open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>Example<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content"><p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: What is the biggest animal in the world?<br>
+<strong>Assistant</strong>: The biggest animal in the world is the blue whale. It can grow up to 100 feet long and weigh as much as 200 tons.</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: Please write a poem about blue whales.<br>
+<strong>Assistant</strong>: Majestic and mighty,<br>
+The blue whale swims through the sea,<br>
+Largest creature on earth,<br>
+Behold its great beauty.</p>
+<p>A vast and gentle giant,<br>
+Graceful in every move,<br>
+Plunge deep into the ocean,<br>
+Embrace the whale and groove.</p>
+<p>With a heart that&rsquo;s enormous,<br>
+And lungs as large as a car,<br>
+Sing to the depths of the ocean,<br>
+Your melodic, haunting bar.</p>
+<p>A creature so magnificent,<br>
+Awe inspiring, and grand,<br>
+Nowhere else found on earth,<br>
+A true wonder of the land.</p>
+<p>Let us protect this great whale,<br>
+So that it may flourish and thrive,<br>
+For a world without the blue whale,<br>
+Is a world less truly alive.</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: new<br>
+<em>new conversation started</em></p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: 世界上最大的动物是什么？<br>
+<strong>Assistant</strong>: 世界上最大的动物是蓝鲸。它们可以长达30米长，重达173吨，是地球上已知最大的动物。</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: 请写一首关于蓝鲸的诗。<br>
+<strong>Assistant</strong>: 在深深的海洋里<br>
+有一种生物，比海洋还大<br>
+它游荡于大海之中<br>
+它的名字叫做蓝鲸</p>
+<p>蓝鲸身长三十米<br>
+重达一百七十三吨<br>
+它们是地球上最大的动物<br>
+不同寻常的存在</p>
+<p>它们的歌声遥远而美丽<br>
+在海洋里有时听得见<br>
+它们善良而又神秘<br>
+是这片蔚蓝海洋之主</p>
+<p>蓝鲸，你的身影<br>
+在海洋中，如此崇高<br>
+你的力量与恩宠<br>
+在人间，永世留存</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: quit</p>
+</div>
+    </div>
+  </div>]]></description>
 </item>
 <item>
   <title>Focus Statistics (Week 08, 2023)</title>
@@ -1786,17 +2213,6 @@
       <div class="admonition-content">I thought since texliveonfly was written in Python, I could edit it directly. So I found <code>/Library/TeX/texbin/texliveonfly</code> and changed the first line of this file from <code>#!/usr/bin/env python</code> to <code>#!/usr/bin/env python3</code>, which solved the problem.</div>
     </div>
   </div>]]></description>
-</item>
-<item>
-  <title>Focus Statistics (Week 03, 2023)</title>
-  <link>https://www.kayak4665664.com/focus-statistics-03-2023/</link>
-  <pubDate>Mon, 23 Jan 2023 21:30:53 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/focus-statistics-03-2023/</guid>
-  <description><![CDATA[<br/>
-<div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2097.JPG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2097.JPG" data-sub-html="<h2>Focus Statistics (Week 03, 2023)</h2><p>Focus Statistics (Week 03, 2023)</p>"></a>
-</div>]]></description>
 </item>
 </channel>
 </rss>

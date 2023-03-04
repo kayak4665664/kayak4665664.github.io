@@ -5,7 +5,9 @@
 {{< /admonition >}}
 <!--more-->
 
-对于MacBook，我找到了一个软件可以解决这个问题——[AlDente](https://github.com/davidwernhart/AlDente-Charge-Limiter)。
+对于MacBook，我找到了一个软件可以解决这个问题——
+
+{{< link href="https://github.com/davidwernhart/AlDente-Charge-Limiter" content="AlDente" title="AlDente" card=true >}}
 
 可以在[Github](https://github.com/davidwernhart/AlDente/releases)中直接下载，也可以使用Homebrew，`brew install --cask aldente`。
 
