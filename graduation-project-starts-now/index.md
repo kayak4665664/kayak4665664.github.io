@@ -6,7 +6,7 @@ This week my school started the work on the graduation project, and now I have d
 
 ## Topic selection
 
-I already selected a topic before, which was proposed to me by my master tutor. It's about cyber security. I think it's quite appropriate. On the one hand, I can learn some knowledge about cyber security in advance, on the other hand, I can also complete my graduation project. This is killing two birds with one stone.
+I already had a topic before, and a tutor in the group gave me a topic on the security of the Iots. I think this topic is quite suitable. On the one hand, I can understand some knowledge of the IoTs, and on the other hand, I have completed my final project, which can be regarded as killing two birds with one stone.
 
 ## Meeting
 
@@ -14,7 +14,7 @@ After the mobilization meeting of the graduation project, I met with my adviser.
 
 ## Report
 
-Although I selected a topic before, I still need to think about it seriously. After all, the graduation project is not so casual. My adviser posted some reference topics in the group, all of which are quite classic. However, that topic is very new to me. I have never worked in this field before. In general, I prefer the topic of cyber security, and my master tutor also hopes that I will complete this topic very well. So I reported it to my adviser.
+Although I selected a topic before, I still need to think about it seriously. After all, the graduation project is not so casual. My adviser posted some reference topics in the group, all of which are quite classic. However, that topic is very new to me. I have never worked in this field before. In general, I prefer the topic of Iots, and the tutor in the group also hopes that I will complete this topic very well. So I reported it to my adviser.
 
 ## Discussion
 
@@ -50,9 +50,9 @@ If so, why didn't he make it clear at the beginning that he was talking about a 
 
 Well, he said that I can't write a title myself, and there is no basis for discussion. Then I sent him the determined title, hoping for further discussion. However, he still has nothing to say.
 
-At that time, I felt that the "title" or "topic" may not be the key. I thought of him saying in the group, "from this class, the educational administration is going to start the graduation project management system", "all through the system", and "leave traces". "Moreover", "qualification for the Washington Accord is in progress", and "advisers strictly control the quality of topics". I thought it may not be easy for him to check the professional level and workload of this topic. After all, he is not researching cyber security, and there should be no similar topics in the past. He has been difficult to conclude, so he has nothing to say.
+At that time, I felt that the "title" or "topic" may not be the key. I thought of him saying in the group, "from this class, the educational administration is going to start the graduation project management system", "all through the system", and "leave traces". "Moreover", "qualification for the Washington Accord is in progress", and "advisers strictly control the quality of topics". I thought it may not be easy for him to check the professional level and workload of this topic. After all, he is not researching Iots, and there should be no similar topics in the past. He has been difficult to conclude, so he has nothing to say.
 
-I told my master tutor what I thought, and she suggested that I explain it to him in more detail. Therefore, I wrote a document that was a bit like an opening report. I wrote out the specific tasks to be done, and also initially planned the time allocation for each task. I sent it to my adviser and asked him to express his opinions directly if he had any questions.
+I told the tutor int the group what I thought, and she suggested that I explain it to him in more detail. Therefore, I wrote a document that was a bit like an opening report. I wrote out the specific tasks to be done, and also initially planned the time allocation for each task. I sent it to my adviser and asked him to express his opinions directly if he had any questions.
 
 Finally, my adviser started to discuss it with me.
 
@@ -65,6 +65,10 @@ You can submit it.
 ## End
 
 In any case, the topic has been determined, and now it's time to complete the project.
+
+{{< admonition info >}}
+The graduation project has been completed, please see this blog: [NCUT-Pot](https://www.kayak4665664.com/zh-cn/ncut-pot/), the project has also been open source.
+{{< /admonition >}}
 
 ---
 
