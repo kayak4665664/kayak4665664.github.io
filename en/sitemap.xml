@@ -2,7 +2,7 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>https://www.kayak4665664.com/categories/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/categories/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://www.kayak4665664.com/zh-cn/categories/"
@@ -22,7 +22,7 @@
           href="https://www.kayak4665664.com/focus-statistics-09-2023/"
           /></url><url>
       <loc>https://www.kayak4665664.com/categories/journal/</loc><lastmod>2023-03-05T23:02:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://www.kayak4665664.com/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://www.kayak4665664.com/zh-cn/"
@@ -31,7 +31,7 @@
           hreflang="en"
           href="https://www.kayak4665664.com/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/posts/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/posts/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://www.kayak4665664.com/zh-cn/posts/"
@@ -40,7 +40,7 @@
           hreflang="en"
           href="https://www.kayak4665664.com/posts/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/tags/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/tags/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://www.kayak4665664.com/zh-cn/tags/"
@@ -58,7 +58,7 @@
           hreflang="en"
           href="https://www.kayak4665664.com/tags/chatgpt/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/categories/note/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/categories/note/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
       <loc>https://www.kayak4665664.com/tags/python/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
@@ -77,7 +77,7 @@
           hreflang="en"
           href="https://www.kayak4665664.com/using-the-chatgpt-api-in-python/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/tags/command-line-tools/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/tags/command-line-tools/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
       <loc>https://www.kayak4665664.com/tags/macos/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
@@ -95,6 +95,15 @@
           rel="alternate"
           hreflang="en"
           href="https://www.kayak4665664.com/randomize-mac-address-for-macos/"
+          /></url><url>
+      <loc>https://www.kayak4665664.com/pwgen-random-password-generator/</loc><lastmod>2023-03-09T15:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://www.kayak4665664.com/zh-cn/pwgen-random-password-generator/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://www.kayak4665664.com/pwgen-random-password-generator/"
           /></url><url>
       <loc>https://www.kayak4665664.com/tags/hugo/</loc><lastmod>2023-03-06T20:08:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
@@ -596,7 +605,7 @@
           hreflang="en"
           href="https://www.kayak4665664.com/hello-world/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/offline/</loc><lastmod>2023-03-01T19:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/offline/</loc><lastmod>2023-03-01T19:51:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://www.kayak4665664.com/zh-cn/offline/"
