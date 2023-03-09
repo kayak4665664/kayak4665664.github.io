@@ -433,6 +433,26 @@ Or click <code>Current</code> in the Finder to confirm the version linked to</p>
   </div>]]></description>
 </item>
 <item>
+  <title>zsh: Tab Completion With Case Insensitivity</title>
+  <link>https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/</link>
+  <pubDate>Fri, 09 Dec 2022 16:58:10 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/</guid>
+  <description><![CDATA[<p>If you are using macOS, you can switch to the <code>Documents</code> directory by executing <code>cd documents</code> in <code>~</code>, but you cannot use <code>Tab</code> to complete it.</p>
+<p>The solution is to add the following code to <code>~/.zshrc</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">autoload -Uz compinit <span class="o">&amp;&amp;</span> compinit
+</span></span><span class="line"><span class="cl">zstyle <span class="s1">&#39;:completion:*&#39;</span> matcher-list <span class="s1">&#39;m:{a-z}={A-Z}&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Open a new terminal and you will see the effect.</p>]]></description>
+</item>
+<item>
   <title>AlDente: Limit MacBook Maximum Charging Percentage</title>
   <link>https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/</link>
   <pubDate>Tue, 11 Oct 2022 17:25:14 &#43;0800</pubDate>

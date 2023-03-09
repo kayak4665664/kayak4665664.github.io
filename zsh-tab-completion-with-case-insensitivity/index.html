@@ -5,40 +5,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>Turn Idle WeChat Official Account Into a Robot - kayak4665664&#39;s Blog</title><meta name="author" content="kayak4665664">
+    <title>zsh: Tab Completion With Case Insensitivity - kayak4665664&#39;s Blog</title><meta name="author" content="kayak4665664">
 <meta name="author-link" content="https://github.com/kayak4665664">
-<meta name="description" content="It only takes 5 minutes to turn the WeChat official account into a robot🤖." /><meta name="keywords" content='WeChat' /><meta itemprop="name" content="Turn Idle WeChat Official Account Into a Robot">
-<meta itemprop="description" content="It only takes 5 minutes to turn the WeChat official account into a robot🤖."><meta itemprop="datePublished" content="2022-11-16T21:05:57+08:00" />
-<meta itemprop="dateModified" content="2023-02-27T17:45:55+08:00" />
-<meta itemprop="wordCount" content="94"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
-<meta itemprop="keywords" content="WeChat," /><meta property="og:title" content="Turn Idle WeChat Official Account Into a Robot" />
-<meta property="og:description" content="It only takes 5 minutes to turn the WeChat official account into a robot🤖." />
+<meta name="description" content="If you are using macOS, you can switch to the Documents directory by executing cd documents in ~, but you cannot use Tab to complete it." /><meta name="keywords" content='command line tools, macOS' /><meta itemprop="name" content="zsh: Tab Completion With Case Insensitivity">
+<meta itemprop="description" content="If you are using macOS, you can switch to the Documents directory by executing cd documents in ~, but you cannot use Tab to complete it."><meta itemprop="datePublished" content="2022-12-09T16:58:10+08:00" />
+<meta itemprop="dateModified" content="2023-03-09T17:08:05+08:00" />
+<meta itemprop="wordCount" content="57"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
+<meta itemprop="keywords" content="command line tools,macOS," /><meta property="og:title" content="zsh: Tab Completion With Case Insensitivity" />
+<meta property="og:description" content="If you are using macOS, you can switch to the Documents directory by executing cd documents in ~, but you cannot use Tab to complete it." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-16T21:05:57+08:00" />
-<meta property="article:modified_time" content="2023-02-27T17:45:55+08:00" /><meta property="og:site_name" content="kayak4665664&#39;s Blog" />
+<meta property="og:url" content="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-09T16:58:10+08:00" />
+<meta property="article:modified_time" content="2023-03-09T17:08:05+08:00" /><meta property="og:site_name" content="kayak4665664&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.kayak4665664.com/images/avatar.png"/>
 
-<meta name="twitter:title" content="Turn Idle WeChat Official Account Into a Robot"/>
-<meta name="twitter:description" content="It only takes 5 minutes to turn the WeChat official account into a robot🤖."/>
+<meta name="twitter:title" content="zsh: Tab Completion With Case Insensitivity"/>
+<meta name="twitter:description" content="If you are using macOS, you can switch to the Documents directory by executing cd documents in ~, but you cannot use Tab to complete it."/>
 <meta name="application-name" content="kayak4665664">
-<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" /><link rel="prev" href="https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/" /><link rel="next" href="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" /><link rel="stylesheet" href="/css/style.min.a73d238febcc2c3f1404ae0367453f27eb79414f9600da43af5fe25d1f7c84a8.css" integrity="sha256-pz0jj&#43;vMLD8UBK4DZ0U/J&#43;t5QU&#43;WANpDr1/iXR98hKg="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" /><link rel="prev" href="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" /><link rel="next" href="https://www.kayak4665664.com/first-semester-at-ucas/" /><link rel="stylesheet" href="/css/style.min.a73d238febcc2c3f1404ae0367453f27eb79414f9600da43af5fe25d1f7c84a8.css" integrity="sha256-pz0jj&#43;vMLD8UBK4DZ0U/J&#43;t5QU&#43;WANpDr1/iXR98hKg="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "Turn Idle WeChat Official Account Into a Robot",
+    "headline": "zsh: Tab Completion With Case Insensitivity",
     "inLanguage": "en",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https:\/\/www.kayak4665664.com\/turn-idle-wechat-official-account-into-a-robot\/"
+      "@id": "https:\/\/www.kayak4665664.com\/zsh-tab-completion-with-case-insensitivity\/"
     },"image": [{
               "@type": "ImageObject",
               "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
               "width":  450 ,
               "height":  450 
-            }],"genre": "posts","keywords": "WeChat","wordcount":  94 ,
-    "url": "https:\/\/www.kayak4665664.com\/turn-idle-wechat-official-account-into-a-robot\/","datePublished": "2022-11-16T21:05:57+08:00","dateModified": "2023-02-27T17:45:55+08:00","publisher": {
+            }],"genre": "posts","keywords": "command line tools, macOS","wordcount":  57 ,
+    "url": "https:\/\/www.kayak4665664.com\/zsh-tab-completion-with-case-insensitivity\/","datePublished": "2022-12-09T16:58:10+08:00","dateModified": "2023-03-09T17:08:05+08:00","publisher": {
       "@type": "Organization",
       "name": "kayak4665664","logo": {
           "@type": "ImageObject",
@@ -84,7 +84,7 @@
             <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
             </span>
             <ul class="sub-menu"><li class="menu-item">
-                      <a href="/zh-cn/turn-idle-wechat-official-account-into-a-robot/" class="menu-link" title="简体中文">简体中文</a>
+                      <a href="/zh-cn/zsh-tab-completion-with-case-insensitivity/" class="menu-link" title="简体中文">简体中文</a>
                     </li></ul>
           </li><li class="menu-item search" id="search-desktop">
             <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
@@ -162,7 +162,7 @@
         </li><li class="menu-item language">
             <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
             </span>
-            <select class="language-select" onchange="location = this.value;"><option value="/turn-idle-wechat-official-account-into-a-robot/" selected disabled>English</option><option value="/zh-cn/turn-idle-wechat-official-account-into-a-robot/">简体中文</option></select>
+            <select class="language-select" onchange="location = this.value;"><option value="/zsh-tab-completion-with-case-insensitivity/" selected disabled>English</option><option value="/zh-cn/zsh-tab-completion-with-case-insensitivity/">简体中文</option></select>
           </li></ul>
     </nav>
   </div>
@@ -178,59 +178,58 @@
 
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX">
-        <span>Turn Idle WeChat Official Account Into a Robot</span>
+        <span>zsh: Tab Completion With Case Insensitivity</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><a href="https://github.com/kayak4665664" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" sizes="auto" data-title="kayak4665664" data-alt="kayak4665664" width="450" height="450" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;kayak4665664</a></span>
           <span class="post-category">included in <a href="/categories/note/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Note</a></span></div>
-      <div class="post-meta-line"><span title=2022-11-16&#32;21:05:57><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-11-16">2022-11-16</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 94 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> One minute</span>&nbsp;<span class="comment-visitors" data-flag-title="Turn Idle WeChat Official Account Into a Robot">
-              <i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span data-path="/turn-idle-wechat-official-account-into-a-robot/" class="waline-pageview-count">-</span>&nbsp;views
-            </span>&nbsp;<span class="comment-count" data-flag-title="Turn Idle WeChat Official Account Into a Robot">
-              <i class="fa-regular fa-comments fa-fw" aria-hidden="true"></i>&nbsp;<span data-path="/turn-idle-wechat-official-account-into-a-robot/" class="waline-comment-count">-</span>&nbsp;comments
+      <div class="post-meta-line"><span title=2022-12-09&#32;16:58:10><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-09">2022-12-09</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 57 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> One minute</span>&nbsp;<span class="comment-visitors" data-flag-title="zsh: Tab Completion With Case Insensitivity">
+              <i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span data-path="/zsh-tab-completion-with-case-insensitivity/" class="waline-pageview-count">-</span>&nbsp;views
+            </span>&nbsp;<span class="comment-count" data-flag-title="zsh: Tab Completion With Case Insensitivity">
+              <i class="fa-regular fa-comments fa-fw" aria-hidden="true"></i>&nbsp;<span data-path="/zsh-tab-completion-with-case-insensitivity/" class="waline-comment-count">-</span>&nbsp;comments
             </span>&nbsp;</div>
-    </div><div class="content" id="content"><p>It only takes 5 minutes to turn the WeChat official account into a robot🤖.</p>
-<p>I registered a WeChat official account before, but it has been idle, so I want to turn it into a robot and play a little role.</p>
-<h2 id="method">method</h2>
-<ol>
-<li>Use WeChat scan QR code to log in <a href="http://chatbot.weixin.qq.com/"target="_blank" rel="external nofollow noopener noreferrer">微信对话开放平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
-<li>Set the name of the robot on the robot creation page to complete the robot creation</li>
-<li>Turn on the robot&rsquo;s &ldquo;预置技能&rdquo; as needed, such as English translation, weather, stocks, news, jokes, etc.</li>
-<li>Bind the WeChat official account in &ldquo;应用绑定&rdquo;</li>
-<li>Publish in &ldquo;上线发布&rdquo;</li>
-</ol>
-<p>Really simple!</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-sub-html="<h2>robot</h2><p>robot</p>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg 2x" sizes="auto" data-title="robot" data-alt="robot" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
-</div></div><div class="post-footer" id="post-footer">
+    </div><div class="content" id="content"><p>If you are using macOS, you can switch to the <code>Documents</code> directory by executing <code>cd documents</code> in <code>~</code>, but you cannot use <code>Tab</code> to complete it.</p>
+<p>The solution is to add the following code to <code>~/.zshrc</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">autoload -Uz compinit <span class="o">&amp;&amp;</span> compinit
+</span></span><span class="line"><span class="cl">zstyle <span class="s1">&#39;:completion:*&#39;</span> matcher-list <span class="s1">&#39;m:{a-z}={A-Z}&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Open a new terminal and you will see the effect.</p></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title=2023-02-27&#32;17:45:55>Updated on 2023-02-27&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/f1669f81c01bc338741f05bd847b9a7666dd1140" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) f1669f81c01bc338741f05bd847b9a7666dd1140: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>f1669f8</a></span>
+        <span title=2023-03-09&#32;17:08:05>Updated on 2023-03-09&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/d14939f6efe13ddedae9678ddde547c18b0c643b" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) d14939f6efe13ddedae9678ddde547c18b0c643b: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>d14939f</a></span>
       </div><div class="post-info-license">
           <span><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
         </div></div>
     <div class="post-info-line">
       <div class="post-info-md"></div>
       <div class="post-info-share">
-        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" data-title="Turn Idle WeChat Official Account Into a Robot" data-hashtags="WeChat"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" data-hashtag="WeChat"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" data-title="Turn Idle WeChat Official Account Into a Robot" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" data-title="Turn Idle WeChat Official Account Into a Robot"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" data-title="Turn Idle WeChat Official Account Into a Robot"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/" data-title="Turn Idle WeChat Official Account Into a Robot"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
+        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" data-title="zsh: Tab Completion With Case Insensitivity" data-hashtags="command line tools,macOS"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" data-hashtag="command line tools"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" data-title="zsh: Tab Completion With Case Insensitivity" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" data-title="zsh: Tab Completion With Case Insensitivity"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" data-title="zsh: Tab Completion With Case Insensitivity"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/" data-title="zsh: Tab Completion With Case Insensitivity"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
   </span>
       </div>
     </div>
   </div>
 
   <div class="post-info-more">
-    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/wechat/' class="post-tag">WeChat</a></section>
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/command-line-tools/' class="post-tag">command line tools</a><a href='/tags/macos/' class="post-tag">macOS</a></section>
     <section>
       <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
     </section>
   </div>
 
-  <div class="post-nav"><a href="/aldente-limit-macbook-maximum-charging-percentage/" class="post-nav-item" rel="prev" title="AlDente: Limit MacBook Maximum Charging Percentage"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>AlDente: Limit MacBook Maximum Charging Percentage</a>
-      <a href="/zsh-tab-completion-with-case-insensitivity/" class="post-nav-item" rel="next" title="zsh: Tab Completion With Case Insensitivity">zsh: Tab Completion With Case Insensitivity<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav"><a href="/turn-idle-wechat-official-account-into-a-robot/" class="post-nav-item" rel="prev" title="Turn Idle WeChat Official Account Into a Robot"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Turn Idle WeChat Official Account Into a Robot</a>
+      <a href="/first-semester-at-ucas/" class="post-nav-item" rel="next" title="First Semester at UCAS">First Semester at UCAS<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div class="post-reward">
     <div class="comment"></div>

@@ -5,6 +5,26 @@
     <description>所有文章 | kayak4665664的博客</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
       <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sun, 05 Mar 2023 22:58:35 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>zsh: Tab补全大小写不敏感</title>
+  <link>https://www.kayak4665664.com/zh-cn/zsh-tab-completion-with-case-insensitivity/</link>
+  <pubDate>Fri, 09 Dec 2022 16:58:14 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/zsh-tab-completion-with-case-insensitivity/</guid>
+  <description><![CDATA[<p>在macOS中，如果在<code>~</code>执行<code>cd documents</code>是可以切换到<code>Documents</code>目录的，但是无法用<code>Tab</code>补全。</p>
+<p>解决的方法是在<code>~/.zshrc</code>中添加如下代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">autoload -Uz compinit <span class="o">&amp;&amp;</span> compinit
+</span></span><span class="line"><span class="cl">zstyle <span class="s1">&#39;:completion:*&#39;</span> matcher-list <span class="s1">&#39;m:{a-z}={A-Z}&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>重新打开终端就可以见到效果了。</p>]]></description>
+</item>
+<item>
   <title>pwgen: 随机密码生成器</title>
   <link>https://www.kayak4665664.com/zh-cn/pwgen-random-password-generator/</link>
   <pubDate>Tue, 28 Feb 2023 15:25:17 &#43;0800</pubDate>
