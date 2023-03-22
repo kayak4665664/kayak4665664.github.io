@@ -14,9 +14,9 @@ cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ F
 ### 2
 执行`ls -l`，可以看到类似的输出
 {{< admonition example >}}
-drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12
-drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13
-lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -> 111.0.1660.13
+drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12  
+drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13  
+lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -> 111.0.1660.13  
 {{< /admonition >}}
 或者在访达中点击`Current`，确认指向的版本
 

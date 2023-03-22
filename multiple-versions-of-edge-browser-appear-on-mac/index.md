@@ -14,9 +14,9 @@ You can also press `control + shift + G` in the Finder to go to the location
 ### 2
 Execute `ls -l`, and you will see similar output
 {{< admonition example >}}
-drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12
-drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13
-lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -> 111.0.1660.13
+drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12  
+drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13  
+lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -> 111.0.1660.13  
 {{< /admonition >}}
 Or click `Current` in the Finder to confirm the version linked to
 

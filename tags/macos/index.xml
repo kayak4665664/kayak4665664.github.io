@@ -385,8 +385,8 @@ You will also need to restart your terminal for this change to take effect.</div
       <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>Example<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
     </div>
     <div class="details-content">
-      <div class="admonition-content">drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12
-drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13
+      <div class="admonition-content">drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12<br>
+drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13<br>
 lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -&gt; 111.0.1660.13</div>
     </div>
   </div>
