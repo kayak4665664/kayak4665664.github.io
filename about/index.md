@@ -4,7 +4,7 @@
 ## kayak4665664
 
 <div align="center">
-{{< image src="/images/avatar.svg" title="kayak4665664" alt="kayak4665664">}}
+{{< image src="/images/avatar.svg" alt="kayak4665664">}}
 </div>
 
 Hey, Nice to Meet You, You Found My Blog!  

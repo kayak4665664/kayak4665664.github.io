@@ -4,7 +4,7 @@
 <!--more-->
 <br/> 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2155.JPG" title="专注统计 (2023 10周)" alt="专注统计 (2023 10周)">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2155.JPG" alt="专注统计 (2023 10周)">}}
 </div>
 
 

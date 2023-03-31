@@ -90,7 +90,7 @@ At this time, my domain finally passed the real-name verification. I started to 
 2. Imported the repository into [Vercel](https://vercel.com/), so that every time the repository is updated, it will be automatically deployed to [Vercel](https://vercel.com/). It is said that Baidu will not index sites hosted by [Github Pages](https://pages.github.com), and it can be indexed after being deployed to [Vercel](https://vercel.com/)
 3. Set a custom domain in [Vercel](https://vercel.com/)
 4. Added [Baidu Tongji](https://tongji.baidu.com/) and [Google Analytics](https://analytics.google.com/)
-5. Submitted the `sitemap` to [Baidu Ziyuan](https://ziyuan.baidu.com/) and [Google Search Console](https://search.google.com), in [Bing Webmaster Tools](https://www.bing.com/webmasters/) directly imported the submitted `sitemap` into [Google Search](https://search.google.com) Console](https://search.google.com)
+5. Submitted the `sitemap` to [Baidu Ziyuan](https://ziyuan.baidu.com/) and [Google Search Console](https://search.google.com), in [Bing Webmaster Tools](https://www.bing.com/webmasters/) directly imported the submitted `sitemap` into [Google Search Console](https://search.google.com)
 
 ## End
 In the future, I also plan to add a little Google advertisement, which is also a feature of most websites.

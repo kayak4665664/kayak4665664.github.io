@@ -8,7 +8,7 @@ Given `n` non-negative integers representing an elevation map where the width of
 
 **Example:**
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" title="rainwatertrap" alt="rainwatertrap" height="60%" width="60%">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" alt="rainwatertrap" height="60%" width="60%">}}
 </div>
 
 **Input**: height = `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`  

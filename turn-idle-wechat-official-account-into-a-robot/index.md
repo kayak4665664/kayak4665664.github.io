@@ -15,7 +15,7 @@ I registered a WeChat official account before, but it has been idle, so I want t
 Really simple!
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" title="robot" alt="robot">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" alt="robot">}}
 </div>
 
 ---

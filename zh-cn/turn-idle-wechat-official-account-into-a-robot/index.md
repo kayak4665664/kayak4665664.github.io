@@ -15,7 +15,7 @@
 是不是很简单呢？
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" title="机器人" alt="机器人">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" alt="机器人">}}
 </div>
 
 ---

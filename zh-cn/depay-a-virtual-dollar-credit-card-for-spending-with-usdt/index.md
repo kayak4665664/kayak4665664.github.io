@@ -23,7 +23,7 @@ Depay的注册和下载链接：[https://depay.depay.one/web-app/register-h5?inv
 或者用手机扫描下方海报上的二维码：
 
 <div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" title="Depay" alt="Depay">}}
+{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" alt="Depay">}}
 </div>
 
 安卓直接下载APK安装；iOS可以在非中国区下载，也可以下载测试版。
