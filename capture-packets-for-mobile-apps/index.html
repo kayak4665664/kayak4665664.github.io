@@ -5,40 +5,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>Focus Statistics (Week 14, 2023) - kayak4665664&#39;s Blog</title><meta name="author" content="kayak4665664">
+    <title>Capture Packets for Mobile Apps - kayak4665664&#39;s Blog</title><meta name="author" content="kayak4665664">
 <meta name="author-link" content="https://github.com/kayak4665664">
-<meta name="description" content="kayak4665664&#39;s Blog" /><meta name="keywords" content='focus statistics' /><meta itemprop="name" content="Focus Statistics (Week 14, 2023)">
-<meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-04-09T22:23:25+08:00" />
-<meta itemprop="dateModified" content="2023-04-09T22:23:46+08:00" />
-<meta itemprop="wordCount" content="0"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
-<meta itemprop="keywords" content="focus statistics," /><meta property="og:title" content="Focus Statistics (Week 14, 2023)" />
-<meta property="og:description" content="" />
+<meta name="description" content="Packet capture for mobile apps using Charles, Wireshark and tcpdump." /><meta name="keywords" content='packet capture, iPhone, macOS, command line tools' /><meta itemprop="name" content="Capture Packets for Mobile Apps">
+<meta itemprop="description" content="Packet capture for mobile apps using Charles, Wireshark and tcpdump."><meta itemprop="datePublished" content="2023-04-10T20:11:05+08:00" />
+<meta itemprop="dateModified" content="2023-04-10T23:02:35+08:00" />
+<meta itemprop="wordCount" content="424"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
+<meta itemprop="keywords" content="packet capture,iPhone,macOS,command line tools," /><meta property="og:title" content="Capture Packets for Mobile Apps" />
+<meta property="og:description" content="Packet capture for mobile apps using Charles, Wireshark and tcpdump." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.kayak4665664.com/focus-statistics-14-2023/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-09T22:23:25+08:00" />
-<meta property="article:modified_time" content="2023-04-09T22:23:46+08:00" /><meta property="og:site_name" content="kayak4665664&#39;s Blog" />
+<meta property="og:url" content="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-10T20:11:05+08:00" />
+<meta property="article:modified_time" content="2023-04-10T23:02:35+08:00" /><meta property="og:site_name" content="kayak4665664&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.kayak4665664.com/images/avatar.png"/>
 
-<meta name="twitter:title" content="Focus Statistics (Week 14, 2023)"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Capture Packets for Mobile Apps"/>
+<meta name="twitter:description" content="Packet capture for mobile apps using Charles, Wireshark and tcpdump."/>
 <meta name="application-name" content="kayak4665664">
-<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/focus-statistics-14-2023/" /><link rel="prev" href="https://www.kayak4665664.com/apply-for-bank-of-china-mastercard-debit-card-online/" /><link rel="next" href="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" /><link rel="stylesheet" href="/css/style.min.34ada594e37446a5c173c4d2eb6ef5c552b8cc4a7481748787010985f360e54e.css" integrity="sha256-NK2llON0RqXBc8TS6271xVK4zEp0gXSHhwEJhfNg5U4="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" /><link rel="prev" href="https://www.kayak4665664.com/focus-statistics-14-2023/" /><link rel="stylesheet" href="/css/style.min.34ada594e37446a5c173c4d2eb6ef5c552b8cc4a7481748787010985f360e54e.css" integrity="sha256-NK2llON0RqXBc8TS6271xVK4zEp0gXSHhwEJhfNg5U4="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "Focus Statistics (Week 14, 2023)",
+    "headline": "Capture Packets for Mobile Apps",
     "inLanguage": "en",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https:\/\/www.kayak4665664.com\/focus-statistics-14-2023\/"
+      "@id": "https:\/\/www.kayak4665664.com\/capture-packets-for-mobile-apps\/"
     },"image": [{
               "@type": "ImageObject",
               "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
               "width":  450 ,
               "height":  450 
-            }],"genre": "posts","keywords": "focus statistics","wordcount":  0 ,
-    "url": "https:\/\/www.kayak4665664.com\/focus-statistics-14-2023\/","datePublished": "2023-04-09T22:23:25+08:00","dateModified": "2023-04-09T22:23:46+08:00","publisher": {
+            }],"genre": "posts","keywords": "packet capture, iPhone, macOS, command line tools","wordcount":  424 ,
+    "url": "https:\/\/www.kayak4665664.com\/capture-packets-for-mobile-apps\/","datePublished": "2023-04-10T20:11:05+08:00","dateModified": "2023-04-10T23:02:35+08:00","publisher": {
       "@type": "Organization",
       "name": "kayak4665664","logo": {
           "@type": "ImageObject",
@@ -98,7 +98,7 @@
             <ul class="sub-menu"><li class="menu-item">
                       <span class="menu-link text-secondary" title="English">English</span>
                     </li><li class="menu-item">
-                      <a href="/zh-cn/focus-statistics-14-2023/" class="menu-link" title="简体中文">简体中文</a>
+                      <a href="/zh-cn/capture-packets-for-mobile-apps/" class="menu-link" title="简体中文">简体中文</a>
                     </li></ul>
           </li></ul>
     </nav>
@@ -160,7 +160,7 @@
                 ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> About</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span><span class="menu-system-item language-switch">
               <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
-              <select class="language-select" onchange="location = this.value;"><option value="/focus-statistics-14-2023/" selected disabled>English</option><option value="/zh-cn/focus-statistics-14-2023/">简体中文</option></select>
+              <select class="language-select" onchange="location = this.value;"><option value="/capture-packets-for-mobile-apps/" selected disabled>English</option><option value="/zh-cn/capture-packets-for-mobile-apps/">简体中文</option></select>
             </span></li>
       </ul>
     </nav>
@@ -171,57 +171,159 @@
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
   </div><nav aria-label="breadcrumb" class="breadcrumb-container">
-    <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/" title="kayak4665664&#39;s Blog">Home</a></li><li class="breadcrumb-item"><a href="/posts/" title="Posts">Posts</a></li><li class="breadcrumb-item active" aria-current="page">Focus Statistics (Week 14, 2023)</li>
+    <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/" title="kayak4665664&#39;s Blog">Home</a></li><li class="breadcrumb-item"><a href="/posts/" title="Posts">Posts</a></li><li class="breadcrumb-item active" aria-current="page">Capture Packets for Mobile Apps</li>
     </ol>
-  </nav><main class="container"><aside class="toc" id="toc-auto"></aside>
+  </nav><main class="container"><aside class="toc" id="toc-auto"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside>
 
   <aside class="aside-custom">
     </aside>
 
   <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Focus Statistics (Week 14, 2023)</span>
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Capture Packets for Mobile Apps</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><a href="https://github.com/kayak4665664" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" sizes="auto" data-title="kayak4665664" data-alt="kayak4665664" width="450" height="450" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;kayak4665664</a></span>
-          <span class="post-category">included in <a href="/categories/journal/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Journal</a></span></div>
-      <div class="post-meta-line"><span title="published on 2023-04-09 22:23:25"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-09">2023-04-09</time></span>&nbsp;<span title="Updated on 2023-04-09 22:23:46"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-09">2023-04-09</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>0 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>0 minutes</span>&nbsp;<span class="comment-visitors" data-flag-title="Focus Statistics (Week 14, 2023)">
-              <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/focus-statistics-14-2023/" class="waline-pageview-count">-</span>&nbsp;views
-            </span>&nbsp;<span class="comment-count" data-flag-title="Focus Statistics (Week 14, 2023)">
-              <i class="fa-regular fa-comments fa-fw me-1" aria-hidden="true"></i><span data-path="/focus-statistics-14-2023/" class="waline-comment-count">-</span>&nbsp;comments
+          <span class="post-category">included in <a href="/categories/note/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Note</a></span></div>
+      <div class="post-meta-line"><span title="published on 2023-04-10 20:11:05"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-10">2023-04-10</time></span>&nbsp;<span title="Updated on 2023-04-10 23:02:35"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-10">2023-04-10</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>424 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>2 minutes</span>&nbsp;<span class="comment-visitors" data-flag-title="Capture Packets for Mobile Apps">
+              <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/capture-packets-for-mobile-apps/" class="waline-pageview-count">-</span>&nbsp;views
+            </span>&nbsp;<span class="comment-count" data-flag-title="Capture Packets for Mobile Apps">
+              <i class="fa-regular fa-comments fa-fw me-1" aria-hidden="true"></i><span data-path="/capture-packets-for-mobile-apps/" class="waline-comment-count">-</span>&nbsp;comments
             </span>&nbsp;</div>
-    </div><div class="content" id="content"><br/>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#wireshark">Wireshark</a></li>
+    <li><a href="#tcpdump">tcpdump</a></li>
+    <li><a href="#charles">Charles</a></li>
+    <li><a href="#capture-packets-for-mobile-apps">Capture Packets for Mobile Apps</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><p>Packet capture for mobile apps using <code>Charles</code>, <code>Wireshark</code> and <code>tcpdump</code>.</p>
+<div class="details admonition info open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">I capture packets for iPhone on macOS, but the methods and principles are similar for other systems and devices.</div>
+    </div>
+  </div>
+<h2 id="wireshark">Wireshark</h2>
+<p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
+<p>On macOS, Wireshark can be installed using <code>brew</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Capturing packets with Wireshark is also very simple. For example, selecting the <code>Wi-Fi</code> interface can capture packets from the wireless network card.</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG" data-sub-html="<h2>Focus Statistics (Week 14, 2023)</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG 2x" sizes="auto" data-title="Focus Statistics (Week 14, 2023)" data-alt="Focus Statistics (Week 14, 2023)" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
-</div></div><div class="post-footer" id="post-footer">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png 2x" sizes="auto" data-title="Wireshark" data-alt="Wireshark" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+</div>
+<h2 id="tcpdump">tcpdump</h2>
+<p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
+<p>On macOS, <code>tcpdump</code> can also be installed using <code>brew</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Capturing packets with <code>tcpdump</code>, for example, capture packets from the <code>12345</code> port and save them as a <code>pcap</code> file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="charles">Charles</h2>
+<p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
+<p>On macOS, we can install Charles using <code>brew</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="capture-packets-for-mobile-apps">Capture Packets for Mobile Apps</h2>
+<p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
+<ol>
+<li>Both the macOS device and the iPhone are connected to a mobile hotspot turned on by the third device, making sure they are on the same local area network.</li>
+<li>On the macOS device, open Charles and set up a proxy server. The proxy server port is <code>8888</code> by default.</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png 2x" sizes="auto" data-title="Charles" data-alt="Charles" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+3. On the iPhone, set the proxy server to the macOS device. The proxy server port is `8888`.
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-sub-html="<h2>Proxy</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG 2x" sizes="auto" data-title="Proxy" data-alt="Proxy" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+4. Access [chls.pro/ssl](chls.pro/ssl) in the iPhone browser, download and install the certificate.
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-sub-html="<h2>Certificate installation</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG 2x" sizes="auto" data-title="Certificate installation" data-alt="Certificate installation" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+<ol start="5">
+<li>Trust the certificate in the iPhone settings <code>General -&gt; About -&gt; Certificate Trust Settings</code>.</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-sub-html="<h2>Certificate trust settings</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG 2x" sizes="auto" data-title="Certificate trust settings" data-alt="Certificate trust settings" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+6. Install the configuration file for the proxy server in the iPhone settings `General -> VPN & Device Management`.
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-sub-html="<h2>Configuration file</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG 2x" sizes="auto" data-title="Configuration file" data-alt="Configuration file" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+<ol start="7">
+<li>
+<p>Since Charles can only capture HTTP and HTTPS packets, start Wireshark on the macOS device and select the <code>Wi-Fi</code> interface to capture packets of all protocols.</p>
+</li>
+<li>
+<p>Open the mobile app on the iPhone and use it.</p>
+</li>
+<li>
+<p>Stop capturing packets in Wireshark. The previously set proxy server port is <code>8888</code>, so you can filter irrelevant data packets through <code>tcp.port == 8888</code>, and save the filtered packets as a pcap file.</p>
+</li>
+</ol></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="Updated on 2023-04-09 22:23:46">Updated on 2023-04-09&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/bb7ac771666669449ea660d31886ab06aef72eda" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) bb7ac771666669449ea660d31886ab06aef72eda: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>bb7ac77</a></span>
+        <span title="Updated on 2023-04-10 23:02:35">Updated on 2023-04-10&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/bc9c0d93136b79d47145d8291cb8fba60e5b0035" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) bc9c0d93136b79d47145d8291cb8fba60e5b0035: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>bc9c0d9</a></span>
       </div><div class="post-info-license">
           <span><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
         </div></div>
     <div class="post-info-line">
       <div class="post-info-md"></div>
       <div class="post-info-share">
-        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/focus-statistics-14-2023/" data-title="Focus Statistics (Week 14, 2023)" data-hashtags="focus statistics"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/focus-statistics-14-2023/" data-hashtag="focus statistics"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/focus-statistics-14-2023/" data-title="Focus Statistics (Week 14, 2023)" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.kayak4665664.com/focus-statistics-14-2023/" data-title="Focus Statistics (Week 14, 2023)"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/focus-statistics-14-2023/" data-title="Focus Statistics (Week 14, 2023)"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/focus-statistics-14-2023/" data-title="Focus Statistics (Week 14, 2023)"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
+        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" data-title="Capture Packets for Mobile Apps" data-hashtags="packet capture,iPhone,macOS,command line tools"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" data-hashtag="packet capture"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" data-title="Capture Packets for Mobile Apps" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" data-title="Capture Packets for Mobile Apps"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" data-title="Capture Packets for Mobile Apps"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/capture-packets-for-mobile-apps/" data-title="Capture Packets for Mobile Apps"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
   </span>
       </div>
     </div>
   </div>
 
   <div class="post-info-more">
-    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/focus-statistics/' class="post-tag">focus statistics</a></section>
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/packet-capture/' class="post-tag">packet capture</a><a href='/tags/iphone/' class="post-tag">iPhone</a><a href='/tags/macos/' class="post-tag">macOS</a><a href='/tags/command-line-tools/' class="post-tag">command line tools</a></section>
     <section>
       <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
     </section>
   </div>
 
-  <div class="post-nav"><a href="/apply-for-bank-of-china-mastercard-debit-card-online/" class="post-nav-item" rel="prev" title="Apply for Bank of China MasterCard Debit Card Online"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Apply for Bank of China MasterCard Debit Card Online</a>
-      <a href="/capture-packets-for-mobile-apps/" class="post-nav-item" rel="next" title="Capture Packets for Mobile Apps">Capture Packets for Mobile Apps<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav"><a href="/focus-statistics-14-2023/" class="post-nav-item" rel="prev" title="Focus Statistics (Week 14, 2023)"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Focus Statistics (Week 14, 2023)</a></div>
 </div>
 <div class="post-reward">
     <div class="comment"></div>

@@ -5,40 +5,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>专注统计 (2023 14周) - kayak4665664的博客</title><meta name="author" content="kayak4665664">
+    <title>手机App抓包 - kayak4665664的博客</title><meta name="author" content="kayak4665664">
 <meta name="author-link" content="https://github.com/kayak4665664">
-<meta name="description" content="kayak4665664的博客" /><meta name="keywords" content='专注统计' /><meta itemprop="name" content="专注统计 (2023 14周)">
-<meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-04-09T22:23:25+08:00" />
-<meta itemprop="dateModified" content="2023-04-09T22:23:46+08:00" />
-<meta itemprop="wordCount" content="0"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
-<meta itemprop="keywords" content="专注统计," /><meta property="og:title" content="专注统计 (2023 14周)" />
-<meta property="og:description" content="" />
+<meta name="description" content="使用Charles、Wireshark和tcpdump对手机App抓包。" /><meta name="keywords" content='抓包, iPhone, macOS, 命令行工具' /><meta itemprop="name" content="手机App抓包">
+<meta itemprop="description" content="使用Charles、Wireshark和tcpdump对手机App抓包。"><meta itemprop="datePublished" content="2023-04-10T20:11:09+08:00" />
+<meta itemprop="dateModified" content="2023-04-10T23:02:35+08:00" />
+<meta itemprop="wordCount" content="945"><meta itemprop="image" content="https://www.kayak4665664.com/images/avatar.png"/>
+<meta itemprop="keywords" content="抓包,iPhone,macOS,命令行工具," /><meta property="og:title" content="手机App抓包" />
+<meta property="og:description" content="使用Charles、Wireshark和tcpdump对手机App抓包。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-09T22:23:25+08:00" />
-<meta property="article:modified_time" content="2023-04-09T22:23:46+08:00" /><meta property="og:site_name" content="kayak4665664的博客" />
+<meta property="og:url" content="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" /><meta property="og:image" content="https://www.kayak4665664.com/images/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-10T20:11:09+08:00" />
+<meta property="article:modified_time" content="2023-04-10T23:02:35+08:00" /><meta property="og:site_name" content="kayak4665664的博客" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.kayak4665664.com/images/avatar.png"/>
 
-<meta name="twitter:title" content="专注统计 (2023 14周)"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="手机App抓包"/>
+<meta name="twitter:description" content="使用Charles、Wireshark和tcpdump对手机App抓包。"/>
 <meta name="application-name" content="kayak4665664">
-<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" /><link rel="prev" href="https://www.kayak4665664.com/zh-cn/apply-for-bank-of-china-mastercard-debit-card-online/" /><link rel="next" href="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" /><link rel="stylesheet" href="/css/style.min.34ada594e37446a5c173c4d2eb6ef5c552b8cc4a7481748787010985f360e54e.css" integrity="sha256-NK2llON0RqXBc8TS6271xVK4zEp0gXSHhwEJhfNg5U4="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="kayak4665664"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#ffffff"><link rel="icon" href="/images/avatar.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="##607D8B"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" /><link rel="prev" href="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" /><link rel="stylesheet" href="/css/style.min.34ada594e37446a5c173c4d2eb6ef5c552b8cc4a7481748787010985f360e54e.css" integrity="sha256-NK2llON0RqXBc8TS6271xVK4zEp0gXSHhwEJhfNg5U4="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "专注统计 (2023 14周)",
+    "headline": "手机App抓包",
     "inLanguage": "zh-CN",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https:\/\/www.kayak4665664.com\/zh-cn\/focus-statistics-14-2023\/"
+      "@id": "https:\/\/www.kayak4665664.com\/zh-cn\/capture-packets-for-mobile-apps\/"
     },"image": [{
               "@type": "ImageObject",
               "url": "https:\/\/www.kayak4665664.com\/images\/avatar.png",
               "width":  450 ,
               "height":  450 
-            }],"genre": "posts","keywords": "专注统计","wordcount":  0 ,
-    "url": "https:\/\/www.kayak4665664.com\/zh-cn\/focus-statistics-14-2023\/","datePublished": "2023-04-09T22:23:25+08:00","dateModified": "2023-04-09T22:23:46+08:00","publisher": {
+            }],"genre": "posts","keywords": "抓包, iPhone, macOS, 命令行工具","wordcount":  945 ,
+    "url": "https:\/\/www.kayak4665664.com\/zh-cn\/capture-packets-for-mobile-apps\/","datePublished": "2023-04-10T20:11:09+08:00","dateModified": "2023-04-10T23:02:35+08:00","publisher": {
       "@type": "Organization",
       "name": "kayak4665664","logo": {
           "@type": "ImageObject",
@@ -96,7 +96,7 @@
         </li><li class="menu-item language-switch">
             <span role="button" aria-label="选择语言" title="选择语言"><i class="fa-solid fa-language fa-fw" aria-hidden="true"></i></span>
             <ul class="sub-menu"><li class="menu-item">
-                      <a href="/focus-statistics-14-2023/" class="menu-link" title="English">English</a>
+                      <a href="/capture-packets-for-mobile-apps/" class="menu-link" title="English">English</a>
                     </li><li class="menu-item">
                       <span class="menu-link text-secondary" title="简体中文">简体中文</span>
                     </li></ul>
@@ -160,7 +160,7 @@
                 ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span><span class="menu-system-item language-switch">
               <span role="button" aria-label="选择语言" title="选择语言">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
-              <select class="language-select" onchange="location = this.value;"><option value="/focus-statistics-14-2023/">English</option><option value="/zh-cn/focus-statistics-14-2023/" selected disabled>简体中文</option></select>
+              <select class="language-select" onchange="location = this.value;"><option value="/capture-packets-for-mobile-apps/">English</option><option value="/zh-cn/capture-packets-for-mobile-apps/" selected disabled>简体中文</option></select>
             </span></li>
       </ul>
     </nav>
@@ -171,57 +171,163 @@
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
   </div><nav aria-label="breadcrumb" class="breadcrumb-container">
-    <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/zh-cn/" title="kayak4665664的博客">主页</a></li><li class="breadcrumb-item"><a href="/zh-cn/posts/" title="Posts">Posts</a></li><li class="breadcrumb-item active" aria-current="page">专注统计 (2023 14周)</li>
+    <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/zh-cn/" title="kayak4665664的博客">主页</a></li><li class="breadcrumb-item"><a href="/zh-cn/posts/" title="Posts">Posts</a></li><li class="breadcrumb-item active" aria-current="page">手机App抓包</li>
     </ol>
-  </nav><main class="container"><aside class="toc" id="toc-auto"></aside>
+  </nav><main class="container"><aside class="toc" id="toc-auto"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside>
 
   <aside class="aside-custom">
     </aside>
 
   <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>专注统计 (2023 14周)</span>
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>手机App抓包</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><a href="https://github.com/kayak4665664" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" sizes="auto" data-title="kayak4665664" data-alt="kayak4665664" width="450" height="450" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;kayak4665664</a></span>
-          <span class="post-category">收录于 <a href="/zh-cn/categories/%E6%97%A5%E8%AE%B0/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 日记</a></span></div>
-      <div class="post-meta-line"><span title="发布于 2023-04-09 22:23:25"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-09">2023-04-09</time></span>&nbsp;<span title="更新于 2023-04-09 22:23:46"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-09">2023-04-09</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 0 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 0 分钟</span>&nbsp;<span class="comment-visitors" data-flag-title="专注统计 (2023 14周)">
-              <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/zh-cn/focus-statistics-14-2023/" class="waline-pageview-count">-</span>&nbsp;次阅读
-            </span>&nbsp;<span class="comment-count" data-flag-title="专注统计 (2023 14周)">
-              <i class="fa-regular fa-comments fa-fw me-1" aria-hidden="true"></i><span data-path="/zh-cn/focus-statistics-14-2023/" class="waline-comment-count">-</span>&nbsp;条评论
+          <span class="post-category">收录于 <a href="/zh-cn/categories/%E7%AC%94%E8%AE%B0/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 笔记</a></span></div>
+      <div class="post-meta-line"><span title="发布于 2023-04-10 20:11:09"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-10">2023-04-10</time></span>&nbsp;<span title="更新于 2023-04-10 23:02:35"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-04-10">2023-04-10</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 945 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;<span class="comment-visitors" data-flag-title="手机App抓包">
+              <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/zh-cn/capture-packets-for-mobile-apps/" class="waline-pageview-count">-</span>&nbsp;次阅读
+            </span>&nbsp;<span class="comment-count" data-flag-title="手机App抓包">
+              <i class="fa-regular fa-comments fa-fw me-1" aria-hidden="true"></i><span data-path="/zh-cn/capture-packets-for-mobile-apps/" class="waline-comment-count">-</span>&nbsp;条评论
             </span>&nbsp;</div>
-    </div><div class="content" id="content"><br/> 
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#wireshark">Wireshark</a></li>
+    <li><a href="#tcpdump">tcpdump</a></li>
+    <li><a href="#charles">Charles</a></li>
+    <li><a href="#手机app抓包">手机App抓包</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><p>使用<code>Charles</code>、<code>Wireshark</code>和<code>tcpdump</code>对手机App抓包。</p>
+<div class="details admonition info open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">我在macOS上对iPhone进行抓包，但是对于其他系统和设备，方法和原理也是类似的。</div>
+    </div>
+  </div>
+<h2 id="wireshark">Wireshark</h2>
+<p>Wireshark是一个开源的网络分析工具，可以用来抓取网络数据包。它可以在macOS、Windows和Linux上运行。</p>
+<p>在macOS上，可以使用<code>brew</code>安装Wireshark：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用Wireshark抓包也很简单，比如选择<code>Wi-Fi</code>接口就可以抓无线网卡的数据包。</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG" data-sub-html="<h2>专注统计 (2023 14周)</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/focus%20statistics/IMG_2298.JPG 2x" sizes="auto" data-title="专注统计 (2023 14周)" data-alt="专注统计 (2023 14周)" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
-</div></div><div class="post-footer" id="post-footer">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png 2x" sizes="auto" data-title="Wireshark" data-alt="Wireshark" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+</div>
+<h2 id="tcpdump">tcpdump</h2>
+<p>tcpdump是一个命令行工具，可以用来抓取网络数据包。假如在没有图形界面的服务器上，可以使用它来抓取数据包。</p>
+<p>在macOS上，可以使用<code>brew</code>安装tcpdump：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用tcpdump抓包，比如抓取<code>12345</code>端口的数据包并保存为<code>pcap</code>文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="charles">Charles</h2>
+<p>Charles是一个HTTP代理服务器，可以用来抓取HTTP和HTTPS的数据包，和Fiddler类似。</p>
+<p>在macOS上，也使用<code>brew</code>安装Charles：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="手机app抓包">手机App抓包</h2>
+<p>对于MacBook，如果已经连接了Wi-Fi，就不能开启无线热点了。所以需要用Charles来建立一个代理服务器，然后手机连接到这个代理服务器上。主要步骤如下：</p>
+<ol>
+<li>macOS设备和iPhone都连接到第三个设备开启的移动热点，确保处于同一个局域网内。</li>
+<li>在macOS设备中启动Charles，设置代理服务，默认端口为<code>8888</code>。</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png 2x" sizes="auto" data-title="Charles" data-alt="Charles" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+3. 在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为`8888`。  
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-sub-html="<h2>代理服务器</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG 2x" sizes="auto" data-title="代理服务器" data-alt="代理服务器" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+<ol start="4">
+<li>iPhone在浏览器中访问<a href="chls.pro/ssl">chls.pro/ssl</a>，下载并安装证书。</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-sub-html="<h2>安装证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG 2x" sizes="auto" data-title="安装证书" data-alt="安装证书" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+<ol start="5">
+<li>iPhone在<code>General -&gt; About -&gt; Certificate Trust Settings</code>中，将Charles的证书设置为信任。</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-sub-html="<h2>信任证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG 2x" sizes="auto" data-title="信任证书" data-alt="信任证书" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+<ol start="6">
+<li>iPhone在<code>General -&gt; VPN &amp; Device Management</code>中安装Charles的描述文件。</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-sub-html="<h2>安装描述文件</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG 2x" sizes="auto" data-title="安装描述文件" data-alt="安装描述文件" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+  </div>
+<ol start="7">
+<li>
+<p>由于Charles只能抓取HTTP和HTTPS的数据包，所以这里在macOS设备中启动Wireshark，选择<code>Wi-Fi</code>接口抓取所有协议的数据包。</p>
+</li>
+<li>
+<p>在iPhone中打开需要抓包的App，进行相关操作。</p>
+</li>
+<li>
+<p>Wireshark停止抓包，之前设置的代理服务器端口是<code>8888</code>，所以可以通过<code>tcp.port == 8888</code>过滤无关的数据包，将过滤后的包保存为pcap文件。</p>
+</li>
+</ol></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="更新于 2023-04-09 22:23:46">更新于 2023-04-09&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/bb7ac771666669449ea660d31886ab06aef72eda" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) bb7ac771666669449ea660d31886ab06aef72eda: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>bb7ac77</a></span>
+        <span title="更新于 2023-04-10 23:02:35">更新于 2023-04-10&nbsp;<a class="git-hash" href="https://github.com/kayak4665664/kayak4665664.github.io/commit/bc9c0d93136b79d47145d8291cb8fba60e5b0035" rel="external nofollow noopener noreferrer" target="_blank" title="commit by kayak4665664(44232222&#43;kayak4665664@users.noreply.github.com) bc9c0d93136b79d47145d8291cb8fba60e5b0035: update"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>bc9c0d9</a></span>
       </div><div class="post-info-license">
           <span><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
         </div></div>
     <div class="post-info-line">
       <div class="post-info-md"></div>
       <div class="post-info-share">
-        <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" data-title="专注统计 (2023 14周)" data-hashtags="专注统计"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" data-hashtag="专注统计"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" data-title="专注统计 (2023 14周)" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" data-title="专注统计 (2023 14周)"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" data-title="专注统计 (2023 14周)"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/zh-cn/focus-statistics-14-2023/" data-title="专注统计 (2023 14周)"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
+        <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" data-title="手机App抓包" data-hashtags="抓包,iPhone,macOS,命令行工具"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" data-hashtag="抓包"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" data-title="手机App抓包" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" data-title="手机App抓包"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.12.0/icons/line.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" data-title="手机App抓包"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/" data-title="手机App抓包"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
   </span>
       </div>
     </div>
   </div>
 
   <div class="post-info-more">
-    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/zh-cn/tags/%E4%B8%93%E6%B3%A8%E7%BB%9F%E8%AE%A1/' class="post-tag">专注统计</a></section>
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/zh-cn/tags/%E6%8A%93%E5%8C%85/' class="post-tag">抓包</a><a href='/zh-cn/tags/iphone/' class="post-tag">iPhone</a><a href='/zh-cn/tags/macos/' class="post-tag">macOS</a><a href='/zh-cn/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/' class="post-tag">命令行工具</a></section>
     <section>
       <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
     </section>
   </div>
 
-  <div class="post-nav"><a href="/zh-cn/apply-for-bank-of-china-mastercard-debit-card-online/" class="post-nav-item" rel="prev" title="网上申请中国银行万事达借记卡"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>网上申请中国银行万事达借记卡</a>
-      <a href="/zh-cn/capture-packets-for-mobile-apps/" class="post-nav-item" rel="next" title="手机App抓包">手机App抓包<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav"><a href="/zh-cn/focus-statistics-14-2023/" class="post-nav-item" rel="prev" title="专注统计 (2023 14周)"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>专注统计 (2023 14周)</a></div>
 </div>
 <div class="post-reward">
     <div class="comment"></div>

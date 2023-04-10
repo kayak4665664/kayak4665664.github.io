@@ -4,7 +4,107 @@
     <link>https://www.kayak4665664.com/tags/command-line-tools/</link>
     <description>command line tools - Tag - kayak4665664&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Wed, 22 Mar 2023 12:29:40 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/command-line-tools/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Mon, 10 Apr 2023 20:11:05 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/command-line-tools/" rel="self" type="application/rss+xml" /><item>
+  <title>Capture Packets for Mobile Apps</title>
+  <link>https://www.kayak4665664.com/capture-packets-for-mobile-apps/</link>
+  <pubDate>Mon, 10 Apr 2023 20:11:05 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/capture-packets-for-mobile-apps/</guid>
+  <description><![CDATA[<p>Packet capture for mobile apps using <code>Charles</code>, <code>Wireshark</code> and <code>tcpdump</code>.</p>
+<div class="details admonition info open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">I capture packets for iPhone on macOS, but the methods and principles are similar for other systems and devices.</div>
+    </div>
+  </div>
+<h2 id="wireshark">Wireshark</h2>
+<p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
+<p>On macOS, Wireshark can be installed using <code>brew</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Capturing packets with Wireshark is also very simple. For example, selecting the <code>Wi-Fi</code> interface can capture packets from the wireless network card.</p>
+<div align="center">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" data-sub-html="<h2>Wireshark</h2>"></a>
+</div>
+<h2 id="tcpdump">tcpdump</h2>
+<p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
+<p>On macOS, <code>tcpdump</code> can also be installed using <code>brew</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Capturing packets with <code>tcpdump</code>, for example, capture packets from the <code>12345</code> port and save them as a <code>pcap</code> file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="charles">Charles</h2>
+<p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
+<p>On macOS, we can install Charles using <code>brew</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="capture-packets-for-mobile-apps">Capture Packets for Mobile Apps</h2>
+<p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
+<ol>
+<li>Both the macOS device and the iPhone are connected to a mobile hotspot turned on by the third device, making sure they are on the same local area network.</li>
+<li>On the macOS device, open Charles and set up a proxy server. The proxy server port is <code>8888</code> by default.</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-sub-html="<h2>Charles</h2>"></a>
+  </div>
+3. On the iPhone, set the proxy server to the macOS device. The proxy server port is `8888`.
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-sub-html="<h2>Proxy</h2>"></a>
+  </div>
+4. Access [chls.pro/ssl](chls.pro/ssl) in the iPhone browser, download and install the certificate.
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-sub-html="<h2>Certificate installation</h2>"></a>
+  </div>
+<ol start="5">
+<li>Trust the certificate in the iPhone settings <code>General -&gt; About -&gt; Certificate Trust Settings</code>.</li>
+</ol>
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-sub-html="<h2>Certificate trust settings</h2>"></a>
+  </div>
+6. Install the configuration file for the proxy server in the iPhone settings `General -> VPN & Device Management`.
+  <div align="center">
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-sub-html="<h2>Configuration file</h2>"></a>
+  </div>
+<ol start="7">
+<li>
+<p>Since Charles can only capture HTTP and HTTPS packets, start Wireshark on the macOS device and select the <code>Wi-Fi</code> interface to capture packets of all protocols.</p>
+</li>
+<li>
+<p>Open the mobile app on the iPhone and use it.</p>
+</li>
+<li>
+<p>Stop capturing packets in Wireshark. The previously set proxy server port is <code>8888</code>, so you can filter irrelevant data packets through <code>tcp.port == 8888</code>, and save the filtered packets as a pcap file.</p>
+</li>
+</ol>]]></description>
+</item>
+<item>
   <title>Authorize sudo Commands With Touch ID</title>
   <link>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</link>
   <pubDate>Wed, 22 Mar 2023 12:29:40 &#43;0800</pubDate>
