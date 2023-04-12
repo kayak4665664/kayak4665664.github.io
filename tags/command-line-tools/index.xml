@@ -104,11 +104,15 @@
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-sub-html="<h2>Charles</h2>"></a>
   </div>
-3. On the iPhone, set the proxy server to the macOS device. The proxy server port is `8888`.
+<ol start="3">
+<li>On the iPhone, set the proxy server to the macOS device. The proxy server port is <code>8888</code>.</li>
+</ol>
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-sub-html="<h2>Proxy</h2>"></a>
   </div>
-4. Access [chls.pro/ssl](chls.pro/ssl) in the iPhone browser, download and install the certificate.
+<ol start="4">
+<li>Access <a href="chls.pro/ssl">chls.pro/ssl</a> in the iPhone browser, download and install the certificate.</li>
+</ol>
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" data-sub-html="<h2>Certificate installation</h2>"></a>
   </div>
@@ -118,7 +122,9 @@
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" data-sub-html="<h2>Certificate trust settings</h2>"></a>
   </div>
-6. Install the configuration file for the proxy server in the iPhone settings `General -> VPN & Device Management`.
+<ol start="6">
+<li>Install the configuration file for the proxy server in the iPhone settings <code>General -&gt; VPN &amp; Device Management</code>.</li>
+</ol>
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" data-sub-html="<h2>Configuration file</h2>"></a>
   </div>

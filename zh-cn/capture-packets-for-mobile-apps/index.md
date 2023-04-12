@@ -58,6 +58,7 @@ brew install --cask charles
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles">}}
   </div>
+
 3. 在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为`8888`。  
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="代理服务器">}}

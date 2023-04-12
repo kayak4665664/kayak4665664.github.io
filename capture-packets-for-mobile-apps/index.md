@@ -58,10 +58,12 @@ For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turne
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles">}}
   </div>
+
 3. On the iPhone, set the proxy server to the macOS device. The proxy server port is `8888`.
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="Proxy">}}
   </div>
+
 4. Access [chls.pro/ssl](chls.pro/ssl) in the iPhone browser, download and install the certificate.
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="Certificate installation">}}
@@ -71,6 +73,7 @@ For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turne
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="Certificate trust settings">}}
   </div>
+
 6. Install the configuration file for the proxy server in the iPhone settings `General -> VPN & Device Management`.
   <div align="center">
   {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="Configuration file">}}

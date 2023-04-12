@@ -106,7 +106,9 @@
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" data-sub-html="<h2>Charles</h2>"></a>
   </div>
-3. 在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为`8888`。  
+<ol start="3">
+<li>在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为<code>8888</code>。</li>
+</ol>
   <div align="center">
   <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" data-sub-html="<h2>代理服务器</h2>"></a>
   </div>
