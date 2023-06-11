@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>微信 - 标签 - kayak4665664的博客</title>
+    <link>https://www.kayak4665664.com/zh-cn/tags/%E5%BE%AE%E4%BF%A1/</link>
+    <description>微信 - 标签 - kayak4665664的博客</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Wed, 16 Nov 2022 21:06:26 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%BE%AE%E4%BF%A1/" rel="self" type="application/rss+xml" /><item>
+  <title>把闲置微信公众号变成机器人</title>
+  <link>https://www.kayak4665664.com/zh-cn/turn-idle-wechat-official-account-into-a-robot/</link>
+  <pubDate>Wed, 16 Nov 2022 21:06:26 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/turn-idle-wechat-official-account-into-a-robot/</guid>
+  <description><![CDATA[<p>只要5分钟，把微信公众号变成机器人🤖。</p>
+<p>之前注册了一个微信公众号，但是一直闲置着，于是我就想把它变成机器人，发挥一点点作用。</p>
+<h2 id="方法">方法</h2>
+<ol>
+<li>用微信扫码登录<a href="http://chatbot.weixin.qq.com/"target="_blank" rel="external nofollow noopener noreferrer">微信对话开放平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li>在机器人创建页面设置机器人的名称，完成机器人创建</li>
+<li>根据需要开启机器人的“预置技能”，比如英语翻译、天气、股票、新闻、笑话等</li>
+<li>在“应用绑定”中绑定微信公众号</li>
+<li>在“上线发布”中发布</li>
+</ol>
+<p>是不是很简单呢？</p>
+<div align="center">
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" data-sub-html="<h2>机器人</h2>"></a>
+</div>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,247 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>ChatGPT - 标签 - kayak4665664的博客</title>
+    <link>https://www.kayak4665664.com/zh-cn/tags/chatgpt/</link>
+    <description>ChatGPT - 标签 - kayak4665664的博客</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 03 Mar 2023 22:58:08 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/chatgpt/" rel="self" type="application/rss+xml" /><item>
+  <title>在Python中使用ChatGPT API</title>
+  <link>https://www.kayak4665664.com/zh-cn/using-the-chatgpt-api-in-python/</link>
+  <pubDate>Fri, 03 Mar 2023 22:58:08 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/using-the-chatgpt-api-in-python/</guid>
+  <description><![CDATA[<div class="details admonition abstract open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-list-ul fa-fw" aria-hidden="true"></i>摘要<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">ChatGPT的API正式发布了，可以在Python中使用了。</div>
+    </div>
+  </div>
+<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="ChatGPT API 简介"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">ChatGPT API 简介</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://openai.com/blog/introducing-chatgpt-and-whisper-apis</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>注册OpenAI账号之后，在<a href="https://platform.openai.com/account/api-keys"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/api-keys<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中创建一个API Key。在<a href="https://platform.openai.com/account/usage"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/usage<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中可以看到，账号中有$18的免费额度，4月1日过期。</p>
+<p>这次发布的ChatGPT模型gpt-3.5-turbo与ChatGPT产品中使用的模型相同。另外，还发布了gpt-3.5-turbo-0301，这个模型至少在6月1日之前是被支持的。</p>
+<p>完整的API使用指导可以在这里找到：</p>
+<a href="https://platform.openai.com/docs/guides/chat" title="ChatGPT API 使用指导"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+    <span class="cl-content">
+      <span class="cl-text">
+        <span class="cl-title">ChatGPT API 使用指导</span>
+        <span class="cl-meta">
+          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
+          <span class="cl-url">https://platform.openai.com/docs/guides/chat</span>
+        </span>
+      </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
+<p>简单来说，要在Python中使用ChatGPT API，需要安装<code>openai</code>这个Python包。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 如果没有安装openai，可以使用下面的命令安装</span>
+</span></span><span class="line"><span class="cl">pip install openai
+</span></span><span class="line"><span class="cl"><span class="c1"># 如果之前安装了openai，使用下面的命令更新</span>
+</span></span><span class="line"><span class="cl">pip install openai --upgrade
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>之后，<code>import openai</code>，然后使用<code>openai.Completion.create</code>函数来调用API即可。</p>
+<p>下面是我写的一个简单的Python脚本，可以与ChatGPT进行多轮对话。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">openai</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 这里要写上你自己的API Key</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&#34;OPENAI_API_KEY&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">openai</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&#34;OPENAI_API_KEY&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;system&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="s2">&#34;You are a helpful assistant.&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 这个函数用来调用API</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">get_response</span><span class="p">(</span><span class="n">messages</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">completion</span> <span class="o">=</span> <span class="n">openai</span><span class="o">.</span><span class="n">ChatCompletion</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">model</span><span class="o">=</span><span class="s2">&#34;gpt-3.5-turbo&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span>  <span class="c1"># type: ignore</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">user_content</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;You: &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">user_content</span> <span class="o">==</span> <span class="s2">&#34;quit&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">break</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="n">user_content</span> <span class="o">==</span> <span class="s2">&#34;new&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;system&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="s2">&#34;You are a helpful assistant.&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;new conversation started</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;user&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">user_content</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="n">response</span> <span class="o">=</span> <span class="n">get_response</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Assistant:&#34;</span><span class="p">,</span> <span class="n">response</span> <span class="o">+</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="c1"># 这里把Assistant的回复也加入到messages中，联系上下文</span>
+</span></span><span class="line"><span class="cl">            <span class="n">messages</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;assistant&#34;</span><span class="p">,</span> <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">response</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>运行之后是这样子的，</p>
+<div class="details admonition example open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>示例<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content"><p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: What is the biggest animal in the world?<br>
+<strong>Assistant</strong>: The biggest animal in the world is the blue whale. It can grow up to 100 feet long and weigh as much as 200 tons.</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: Please write a poem about blue whales.<br>
+<strong>Assistant</strong>: Majestic and mighty,<br>
+The blue whale swims through the sea,<br>
+Largest creature on earth,<br>
+Behold its great beauty.</p>
+<p>A vast and gentle giant,<br>
+Graceful in every move,<br>
+Plunge deep into the ocean,<br>
+Embrace the whale and groove.</p>
+<p>With a heart that&rsquo;s enormous,<br>
+And lungs as large as a car,<br>
+Sing to the depths of the ocean,<br>
+Your melodic, haunting bar.</p>
+<p>A creature so magnificent,<br>
+Awe inspiring, and grand,<br>
+Nowhere else found on earth,<br>
+A true wonder of the land.</p>
+<p>Let us protect this great whale,<br>
+So that it may flourish and thrive,<br>
+For a world without the blue whale,<br>
+Is a world less truly alive.</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: new<br>
+<em>new conversation started</em></p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: 世界上最大的动物是什么？<br>
+<strong>Assistant</strong>: 世界上最大的动物是蓝鲸。它们可以长达30米长，重达173吨，是地球上已知最大的动物。</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: 请写一首关于蓝鲸的诗。<br>
+<strong>Assistant</strong>: 在深深的海洋里<br>
+有一种生物，比海洋还大<br>
+它游荡于大海之中<br>
+它的名字叫做蓝鲸</p>
+<p>蓝鲸身长三十米<br>
+重达一百七十三吨<br>
+它们是地球上最大的动物<br>
+不同寻常的存在</p>
+<p>它们的歌声遥远而美丽<br>
+在海洋里有时听得见<br>
+它们善良而又神秘<br>
+是这片蔚蓝海洋之主</p>
+<p>蓝鲸，你的身影<br>
+在海洋中，如此崇高<br>
+你的力量与恩宠<br>
+在人间，永世留存</p>
+<p><em>type &lsquo;quit&rsquo; to exit, type &rsquo;new&rsquo; to begin a new conversation</em><br>
+<strong>You</strong>: quit</p>
+</div>
+    </div>
+  </div>]]></description>
+</item>
+<item>
+  <title>新Bing体验</title>
+  <link>https://www.kayak4665664.com/zh-cn/you-re-in-welcome-to-the-new-bing/</link>
+  <pubDate>Sat, 18 Feb 2023 10:41:04 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/you-re-in-welcome-to-the-new-bing/</guid>
+  <description><![CDATA[<p>自从2月11日加入了<a href="https://www.bing.com/new"target="_blank" rel="external nofollow noopener noreferrer">waitlist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，今天终于收到邮件，我可以使用新Bing了。</p>
+<div class="details admonition bug open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-bug fa-fw" aria-hidden="true"></i>Bug<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">迫不及待地打开了Edge Dev，进入CHAT，但是我很快就发现无法在输入框里正常地输入所有的字符。我又在Safari上试了试，发现完全正常，所以很可能是Edge Dev存在一些问题。</div>
+    </div>
+  </div>
+<p>之后和新Bing进行了几轮对话，感觉它似乎有点缺少对话的积极性，经常会让我换个话题。而且，没几分钟就出现了“This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?”的提示。</p>
+<p>不得不说，新Bing一个很有用的功能是它可以从我们正在阅读的网页和文件中获取信息。我测试了一下，我用Edge Dev打开了一个本地的PDF文件，点击Discover按钮进行Chat，新Bing可以总结这个文件中的要点。另外，它也可以在Discover中很方便地生成一些文字。</p>
+<p>根据我的体验，我认为新Bing还是很不错的，非常期待之后的正式版本。</p>]]></description>
+</item>
+<item>
+  <title>Visited Lite &amp; Color Links: 自定义已访问链接的颜色</title>
+  <link>https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/</link>
+  <pubDate>Mon, 13 Feb 2023 22:12:33 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/visited-lite-script-that-mark-all-visited-links-as-custom-color/</guid>
+  <description><![CDATA[<p><a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>是一个自定义已访问链接的颜色的userscript，而<a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>是具有相似功能的浏览器扩展。</p>
+<p>前几天微软公司推出了结合GPT技术的新版Bing和Edge浏览器，我看了网上对它们的介绍，感觉真的很不错。而且去年我也第一时间体验了<a href="https://chat.openai.com/chat"target="_blank" rel="external nofollow noopener noreferrer">ChatGPT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，所以这一次我非常期待新版Bing和Edge，申请加入了<a href="https://www.bing.com/new"target="_blank" rel="external nofollow noopener noreferrer">waitlist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。</p>
+<div class="details admonition question open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-question-circle fa-fw" aria-hidden="true"></i>问题<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">在使用Bing的过程中，我忽然发现了一个问题，在Bing的搜索结果中，已访问的链接和未访问的链接都是紫色的，这样就很难区分哪些链接是已访问的，哪些链接是未访问的。而我之前一直使用Google，未访问的链接是蓝色的，访问过的链接是紫色的。我在Bing的设置中并没有找到相关的设置项，不知道问题出在了哪里，所以我想寻找一些userscript或者浏览器扩展来解决这个问题。</div>
+    </div>
+  </div>
+<h2 id="visited-lite">Visited Lite</h2>
+<p>于是我找到了<a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，它可以自定义所有网站的已访问链接的颜色，而不仅仅是Bing的。我在Edge的<a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">Tampermonkey<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>扩展中安装了这个userscript，<a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>用醒目的颜色标记了所有已访问的链接。不过有的网页可能并不需要这个功能，可以在<a href="https://www.tampermonkey.net/"target="_blank" rel="external nofollow noopener noreferrer">Tampermonkey<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>扩展中排除它们。</p>
+<h2 id="color-links">Color Links</h2>
+<p>之后，我又在chrome web store中找到了<a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。与<a href="https://greasyfork.org/en/scripts/15173-visited-lite"target="_blank" rel="external nofollow noopener noreferrer">Visited Lite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>的不同主要在于，<a href="https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related"target="_blank" rel="external nofollow noopener noreferrer">Color Links<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>需要为每一个网站手动开启标记颜色的功能。</p>]]></description>
+</item>
+</channel>
+</rss>
