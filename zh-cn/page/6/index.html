@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
   <head>
-	<meta name="generator" content="Hugo 0.117.0">
+	<meta name="generator" content="Hugo 0.118.2">
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -159,6 +159,11 @@
     </a><a href="mailto:contact@kayak4665664.com" title="Email" rel=" me"><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i>
     </a><a href="/zh-cn/index.xml" title="RSS"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-solid fa-rss fa-fw" aria-hidden="true"></i>
     </a></div></div>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+    <a href="/zh-cn/binary-search/">二分查找</a>
+  </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/kayak4665664" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" sizes="auto" data-title="kayak4665664" data-alt="kayak4665664" width="450" height="450" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;kayak4665664</a></span>&nbsp;<span class="post-publish" title='2022-01-29 22:01:40'>发布于 <time datetime="2022-01-29">2022-01-29</time></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E7%AC%94%E8%AE%B0/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 笔记</a></span></div><div class="content"><p>这是二分查找算法的一个C++模版，以及C++标准模版库<code>&lt;algorithm&gt;</code>头文件中二分查找函数<code>std::lower_bound</code>和<code>std::upper_bound</code>的简单应用。</p></div><div class="post-footer">
+    <a href="/zh-cn/binary-search/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/zh-cn/tags/%E6%9F%A5%E6%89%BE/' class="post-tag">查找</a><a href='/zh-cn/tags/%E7%AE%97%E6%B3%95/' class="post-tag">算法</a><a href='/zh-cn/tags/c&#43;&#43;/' class="post-tag">C&#43;&#43;</a><a href='/zh-cn/tags/leetcode/' class="post-tag">LeetCode</a></div></div>
+</article>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
       <a href="/zh-cn/made-a-cake/" aria-label="做了个蛋糕🍰"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0917.jpeg" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0917.jpeg, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0917.jpeg 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0917.jpeg 2x" sizes="auto" data-title="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0917.jpeg" data-alt="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0917.jpeg" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
     </div><h1 class="single-title" itemprop="name headline">
@@ -214,7 +219,7 @@
             <a href="/zh-cn/page/6/">6</a>
           </span>
         </li></ul></div></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.117.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.2.18"><img class="fixit-icon" src="/fixit.min.svg" alt="FixIt logo" />&nbsp;FixIt</a>
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.118.2">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.2.18"><img class="fixit-icon" src="/fixit.min.svg" alt="FixIt logo" />&nbsp;FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">
               <a href="https://github.com/kayak4665664"target="_blank" rel="external nofollow noopener noreferrer">kayak4665664</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreffer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line statistics"><span class="site-time" title='网站运行中……'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="run-times ms-1">网站运行中……</span></span></div><div class="footer-line visitor">
