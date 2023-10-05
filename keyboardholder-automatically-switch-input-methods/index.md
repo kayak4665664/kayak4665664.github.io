@@ -11,6 +11,10 @@ It can set the input method for each app when it starts or switches from the bac
 
 In addition, it can display the input method switch prompt at the location of the mouse, so you don't need to transfer the focus to the menu bar to check the input method status.
 
+{{< admonition info >}}
+This feature has been built into macOS 14.
+{{< /admonition >}}
+
 ---
 
 > Author: [kayak4665664](https://github.com/kayak4665664)  
