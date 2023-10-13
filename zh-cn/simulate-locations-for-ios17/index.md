@@ -7,7 +7,7 @@
 
 我觉得这些办法都太麻烦了，在[https://shawnhuangyh.com/post/ios-17-location-simulation/](https://shawnhuangyh.com/post/ios-17-location-simulation/)这里找到一个简单有效的办法，主要使用了[pymobiledevice3](https://github.com/doronz88/pymobiledevice3)。
 
-### 1. 在macOS上安装pymobiledevice3.
+### 1. 在macOS上安装pymobiledevice3：
 ```bash
 python3 -m pip install -U pymobiledevice3
 ```

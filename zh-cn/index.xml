@@ -15,7 +15,7 @@
   <description><![CDATA[<p>最近需要在iPhone上模拟定位，研究了一下，终于发现了一个简单有效的方法。</p>
 <p>我在网上找到了好几种办法，在不越狱iPhone的情况下。第一种是使用<a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，这个软件是有效的，但是需要付费。第二种是用一个具有root权限的安卓手机，在上面安装这个<a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，之后把iPhone连接到这个安卓手机上。其他方法还有借助Xcode、爱思助手，或者是外接设备，甚至还可以模拟卫星信号欺骗手机。</p>
 <p>我觉得这些办法都太麻烦了，在<a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>这里找到一个简单有效的办法，主要使用了<a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。</p>
-<h3 id="1-在macos上安装pymobiledevice3">1. 在macOS上安装pymobiledevice3.</h3>
+<h3 id="1-在macos上安装pymobiledevice3">1. 在macOS上安装pymobiledevice3：</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1

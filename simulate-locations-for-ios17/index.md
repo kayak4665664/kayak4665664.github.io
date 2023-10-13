@@ -7,7 +7,7 @@ I found several methods online, without jailbreaking iPhone. The first one is to
 
 I think these methods are too complicated. I found a simple and effective method at [https://shawnhuangyh.com/post/ios-17-location-simulation/](https://shawnhuangyh.com/post/ios-17-location-simulation/), which mainly uses [pymobiledevice3](https://github.com/doronz88/pymobiledevice3).
 
-### 1. Install pymobiledevice3 on macOS.
+### 1. Install pymobiledevice3 on macOS:
 ```bash
 python3 -m pip install -U pymobiledevice3
 ```
