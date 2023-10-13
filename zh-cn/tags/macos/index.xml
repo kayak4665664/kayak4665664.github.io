@@ -4,7 +4,73 @@
     <link>https://www.kayak4665664.com/zh-cn/tags/macos/</link>
     <description>macOS - 标签 - kayak4665664的博客</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sat, 23 Sep 2023 17:19:34 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/macos/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 13 Oct 2023 13:06:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/macos/" rel="self" type="application/rss+xml" /><item>
+  <title>iOS17模拟定位</title>
+  <link>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</link>
+  <pubDate>Fri, 13 Oct 2023 13:06:04 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</guid>
+  <description><![CDATA[<p>最近需要在iPhone上模拟定位，研究了一下，终于发现了一个简单有效的方法。</p>
+<p>我在网上找到了好几种办法，在不越狱iPhone的情况下。第一种是使用<a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，这个软件是有效的，但是需要付费。第二种是用一个具有root权限的安卓手机，在上面安装这个<a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，之后把iPhone连接到这个安卓手机上。其他方法还有借助Xcode、爱思助手，或者是外接设备，甚至还可以模拟卫星信号欺骗手机。</p>
+<p>我觉得这些办法都太麻烦了，在<a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>这里找到一个简单有效的办法，主要使用了<a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。</p>
+<h3 id="1-在macos上安装pymobiledevice3">1. 在macOS上安装pymobiledevice3.</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-在iphone中开启开发者模式位于settings---privacy--security---developer-mode">2. 在iPhone中开启开发者模式，位于<code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>。</h3>
+<h3 id="3-将iphone连接到macos上在macos上执行">3. 将iPhone连接到macOS上，在macOS上执行：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-quic-tunnel
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>将会打印类似以下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Interface: utun6
+</span></span><span class="line"><span class="cl">RSD Address: fd7b:e5b:6f53::1
+</span></span><span class="line"><span class="cl">RSD Port: 64337
+</span></span><span class="line"><span class="cl">Use the follow connection option:
+</span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>RSD Address</code>和<code>RSD Port</code>在第5步要用到。</p>
+<h3 id="4-确保iphone此时还没有锁屏在macos上执行">4. 确保iPhone此时还没有锁屏，在macOS上执行：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="5-继续在macos中执行">5. 继续在macOS中执行：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pymobiledevice3 developer dvt simulate-location <span class="nb">set</span> --rsd &lt;RSD Address&gt; &lt;RSD Port&gt; -- &lt;latitude&gt; &lt;longtitude&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>将<code>&lt;&gt;</code>中的内容替换为自己的内容，分别为第3步中的<code>RSD Address</code>和<code>RSD Port</code>，以及要模拟的纬度和经度。此时在iPhone上查看，定位应该已经变成了模拟的位置。在停止模拟后，iPhone的定位会自动恢复正常。</p>]]></description>
+</item>
+<item>
   <title>battery: 限制Apple Silicon Macbook的电池充电</title>
   <link>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</link>
   <pubDate>Sat, 23 Sep 2023 17:19:34 &#43;0800</pubDate>
@@ -576,31 +642,6 @@ lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -&gt; 111.0.1660.13</div>
 </span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
-</item>
-<item>
-  <title>texliveonfly, env: python: No Such File or Directory</title>
-  <link>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</link>
-  <pubDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</guid>
-  <description><![CDATA[<div class="details admonition failure open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>失败<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">昨天用了一下texliveonfly宏包，直接出现了<code>env: python: No Such File or Directory</code>。</div>
-    </div>
-  </div>
-<p>我试着执行了一下<code>python</code>，结果弹出了一个Xcode Command Line Tools的提示，说要下载一些东西，然后它下载了Python3.9，而我之前已经有了Python3.8🙃。</p>
-<p>我试着用<code>ln</code>建立软连接，但是没有用。</p>
-<div class="details admonition success open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-check-circle fa-fw" aria-hidden="true"></i>成功<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">我想既然texliveonfly是用Python写的，我可以直接编辑它。于是我找到了<code>/Library/TeX/texbin/texliveonfly</code>，然后将这个文件第一行的<code>#!/usr/bin/env python</code>改成了<code>#!/usr/bin/env python3</code>，这样就解决了。</div>
-    </div>
-  </div>]]></description>
 </item>
 </channel>
 </rss>

@@ -4,7 +4,73 @@
     <link>https://www.kayak4665664.com/tags/python/</link>
     <description>Python - Tag - kayak4665664&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 03 Mar 2023 22:58:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/python/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 13 Oct 2023 13:05:59 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/python/" rel="self" type="application/rss+xml" /><item>
+  <title>Simulate Locations for iOS17</title>
+  <link>https://www.kayak4665664.com/simulate-locations-for-ios17/</link>
+  <pubDate>Fri, 13 Oct 2023 13:05:59 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/simulate-locations-for-ios17/</guid>
+  <description><![CDATA[<p>I need to simulate location on iPhone recently. After some research, I finally found a simple and effective method.</p>
+<p>I found several methods online, without jailbreaking iPhone. The first one is to use <a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is effective but requires payment. The second one is to use an Android phone with root permission, install <a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, and then connect the iPhone to this Android phone. Other methods include using Xcode, i4Tools, or external devices, or even simulating satellite signals to deceive the iPhone.</p>
+<p>I think these methods are too complicated. I found a simple and effective method at <a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which mainly uses <a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
+<h3 id="1-install-pymobiledevice3-on-macos">1. Install pymobiledevice3 on macOS.</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode">2. Enable developer mode on iPhone, located at <code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>.</h3>
+<h3 id="3-connect-the-iphone-to-macos-and-execute">3. Connect the iPhone to macOS, and execute:</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-quic-tunnel
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It will print something like the following:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Interface: utun6
+</span></span><span class="line"><span class="cl">RSD Address: fd7b:e5b:6f53::1
+</span></span><span class="line"><span class="cl">RSD Port: 64337
+</span></span><span class="line"><span class="cl">Use the follow connection option:
+</span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>RSD Address</code> and <code>RSD Port</code> will be used in step 5.</p>
+<h3 id="4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos">4. Make sure the iPhone is not locked at this time, and execute on macOS:</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="5-continue-to-execute-on-macos">5. Continue to execute on macOS:</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pymobiledevice3 developer dvt simulate-location <span class="nb">set</span> --rsd &lt;RSD Address&gt; &lt;RSD Port&gt; -- &lt;latitude&gt; &lt;longtitude&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Replace <code>&lt;RSD Address&gt;</code> and <code>&lt;RSD Port&gt;</code> with the values printed in step 3, and replace <code>&lt;latitude&gt;</code> and <code>&lt;longtitude&gt;</code> with the latitude and longitude you want to simulate. Look at the iPhone, the location has been simulated successfully. After terminating the simulation, the iPhone will return to the real location.</p>]]></description>
+</item>
+<item>
   <title>Using the ChatGPT API in Python</title>
   <link>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</link>
   <pubDate>Fri, 03 Mar 2023 22:58:04 &#43;0800</pubDate>
