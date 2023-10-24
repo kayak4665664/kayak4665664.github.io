@@ -14,26 +14,24 @@
 <p>我在网上找到了好几种办法，在不越狱iPhone的情况下。第一种是使用<a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，这个软件是有效的，但是需要付费。第二种是用一个具有root权限的安卓手机，在上面安装这个<a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，之后把iPhone连接到这个安卓手机上。其他方法还有借助Xcode、爱思助手，或者是外接设备，甚至还可以模拟卫星信号欺骗手机。</p>
 <p>我觉得这些办法都太麻烦了，在<a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>这里找到一个简单有效的办法，主要使用了<a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。</p>
 <h3 id="1-在macos上安装pymobiledevice3">1. 在macOS上安装pymobiledevice3：</h3>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="2-在iphone中开启开发者模式位于settings---privacy--security---developer-mode">2. 在iPhone中开启开发者模式，位于<code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>。</h3>
 <h3 id="3-将iphone连接到macos上在macos上执行">3. 将iPhone连接到macOS上，在macOS上执行：</h3>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-2"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-quic-tunnel
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-quic-tunnel</span></span></code></pre></td></tr></table>
 </div>
 </div><p>将会打印类似以下内容：</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-3"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -46,27 +44,24 @@
 </span></span><span class="line"><span class="cl">RSD Address: fd7b:e5b:6f53::1
 </span></span><span class="line"><span class="cl">RSD Port: 64337
 </span></span><span class="line"><span class="cl">Use the follow connection option:
-</span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337
-</span></span></code></pre></td></tr></table>
+</span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337</span></span></code></pre></td></tr></table>
 </div>
 </div><p><code>RSD Address</code>和<code>RSD Port</code>在第5步要用到。</p>
 <h3 id="4-确保iphone此时还没有锁屏在macos上执行">4. 确保iPhone此时还没有锁屏，在macOS上执行：</h3>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-4"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="5-继续在macos中执行">5. 继续在macOS中执行：</h3>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-5"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pymobiledevice3 developer dvt simulate-location <span class="nb">set</span> --rsd &lt;RSD Address&gt; &lt;RSD Port&gt; -- &lt;latitude&gt; &lt;longtitude&gt;
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pymobiledevice3 developer dvt simulate-location <span class="nb">set</span> --rsd &lt;RSD Address&gt; &lt;RSD Port&gt; -- &lt;latitude&gt; &lt;longtitude&gt;</span></span></code></pre></td></tr></table>
 </div>
 </div><p>将<code>&lt;&gt;</code>中的内容替换为自己的内容，分别为第3步中的<code>RSD Address</code>和<code>RSD Port</code>，以及要模拟的纬度和经度。此时在iPhone上查看，定位应该已经变成了模拟的位置。在停止模拟后，iPhone的定位会自动恢复正常。</p>]]></description>
 </item>
@@ -88,13 +83,12 @@
 <h2 id="wireshark">Wireshark</h2>
 <p>Wireshark是一个开源的网络分析工具，可以用来抓取网络数据包。它可以在macOS、Windows和Linux上运行。</p>
 <p>在macOS上，可以使用<code>brew</code>安装Wireshark：</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark</span></span></code></pre></td></tr></table>
 </div>
 </div><p>使用Wireshark抓包也很简单，比如选择<code>Wi-Fi</code>接口就可以抓无线网卡的数据包。</p>
 <div align="center">
@@ -103,33 +97,30 @@
 <h2 id="tcpdump">tcpdump</h2>
 <p>tcpdump是一个命令行工具，可以用来抓取网络数据包。假如在没有图形界面的服务器上，可以使用它来抓取数据包。</p>
 <p>在macOS上，可以使用<code>brew</code>安装tcpdump：</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-2"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump</span></span></code></pre></td></tr></table>
 </div>
 </div><p>使用tcpdump抓包，比如抓取<code>12345</code>端口的数据包并保存为<code>pcap</code>文件：</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-3"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="charles">Charles</h2>
 <p>Charles是一个HTTP代理服务器，可以用来抓取HTTP和HTTPS的数据包，和Fiddler类似。</p>
 <p>在macOS上，也使用<code>brew</code>安装Charles：</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-4"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="手机app抓包">手机App抓包</h2>
 <p>对于MacBook，如果已经连接了Wi-Fi，就不能开启无线热点了。所以需要用Charles来建立一个代理服务器，然后手机连接到这个代理服务器上。主要步骤如下：</p>

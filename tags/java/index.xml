@@ -13,7 +13,7 @@
   <description><![CDATA[<p>I encountered a problem when I was completing <a href="https://www.kayak4665664.com/springboot-demo/"target="_blank" rel="external nofollow noopener noreferrer">Springboot-Demo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is to get resource files.</p>
 <p>At first, I packaged the project into a jar file using Maven, and then ran it. The program reported an error that it could not find the json file. After troubleshooting, I found that the problem was in the way I got the json file. I used a relative path, but when running the jar file, the relative path is relative to the directory where the jar file is located, not relative to the source code directory, so the json file cannot be found.</p>
 <p>The solution is to use the <code>getResourceAsStream</code> method of the <code>ClassLoader</code> class, which can return an <code>InputStream</code> object according to the given path name, and then use this object to read the contents of the resource file. For example:</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -24,8 +24,7 @@
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//Assuming there is a Main class, get the class loader object
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">ClassLoader</span> <span class="n">classLoader</span> <span class="o">=</span> <span class="n">Main</span><span class="o">.</span><span class="na">class</span><span class="o">.</span><span class="na">getClassLoader</span><span class="o">();</span>
 </span></span><span class="line"><span class="cl"><span class="c1">//Get the input stream object according to the resource file name
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">InputStream</span> <span class="n">inputStream</span> <span class="o">=</span> <span class="n">classLoader</span><span class="o">.</span><span class="na">getResourceAsStream</span><span class="o">(</span><span class="s">&#34;test.log&#34;</span><span class="o">);</span>
-</span></span></code></pre></td></tr></table>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">InputStream</span> <span class="n">inputStream</span> <span class="o">=</span> <span class="n">classLoader</span><span class="o">.</span><span class="na">getResourceAsStream</span><span class="o">(</span><span class="s">&#34;test.log&#34;</span><span class="o">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
 </item>
@@ -56,7 +55,7 @@
   <guid>https://www.kayak4665664.com/leetcode-66/</guid>
   <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 66.Plus One<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -125,8 +124,7 @@
 </span></span><span class="line"><span class="cl">        <span class="o">}</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span></code></pre></td></tr></table>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
 </item>

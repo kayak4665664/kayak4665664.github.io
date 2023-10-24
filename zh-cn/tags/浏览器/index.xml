@@ -32,13 +32,12 @@
 <h2 id="方法">方法</h2>
 <h3 id="1">1</h3>
 <p>以Dev版本为例，切换目录到以下位置</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ Framework.framework/Versions
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ Framework.framework/Versions</span></span></code></pre></td></tr></table>
 </div>
 </div><p>也可以在访达中按下<code>control + shift + G</code>，输入要前往的位置</p>
 <h3 id="2">2</h3>
@@ -58,15 +57,14 @@ lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -&gt; 111.0.1660.13</div>
 <p>使用<code>rm -rf</code>删除其他旧版本的，或者也可以在访达中删除</p>
 <h3 id="4">4</h3>
 <p>最后一步，这一步同样也可以在访达中进行</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-2"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~/Library/Application\ Support/Microsoft
-</span></span><span class="line"><span class="cl">rm -rf EdgeUpdater
-</span></span></code></pre></td></tr></table>
+</span></span><span class="line"><span class="cl">rm -rf EdgeUpdater</span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
 </item>

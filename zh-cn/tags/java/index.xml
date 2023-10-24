@@ -13,7 +13,7 @@
   <description><![CDATA[<p>我在完成<a href="https://www.kayak4665664.com/zh-cn/springboot-demo/"target="_blank" rel="external nofollow noopener noreferrer">Springboot-Demo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>的过程中，遇到了一个获取资源文件的问题。</p>
 <p>刚开始，我使用Maven将项目打包成了jar包，然后运行，程序报错找不到json文件了。经过排查，我发现问题出在了我获取json文件的方式上，我使用了相对路径，但是在运行jar包时，相对路径是相对于jar包所在的目录，而不是相对于源代码目录，这样就找不到json文件了。</p>
 <p>解决的方法是使用<code>ClassLoader</code>类的<code>getResourceAsStream</code>方法，它可以根据给定的路径名返回一个<code>InputStream</code>对象，然后就可以使用这个对象来读取资源文件的内容。比如：</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -24,8 +24,7 @@
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//假如存在一个Main类，获取类加载器对象
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">ClassLoader</span> <span class="n">classLoader</span> <span class="o">=</span> <span class="n">Main</span><span class="o">.</span><span class="na">class</span><span class="o">.</span><span class="na">getClassLoader</span><span class="o">();</span>
 </span></span><span class="line"><span class="cl"><span class="c1">//根据资源文件名获取输入流对象
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">InputStream</span> <span class="n">inputStream</span> <span class="o">=</span> <span class="n">classLoader</span><span class="o">.</span><span class="na">getResourceAsStream</span><span class="o">(</span><span class="s">&#34;test.log&#34;</span><span class="o">);</span>
-</span></span></code></pre></td></tr></table>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">InputStream</span> <span class="n">inputStream</span> <span class="o">=</span> <span class="n">classLoader</span><span class="o">.</span><span class="na">getResourceAsStream</span><span class="o">(</span><span class="s">&#34;test.log&#34;</span><span class="o">);</span></span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
 </item>
@@ -56,7 +55,7 @@
   <guid>https://www.kayak4665664.com/zh-cn/leetcode-66/</guid>
   <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 66.Plus One<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，一道简单的题。主要是想练习一下Java，好长时间没写Java了。</p>
 <p>我的思路是从后往前遍历，如果当前位是9，那么就进位，如果不是9，那么就加1，然后返回结果。如果最后一位是9，那么就需要在最前面加一个1，这个时候就需要新建一个数组，然后把原来的数组复制过去。</p>
-<div class="highlight"><div class="chroma">
+<div class="highlight" id="id-1"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -125,8 +124,7 @@
 </span></span><span class="line"><span class="cl">        <span class="o">}</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span></code></pre></td></tr></table>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description>
 </item>
