@@ -106,7 +106,7 @@
   </div>
 <p>Or use your mobile phone to scan the QR code on the poster below:</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG" data-sub-html="<h2>Depay</h2>"></a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG?size=small" data-sub-html="<h2>Depay</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2121.JPG?size=large 2x" sizes="auto" data-title="Depay" data-alt="Depay" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
 </div>
 <p>Android can directly download the APK and install it; iOS can be downloaded in non-Chinese regions App Store, or a beta version can be downloaded.</p>
 <h2 id="apply-for-a-virtual-card">Apply for a virtual card</h2>

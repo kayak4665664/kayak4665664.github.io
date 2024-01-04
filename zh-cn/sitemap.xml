@@ -2,16 +2,7 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/c&#43;&#43;/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://www.kayak4665664.com/tags/c&#43;&#43;/"
-            /><xhtml:link
-          rel="alternate"
-          hreflang="zh-cn"
-          href="https://www.kayak4665664.com/zh-cn/tags/c&#43;&#43;/"
-          /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/categories/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/categories/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/categories/"
@@ -20,7 +11,16 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/categories/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/github/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.kayak4665664.com/tags/github/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="zh-cn"
+          href="https://www.kayak4665664.com/zh-cn/tags/github/"
+          /></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/"
@@ -29,25 +29,25 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/leetcode/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/node-depend-view/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
-            href="https://www.kayak4665664.com/tags/leetcode/"
+            href="https://www.kayak4665664.com/node-depend-view/"
             /><xhtml:link
           rel="alternate"
           hreflang="zh-cn"
-          href="https://www.kayak4665664.com/zh-cn/tags/leetcode/"
+          href="https://www.kayak4665664.com/zh-cn/node-depend-view/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/leetcode-linked-list-solutions/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/node.js/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
-            href="https://www.kayak4665664.com/leetcode-linked-list-solutions/"
+            href="https://www.kayak4665664.com/tags/node.js/"
             /><xhtml:link
           rel="alternate"
           hreflang="zh-cn"
-          href="https://www.kayak4665664.com/zh-cn/leetcode-linked-list-solutions/"
+          href="https://www.kayak4665664.com/zh-cn/tags/node.js/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/posts/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/posts/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/posts/"
@@ -56,7 +56,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/posts/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/tags/"
@@ -65,7 +65,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/tags/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/typescript/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/typescript/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/tags/typescript/"
@@ -74,11 +74,42 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/tags/typescript/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E9%93%BE%E8%A1%A8/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E7%AE%97%E6%B3%95/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E5%89%8D%E7%AB%AF/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E5%85%A8%E6%A0%88/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E7%AE%97%E6%B3%95/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/</loc><lastmod>2024-01-04T22:17:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/c&#43;&#43;/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.kayak4665664.com/tags/c&#43;&#43;/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="zh-cn"
+          href="https://www.kayak4665664.com/zh-cn/tags/c&#43;&#43;/"
+          /></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/leetcode/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.kayak4665664.com/tags/leetcode/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="zh-cn"
+          href="https://www.kayak4665664.com/zh-cn/tags/leetcode/"
+          /></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/leetcode-linked-list-solutions/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.kayak4665664.com/leetcode-linked-list-solutions/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="zh-cn"
+          href="https://www.kayak4665664.com/zh-cn/leetcode-linked-list-solutions/"
+          /></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E9%93%BE%E8%A1%A8/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc><lastmod>2023-10-18T13:44:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/simulate-locations-for-ios17/"
@@ -87,7 +118,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/iphone/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/iphone/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/tags/iphone/"
@@ -96,7 +127,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/tags/iphone/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/macos/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/macos/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/tags/macos/"
@@ -105,7 +136,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/tags/macos/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/python/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/python/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/tags/python/"
@@ -114,8 +145,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/tags/python/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</loc><lastmod>2023-10-13T14:07:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/leetcode-arrays-101-solutions/</loc><lastmod>2023-10-10T16:16:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/leetcode-arrays-101-solutions/</loc><lastmod>2023-10-10T16:16:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/leetcode-arrays-101-solutions/"
@@ -124,10 +154,10 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/leetcode-arrays-101-solutions/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E6%95%B0%E7%BB%84/</loc><lastmod>2023-10-10T16:16:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/</loc><lastmod>2023-10-01T23:12:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E4%B8%93%E6%B3%A8%E7%BB%9F%E8%AE%A1/</loc><lastmod>2023-10-01T23:12:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/focus-statistics-40-2023/</loc><lastmod>2023-10-01T23:12:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E6%95%B0%E7%BB%84/</loc><lastmod>2023-10-10T16:16:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/</loc><lastmod>2023-10-01T23:12:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/tags/%E4%B8%93%E6%B3%A8%E7%BB%9F%E8%AE%A1/</loc><lastmod>2023-10-01T23:12:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+      <loc>https://www.kayak4665664.com/zh-cn/focus-statistics-40-2023/</loc><lastmod>2023-10-01T23:12:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/focus-statistics-40-2023/"
@@ -136,7 +166,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/focus-statistics-40-2023/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/focus-statistics-39-2023/</loc><lastmod>2023-09-25T12:35:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/focus-statistics-39-2023/</loc><lastmod>2023-09-25T12:35:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/focus-statistics-39-2023/"
@@ -145,7 +175,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/focus-statistics-39-2023/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</loc><lastmod>2023-09-23T18:30:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</loc><lastmod>2023-09-23T18:30:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/"
@@ -165,8 +195,6 @@
           href="https://www.kayak4665664.com/zh-cn/devtools-font/"
           /></url><url>
       <loc>https://www.kayak4665664.com/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc><lastmod>2023-08-26T17:13:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/%E5%89%8D%E7%AB%AF/</loc><lastmod>2023-08-26T17:13:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/</loc><lastmod>2023-08-26T17:13:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
       <loc>https://www.kayak4665664.com/zh-cn/tags/ucas/</loc><lastmod>2023-07-16T17:54:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
@@ -221,15 +249,6 @@
           rel="alternate"
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/go-to-panjiayuan-to-get-glasses/"
-          /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/tags/github/</loc><lastmod>2023-06-11T19:14:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://www.kayak4665664.com/tags/github/"
-            /><xhtml:link
-          rel="alternate"
-          hreflang="zh-cn"
-          href="https://www.kayak4665664.com/zh-cn/tags/github/"
           /></url><url>
       <loc>https://www.kayak4665664.com/zh-cn/pcap-parser/</loc><lastmod>2023-06-11T19:14:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
@@ -396,7 +415,7 @@
           hreflang="zh-cn"
           href="https://www.kayak4665664.com/zh-cn/use-imagemagick-to-compress-the-image-in-the-command-line/"
           /></url><url>
-      <loc>https://www.kayak4665664.com/zh-cn/keyboardholder-automatically-switch-input-methods/</loc><lastmod>2023-10-05T16:36:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+      <loc>https://www.kayak4665664.com/zh-cn/keyboardholder-automatically-switch-input-methods/</loc><lastmod>2023-10-05T16:36:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
             rel="alternate"
             hreflang="en"
             href="https://www.kayak4665664.com/keyboardholder-automatically-switch-input-methods/"

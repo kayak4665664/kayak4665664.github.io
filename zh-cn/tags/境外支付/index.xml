@@ -106,7 +106,7 @@
   </div>
 <p>或者用手机扫描下方海报上的二维码：</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" data-sub-html="<h2>Depay</h2>"></a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG?size=small" data-sub-html="<h2>Depay</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2120.JPG?size=large 2x" sizes="auto" data-title="Depay" data-alt="Depay" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
 </div>
 <p>安卓直接下载APK安装；iOS可以在非中国区下载，也可以下载测试版。</p>
 <h2 id="申请虚拟卡">申请虚拟卡</h2>

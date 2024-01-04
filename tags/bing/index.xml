@@ -10,9 +10,7 @@
   <pubDate>Wed, 22 Feb 2023 08:55:57 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/what-is-kerberos-in-mac/</guid>
-  <description><![CDATA[<div class="featured-image">
-        <img src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-25%20at%2008.59.49.jpeg" referrerpolicy="no-referrer">
-      </div><p>I suddenly found this Kerberos in the notification settings, what is it?</p>
+  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-25%20at%2008.59.49.jpeg" title="What Is Kerberos in Mac?" alt="What Is Kerberos in Mac?" referrerpolicy="no-referrer"/></div><p>I suddenly found this Kerberos in the notification settings, what is it?</p>
 <p>I asked Bing and it said:</p>
 <div class="details admonition quote open">
     <div class="details-summary admonition-title">
@@ -25,8 +23,7 @@
 <li><a href="https://web.mit.edu/macdev/www/kerberos.html"target="_blank" rel="external nofollow noopener noreferrer">https://web.mit.edu/macdev/www/kerberos.html<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 <li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web"target="_blank" rel="external nofollow noopener noreferrer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 <li><a href="https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web"target="_blank" rel="external nofollow noopener noreferrer">https://support.apple.com/en-gb/guide/deployment/depe6a1cda64/web<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
-</ol>
-</div>
+</ol></div>
     </div>
   </div>
 <p>It seems that this Kerberos is included in macOS, it is located in <code>/System/Library/CoreServices/Applications/Ticket Viewer.app</code>, and it is not a malicious program.</p>]]></description>

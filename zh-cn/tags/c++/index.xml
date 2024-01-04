@@ -1249,7 +1249,7 @@
 <p>给定 <code>n</code> 个非负整数表示每个宽度为 <code>1</code> 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。</p>
 <p><strong>示例：</strong></p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" data-sub-html="<h2>rainwatertrap</h2>"></a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png?size=small" data-sub-html="<h2>rainwatertrap</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/rainwatertrap.png?size=large 2x" sizes="auto" data-title="rainwatertrap" data-alt="rainwatertrap" width="60%" height="60%" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
 </div>
 <p><strong>输入</strong>：height = <code>[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]</code><br>
 <strong>输出</strong>：<code>6</code><br>
