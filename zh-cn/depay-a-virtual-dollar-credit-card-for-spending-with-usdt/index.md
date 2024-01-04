@@ -1,8 +1,6 @@
 # Depay: 使用USDT消费的虚拟美元信用卡
 
-{{< admonition info >}}
 Depay的注册和下载链接：[https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=zh-cn](https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=zh-cn)，推荐码：**606096**。
-{{< /admonition >}}
 <!--more-->
 
 我找到了[Depay老板在v2ex上发的主题](https://www.v2ex.com/t/912011)，本文的内容主要根据这个主题以及我自己的体验。

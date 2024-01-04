@@ -2045,14 +2045,7 @@
   <pubDate>Fri, 03 Mar 2023 22:58:08 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/zh-cn/using-the-chatgpt-api-in-python/</guid>
-  <description><![CDATA[<div class="details admonition abstract open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-list-ul fa-fw" aria-hidden="true"></i>摘要<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">ChatGPT的API正式发布了，可以在Python中使用了。</div>
-    </div>
-  </div>
+  <description><![CDATA[<p>ChatGPT的API正式发布了，可以在Python中使用了。</p>
 <a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="ChatGPT API 简介"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">

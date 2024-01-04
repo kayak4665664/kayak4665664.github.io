@@ -1,8 +1,6 @@
 # Using the ChatGPT API in Python
 
-{{< admonition type=abstract open=true >}}
 ChatGPT's API is officially released and can be used in Python.
-{{< /admonition >}}
 <!--more-->
 
 {{< link href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" content="Introducing ChatGPT API" title="Introducing ChatGPT API" card=true >}}

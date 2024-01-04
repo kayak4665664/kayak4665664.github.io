@@ -1,8 +1,6 @@
 # AlDente: Limit MacBook Maximum Charging Percentage
 
-{{< admonition tip >}}
 Since the laptop uses a lithium battery, a long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.
-{{< /admonition >}}
 <!--more-->
 
 For MacBook, I found software that can solve this problem:

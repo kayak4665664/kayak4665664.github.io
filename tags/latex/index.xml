@@ -10,14 +10,7 @@
   <pubDate>Mon, 23 Jan 2023 22:02:29 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/texliveonfly-env-python-no-such-file-or-directory/</guid>
-  <description><![CDATA[<div class="details admonition failure open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>Failure<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</div>
-    </div>
-  </div>
+  <description><![CDATA[<p>Yesterday I used the texliveonfly package and got <code>env: python: No Such File or Directory</code> directly.</p>
 <p>I tried to execute <code>python</code>, and a prompt from Xcode Command Line Tools popped up, saying that I needed to download something, and it downloaded Python3.9, while I already had Python3.8🙃.</p>
 <p>I tried to create a symbolic link with <code>ln</code>, but it didn&rsquo;t work.</p>
 <div class="details admonition success open">

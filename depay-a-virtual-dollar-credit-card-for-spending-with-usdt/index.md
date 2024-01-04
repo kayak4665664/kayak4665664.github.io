@@ -1,8 +1,6 @@
 # Depay: a Virtual US Dollar Credit Card for Spending With USDT
 
-{{< admonition info >}}
 Depay registration and download link: [https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=en-us](https://depay.depay.one/web-app/register-h5?invitCode=606096&lang=en-us), recommendation code: **606096**.
-{{< /admonition >}}
 <!--more-->
 
 I found [the topic posted by the boss of Depay on v2ex](https://www.v2ex.com/t/912011), the content of this article is mainly based on this topic and my own experience.

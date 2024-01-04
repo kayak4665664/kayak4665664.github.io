@@ -1,8 +1,6 @@
 # texliveonfly, env: python: No Such File or Directory
 
-{{< admonition failure >}}
 昨天用了一下texliveonfly宏包，直接出现了`env: python: No Such File or Directory`。
-{{< /admonition >}}
 <!--more-->
 
 我试着执行了一下`python`，结果弹出了一个Xcode Command Line Tools的提示，说要下载一些东西，然后它下载了Python3.9，而我之前已经有了Python3.8🙃。

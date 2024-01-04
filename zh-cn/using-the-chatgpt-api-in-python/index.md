@@ -1,8 +1,6 @@
 # 在Python中使用ChatGPT API
 
-{{< admonition type=abstract open=true >}}
 ChatGPT的API正式发布了，可以在Python中使用了。
-{{< /admonition >}}
 <!--more-->
 
 {{< link href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" content="ChatGPT API 简介" title="ChatGPT API 简介" card=true >}}

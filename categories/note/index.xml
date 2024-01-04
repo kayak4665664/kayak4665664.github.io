@@ -2045,14 +2045,7 @@
   <pubDate>Fri, 03 Mar 2023 22:58:04 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</guid>
-  <description><![CDATA[<div class="details admonition abstract open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-list-ul fa-fw" aria-hidden="true"></i>Abstract<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">ChatGPT&rsquo;s API is officially released and can be used in Python.</div>
-    </div>
-  </div>
+  <description><![CDATA[<p>ChatGPT&rsquo;s API is officially released and can be used in Python.</p>
 <a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="Introducing ChatGPT API"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
