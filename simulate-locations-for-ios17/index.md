@@ -16,7 +16,7 @@ python3 -m pip install -U pymobiledevice3
 
 ### 3. Connect the iPhone to macOS, and execute:
 ```bash
-sudo python3 -m pymobiledevice3 remote start-quic-tunnel
+sudo python3 -m pymobiledevice3 remote start-tunnel
 ```
 It will print something like the following:
 ```

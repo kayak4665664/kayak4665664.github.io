@@ -58,5 +58,5 @@ Depay是一个刚成立的英国小公司，不放心的话最好不要充太多
 ---
 
 > 作者: [kayak4665664](https://github.com/kayak4665664)  
-> URL: https://www.kayak4665664.com/zh-cn/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/  
+> URL: http://localhost:1313/zh-cn/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/  
 

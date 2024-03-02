@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>iPhone - Tag - kayak4665664&#39;s Blog</title>
+    <title>IPhone - Tag - kayak4665664&#39;s Blog</title>
     <link>https://www.kayak4665664.com/tags/iphone/</link>
-    <description>iPhone - Tag - kayak4665664&#39;s Blog</description>
+    <description>IPhone - Tag - kayak4665664&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
       <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 13 Oct 2023 13:05:59 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/iphone/" rel="self" type="application/rss+xml" /><item>
   <title>Simulate Locations for iOS17</title>
@@ -28,7 +28,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-quic-tunnel</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-tunnel</span></span></code></pre></td></tr></table>
 </div>
 </div><p>It will print something like the following:</p>
 <div class="highlight" id="id-3"><div class="chroma">

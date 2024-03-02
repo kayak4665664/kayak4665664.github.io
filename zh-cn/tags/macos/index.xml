@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>macOS - 标签 - kayak4665664的博客</title>
+    <title>MacOS - 标签 - kayak4665664的博客</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/macos/</link>
-    <description>macOS - 标签 - kayak4665664的博客</description>
+    <description>MacOS - 标签 - kayak4665664的博客</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
       <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Fri, 13 Oct 2023 13:06:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/macos/" rel="self" type="application/rss+xml" /><item>
   <title>iOS17模拟定位</title>
@@ -28,7 +28,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-quic-tunnel</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-tunnel</span></span></code></pre></td></tr></table>
 </div>
 </div><p>将会打印类似以下内容：</p>
 <div class="highlight" id="id-3"><div class="chroma">

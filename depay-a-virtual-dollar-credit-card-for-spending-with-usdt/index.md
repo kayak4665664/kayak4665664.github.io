@@ -60,5 +60,5 @@ Depay is a newly established small British company. If you are worried, it is be
 ---
 
 > Author: [kayak4665664](https://github.com/kayak4665664)  
-> URL: https://www.kayak4665664.com/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/  
+> URL: http://localhost:1313/depay-a-virtual-dollar-credit-card-for-spending-with-usdt/  
 

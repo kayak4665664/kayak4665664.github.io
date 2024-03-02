@@ -1,0 +1,18 @@
+# Coze: Free Access to GPT-4
+
+
+I recently found Coze by ByteDance, which allows free access to GPT-4 and GPT-4-Turbo!
+
+<!--more-->
+
+{{< link href="https://www.coze.com/" content="Coze" title="Coze" card=true >}}
+
+You can refer to the [official documentation](https://www.coze.com/docs/) for specific usage methods. It supports customizing your own bot through plugins, knowledge bases, etc. In short, it's very powerful, and you can also publish the bot to platforms such as Discord, Slack, Telegram, etc.
+
+More importantly, I found a project on Github: [coze-discord-proxy](https://github.com/deanxv/coze-discord-proxy). By handling Discord, you can proxy the Coze bot published on Discord to an OpenAI-formatted API, so you can use GPT-4 anywhere. It seems that I can save money for ChatGPT Plus!
+
+---
+
+> Author: [kayak4665664](https://github.com/kayak4665664)  
+> URL: https://www.kayak4665664.com/coze-free-access-to-gpt-4/  
+

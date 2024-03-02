@@ -4,8 +4,24 @@
     <link>https://www.kayak4665664.com/tags/</link>
     <description>Tags - Tag - kayak4665664&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/" rel="self" type="application/rss+xml" /><item>
-  <title>algorithms</title>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sat, 02 Mar 2024 22:20:35 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/" rel="self" type="application/rss+xml" /><item>
+  <title>ChatGPT</title>
+  <link>https://www.kayak4665664.com/tags/chatgpt/</link>
+  <pubDate>Sat, 02 Mar 2024 22:20:35 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/tags/chatgpt/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Github</title>
+  <link>https://www.kayak4665664.com/tags/github/</link>
+  <pubDate>Sat, 02 Mar 2024 22:20:35 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/tags/github/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Algorithms</title>
   <link>https://www.kayak4665664.com/tags/algorithms/</link>
   <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
   <author>kayak4665664</author>
@@ -13,7 +29,7 @@
   <description><![CDATA[]]></description>
 </item>
 <item>
-  <title>command line tools</title>
+  <title>Command Line Tools</title>
   <link>https://www.kayak4665664.com/tags/command-line-tools/</link>
   <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
   <author>kayak4665664</author>
@@ -21,11 +37,11 @@
   <description><![CDATA[]]></description>
 </item>
 <item>
-  <title>Frontend</title>
-  <link>https://www.kayak4665664.com/tags/frontend/</link>
+  <title>Frontend </title>
+  <link>https://www.kayak4665664.com/tags/frontend-/</link>
   <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
   <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/tags/frontend/</guid>
+  <guid>https://www.kayak4665664.com/tags/frontend-/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
@@ -34,14 +50,6 @@
   <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/tags/full-stack/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>Github</title>
-  <link>https://www.kayak4665664.com/tags/github/</link>
-  <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/tags/github/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
@@ -69,19 +77,11 @@
   <description><![CDATA[]]></description>
 </item>
 <item>
-  <title>data structure</title>
+  <title>Data Structure</title>
   <link>https://www.kayak4665664.com/tags/data-structure/</link>
   <pubDate>Wed, 18 Oct 2023 13:34:41 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/tags/data-structure/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title>LeetCode</title>
-  <link>https://www.kayak4665664.com/tags/leetcode/</link>
-  <pubDate>Wed, 18 Oct 2023 13:34:41 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/tags/leetcode/</guid>
   <description><![CDATA[]]></description>
 </item>
 </channel>
