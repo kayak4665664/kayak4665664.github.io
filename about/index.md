@@ -3,18 +3,18 @@
 
 ## kayak4665664
 
-<div align="center">
-{{< image src="/images/avatar.svg" alt="kayak4665664">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;/images/avatar.svg&#34; alt=&#34;kayak4665664&#34;&gt;}}
+&lt;/div&gt;
 
 Hey, Nice to Meet You, You Found My Blog!  
-I'm **kayak4665664**, a student of University of Chinese Academy of Sciences.
+I&#39;m **kayak4665664**, a student of University of Chinese Academy of Sciences.
 
-{{< mapbox lng=116.676 lat=40.408 zoom=12 >}}
+{{&lt; mapbox lng=116.676 lat=40.408 zoom=12 &gt;}}
 
 ## Help
 ### 1. How to subscribe to the blog?
-First you should install an **RSS reader**, and then click [<i class='fas fa-rss'></i>](/index.xml) to add the RSS link to your reader.  
+First you should install an **RSS reader**, and then click [&lt;i class=&#39;fas fa-rss&#39;&gt;&lt;/i&gt;](/index.xml) to add the RSS link to your reader.  
 If you don’t want to install an RSS reader, you can also:
 - Add Bookmark :(fas fa-bookmark):
 - Add to Home Screen :(fas fa-mobile-alt):
@@ -23,11 +23,11 @@ Just enter your comment and click `Submit`. You can also enter your nickname, em
 
 ## License
 
-<div align="center"><big><big><big><big><big><big>
-{{< image src="/images/by-nc-sa.svg" rel="license" linked="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="by-nc-sa">}}</big></big></big></big></big></big>
-</div>
+&lt;div align=&#34;center&#34;&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;
+{{&lt; image src=&#34;/images/by-nc-sa.svg&#34; rel=&#34;license&#34; linked=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34; alt=&#34;by-nc-sa&#34;&gt;}}&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;
+&lt;/div&gt;
 
-All content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+All content on this site is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.
 
 ### You are free to:
 **Share** — copy and redistribute the material in any medium or format  
@@ -45,6 +45,6 @@ No warranties are given. The license may not give you all of the permissions nec
 
 ---
 
-> Author: [kayak4665664](https://github.com/kayak4665664)  
+> Author:   
 > URL: https://www.kayak4665664.com/about/  
 

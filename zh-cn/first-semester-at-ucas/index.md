@@ -1,61 +1,61 @@
 # 在国科大的第一个学期
 
 在国科大的第一个学期很快就过去了，感觉这个学期的经历很丰富。
-<!--more-->
+&lt;!--more--&gt;
 
 我于2022年8月17日到达了北京市怀柔区怀北镇，当天下午我先去参观了一下雁栖湖 。雁栖湖是一个很大的湖，湖边有很多树🌳，湖上有很多船🛶，湖边有很多人。湖边的山上还有一条不知道通向哪里的步道，我在这条路上走了很久，感觉很好，可惜由于施工道路中断了🚧，后来我才知道这条路和国科大的观景台是连通的。我在湖边的山上看到了很多鸟🐦，它们在湖上飞在湖边的树上叫。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1656.jpeg" alt="雁栖湖" caption="雁栖湖" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1656.jpeg&#34; alt=&#34;雁栖湖&#34; caption=&#34;雁栖湖&#34; &gt;}}
+&lt;/div&gt;
 
 在雁栖湖旁边村里的农家乐住了一晚上后，我第二天一早就前往了国科大。虽然那天下了一整天雨🌧️，我的衣服和鞋子都湿透了，但是刚到学校，感觉一切都是那么新鲜，心情还是很不错的🙂。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1738.jpeg" alt="国科大雁栖湖校区西区荷花池" caption="国科大雁栖湖校区西区荷花池" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1738.jpeg&#34; alt=&#34;国科大雁栖湖校区西区荷花池&#34; caption=&#34;国科大雁栖湖校区西区荷花池&#34; &gt;}}
+&lt;/div&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1672.jpeg" alt="夕阳" caption="夕阳" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1672.jpeg&#34; alt=&#34;夕阳&#34; caption=&#34;夕阳&#34; &gt;}}
+&lt;/div&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1684.jpeg" alt="山上的长城" caption="山上的长城" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1684.jpeg&#34; alt=&#34;山上的长城&#34; caption=&#34;山上的长城&#34; &gt;}}
+&lt;/div&gt;
 
 伴随着两天一次的核酸，这个学期就这样开始了。国科大的课程的质量和难度确实要比北方工大的高，感觉收获也要更多一些。除了上课，我也经常在学校里骑着自行车🚲转一转，看看校园的景色。因为学校背靠着大山和雁栖湖，所以学校的生态环境很不错，经常有小动物🐱出没，据说还有野猪🐗和蛇🐍这样的猛兽。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1901.jpeg" alt="秋天的山" caption="秋天的山" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1901.jpeg&#34; alt=&#34;秋天的山&#34; caption=&#34;秋天的山&#34; &gt;}}
+&lt;/div&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1899.jpeg" alt="黄叶" caption="黄叶" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1899.jpeg&#34; alt=&#34;黄叶&#34; caption=&#34;黄叶&#34; &gt;}}
+&lt;/div&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1914.jpeg" alt="阳光下的树" caption="阳光下的树" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1914.jpeg&#34; alt=&#34;阳光下的树&#34; caption=&#34;阳光下的树&#34; &gt;}}
+&lt;/div&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1909.jpeg" alt="山楂树" caption="山楂树" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1909.jpeg&#34; alt=&#34;山楂树&#34; caption=&#34;山楂树&#34; &gt;}}
+&lt;/div&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2026.jpeg" alt="雁栖湖北路" caption="雁栖湖北路" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2026.jpeg&#34; alt=&#34;雁栖湖北路&#34; caption=&#34;雁栖湖北路&#34; &gt;}}
+&lt;/div&gt;
 
 不得不说，国科大在山上种了好多果树，秋天丰收之后，我们吃到了不少免费的水果。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1872.jpeg" alt="梨" caption="梨" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1872.jpeg&#34; alt=&#34;梨&#34; caption=&#34;梨&#34; &gt;}}
+&lt;/div&gt;
 
 10月15日一大早，我们整个宿舍突然被通知要就地隔离了，还给我们每个人送过来丰盛的早餐和一大桶水。还没吃完，又接到通知，隔离结束了，真的是莫名其妙😅。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1882.jpeg" alt="早餐" caption="早餐" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1882.jpeg&#34; alt=&#34;早餐&#34; caption=&#34;早餐&#34; &gt;}}
+&lt;/div&gt;
 
 到了11月底，学校变得不是那么平静。由于进入冬季奥密克戎疫情又变得严重，当时北京许多高校都开始安排学生返乡。刚开始国科大还是要求学生必须在校完成所有考试，后来在11月29日终于允许学生返乡。一时间各种小道消息在学校传播：有人说学校里有一名核酸检测呈阳性的学生，所有学生都不能回家了，可能都要隔离在宿舍里；有人说出校之后进入北京市区，在火车站等一些地方会有人搜查手机……有点人心惶惶的感觉。
 
@@ -69,9 +69,9 @@
 
 12月22日，我去领取了一个抗原检测试剂，我确实感染新冠病毒🦠了。 
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2066.jpeg" alt="抗原检测呈阳性" caption="抗原检测呈阳性" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2066.jpeg&#34; alt=&#34;抗原检测呈阳性&#34; caption=&#34;抗原检测呈阳性&#34; &gt;}}
+&lt;/div&gt;
 
 过了一周，我的症状逐渐消失了，只是还是有一些咳嗽，而且心率还是偏快。12月27日，我又领取了一份抗原检测试剂，这一次是阴性。
 

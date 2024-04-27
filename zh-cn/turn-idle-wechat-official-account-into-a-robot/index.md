@@ -1,7 +1,7 @@
 # 把闲置微信公众号变成机器人
 
 只要5分钟，把微信公众号变成机器人🤖。
-<!--more-->
+&lt;!--more--&gt;
 
 之前注册了一个微信公众号，但是一直闲置着，于是我就想把它变成机器人，发挥一点点作用。
 
@@ -14,9 +14,9 @@
 
 是不是很简单呢？
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg" alt="机器人">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2117.jpg&#34; alt=&#34;机器人&#34;&gt;}}
+&lt;/div&gt;
 
 ---
 

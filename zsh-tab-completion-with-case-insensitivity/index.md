@@ -1,12 +1,12 @@
 # zsh: Tab Completion With Case Insensitivity
 
 If you are using macOS, you can switch to the `Documents` directory by executing `cd documents` in `~`, but you cannot use `Tab` to complete it.
-<!--more-->
+&lt;!--more--&gt;
 
 The solution is to add the following code to `~/.zshrc`:
 ```shell
-autoload -Uz compinit && compinit
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+autoload -Uz compinit &amp;&amp; compinit
+zstyle &#39;:completion:*&#39; matcher-list &#39;m:{a-z}={A-Z}&#39;
 ```
 
 Open a new terminal and you will see the effect.

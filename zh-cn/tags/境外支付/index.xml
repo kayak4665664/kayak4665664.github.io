@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>境外支付 - 标签 - kayak4665664的博客</title>
+    <title>境外支付 - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/%E5%A2%83%E5%A4%96%E6%94%AF%E4%BB%98/</link>
-    <description>境外支付 - 标签 - kayak4665664的博客</description>
+    <description>境外支付 - 标签 | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Thu, 23 Mar 2023 13:06:24 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%A2%83%E5%A4%96%E6%94%AF%E4%BB%98/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Thu, 23 Mar 2023 13:06:24 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%A2%83%E5%A4%96%E6%94%AF%E4%BB%98/" rel="self" type="application/rss+xml" /><item>
   <title>网上申请中国银行万事达借记卡</title>
   <link>https://www.kayak4665664.com/zh-cn/apply-for-bank-of-china-mastercard-debit-card-online/</link>
   <pubDate>Thu, 23 Mar 2023 13:06:24 &#43;0800</pubDate>
@@ -20,8 +20,8 @@
     </div>
   </div>
 <p>跨境通卡有许多种类，但是申请的流程都是一样的，我申请的是万事达世界卡，这个卡的卡面是莫奈的日出印象，很漂亮。我主要介绍我自己办理的过程，其他详细的信息可以参考上面的博客。</p>
-<h2 id="网上申请">网上申请</h2>
-<a href="https://cloud.bankofchina.com/sh/api/net/common/url/adr?id=kuajinggomastercard" title="中国银行上海分行万事达世界卡申请"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h2 id="网上申请" class="heading-element">
+  <a href="#%e7%bd%91%e4%b8%8a%e7%94%b3%e8%af%b7" class="heading-mark"></a>网上申请</h2><a href="https://cloud.bankofchina.com/sh/api/net/common/url/adr?id=kuajinggomastercard" title="中国银行上海分行万事达世界卡申请"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">中国银行上海分行万事达世界卡申请</span>
@@ -41,11 +41,11 @@
   </div>
 <p>提交申请之后可以在上面的链接中查询进度，如果申请失败了也会收到短信提醒。我第一次申请就是写了学校的地址，没有精确到门牌号，所以申请失败了。</p>
 <p>如果申请通过，大概两个星期可以收到通过EMS邮寄的银行卡。</p>
-<h2 id="线下激活">线下激活</h2>
-<p>收到银行卡之后到任意一个中国银行网点激活，需要带上身份证和银行卡。</p>
+<h2 id="线下激活" class="heading-element">
+  <a href="#%e7%ba%bf%e4%b8%8b%e6%bf%80%e6%b4%bb" class="heading-mark"></a>线下激活</h2><p>收到银行卡之后到任意一个中国银行网点激活，需要带上身份证和银行卡。</p>
 <p>在智能柜台就可以自助激活，默认的密码是身份证倒数第六位到倒数第二位。激活时可以修改绑定的手机号码，激活之后会把卡片关联到手机银行。</p>
-<h2 id="激活之后">激活之后</h2>
-<p>激活之后要给银行卡转入外汇，外汇需要通过中国银行I类卡购买。</p>
+<h2 id="激活之后" class="heading-element">
+  <a href="#%e6%bf%80%e6%b4%bb%e4%b9%8b%e5%90%8e" class="heading-mark"></a>激活之后</h2><p>激活之后要给银行卡转入外汇，外汇需要通过中国银行I类卡购买。</p>
 <p>另外，必须在手机银行中开通网上支付功能：</p>
 <ul>
 <li>在“限额设置 -&gt; 限额设置”中调高限额</li>
@@ -57,8 +57,8 @@
 <li>开通“支付设置 -&gt; 跨行支付 -&gt; 跨行代扣”</li>
 <li>开通“支付设置 -&gt; 跨行支付 -&gt; 跨行订购”</li>
 </ul>
-<h2 id="用卡注意事项">用卡注意事项</h2>
-<ul>
+<h2 id="用卡注意事项" class="heading-element">
+  <a href="#%e7%94%a8%e5%8d%a1%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9" class="heading-mark"></a>用卡注意事项</h2><ul>
 <li>消费或ATM取现支持直接使用美元、欧元、日元、港币等19种外币，无需货币转换。免收货币转换费、跨境手续费等消费手续费。每月免收首笔境外ATM取现和余额查询手续费。</li>
 <li>外汇和外钞都可以用来消费和支付，使用时不会产生任何转换费。</li>
 <li>若借记卡开卡后6个月内没有发生任何动账交易，停止非柜面业务。</li>
@@ -80,8 +80,8 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/zh-cn/buy-us-app-store-gift-cards-with-alipay/</guid>
   <description><![CDATA[<p>今天知道了一种直接用支付宝购买美区App Store礼品卡的方法，以后不用再去淘宝和闲鱼上买了！</p>
-<h2 id="方法">方法</h2>
-<ol>
+<h2 id="方法" class="heading-element">
+  <a href="#%e6%96%b9%e6%b3%95" class="heading-mark"></a>方法</h2><ol>
 <li>打开支付宝</li>
 <li>首页左上角切换定位到旧金山</li>
 <li>搜索“出境”，在搜索结果中选择“出境”</li>

@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Java - Tag - kayak4665664&#39;s Blog</title>
+    <title>Java - Tag | kayak4665664</title>
     <link>https://www.kayak4665664.com/tags/java/</link>
-    <description>Java - Tag - kayak4665664&#39;s Blog</description>
+    <description>Java - Tag | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sun, 11 Jun 2023 18:30:36 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/java/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Sun, 11 Jun 2023 18:30:36 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/java/" rel="self" type="application/rss+xml" /><item>
   <title>Get Resource Files Through ClassLoader</title>
   <link>https://www.kayak4665664.com/get-resource-files-through-classloader/</link>
   <pubDate>Sun, 11 Jun 2023 18:30:36 &#43;0800</pubDate>
@@ -13,7 +13,7 @@
   <description><![CDATA[<p>I encountered a problem when I was completing <a href="https://www.kayak4665664.com/springboot-demo/"target="_blank" rel="external nofollow noopener noreferrer">Springboot-Demo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is to get resource files.</p>
 <p>At first, I packaged the project into a jar file using Maven, and then ran it. The program reported an error that it could not find the json file. After troubleshooting, I found that the problem was in the way I got the json file. I used a relative path, but when running the jar file, the relative path is relative to the directory where the jar file is located, not relative to the source code directory, so the json file cannot be found.</p>
 <p>The solution is to use the <code>getResourceAsStream</code> method of the <code>ClassLoader</code> class, which can return an <code>InputStream</code> object according to the given path name, and then use this object to read the contents of the resource file. For example:</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -35,7 +35,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/springboot-demo/</guid>
   <description><![CDATA[<p>I chose a Java programming course this semester, and finally completed a project, which is <strong>Springboot-Demo</strong>.</p>
-<a href="https://github.com/kayak4665664/Springboot-Demo" title="Springboot-Demo - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Springboot-Demo" title="Springboot-Demo - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Springboot-Demo</span>
@@ -55,7 +55,7 @@
   <guid>https://www.kayak4665664.com/leetcode-66/</guid>
   <description><![CDATA[<p><a href="https://leetcode.com/problems/plus-one/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 66.Plus One<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, is an easy problem. I just want to practice Java, it&rsquo;s been a long time since I wrote Java.</p>
 <p>My idea is to traverse from the end to the beginning, if the current digit is 9, then carry, if not, then add 1, and then return the result. If the last digit is 9, then we need to add a 1 at the beginning, at this time we need to create a new array, and then copy the original array.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2

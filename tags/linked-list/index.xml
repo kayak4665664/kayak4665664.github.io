@@ -1,18 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Linked List - Tag - kayak4665664&#39;s Blog</title>
+    <title>linked list - Tag | kayak4665664</title>
     <link>https://www.kayak4665664.com/tags/linked-list/</link>
-    <description>Linked List - Tag - kayak4665664&#39;s Blog</description>
+    <description>linked list - Tag | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Wed, 18 Oct 2023 13:34:41 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/linked-list/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Wed, 18 Oct 2023 13:34:41 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/linked-list/" rel="self" type="application/rss+xml" /><item>
   <title>Leetcode Linked List Solutions</title>
   <link>https://www.kayak4665664.com/leetcode-linked-list-solutions/</link>
   <pubDate>Wed, 18 Oct 2023 13:34:41 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/leetcode-linked-list-solutions/</guid>
   <description><![CDATA[<p><a href="https://leetcode.com/explore/learn/card/linked-list/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
-<h3 id="707-design-linked-listhttpsleetcodecomproblemsdesign-linked-list"><a href="https://leetcode.com/problems/design-linked-list/"target="_blank" rel="external nofollow noopener noreferrer">707. Design Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-1"><div class="chroma">
+<h3 id="707-design-linked-listhttpsleetcodecomproblemsdesign-linked-list" class="heading-element">
+  <a href="#707-design-linked-listhttpsleetcodecomproblemsdesign-linked-list" class="heading-mark"></a><a href="https://leetcode.com/problems/design-linked-list/"target="_blank" rel="external nofollow noopener noreferrer">707. Design Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
@@ -263,8 +263,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="cm"> * obj.deleteAtIndex(index)
 </span></span></span><span class="line"><span class="cl"><span class="cm"> */</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="141-linked-list-cyclehttpsleetcodecomproblemslinked-list-cycle"><a href="https://leetcode.com/problems/linked-list-cycle/"target="_blank" rel="external nofollow noopener noreferrer">141. Linked List Cycle<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-2"><div class="chroma">
+</div><h3 id="141-linked-list-cyclehttpsleetcodecomproblemslinked-list-cycle" class="heading-element">
+  <a href="#141-linked-list-cyclehttpsleetcodecomproblemslinked-list-cycle" class="heading-mark"></a><a href="https://leetcode.com/problems/linked-list-cycle/"target="_blank" rel="external nofollow noopener noreferrer">141. Linked List Cycle<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -321,8 +321,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="142-linked-list-cycle-iihttpsleetcodecomproblemslinked-list-cycle-iidescription"><a href="https://leetcode.com/problems/linked-list-cycle-ii/description/"target="_blank" rel="external nofollow noopener noreferrer">142. Linked List Cycle II<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-3"><div class="chroma">
+</div><h3 id="142-linked-list-cycle-iihttpsleetcodecomproblemslinked-list-cycle-iidescription" class="heading-element">
+  <a href="#142-linked-list-cycle-iihttpsleetcodecomproblemslinked-list-cycle-iidescription" class="heading-mark"></a><a href="https://leetcode.com/problems/linked-list-cycle-ii/description/"target="_blank" rel="external nofollow noopener noreferrer">142. Linked List Cycle II<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -379,8 +379,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="160-intersection-of-two-linked-listshttpsleetcodecomproblemsintersection-of-two-linked-listsdescription"><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">160. Intersection of Two Linked Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-4"><div class="chroma">
+</div><h3 id="160-intersection-of-two-linked-listshttpsleetcodecomproblemsintersection-of-two-linked-listsdescription" class="heading-element">
+  <a href="#160-intersection-of-two-linked-listshttpsleetcodecomproblemsintersection-of-two-linked-listsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">160. Intersection of Two Linked Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -443,8 +443,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="19-remove-nth-node-from-end-of-listhttpsleetcodecomproblemsremove-nth-node-from-end-of-listdescription"><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"target="_blank" rel="external nofollow noopener noreferrer">19. Remove Nth Node From End of List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-5"><div class="chroma">
+</div><h3 id="19-remove-nth-node-from-end-of-listhttpsleetcodecomproblemsremove-nth-node-from-end-of-listdescription" class="heading-element">
+  <a href="#19-remove-nth-node-from-end-of-listhttpsleetcodecomproblemsremove-nth-node-from-end-of-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"target="_blank" rel="external nofollow noopener noreferrer">19. Remove Nth Node From End of List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -503,8 +503,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="206-reverse-linked-listhttpsleetcodecomproblemsreverse-linked-listdescription"><a href="https://leetcode.com/problems/reverse-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">206. Reverse Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-6"><div class="chroma">
+</div><h3 id="206-reverse-linked-listhttpsleetcodecomproblemsreverse-linked-listdescription" class="heading-element">
+  <a href="#206-reverse-linked-listhttpsleetcodecomproblemsreverse-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/reverse-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">206. Reverse Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -563,8 +563,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="203-remove-linked-list-elementshttpsleetcodecomproblemsremove-linked-list-elementsdescription"><a href="https://leetcode.com/problems/remove-linked-list-elements/description/"target="_blank" rel="external nofollow noopener noreferrer">203. Remove Linked List Elements<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-7"><div class="chroma">
+</div><h3 id="203-remove-linked-list-elementshttpsleetcodecomproblemsremove-linked-list-elementsdescription" class="heading-element">
+  <a href="#203-remove-linked-list-elementshttpsleetcodecomproblemsremove-linked-list-elementsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-linked-list-elements/description/"target="_blank" rel="external nofollow noopener noreferrer">203. Remove Linked List Elements<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -617,8 +617,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="328-odd-even-linked-listhttpsleetcodecomproblemsodd-even-linked-listdescription"><a href="https://leetcode.com/problems/odd-even-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">328. Odd Even Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-8"><div class="chroma">
+</div><h3 id="328-odd-even-linked-listhttpsleetcodecomproblemsodd-even-linked-listdescription" class="heading-element">
+  <a href="#328-odd-even-linked-listhttpsleetcodecomproblemsodd-even-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/odd-even-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">328. Odd Even Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -699,8 +699,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">odd</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="234-palindrome-linked-listhttpsleetcodecomproblemspalindrome-linked-listdescription"><a href="https://leetcode.com/problems/palindrome-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">234. Palindrome Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-9"><div class="chroma">
+</div><h3 id="234-palindrome-linked-listhttpsleetcodecomproblemspalindrome-linked-listdescription" class="heading-element">
+  <a href="#234-palindrome-linked-listhttpsleetcodecomproblemspalindrome-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/palindrome-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">234. Palindrome Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -763,8 +763,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="21-merge-two-sorted-listshttpsleetcodecomproblemsmerge-two-sorted-listsdescription"><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">21. Merge Two Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-10"><div class="chroma">
+</div><h3 id="21-merge-two-sorted-listshttpsleetcodecomproblemsmerge-two-sorted-listsdescription" class="heading-element">
+  <a href="#21-merge-two-sorted-listshttpsleetcodecomproblemsmerge-two-sorted-listsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">21. Merge Two Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -867,8 +867,8 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="2-add-two-numbershttpsleetcodecomproblemsadd-two-numbersdescription"><a href="https://leetcode.com/problems/add-two-numbers/description/"target="_blank" rel="external nofollow noopener noreferrer">2. Add Two Numbers<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-11"><div class="chroma">
+</div><h3 id="2-add-two-numbershttpsleetcodecomproblemsadd-two-numbersdescription" class="heading-element">
+  <a href="#2-add-two-numbershttpsleetcodecomproblemsadd-two-numbersdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/add-two-numbers/description/"target="_blank" rel="external nofollow noopener noreferrer">2. Add Two Numbers<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -967,8 +967,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">l1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="430-flatten-a-multilevel-doubly-linked-listhttpsleetcodecomproblemsflatten-a-multilevel-doubly-linked-listdescription"><a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">430. Flatten a Multilevel Doubly Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-12"><div class="chroma">
+</div><h3 id="430-flatten-a-multilevel-doubly-linked-listhttpsleetcodecomproblemsflatten-a-multilevel-doubly-linked-listdescription" class="heading-element">
+  <a href="#430-flatten-a-multilevel-doubly-linked-listhttpsleetcodecomproblemsflatten-a-multilevel-doubly-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">430. Flatten a Multilevel Doubly Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1043,8 +1043,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">head</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="138-copy-list-with-random-pointerhttpsleetcodecomproblemscopy-list-with-random-pointerdescription"><a href="https://leetcode.com/problems/copy-list-with-random-pointer/description/"target="_blank" rel="external nofollow noopener noreferrer">138. Copy List with Random Pointer<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-13"><div class="chroma">
+</div><h3 id="138-copy-list-with-random-pointerhttpsleetcodecomproblemscopy-list-with-random-pointerdescription" class="heading-element">
+  <a href="#138-copy-list-with-random-pointerhttpsleetcodecomproblemscopy-list-with-random-pointerdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/copy-list-with-random-pointer/description/"target="_blank" rel="external nofollow noopener noreferrer">138. Copy List with Random Pointer<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1127,8 +1127,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="61-rotate-listhttpsleetcodecomproblemsrotate-listdescription"><a href="https://leetcode.com/problems/rotate-list/description/"target="_blank" rel="external nofollow noopener noreferrer">61. Rotate List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-14"><div class="chroma">
+</div><h3 id="61-rotate-listhttpsleetcodecomproblemsrotate-listdescription" class="heading-element">
+  <a href="#61-rotate-listhttpsleetcodecomproblemsrotate-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/rotate-list/description/"target="_blank" rel="external nofollow noopener noreferrer">61. Rotate List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1216,7 +1216,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/linked-list/</guid>
   <description><![CDATA[<p>A C++ template for the doubly linked list.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1320,7 +1320,7 @@
 </div><ol>
 <li><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 21. Merge Two Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 </ol>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1407,7 +1407,7 @@
 <li><a href="https://leetcode.com/problems/merge-k-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 23. Merge k Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 </ol>
 <p>Using this method directly resulted in <code>Time Limit Exceeded</code>,</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1497,7 +1497,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>and I solved it using the priority queue.</p>
-<div class="highlight" id="id-4"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2

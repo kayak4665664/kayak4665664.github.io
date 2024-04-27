@@ -1,9 +1,9 @@
 # 使用ImageMagick在命令行中压缩图像
 
 我找到了ImageMagick，它是一个强大的图像处理工具，可以在命令行中使用。不仅可以用于压缩图像，而且可以用于其他很多事情。
-<!--more-->
+&lt;!--more--&gt;
 
-{{< link href="https://imagemagick.org/" content="ImageMagick" title="ImageMagick" card=true >}}
+{{&lt; link href=&#34;https://imagemagick.org/&#34; content=&#34;ImageMagick&#34; title=&#34;ImageMagick&#34; card=true &gt;}}
 
 可以通过Homebrew安装ImageMagick：`brew install imagemagick`。
 

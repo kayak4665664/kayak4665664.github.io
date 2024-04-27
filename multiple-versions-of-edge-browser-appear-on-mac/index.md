@@ -1,7 +1,7 @@
 # Multiple Versions of Edge Browser Appear on Mac
 
 Suddenly, I found that there are two Edge Dev on my Mac, 111.0.1660.13 and 111.0.1660.12, and both of them can launch normally. I want to keep the latest version and uninstall the old one.
-<!--more-->
+&lt;!--more--&gt;
 
 ## method
 ### 1
@@ -9,15 +9,15 @@ Take the Dev version as an example. Switch the directory to the following locati
 ```
 cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ Framework.framework/Versions
 ```
-You can also press `control + shift + G` in the Finder to go to the location
+You can also press `control &#43; shift &#43; G` in the Finder to go to the location
 
 ### 2
 Execute `ls -l`, and you will see similar output
-{{< admonition example >}}
+{{&lt; admonition example &gt;}}
 drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12  
 drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13  
-lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -> 111.0.1660.13  
-{{< /admonition >}}
+lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -&gt; 111.0.1660.13  
+{{&lt; /admonition &gt;}}
 Or click `Current` in the Finder to confirm the version linked to
 
 ### 3

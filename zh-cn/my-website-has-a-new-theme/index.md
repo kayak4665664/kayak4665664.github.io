@@ -1,9 +1,9 @@
 # 我的网站换上了新主题
 
 自从2021年建立我的网站以来，我一直都在用[LoveIt](https://github.com/dillonzq/LoveIt)这个Hugo主题，没太大变化。这一次，我迁移到了[FixIt](https://github.com/hugo-fixit/FixIt)主题，不仅修复了LoveIt中的一些问题，也带来了更多新功能和优化，顺便也把评论系统从[Valine](https://valine.js.org/)迁移到了[Waline](https://waline.js.org/)。
-<!--more-->
+&lt;!--more--&gt;
 
-{{< link href="https://fixit.lruihao.cn/" content="FixIt" title="FixIt" card=true >}}
+{{&lt; link href=&#34;https://fixit.lruihao.cn/&#34; content=&#34;FixIt&#34; title=&#34;FixIt&#34; card=true &gt;}}
 
 由于FixIt是基于LoveIt的，所以迁移到Fixit是比较容易的。经过一番折腾，除了样式上的变化，我的网站主要的改变如下：
 

@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>项目 - 分类 - kayak4665664的博客</title>
+    <title>项目 - 分类 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/</link>
-    <description>项目 - 分类 - kayak4665664的博客</description>
+    <description>项目 - 分类 | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/" rel="self" type="application/rss+xml" /><item>
   <title>Node-Depend-View</title>
   <link>https://www.kayak4665664.com/zh-cn/node-depend-view/</link>
   <pubDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/zh-cn/node-depend-view/</guid>
-  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Node-Depend-View</span>
@@ -28,7 +28,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/zh-cn/devtools-font/</guid>
   <description><![CDATA[<p>前天忽然发现Chrome Devtools里的字体家族不能直接修改，查了一下发现可以写一个扩展来解决这个问题。</p>
-<a href="https://github.com/kayak4665664/Devtools-Font" title="Devtools-Font - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Devtools-Font" title="Devtools-Font - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Devtools-Font</span>
@@ -46,7 +46,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/zh-cn/springboot-demo/</guid>
   <description><![CDATA[<p>这个学期我选了一门Java编程课，最后要完成一个项目，就是<strong>Springboot-Demo</strong>。</p>
-<a href="https://github.com/kayak4665664/Springboot-Demo" title="Springboot-Demo - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Springboot-Demo" title="Springboot-Demo - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Springboot-Demo</span>
@@ -73,7 +73,7 @@
       <div class="admonition-content">本文涉及的源代码在GitHub仓库：</div>
     </div>
   </div>
-<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Pcap-Parser</span>

@@ -1,15 +1,15 @@
 # 下周毕设答辩
 
 毕业设计终于要进入尾声了，6月9日下午最终答辩！
-<!--more-->
+&lt;!--more--&gt;
 
 现在我已经完成了毕业设计的大部分工作，所以这两个星期过得还是比较轻松的。但是我现在被隔离了，每天只能呆在屋子里🙃，今天是第4天了。
 
 5月27日中午，我和往常一样去食堂吃了午餐，刚回到宿舍，突然就收到了学校要求毕业生尽快离校的通知。我马上就意识到，这将是我在北方工业大学最后的几天了。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg" alt="离校通知" caption="离校通知" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg&#34; alt=&#34;离校通知&#34; caption=&#34;离校通知&#34; &gt;}}
+&lt;/div&gt;
 
 我冷静了一下，立刻开始计划离校前必须做的事情。首先要考虑的就是我的行李，还好学校承诺是可以免费邮寄的，不然邮寄那么多东西的费用我是有点负担不起的。然而，我并没有用来打包的纸箱子。我问了问辅导员，他只说晚些时候会发放。我感觉他的回答太模糊了，我决定自己先去买几个纸箱子。我去学校快递点找到了那里的老板，他告诉我，我们学院之前找他拿了一百多个纸箱子。我估计了一下，一个学生应该只能领取到1个纸箱子。所以，我和老板买了4个大纸箱子，花了45元。
 
@@ -21,15 +21,15 @@
 
 5月28日上午，我去超市买了一只记号笔，我得在箱子上标记我的邮寄地址。我走进宿舍楼，和我比较熟的一个宿管阿姨告诉我，现在可以开始到快递点邮寄行李了，让我赶紧去吧。考虑到我要把4个纸箱和1个麻袋从宿舍搬到快递点，单靠两只手是不太容易的，所以我到快递点和老板借了一个平板车。我回到宿舍把这5件东西都标记了我的信息，全放到平板车上去了，一下子都运到了快递点。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg" alt="平板车">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg&#34; alt=&#34;平板车&#34;&gt;}}
+&lt;/div&gt;
 
 由于学校要求毕业生离校的通知比较仓促，快递点老板坦白说他们也不知道怎么处理这么多人的行李，而整个快递点只有2个人。当我推着平板车过去时，我看到快递点外面已经堆了不少箱子了。我有点担心这么多箱子最后会被搞混，所以我请求老板先给我的行李贴上快递单，这样我也方便查快递。等我处理好行李，已经12点多了，到了食堂，煮了一大盘饺子。不得不说，食堂的饺子真的太好吃了，里面肉是真的多。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg" alt="饺子" caption="饺子" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg&#34; alt=&#34;饺子&#34; caption=&#34;饺子&#34; &gt;}}
+&lt;/div&gt;
 
 晚上，我查到我的快递已经发出去了，感觉效率还是很高的。
 
@@ -47,9 +47,9 @@
 
 就这样，我就离开了学校，可能永远不会回去了。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG" alt="NCUT" caption="NCUT" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG&#34; alt=&#34;NCUT&#34; caption=&#34;NCUT&#34; &gt;}}
+&lt;/div&gt;
 
 上面这张照片是31日的。30日下午我就看见有人在摆弄这几个牌子，不过当时上面还是2021😂。
 

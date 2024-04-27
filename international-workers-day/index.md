@@ -1,8 +1,8 @@
-# Celebrating International Workers' Day
+# Celebrating International Workers&#39; Day
 
 
 Workers of the world, unite!
-<!--more-->
+&lt;!--more--&gt;
 Work together to defend our rights and fight for a fairer and better world.
 
 ---

@@ -3,11 +3,11 @@
 
 真好吃！
 
-<!--more-->
+&lt;!--more--&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0919.jpeg" alt="蛋糕">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_0919.jpeg&#34; alt=&#34;蛋糕&#34;&gt;}}
+&lt;/div&gt;
 
 ---
 

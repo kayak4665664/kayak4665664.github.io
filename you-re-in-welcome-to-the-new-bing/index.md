@@ -1,11 +1,11 @@
-# You're in! Welcome to the New Bing!
+# You&#39;re in! Welcome to the New Bing!
 
 Since joining the [waitlist](https://www.bing.com/new) on February 11th, I finally received an email today that I can use the new Bing.
-<!--more-->
+&lt;!--more--&gt;
 
-{{< admonition bug >}}
-I couldn't wait to open Edge Dev and enter CHAT, but I soon found that I couldn't input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.
-{{< /admonition >}}
+{{&lt; admonition bug &gt;}}
+I couldn&#39;t wait to open Edge Dev and enter CHAT, but I soon found that I couldn&#39;t input all the characters normally in the input box. I tried it again in Safari and it worked perfectly, so there is probably something wrong with Edge Dev.
+{{&lt; /admonition &gt;}}
 
 After a few rounds of conversations with the new Bing, it felt like it was a bit lacking in conversational enthusiasm, often asking me to change the subject. Moreover, the prompt “This has been lovely, but you’ve reached your daily limit. Chat again tomorrow?” appeared within a few minutes.
 

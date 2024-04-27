@@ -2,7 +2,7 @@
 
 
 目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。
-<!--more-->
+&lt;!--more--&gt;
 
 ## 开始
 上上周看到有人用Github作免费网盘，我以前还见过有人专门建了repository来记笔记、写博客，我忽然也想有个写点东西记录自己的地方。我就查了一下如何用Github写博客，我才知道了[Github Pages](https://pages.github.com)。简单来说它可以免费自动托管静态网页，用它做一个自己的博客是绰绰有余的。
@@ -11,9 +11,9 @@
 ### 域名
 [Github Pages](https://pages.github.com)是免费的，不过它的网址都长`username.github.io`这样，感觉不够个性化。好在它是支持自定义域名的，我决定买一个。网站还没有建起来，但我还是先买了。我听说国内买域名需要实名审核，并且审核需要好几天。我一边等待审核通过，一边建网站，这样更省时间。最后我买了`kayak4665664.com`。
 
-{{< admonition tip >}}
+{{&lt; admonition tip &gt;}}
 有的域名首年注册时看起来便宜，但以后续费比`.com`域名还要贵。
-{{< /admonition >}}
+{{&lt; /admonition &gt;}}
 
 ### username.github.io
 新建了一个repository，进行`Pages`设置。[Github Pages](https://pages.github.com)使用`Jekyll`将纯文本转化为静态网站，所以在设置过程中它会让你选择你的`Jekyll`主题。我还认真地比较了一下那几个主题，选了我觉得最好看的一个。其实后面很快我就发现，这些主题过于简单，不满足我的需求。之后用`git`克隆repository到了本地。
@@ -24,11 +24,11 @@
 ### 工具
 除了`Jekyll`，还有很多将纯文本转化为静态网站和博客的工具，比如我现在用的`Hugo`。由于[Github Pages](https://pages.github.com)默认使用`Jekyll`，我就选择了`Jekyll`。
 
-`Jekyll`基于`Ruby`，可以用`gem`来安装。我使用的macOS自带一个`Ruby`，我就直接执行`gem install jekyll bundler`开始安装`Jekyll`、`Bundler`以及它们的依赖。安装一半，出现`fatal error: 'ruby/config.h' file not found`。谷歌了一下有人说是自带的`Ruby`版本太低，还有人说是`Xcode CommandLineTools`的问题。我直接用`Homebrew`安装了一个新的`Ruby`。安装之后设置了终端的环境变量，重新执行`gem install jekyll bundler`，这次安装好了。
+`Jekyll`基于`Ruby`，可以用`gem`来安装。我使用的macOS自带一个`Ruby`，我就直接执行`gem install jekyll bundler`开始安装`Jekyll`、`Bundler`以及它们的依赖。安装一半，出现`fatal error: &#39;ruby/config.h&#39; file not found`。谷歌了一下有人说是自带的`Ruby`版本太低，还有人说是`Xcode CommandLineTools`的问题。我直接用`Homebrew`安装了一个新的`Ruby`。安装之后设置了终端的环境变量，重新执行`gem install jekyll bundler`，这次安装好了。
 
-{{< admonition warning >}}
+{{&lt; admonition warning &gt;}}
 我还查了一下怎么清理之前`gem install jekyll bundler`时的缓存和已安装的包，结果没有找到。我只好手动卸载了那些已安装的包、删除了缓存所在的目录，感觉根本没清理干净。
-{{< /admonition >}}
+{{&lt; /admonition &gt;}}
 
 ## Jekyll
 ### 上手
@@ -41,7 +41,7 @@
 ### 主题
 网上有不少`Jekyll`主题，我最后下载了[YAT](https://github.com/jeffreytse/jekyll-theme-yat)。它支持不少功能，可以用[Disqus](Disqus.com)和[Gitment](https://github.com/imsun/gitment)来评论。
 
-下载之后，想要执行`bundle exec jekyll serve`预览一下，报错`Could not find gem 'jekyll-spaceship (~> 0.2)'`。我通过在`gem`安装`jekyll-spaceship`时设置版本为`0.2`来解决。在这里我还发现安装过程卡住了，但没有报错。用`Activity Monitor`看到`Ruby`的`Rcvd Bytes`是一直缓慢增加的，应该是国内网络的问题。谷歌了一下，在[Ruby China](https://gems.ruby-china.com)找到了换源的方法，换源之后成功安装。
+下载之后，想要执行`bundle exec jekyll serve`预览一下，报错`Could not find gem &#39;jekyll-spaceship (~&gt; 0.2)&#39;`。我通过在`gem`安装`jekyll-spaceship`时设置版本为`0.2`来解决。在这里我还发现安装过程卡住了，但没有报错。用`Activity Monitor`看到`Ruby`的`Rcvd Bytes`是一直缓慢增加的，应该是国内网络的问题。谷歌了一下，在[Ruby China](https://gems.ruby-china.com)找到了换源的方法，换源之后成功安装。
 
 再次执行`bundle exec jekyll serve`，这次可以预览新主题了。
 
@@ -77,9 +77,9 @@
 6. 注册[Mapbox](https://www.mapbox.com)
 
 在这中间我还发现一个问题，本地预览的时候不能显示自定义的`404`模版，谷歌了一下发现：
-{{< admonition info >}}
+{{&lt; admonition info &gt;}}
 `hugo server` will not automatically load your custom `404.html` file, but you can test the appearance of your custom “not found” page by navigating your browser to `/404.html`.
-{{< /admonition >}}
+{{&lt; /admonition &gt;}}
 
 ### 扩展
 网站差不多建起来了。执行`hugo`，就会出现`/public`目录，把`/public`和自己的repository同步，就可以把网页托管到[Github Pages](https://pages.github.com)。之后再用[atomic-algolia](https://github.com/chrisdmacrae/atomic-algolia)上传生成的索引文件至[Algolia](https://www.algolia.com)。经过这两个步骤就完成了一次网站的部署。

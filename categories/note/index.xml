@@ -1,17 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Note - Category - kayak4665664&#39;s Blog</title>
+    <title>Note - Category | kayak4665664</title>
     <link>https://www.kayak4665664.com/categories/note/</link>
-    <description>Note - Category - kayak4665664&#39;s Blog</description>
+    <description>Note - Category | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sat, 02 Mar 2024 22:20:35 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/categories/note/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Sat, 02 Mar 2024 22:20:35 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/categories/note/" rel="self" type="application/rss+xml" /><item>
   <title>Coze: Free Access to GPT-4</title>
   <link>https://www.kayak4665664.com/coze-free-access-to-gpt-4/</link>
   <pubDate>Sat, 02 Mar 2024 22:20:35 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/coze-free-access-to-gpt-4/</guid>
   <description><![CDATA[<p>I recently found Coze by ByteDance, which allows free access to GPT-4 and GPT-4-Turbo!</p>
-<a href="https://www.coze.com/" title="Coze"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://www.coze.com/" title="Coze"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Coze</span>
@@ -30,8 +30,8 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/leetcode-linked-list-solutions/</guid>
   <description><![CDATA[<p><a href="https://leetcode.com/explore/learn/card/linked-list/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
-<h3 id="707-design-linked-listhttpsleetcodecomproblemsdesign-linked-list"><a href="https://leetcode.com/problems/design-linked-list/"target="_blank" rel="external nofollow noopener noreferrer">707. Design Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-1"><div class="chroma">
+<h3 id="707-design-linked-listhttpsleetcodecomproblemsdesign-linked-list" class="heading-element">
+  <a href="#707-design-linked-listhttpsleetcodecomproblemsdesign-linked-list" class="heading-mark"></a><a href="https://leetcode.com/problems/design-linked-list/"target="_blank" rel="external nofollow noopener noreferrer">707. Design Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
@@ -282,8 +282,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="cm"> * obj.deleteAtIndex(index)
 </span></span></span><span class="line"><span class="cl"><span class="cm"> */</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="141-linked-list-cyclehttpsleetcodecomproblemslinked-list-cycle"><a href="https://leetcode.com/problems/linked-list-cycle/"target="_blank" rel="external nofollow noopener noreferrer">141. Linked List Cycle<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-2"><div class="chroma">
+</div><h3 id="141-linked-list-cyclehttpsleetcodecomproblemslinked-list-cycle" class="heading-element">
+  <a href="#141-linked-list-cyclehttpsleetcodecomproblemslinked-list-cycle" class="heading-mark"></a><a href="https://leetcode.com/problems/linked-list-cycle/"target="_blank" rel="external nofollow noopener noreferrer">141. Linked List Cycle<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -340,8 +340,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="142-linked-list-cycle-iihttpsleetcodecomproblemslinked-list-cycle-iidescription"><a href="https://leetcode.com/problems/linked-list-cycle-ii/description/"target="_blank" rel="external nofollow noopener noreferrer">142. Linked List Cycle II<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-3"><div class="chroma">
+</div><h3 id="142-linked-list-cycle-iihttpsleetcodecomproblemslinked-list-cycle-iidescription" class="heading-element">
+  <a href="#142-linked-list-cycle-iihttpsleetcodecomproblemslinked-list-cycle-iidescription" class="heading-mark"></a><a href="https://leetcode.com/problems/linked-list-cycle-ii/description/"target="_blank" rel="external nofollow noopener noreferrer">142. Linked List Cycle II<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -398,8 +398,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="160-intersection-of-two-linked-listshttpsleetcodecomproblemsintersection-of-two-linked-listsdescription"><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">160. Intersection of Two Linked Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-4"><div class="chroma">
+</div><h3 id="160-intersection-of-two-linked-listshttpsleetcodecomproblemsintersection-of-two-linked-listsdescription" class="heading-element">
+  <a href="#160-intersection-of-two-linked-listshttpsleetcodecomproblemsintersection-of-two-linked-listsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">160. Intersection of Two Linked Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -462,8 +462,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="19-remove-nth-node-from-end-of-listhttpsleetcodecomproblemsremove-nth-node-from-end-of-listdescription"><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"target="_blank" rel="external nofollow noopener noreferrer">19. Remove Nth Node From End of List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-5"><div class="chroma">
+</div><h3 id="19-remove-nth-node-from-end-of-listhttpsleetcodecomproblemsremove-nth-node-from-end-of-listdescription" class="heading-element">
+  <a href="#19-remove-nth-node-from-end-of-listhttpsleetcodecomproblemsremove-nth-node-from-end-of-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"target="_blank" rel="external nofollow noopener noreferrer">19. Remove Nth Node From End of List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -522,8 +522,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="206-reverse-linked-listhttpsleetcodecomproblemsreverse-linked-listdescription"><a href="https://leetcode.com/problems/reverse-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">206. Reverse Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-6"><div class="chroma">
+</div><h3 id="206-reverse-linked-listhttpsleetcodecomproblemsreverse-linked-listdescription" class="heading-element">
+  <a href="#206-reverse-linked-listhttpsleetcodecomproblemsreverse-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/reverse-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">206. Reverse Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -582,8 +582,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="203-remove-linked-list-elementshttpsleetcodecomproblemsremove-linked-list-elementsdescription"><a href="https://leetcode.com/problems/remove-linked-list-elements/description/"target="_blank" rel="external nofollow noopener noreferrer">203. Remove Linked List Elements<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-7"><div class="chroma">
+</div><h3 id="203-remove-linked-list-elementshttpsleetcodecomproblemsremove-linked-list-elementsdescription" class="heading-element">
+  <a href="#203-remove-linked-list-elementshttpsleetcodecomproblemsremove-linked-list-elementsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-linked-list-elements/description/"target="_blank" rel="external nofollow noopener noreferrer">203. Remove Linked List Elements<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -636,8 +636,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="328-odd-even-linked-listhttpsleetcodecomproblemsodd-even-linked-listdescription"><a href="https://leetcode.com/problems/odd-even-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">328. Odd Even Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-8"><div class="chroma">
+</div><h3 id="328-odd-even-linked-listhttpsleetcodecomproblemsodd-even-linked-listdescription" class="heading-element">
+  <a href="#328-odd-even-linked-listhttpsleetcodecomproblemsodd-even-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/odd-even-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">328. Odd Even Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -718,8 +718,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">odd</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="234-palindrome-linked-listhttpsleetcodecomproblemspalindrome-linked-listdescription"><a href="https://leetcode.com/problems/palindrome-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">234. Palindrome Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-9"><div class="chroma">
+</div><h3 id="234-palindrome-linked-listhttpsleetcodecomproblemspalindrome-linked-listdescription" class="heading-element">
+  <a href="#234-palindrome-linked-listhttpsleetcodecomproblemspalindrome-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/palindrome-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">234. Palindrome Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -782,8 +782,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="21-merge-two-sorted-listshttpsleetcodecomproblemsmerge-two-sorted-listsdescription"><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">21. Merge Two Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-10"><div class="chroma">
+</div><h3 id="21-merge-two-sorted-listshttpsleetcodecomproblemsmerge-two-sorted-listsdescription" class="heading-element">
+  <a href="#21-merge-two-sorted-listshttpsleetcodecomproblemsmerge-two-sorted-listsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">21. Merge Two Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -886,8 +886,8 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="2-add-two-numbershttpsleetcodecomproblemsadd-two-numbersdescription"><a href="https://leetcode.com/problems/add-two-numbers/description/"target="_blank" rel="external nofollow noopener noreferrer">2. Add Two Numbers<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-11"><div class="chroma">
+</div><h3 id="2-add-two-numbershttpsleetcodecomproblemsadd-two-numbersdescription" class="heading-element">
+  <a href="#2-add-two-numbershttpsleetcodecomproblemsadd-two-numbersdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/add-two-numbers/description/"target="_blank" rel="external nofollow noopener noreferrer">2. Add Two Numbers<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -986,8 +986,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">l1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="430-flatten-a-multilevel-doubly-linked-listhttpsleetcodecomproblemsflatten-a-multilevel-doubly-linked-listdescription"><a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">430. Flatten a Multilevel Doubly Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-12"><div class="chroma">
+</div><h3 id="430-flatten-a-multilevel-doubly-linked-listhttpsleetcodecomproblemsflatten-a-multilevel-doubly-linked-listdescription" class="heading-element">
+  <a href="#430-flatten-a-multilevel-doubly-linked-listhttpsleetcodecomproblemsflatten-a-multilevel-doubly-linked-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/"target="_blank" rel="external nofollow noopener noreferrer">430. Flatten a Multilevel Doubly Linked List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1062,8 +1062,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">head</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="138-copy-list-with-random-pointerhttpsleetcodecomproblemscopy-list-with-random-pointerdescription"><a href="https://leetcode.com/problems/copy-list-with-random-pointer/description/"target="_blank" rel="external nofollow noopener noreferrer">138. Copy List with Random Pointer<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-13"><div class="chroma">
+</div><h3 id="138-copy-list-with-random-pointerhttpsleetcodecomproblemscopy-list-with-random-pointerdescription" class="heading-element">
+  <a href="#138-copy-list-with-random-pointerhttpsleetcodecomproblemscopy-list-with-random-pointerdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/copy-list-with-random-pointer/description/"target="_blank" rel="external nofollow noopener noreferrer">138. Copy List with Random Pointer<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1146,8 +1146,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="61-rotate-listhttpsleetcodecomproblemsrotate-listdescription"><a href="https://leetcode.com/problems/rotate-list/description/"target="_blank" rel="external nofollow noopener noreferrer">61. Rotate List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-14"><div class="chroma">
+</div><h3 id="61-rotate-listhttpsleetcodecomproblemsrotate-listdescription" class="heading-element">
+  <a href="#61-rotate-listhttpsleetcodecomproblemsrotate-listdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/rotate-list/description/"target="_blank" rel="external nofollow noopener noreferrer">61. Rotate List<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1237,17 +1237,17 @@
   <description><![CDATA[<p>I need to simulate location on iPhone recently. After some research, I finally found a simple and effective method.</p>
 <p>I found several methods online, without jailbreaking iPhone. The first one is to use <a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is effective but requires payment. The second one is to use an Android phone with root permission, install <a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, and then connect the iPhone to this Android phone. Other methods include using Xcode, i4Tools, or external devices, or even simulating satellite signals to deceive the iPhone.</p>
 <p>I think these methods are too complicated. I found a simple and effective method at <a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which mainly uses <a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
-<h3 id="1-install-pymobiledevice3-on-macos">1. Install pymobiledevice3 on macOS:</h3>
-<div class="highlight" id="id-1"><div class="chroma">
+<h3 id="1-install-pymobiledevice3-on-macos" class="heading-element">
+  <a href="#1-install-pymobiledevice3-on-macos" class="heading-mark"></a>1. Install pymobiledevice3 on macOS:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3</span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode">2. Enable developer mode on iPhone, located at <code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>.</h3>
-<h3 id="3-connect-the-iphone-to-macos-and-execute">3. Connect the iPhone to macOS, and execute:</h3>
-<div class="highlight" id="id-2"><div class="chroma">
+</div><h3 id="2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode" class="heading-element">
+  <a href="#2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode" class="heading-mark"></a>2. Enable developer mode on iPhone, located at <code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>.</h3><h3 id="3-connect-the-iphone-to-macos-and-execute" class="heading-element">
+  <a href="#3-connect-the-iphone-to-macos-and-execute" class="heading-mark"></a>3. Connect the iPhone to macOS, and execute:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -1255,7 +1255,7 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-tunnel</span></span></code></pre></td></tr></table>
 </div>
 </div><p>It will print something like the following:</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1271,16 +1271,16 @@
 </span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337</span></span></code></pre></td></tr></table>
 </div>
 </div><p><code>RSD Address</code> and <code>RSD Port</code> will be used in step 5.</p>
-<h3 id="4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos">4. Make sure the iPhone is not locked at this time, and execute on macOS:</h3>
-<div class="highlight" id="id-4"><div class="chroma">
+<h3 id="4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos" class="heading-element">
+  <a href="#4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos" class="heading-mark"></a>4. Make sure the iPhone is not locked at this time, and execute on macOS:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount</span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="5-continue-to-execute-on-macos">5. Continue to execute on macOS:</h3>
-<div class="highlight" id="id-5"><div class="chroma">
+</div><h3 id="5-continue-to-execute-on-macos" class="heading-element">
+  <a href="#5-continue-to-execute-on-macos" class="heading-mark"></a>5. Continue to execute on macOS:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -1296,8 +1296,8 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/leetcode-arrays-101-solutions/</guid>
   <description><![CDATA[<p><a href="https://leetcode.com/explore/learn/card/fun-with-arrays/"target="_blank" rel="external nofollow noopener noreferrer">Leetcode Arrays 101<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
-<h3 id="485-max-consecutive-oneshttpsleetcodecomproblemsmax-consecutive-onesdescription"><a href="https://leetcode.com/problems/max-consecutive-ones/description/"target="_blank" rel="external nofollow noopener noreferrer">485. Max Consecutive Ones<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-1"><div class="chroma">
+<h3 id="485-max-consecutive-oneshttpsleetcodecomproblemsmax-consecutive-onesdescription" class="heading-element">
+  <a href="#485-max-consecutive-oneshttpsleetcodecomproblemsmax-consecutive-onesdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/max-consecutive-ones/description/"target="_blank" rel="external nofollow noopener noreferrer">485. Max Consecutive Ones<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1326,8 +1326,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="1295-find-numbers-with-even-number-of-digitshttpsleetcodecomproblemsfind-numbers-with-even-number-of-digitsdescription"><a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/"target="_blank" rel="external nofollow noopener noreferrer">1295. Find Numbers with Even Number of Digits<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-2"><div class="chroma">
+</div><h3 id="1295-find-numbers-with-even-number-of-digitshttpsleetcodecomproblemsfind-numbers-with-even-number-of-digitsdescription" class="heading-element">
+  <a href="#1295-find-numbers-with-even-number-of-digitshttpsleetcodecomproblemsfind-numbers-with-even-number-of-digitsdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/"target="_blank" rel="external nofollow noopener noreferrer">1295. Find Numbers with Even Number of Digits<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1356,8 +1356,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="977-squares-of-a-sorted-arrayhttpsleetcodecomproblemssquares-of-a-sorted-arraydescription"><a href="https://leetcode.com/problems/squares-of-a-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">977. Squares of a Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-3"><div class="chroma">
+</div><h3 id="977-squares-of-a-sorted-arrayhttpsleetcodecomproblemssquares-of-a-sorted-arraydescription" class="heading-element">
+  <a href="#977-squares-of-a-sorted-arrayhttpsleetcodecomproblemssquares-of-a-sorted-arraydescription" class="heading-mark"></a><a href="https://leetcode.com/problems/squares-of-a-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">977. Squares of a Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1372,8 +1372,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">nums</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="1089-duplicate-zeroshttpsleetcodecomproblemsduplicate-zerosdescription"><a href="https://leetcode.com/problems/duplicate-zeros/description/"target="_blank" rel="external nofollow noopener noreferrer">1089. Duplicate Zeros<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-4"><div class="chroma">
+</div><h3 id="1089-duplicate-zeroshttpsleetcodecomproblemsduplicate-zerosdescription" class="heading-element">
+  <a href="#1089-duplicate-zeroshttpsleetcodecomproblemsduplicate-zerosdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/duplicate-zeros/description/"target="_blank" rel="external nofollow noopener noreferrer">1089. Duplicate Zeros<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1406,8 +1406,8 @@
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="88-merge-sorted-arrayhttpsleetcodecomproblemsmerge-sorted-arraydescription"><a href="https://leetcode.com/problems/merge-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">88. Merge Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-5"><div class="chroma">
+</div><h3 id="88-merge-sorted-arrayhttpsleetcodecomproblemsmerge-sorted-arraydescription" class="heading-element">
+  <a href="#88-merge-sorted-arrayhttpsleetcodecomproblemsmerge-sorted-arraydescription" class="heading-mark"></a><a href="https://leetcode.com/problems/merge-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">88. Merge Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1436,8 +1436,8 @@
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="27-remove-elementhttpsleetcodecomproblemsremove-elementdescription"><a href="https://leetcode.com/problems/remove-element/description/"target="_blank" rel="external nofollow noopener noreferrer">27. Remove Element<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-6"><div class="chroma">
+</div><h3 id="27-remove-elementhttpsleetcodecomproblemsremove-elementdescription" class="heading-element">
+  <a href="#27-remove-elementhttpsleetcodecomproblemsremove-elementdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-element/description/"target="_blank" rel="external nofollow noopener noreferrer">27. Remove Element<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1464,8 +1464,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="26-remove-duplicates-from-sorted-arrayhttpsleetcodecomproblemsremove-duplicates-from-sorted-arraydescription"><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">26. Remove Duplicates from Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-7"><div class="chroma">
+</div><h3 id="26-remove-duplicates-from-sorted-arrayhttpsleetcodecomproblemsremove-duplicates-from-sorted-arraydescription" class="heading-element">
+  <a href="#26-remove-duplicates-from-sorted-arrayhttpsleetcodecomproblemsremove-duplicates-from-sorted-arraydescription" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">26. Remove Duplicates from Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1494,8 +1494,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">nums</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="1346-check-if-n-and-its-double-existhttpsleetcodecomproblemscheck-if-n-and-its-double-existdescription"><a href="https://leetcode.com/problems/check-if-n-and-its-double-exist/description/"target="_blank" rel="external nofollow noopener noreferrer">1346. Check If N and Its Double Exist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-8"><div class="chroma">
+</div><h3 id="1346-check-if-n-and-its-double-existhttpsleetcodecomproblemscheck-if-n-and-its-double-existdescription" class="heading-element">
+  <a href="#1346-check-if-n-and-its-double-existhttpsleetcodecomproblemscheck-if-n-and-its-double-existdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/check-if-n-and-its-double-exist/description/"target="_blank" rel="external nofollow noopener noreferrer">1346. Check If N and Its Double Exist<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1528,8 +1528,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="941-valid-mountain-arrayhttpsleetcodecomproblemsvalid-mountain-arraydescription"><a href="https://leetcode.com/problems/valid-mountain-array/description/"target="_blank" rel="external nofollow noopener noreferrer">941. Valid Mountain Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-9"><div class="chroma">
+</div><h3 id="941-valid-mountain-arrayhttpsleetcodecomproblemsvalid-mountain-arraydescription" class="heading-element">
+  <a href="#941-valid-mountain-arrayhttpsleetcodecomproblemsvalid-mountain-arraydescription" class="heading-mark"></a><a href="https://leetcode.com/problems/valid-mountain-array/description/"target="_blank" rel="external nofollow noopener noreferrer">941. Valid Mountain Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1560,8 +1560,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="1299-replace-elements-with-greatest-element-on-right-sidehttpsleetcodecomproblemsreplace-elements-with-greatest-element-on-right-sidedescription"><a href="https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/"target="_blank" rel="external nofollow noopener noreferrer">1299. Replace Elements with Greatest Element on Right Side<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-10"><div class="chroma">
+</div><h3 id="1299-replace-elements-with-greatest-element-on-right-sidehttpsleetcodecomproblemsreplace-elements-with-greatest-element-on-right-sidedescription" class="heading-element">
+  <a href="#1299-replace-elements-with-greatest-element-on-right-sidehttpsleetcodecomproblemsreplace-elements-with-greatest-element-on-right-sidedescription" class="heading-mark"></a><a href="https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/"target="_blank" rel="external nofollow noopener noreferrer">1299. Replace Elements with Greatest Element on Right Side<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1584,8 +1584,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="26-remove-duplicates-from-sorted-arrayhttpsleetcodecomproblemsremove-duplicates-from-sorted-arraydescription-1"><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">26. Remove Duplicates from Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-11"><div class="chroma">
+</div><h3 id="26-remove-duplicates-from-sorted-arrayhttpsleetcodecomproblemsremove-duplicates-from-sorted-arraydescription-1" class="heading-element">
+  <a href="#26-remove-duplicates-from-sorted-arrayhttpsleetcodecomproblemsremove-duplicates-from-sorted-arraydescription-1" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">26. Remove Duplicates from Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1614,8 +1614,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">nums</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="283-move-zeroeshttpsleetcodecomproblemsmove-zeroesdescription"><a href="https://leetcode.com/problems/move-zeroes/description/"target="_blank" rel="external nofollow noopener noreferrer">283. Move Zeroes<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-12"><div class="chroma">
+</div><h3 id="283-move-zeroeshttpsleetcodecomproblemsmove-zeroesdescription" class="heading-element">
+  <a href="#283-move-zeroeshttpsleetcodecomproblemsmove-zeroesdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/move-zeroes/description/"target="_blank" rel="external nofollow noopener noreferrer">283. Move Zeroes<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1654,8 +1654,8 @@
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="905-sort-array-by-parityhttpsleetcodecomproblemssort-array-by-paritydescription"><a href="https://leetcode.com/problems/sort-array-by-parity/description/"target="_blank" rel="external nofollow noopener noreferrer">905. Sort Array By Parity<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-13"><div class="chroma">
+</div><h3 id="905-sort-array-by-parityhttpsleetcodecomproblemssort-array-by-paritydescription" class="heading-element">
+  <a href="#905-sort-array-by-parityhttpsleetcodecomproblemssort-array-by-paritydescription" class="heading-mark"></a><a href="https://leetcode.com/problems/sort-array-by-parity/description/"target="_blank" rel="external nofollow noopener noreferrer">905. Sort Array By Parity<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1678,8 +1678,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="27-remove-elementhttpsleetcodecomproblemsremove-elementdescription-1"><a href="https://leetcode.com/problems/remove-element/description/"target="_blank" rel="external nofollow noopener noreferrer">27. Remove Element<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-14"><div class="chroma">
+</div><h3 id="27-remove-elementhttpsleetcodecomproblemsremove-elementdescription-1" class="heading-element">
+  <a href="#27-remove-elementhttpsleetcodecomproblemsremove-elementdescription-1" class="heading-mark"></a><a href="https://leetcode.com/problems/remove-element/description/"target="_blank" rel="external nofollow noopener noreferrer">27. Remove Element<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1706,8 +1706,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="1051-height-checkerhttpsleetcodecomproblemsheight-checkerdescription"><a href="https://leetcode.com/problems/height-checker/description/"target="_blank" rel="external nofollow noopener noreferrer">1051. Height Checker<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-15"><div class="chroma">
+</div><h3 id="1051-height-checkerhttpsleetcodecomproblemsheight-checkerdescription" class="heading-element">
+  <a href="#1051-height-checkerhttpsleetcodecomproblemsheight-checkerdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/height-checker/description/"target="_blank" rel="external nofollow noopener noreferrer">1051. Height Checker<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1730,8 +1730,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="414-third-maximum-numberhttpsleetcodecomproblemsthird-maximum-numberdescription"><a href="https://leetcode.com/problems/third-maximum-number/description/"target="_blank" rel="external nofollow noopener noreferrer">414. Third Maximum Number<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-16"><div class="chroma">
+</div><h3 id="414-third-maximum-numberhttpsleetcodecomproblemsthird-maximum-numberdescription" class="heading-element">
+  <a href="#414-third-maximum-numberhttpsleetcodecomproblemsthird-maximum-numberdescription" class="heading-mark"></a><a href="https://leetcode.com/problems/third-maximum-number/description/"target="_blank" rel="external nofollow noopener noreferrer">414. Third Maximum Number<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -1772,8 +1772,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">return</span> <span class="nx">a</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="448-find-all-numbers-disappeared-in-an-arrayhttpsleetcodecomproblemsfind-all-numbers-disappeared-in-an-arraydescription"><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/"target="_blank" rel="external nofollow noopener noreferrer">448. Find All Numbers Disappeared in an Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-17"><div class="chroma">
+</div><h3 id="448-find-all-numbers-disappeared-in-an-arrayhttpsleetcodecomproblemsfind-all-numbers-disappeared-in-an-arraydescription" class="heading-element">
+  <a href="#448-find-all-numbers-disappeared-in-an-arrayhttpsleetcodecomproblemsfind-all-numbers-disappeared-in-an-arraydescription" class="heading-mark"></a><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/"target="_blank" rel="external nofollow noopener noreferrer">448. Find All Numbers Disappeared in an Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1792,8 +1792,8 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">res</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="977-squares-of-a-sorted-arrayhttpsleetcodecomproblemssquares-of-a-sorted-arraydescription-1"><a href="https://leetcode.com/problems/squares-of-a-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">977. Squares of a Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3>
-<div class="highlight" id="id-18"><div class="chroma">
+</div><h3 id="977-squares-of-a-sorted-arrayhttpsleetcodecomproblemssquares-of-a-sorted-arraydescription-1" class="heading-element">
+  <a href="#977-squares-of-a-sorted-arrayhttpsleetcodecomproblemssquares-of-a-sorted-arraydescription-1" class="heading-mark"></a><a href="https://leetcode.com/problems/squares-of-a-sorted-array/description/"target="_blank" rel="external nofollow noopener noreferrer">977. Squares of a Sorted Array<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1817,7 +1817,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</guid>
   <description><![CDATA[<p>Today I found a command line tool that can limit the battery charging of Apple Silicon Macbook, called <strong>battery</strong>.</p>
-<a href="https://github.com/actuallymentor/battery" title="battery"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/actuallymentor/battery" title="battery"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">battery</span>
@@ -1828,7 +1828,7 @@
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
 <p>I have been using <a href="https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/"target="_blank" rel="external nofollow noopener noreferrer">AlDente<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> before. Compared with it, the advantage of <strong>battery</strong> is that it can be used directly on the command line, and it is completely free, while AlDente can only use the most basic functions without paying, and its icon occupies a spot in the menu bar.</p>
 <p>Just one line of command:</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -1846,7 +1846,7 @@
   <description><![CDATA[<p>I encountered a problem when I was completing <a href="https://www.kayak4665664.com/springboot-demo/"target="_blank" rel="external nofollow noopener noreferrer">Springboot-Demo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is to get resource files.</p>
 <p>At first, I packaged the project into a jar file using Maven, and then ran it. The program reported an error that it could not find the json file. After troubleshooting, I found that the problem was in the way I got the json file. I used a relative path, but when running the jar file, the relative path is relative to the directory where the jar file is located, not relative to the source code directory, so the json file cannot be found.</p>
 <p>The solution is to use the <code>getResourceAsStream</code> method of the <code>ClassLoader</code> class, which can return an <code>InputStream</code> object according to the given path name, and then use this object to read the contents of the resource file. For example:</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -1876,10 +1876,10 @@
       <div class="admonition-content">I capture packets for iPhone on macOS, but the methods and principles are similar for other systems and devices.</div>
     </div>
   </div>
-<h2 id="wireshark">Wireshark</h2>
-<p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
+<h2 id="wireshark" class="heading-element">
+  <a href="#wireshark" class="heading-mark"></a>Wireshark</h2><p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
 <p>On macOS, Wireshark can be installed using <code>brew</code>:</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -1888,12 +1888,12 @@
 </div>
 </div><p>Capturing packets with Wireshark is also very simple. For example, selecting the <code>Wi-Fi</code> interface can capture packets from the wireless network card.</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" sizes="auto" data-title="Wireshark" data-alt="Wireshark" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" alt="Wireshark" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" data-title="Wireshark" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
 </div>
-<h2 id="tcpdump">tcpdump</h2>
-<p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
+<h2 id="tcpdump" class="heading-element">
+  <a href="#tcpdump" class="heading-mark"></a>tcpdump</h2><p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
 <p>On macOS, <code>tcpdump</code> can also be installed using <code>brew</code>:</p>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -1901,55 +1901,55 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Capturing packets with <code>tcpdump</code>, for example, capture packets from the <code>12345</code> port and save them as a <code>pcap</code> file:</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="charles">Charles</h2>
-<p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
+</div><h2 id="charles" class="heading-element">
+  <a href="#charles" class="heading-mark"></a>Charles</h2><p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
 <p>On macOS, we can install Charles using <code>brew</code>:</p>
-<div class="highlight" id="id-4"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="capture-packets-for-mobile-apps">Capture Packets for Mobile Apps</h2>
-<p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
+</div><h2 id="capture-packets-for-mobile-apps" class="heading-element">
+  <a href="#capture-packets-for-mobile-apps" class="heading-mark"></a>Capture Packets for Mobile Apps</h2><p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
 <ol>
 <li>Both the macOS device and the iPhone are connected to a mobile hotspot turned on by the third device, making sure they are on the same local area network.</li>
 <li>On the macOS device, open Charles and set up a proxy server. The proxy server port is <code>8888</code> by default.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" sizes="auto" data-title="Charles" data-alt="Charles" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" data-title="Charles" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="3">
 <li>On the iPhone, set the proxy server to the macOS device. The proxy server port is <code>8888</code>.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>Proxy</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" sizes="auto" data-title="Proxy" data-alt="Proxy" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>Proxy</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="Proxy" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" data-title="Proxy" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="4">
 <li>Access <a href="chls.pro/ssl">chls.pro/ssl</a> in the iPhone browser, download and install the certificate.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>Certificate installation</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" sizes="auto" data-title="Certificate installation" data-alt="Certificate installation" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>Certificate installation</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="Certificate installation" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" data-title="Certificate installation" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="5">
 <li>Trust the certificate in the iPhone settings <code>General -&gt; About -&gt; Certificate Trust Settings</code>.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>Certificate trust settings</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" sizes="auto" data-title="Certificate trust settings" data-alt="Certificate trust settings" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>Certificate trust settings</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="Certificate trust settings" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" data-title="Certificate trust settings" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="6">
 <li>Install the configuration file for the proxy server in the iPhone settings <code>General -&gt; VPN &amp; Device Management</code>.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>Configuration file</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" sizes="auto" data-title="Configuration file" data-alt="Configuration file" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>Configuration file</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="Configuration file" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" data-title="Configuration file" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="7">
 <li>
@@ -1979,8 +1979,8 @@
     </div>
   </div>
 <p>There are many types of cards, but the application process is the same. I applied for the World Card. The card face is Monet&rsquo;s sunrise impression, which is very beautiful. I mainly introduce my handling process, and other detailed information can refer to the above blog.</p>
-<h2 id="apply-online">Apply Online</h2>
-<a href="https://cloud.bankofchina.com/sh/api/net/common/url/adr?id=kuajinggomastercard" title="Bank of China Shanghai Branch MasterCard Application"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h2 id="apply-online" class="heading-element">
+  <a href="#apply-online" class="heading-mark"></a>Apply Online</h2><a href="https://cloud.bankofchina.com/sh/api/net/common/url/adr?id=kuajinggomastercard" title="Bank of China Shanghai Branch MasterCard Application"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Bank of China Shanghai Branch MasterCard Application</span>
@@ -2000,11 +2000,11 @@
   </div>
 <p>After applying, you can check the progress in the above link. If the application fails, you will also receive a text message reminder. When I applied for the first time, I wrote the address of the school, but it was not accurate to the house number, so the application failed.</p>
 <p>If the application is approved, you can receive the bank card by EMS in about two weeks.</p>
-<h2 id="offline-activation">Offline activation</h2>
-<p>After receiving the bank card, go to any Bank of China outlet to activate it, and you need to bring your ID card and bank card.</p>
+<h2 id="offline-activation" class="heading-element">
+  <a href="#offline-activation" class="heading-mark"></a>Offline activation</h2><p>After receiving the bank card, go to any Bank of China outlet to activate it, and you need to bring your ID card and bank card.</p>
 <p>It can be activated at the smart counter, and the default password is the sixth to the second last digits of the ID card. The bound mobile phone number can be modified during activation, and the card will be linked to mobile banking after activation.</p>
-<h2 id="after-activation">After activation</h2>
-<p>After activation, the foreign currency must be transferred to the bank card, and foreign currency needs to be purchased through a Bank of China Class I card.</p>
+<h2 id="after-activation" class="heading-element">
+  <a href="#after-activation" class="heading-mark"></a>After activation</h2><p>After activation, the foreign currency must be transferred to the bank card, and foreign currency needs to be purchased through a Bank of China Class I card.</p>
 <p>In addition, the online payment function must be activated in mobile banking:</p>
 <ul>
 <li>Increase the limit in &ldquo;限额设置 -&gt; 限额设置&rdquo;</li>
@@ -2016,8 +2016,8 @@
 <li>Enable &ldquo;支付设置 -&gt; 跨行支付 -&gt; 跨行代扣&rdquo;</li>
 <li>Enable &ldquo;支付设置 -&gt; 跨行支付 -&gt; 跨行订购&rdquo;</li>
 </ul>
-<h2 id="precautions-for-using-the-card">Precautions for using the card</h2>
-<ul>
+<h2 id="precautions-for-using-the-card" class="heading-element">
+  <a href="#precautions-for-using-the-card" class="heading-mark"></a>Precautions for using the card</h2><ul>
 <li>Consumption or ATM cash withdrawal supports 19 foreign currencies such as US dollars, Euros, Japanese yen, and Hong Kong dollars, without currency conversion. Free of currency conversion fees, cross-border fees, and other consumption fees. The first overseas ATM cash withdrawal and balance inquiry fees are waived every month.</li>
 <li>Both foreign currency and foreign banknotes can be used for consumption and payment, and there will be no conversion fees when using them.</li>
 <li>If there is no transaction within 6 months after the debit card is opened, the non-counter business will be stopped.</li>
@@ -2040,7 +2040,7 @@
   <guid>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</guid>
   <description><![CDATA[<p>Authorize sudo commands with Touch Id, so you don&rsquo;t have to enter your password every time.</p>
 <p>In Terminal, enter the following command, then restart Terminal.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -2049,7 +2049,7 @@
 </div>
 </div><p>This command first backs up <code>/etc/pam.d/sudo</code> to <code>/etc/pam.d/sudo.bak</code>, then inserts <code>auth       sufficient     pam_tid.so</code> on the second line.</p>
 <p>If you want to restore the default settings, you can use the following command:</p>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -2065,7 +2065,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/using-the-chatgpt-api-in-python/</guid>
   <description><![CDATA[<p>ChatGPT&rsquo;s API is officially released and can be used in Python.</p>
-<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="Introducing ChatGPT API"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" title="Introducing ChatGPT API"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Introducing ChatGPT API</span>
@@ -2077,7 +2077,7 @@
 <p>After registering an OpenAI account, create an API Key in <a href="https://platform.openai.com/account/api-keys"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/api-keys<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>. You can see in <a href="https://platform.openai.com/account/usage"target="_blank" rel="external nofollow noopener noreferrer">https://platform.openai.com/account/usage<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> that there is a free trial usage of $18 in the account, which expires on April 1.</p>
 <p>This time the released ChatGPT model gpt-3.5-turbo is the same as the model used in the ChatGPT product. In addition, gpt-3.5-turbo-0301 has also been released, and this model is at least supported until June 1.</p>
 <p>The complete API usage guide can be found here:</p>
-<a href="https://platform.openai.com/docs/guides/chat" title="ChatGPT API Usage Guide"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://platform.openai.com/docs/guides/chat" title="ChatGPT API Usage Guide"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">ChatGPT API Usage Guide</span>
@@ -2087,7 +2087,7 @@
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
 <p>In short, to use the ChatGPT API in Python, you need to install the <code>openai</code> Python package.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -2102,7 +2102,7 @@
 </div>
 </div><p>Then, <code>import openai</code>, and then use the <code>openai.Completion.create</code> function to call the API.</p>
 <p>Here is a simple Python script I wrote that can have a multi-turn conversation with ChatGPT.</p>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2

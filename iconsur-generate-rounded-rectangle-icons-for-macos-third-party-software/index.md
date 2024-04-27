@@ -1,11 +1,11 @@
 # iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software
 
 There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.
-<!--more-->
+&lt;!--more--&gt;
 
-iconsur's Github homepage:
+iconsur&#39;s Github homepage:
 
-{{< link href="https://github.com/rikumi/iconsur" content="iconsur" title="iconsur" card=true >}}
+{{&lt; link href=&#34;https://github.com/rikumi/iconsur&#34; content=&#34;iconsur&#34; title=&#34;iconsur&#34; card=true &gt;}}
 
 It can be downloaded in [Releases](https://github.com/rikumi/iconsur/releases). You can also use Homebrew: `brew install iconsur`, or npm: `npm install -g iconsur`.
 

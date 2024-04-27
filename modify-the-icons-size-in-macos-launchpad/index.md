@@ -1,7 +1,7 @@
 # Modify the Icons Size in MacOS Launchpad
 
 Icons can be resized by adjusting the number of icons per row and column of Launchpad.
-<!--more-->
+&lt;!--more--&gt;
 
 ## method
 

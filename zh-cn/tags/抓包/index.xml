@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>抓包 - 标签 - kayak4665664的博客</title>
+    <title>抓包 - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/%E6%8A%93%E5%8C%85/</link>
-    <description>抓包 - 标签 - kayak4665664的博客</description>
+    <description>抓包 - 标签 | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Tue, 11 Apr 2023 12:59:07 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E6%8A%93%E5%8C%85/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Tue, 11 Apr 2023 12:59:07 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E6%8A%93%E5%8C%85/" rel="self" type="application/rss+xml" /><item>
   <title>Pcap-Parser</title>
   <link>https://www.kayak4665664.com/zh-cn/pcap-parser/</link>
   <pubDate>Tue, 11 Apr 2023 12:59:07 &#43;0800</pubDate>
@@ -19,7 +19,7 @@
       <div class="admonition-content">本文涉及的源代码在GitHub仓库：</div>
     </div>
   </div>
-<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Pcap-Parser</span>
@@ -49,10 +49,10 @@
       <div class="admonition-content">我在macOS上对iPhone进行抓包，但是对于其他系统和设备，方法和原理也是类似的。</div>
     </div>
   </div>
-<h2 id="wireshark">Wireshark</h2>
-<p>Wireshark是一个开源的网络分析工具，可以用来抓取网络数据包。它可以在macOS、Windows和Linux上运行。</p>
+<h2 id="wireshark" class="heading-element">
+  <a href="#wireshark" class="heading-mark"></a>Wireshark</h2><p>Wireshark是一个开源的网络分析工具，可以用来抓取网络数据包。它可以在macOS、Windows和Linux上运行。</p>
 <p>在macOS上，可以使用<code>brew</code>安装Wireshark：</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -61,12 +61,12 @@
 </div>
 </div><p>使用Wireshark抓包也很简单，比如选择<code>Wi-Fi</code>接口就可以抓无线网卡的数据包。</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" sizes="auto" data-title="Wireshark" data-alt="Wireshark" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" alt="Wireshark" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" data-title="Wireshark" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
 </div>
-<h2 id="tcpdump">tcpdump</h2>
-<p>tcpdump是一个命令行工具，可以用来抓取网络数据包。假如在没有图形界面的服务器上，可以使用它来抓取数据包。</p>
+<h2 id="tcpdump" class="heading-element">
+  <a href="#tcpdump" class="heading-mark"></a>tcpdump</h2><p>tcpdump是一个命令行工具，可以用来抓取网络数据包。假如在没有图形界面的服务器上，可以使用它来抓取数据包。</p>
 <p>在macOS上，可以使用<code>brew</code>安装tcpdump：</p>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -74,55 +74,55 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump</span></span></code></pre></td></tr></table>
 </div>
 </div><p>使用tcpdump抓包，比如抓取<code>12345</code>端口的数据包并保存为<code>pcap</code>文件：</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="charles">Charles</h2>
-<p>Charles是一个HTTP代理服务器，可以用来抓取HTTP和HTTPS的数据包，和Fiddler类似。</p>
+</div><h2 id="charles" class="heading-element">
+  <a href="#charles" class="heading-mark"></a>Charles</h2><p>Charles是一个HTTP代理服务器，可以用来抓取HTTP和HTTPS的数据包，和Fiddler类似。</p>
 <p>在macOS上，也使用<code>brew</code>安装Charles：</p>
-<div class="highlight" id="id-4"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="手机app抓包">手机App抓包</h2>
-<p>对于MacBook，如果已经连接了Wi-Fi，就不能开启无线热点了。所以需要用Charles来建立一个代理服务器，然后手机连接到这个代理服务器上。主要步骤如下：</p>
+</div><h2 id="手机app抓包" class="heading-element">
+  <a href="#%e6%89%8b%e6%9c%baapp%e6%8a%93%e5%8c%85" class="heading-mark"></a>手机App抓包</h2><p>对于MacBook，如果已经连接了Wi-Fi，就不能开启无线热点了。所以需要用Charles来建立一个代理服务器，然后手机连接到这个代理服务器上。主要步骤如下：</p>
 <ol>
 <li>macOS设备和iPhone都连接到第三个设备开启的移动热点，确保处于同一个局域网内。</li>
 <li>在macOS设备中启动Charles，设置代理服务，默认端口为<code>8888</code>。</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" sizes="auto" data-title="Charles" data-alt="Charles" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" data-title="Charles" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="3">
 <li>在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为<code>8888</code>。</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>代理服务器</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" sizes="auto" data-title="代理服务器" data-alt="代理服务器" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>代理服务器</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="代理服务器" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" data-title="代理服务器" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="4">
 <li>iPhone在浏览器中访问<a href="chls.pro/ssl">chls.pro/ssl</a>，下载并安装证书。</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>安装证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" sizes="auto" data-title="安装证书" data-alt="安装证书" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>安装证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="安装证书" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" data-title="安装证书" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="5">
 <li>iPhone在<code>General -&gt; About -&gt; Certificate Trust Settings</code>中，将Charles的证书设置为信任。</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>信任证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" sizes="auto" data-title="信任证书" data-alt="信任证书" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>信任证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="信任证书" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" data-title="信任证书" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="6">
 <li>iPhone在<code>General -&gt; VPN &amp; Device Management</code>中安装Charles的描述文件。</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>安装描述文件</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" sizes="auto" data-title="安装描述文件" data-alt="安装描述文件" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>安装描述文件</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="安装描述文件" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" data-title="安装描述文件" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="7">
 <li>

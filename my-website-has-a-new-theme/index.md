@@ -1,9 +1,9 @@
 # My Website Has a New Theme
 
 I have been using the [LoveIt](https://github.com/dillonzq/LoveIt) Hugo theme since I built my website in 2021, and not much has changed. This time, I migrated to the [FixIt](https://github.com/hugo-fixit/FixIt) theme, which not only fixed some problems in LoveIt, but also brought more new features and optimizations. By the way, the comment system has migrated from [Valine](https://valine.js.org/) to [Waline](https://waline.js.org/).
-<!--more-->
+&lt;!--more--&gt;
 
-{{< link href="https://fixit.lruihao.cn/" content="FixIt" title="FixIt" card=true >}}
+{{&lt; link href=&#34;https://fixit.lruihao.cn/&#34; content=&#34;FixIt&#34; title=&#34;FixIt&#34; card=true &gt;}}
 
 Since FixIt is based on LoveIt, migrating to Fixit is relatively easy. After some tweaking, the main changes to my website are as follows:
 

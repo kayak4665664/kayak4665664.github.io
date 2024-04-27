@@ -1,11 +1,11 @@
 # iconsur：为macOS第三方软件生成圆角矩形图标
 
 总有一些软件的图标和macOS的不适应，iconsur可以为它们生成圆角矩形的图标，美化我们的macOS。
-<!--more-->
+&lt;!--more--&gt;
 
 iconsur的Github主页：
 
-{{< link href="https://github.com/rikumi/iconsur" content="iconsur" title="iconsur" card=true >}}
+{{&lt; link href=&#34;https://github.com/rikumi/iconsur&#34; content=&#34;iconsur&#34; title=&#34;iconsur&#34; card=true &gt;}}
 
 可以在[Releases](https://github.com/rikumi/iconsur/releases)中下载。也可以用Homebrew：`brew install iconsur`，或者是npm：`npm install -g iconsur`。
 

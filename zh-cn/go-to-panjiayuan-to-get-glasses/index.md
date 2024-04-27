@@ -1,7 +1,7 @@
 # 去潘家园配眼镜
 
 以前的眼镜是上大学之前配的，已经有点看不清了。正好我在北京，听说潘家园（北京眼镜城）的眼镜特别便宜，我就去了。
-<!--more-->
+&lt;!--more--&gt;
 
 之前忘了在哪看到了变色眼镜，可以根据紫外线强度变色，我决定这次就配一副变色眼镜。我在网上查了一下，大家都说蔡司和依视路的镜片比较好，我比较了一番，最后决定买一副蔡司焕色视界X镜片。我的度数应该在800度以内，所以可以选择折射率1.6的镜片。
 
@@ -27,31 +27,31 @@
 
 从麦当劳出来，找了一辆哈啰单车，我之前买了月卡，两个小时之内免费。从东三环到长安街再到北二环，用了一个半小时。到了北站还剩几十分钟，去旁边凯德MALL随便逛了逛，然后上了火车，回到了学校。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2352.jpeg" alt="骑车路过天安门">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2352.jpeg&#34; alt=&#34;骑车路过天安门&#34;&gt;}}
+&lt;/div&gt;
 
 过了一周，我的眼镜制作好了。我又约好了周六早上7点的班车，买了下午两点半的火车票。
 
 和上次一样，不到8点就到了奥运村下车点。时间还早，我先去奥林匹克公园转了转，里面人很少。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2470.jpeg" alt="奥林匹克公园">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2470.jpeg&#34; alt=&#34;奥林匹克公园&#34;&gt;}}
+&lt;/div&gt;
 
 之后上了地铁前往潘家园，大概9点多到达。上了三楼我发现我找不到那家店在哪了，绕了一圈才找到了。我拿到了眼镜，检查了一下，查验了镜片的真伪，没有发现什么问题。我走出大楼，眼镜果然变色了，感觉真不错。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2543.JPG" alt="我的眼镜">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2543.JPG&#34; alt=&#34;我的眼镜&#34;&gt;}}
+&lt;/div&gt;
 
 我早上6点吃了早饭，已经饿了。我又走到了那家麦当劳，但是刚过10点，还在卖早餐，我找位置坐下休息了半个小时。
 
 吃完饭，我开始朝着北京北站的方向闲逛，一会坐地铁一会步行。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2475.jpeg" alt="故宫">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2475.jpeg&#34; alt=&#34;故宫&#34;&gt;}}
+&lt;/div&gt;
 
 到了北站还有几十分钟，我去旁边的凯德MALL逛了逛，逛到了小米之家，看了看小米最新的产品。之后坐上了火车，回到了学校。
 

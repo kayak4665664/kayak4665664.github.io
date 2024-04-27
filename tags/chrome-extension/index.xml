@@ -1,17 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Chrome Extension - Tag - kayak4665664&#39;s Blog</title>
+    <title>Chrome Extension - Tag | kayak4665664</title>
     <link>https://www.kayak4665664.com/tags/chrome-extension/</link>
-    <description>Chrome Extension - Tag - kayak4665664&#39;s Blog</description>
+    <description>Chrome Extension - Tag | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Sat, 26 Aug 2023 16:55:24 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/chrome-extension/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Sat, 26 Aug 2023 16:55:24 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/chrome-extension/" rel="self" type="application/rss+xml" /><item>
   <title>Devtools-Font</title>
   <link>https://www.kayak4665664.com/devtools-font/</link>
   <pubDate>Sat, 26 Aug 2023 16:55:24 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/devtools-font/</guid>
   <description><![CDATA[<p>I suddenly found that the font family in Chrome Devtools cannot be modified directly the day before yesterday. I checked it and found that I can write an extension to solve this problem.</p>
-<a href="https://github.com/kayak4665664/Devtools-Font" title="Devtools-Font - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Devtools-Font" title="Devtools-Font - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Devtools-Font</span>

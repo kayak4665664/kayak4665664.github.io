@@ -1,17 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Priority Queue - Tag - kayak4665664&#39;s Blog</title>
+    <title>priority queue - Tag | kayak4665664</title>
     <link>https://www.kayak4665664.com/tags/priority-queue/</link>
-    <description>Priority Queue - Tag - kayak4665664&#39;s Blog</description>
+    <description>priority queue - Tag | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Mon, 31 Jan 2022 22:23:34 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/priority-queue/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Mon, 31 Jan 2022 22:23:34 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/priority-queue/" rel="self" type="application/rss+xml" /><item>
   <title>Linked List</title>
   <link>https://www.kayak4665664.com/linked-list/</link>
   <pubDate>Mon, 31 Jan 2022 22:23:34 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/linked-list/</guid>
   <description><![CDATA[<p>A C++ template for the doubly linked list.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -115,7 +115,7 @@
 </div><ol>
 <li><a href="https://leetcode.com/problems/merge-two-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 21. Merge Two Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 </ol>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -202,7 +202,7 @@
 <li><a href="https://leetcode.com/problems/merge-k-sorted-lists/description/"target="_blank" rel="external nofollow noopener noreferrer">LeetCode 23. Merge k Sorted Lists<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 </ol>
 <p>Using this method directly resulted in <code>Time Limit Exceeded</code>,</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -292,7 +292,7 @@
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>and I solved it using the priority queue.</p>
-<div class="highlight" id="id-4"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2

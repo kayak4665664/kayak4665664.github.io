@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>全栈 - 标签 - kayak4665664的博客</title>
+    <title>全栈 - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/%E5%85%A8%E6%A0%88/</link>
-    <description>全栈 - 标签 - kayak4665664的博客</description>
+    <description>全栈 - 标签 | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%85%A8%E6%A0%88/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%85%A8%E6%A0%88/" rel="self" type="application/rss+xml" /><item>
   <title>Node-Depend-View</title>
   <link>https://www.kayak4665664.com/zh-cn/node-depend-view/</link>
   <pubDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/zh-cn/node-depend-view/</guid>
-  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Node-Depend-View</span>

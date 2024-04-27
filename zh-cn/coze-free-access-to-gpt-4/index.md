@@ -3,9 +3,9 @@
 
 最近发现了字节跳动的Coze，可以免费使用GPT-4和GPT-4-Turbo！
 
-<!--more-->
+&lt;!--more--&gt;
 
-{{< link href="https://www.coze.com/" content="Coze" title="Coze" card=true >}}
+{{&lt; link href=&#34;https://www.coze.com/&#34; content=&#34;Coze&#34; title=&#34;Coze&#34; card=true &gt;}}
 
 具体使用方法可以参考[官方文档](https://www.coze.com/docs/)，支持通过插件、知识库等自定义自己的机器人，总之非常强大，还可以将机器人发布到Discord、Slack、Telegram等平台。
 

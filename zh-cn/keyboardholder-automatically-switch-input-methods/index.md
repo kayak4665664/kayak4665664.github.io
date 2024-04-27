@@ -1,9 +1,9 @@
 # KeyboardHolder: 自动切换输入法
 
 由于我需要同时使用中文和英文输入法，经常在中英之间切换，有的时候打开了Terminal一输入却是中文。所以我找到了一个叫做 KeyboardHolder 的工具，它可以帮助我们自动切换输入法。
-<!--more-->
+&lt;!--more--&gt;
 
-{{< link href="https://keyboardholder.leavesc.com/zh-cn/" content="KeyboardHolder" title="KeyboardHolder" card=true >}}
+{{&lt; link href=&#34;https://keyboardholder.leavesc.com/zh-cn/&#34; content=&#34;KeyboardHolder&#34; title=&#34;KeyboardHolder&#34; card=true &gt;}}
 
 也可以直接用 Homebrew 安装：`brew install --cask keyboardholder`。
 
@@ -11,9 +11,9 @@
 
 另外，它还可以在鼠标的位置显示输入法切换的提示，这样就不需要转移焦点到菜单栏上检查输入法状态了。
 
-{{< admonition info >}}
+{{&lt; admonition info &gt;}}
 这个功能在macOS 14中已经内置了。
-{{< /admonition >}}
+{{&lt; /admonition &gt;}}
 
 ---
 

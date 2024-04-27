@@ -1,11 +1,11 @@
 # 手机App抓包
 
 使用`Charles`、`Wireshark`和`tcpdump`对手机App抓包。
-<!--more-->
+&lt;!--more--&gt;
 
-{{< admonition info >}}
+{{&lt; admonition info &gt;}}
 我在macOS上对iPhone进行抓包，但是对于其他系统和设备，方法和原理也是类似的。
-{{< /admonition >}}
+{{&lt; /admonition &gt;}}
 
 ## Wireshark
 
@@ -18,9 +18,9 @@ brew install --cask wireshark
 ```
 使用Wireshark抓包也很简单，比如选择`Wi-Fi`接口就可以抓无线网卡的数据包。
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" alt="Wireshark">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png&#34; alt=&#34;Wireshark&#34;&gt;}}
+&lt;/div&gt;
 
 
 ## tcpdump
@@ -55,29 +55,29 @@ brew install --cask charles
 
 1. macOS设备和iPhone都连接到第三个设备开启的移动热点，确保处于同一个局域网内。
 2. 在macOS设备中启动Charles，设置代理服务，默认端口为`8888`。  
-  <div align="center">
-  {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles">}}
-  </div>
+  &lt;div align=&#34;center&#34;&gt;
+  {{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png&#34; alt=&#34;Charles&#34;&gt;}}
+  &lt;/div&gt;
 
 3. 在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为`8888`。  
-  <div align="center">
-  {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="代理服务器">}}
-  </div>
+  &lt;div align=&#34;center&#34;&gt;
+  {{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG&#34; alt=&#34;代理服务器&#34;&gt;}}
+  &lt;/div&gt;
 
 4. iPhone在浏览器中访问[chls.pro/ssl](chls.pro/ssl)，下载并安装证书。  
-  <div align="center">
-  {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="安装证书">}}
-  </div>
+  &lt;div align=&#34;center&#34;&gt;
+  {{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG&#34; alt=&#34;安装证书&#34;&gt;}}
+  &lt;/div&gt;
 
-5. iPhone在`General -> About -> Certificate Trust Settings`中，将Charles的证书设置为信任。  
-  <div align="center">
-  {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="信任证书">}}
-  </div>
+5. iPhone在`General -&gt; About -&gt; Certificate Trust Settings`中，将Charles的证书设置为信任。  
+  &lt;div align=&#34;center&#34;&gt;
+  {{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG&#34; alt=&#34;信任证书&#34;&gt;}}
+  &lt;/div&gt;
 
-6. iPhone在`General -> VPN & Device Management`中安装Charles的描述文件。  
-  <div align="center">
-  {{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="安装描述文件">}}
-  </div>
+6. iPhone在`General -&gt; VPN &amp; Device Management`中安装Charles的描述文件。  
+  &lt;div align=&#34;center&#34;&gt;
+  {{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG&#34; alt=&#34;安装描述文件&#34;&gt;}}
+  &lt;/div&gt;
 
 7. 由于Charles只能抓取HTTP和HTTPS的数据包，所以这里在macOS设备中启动Wireshark，选择`Wi-Fi`接口抓取所有协议的数据包。
 

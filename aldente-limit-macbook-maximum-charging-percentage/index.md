@@ -1,11 +1,11 @@
 # AlDente: Limit MacBook Maximum Charging Percentage
 
 Since the laptop uses a lithium battery, a long-term connection to the power adapter will cause the battery to always be at a high percentage, which will shorten the life of the battery. Therefore, keeping the percentage between 20% and 80% can delay the decay of the battery.
-<!--more-->
+&lt;!--more--&gt;
 
 For MacBook, I found software that can solve this problem:
 
-{{< link href="https://github.com/davidwernhart/AlDente-Charge-Limiter" content="AlDente" title="AlDente" card=true >}}
+{{&lt; link href=&#34;https://github.com/davidwernhart/AlDente-Charge-Limiter&#34; content=&#34;AlDente&#34; title=&#34;AlDente&#34; card=true &gt;}}
 
 It can be downloaded from [Github](https://github.com/davidwernhart/AlDente/releases), or you can use Homebrew, `brew install --cask aldente`.
 

@@ -1,12 +1,12 @@
 # 链表
 
 
-一个双向链表的C++模版。
+一个双向链表的C&#43;&#43;模版。
 
-<!--more-->
+&lt;!--more--&gt;
 
 ```cpp
-#include <iostream>
+#include &lt;iostream&gt;
 using namespace std;
 
 struct ListNode {
@@ -20,38 +20,38 @@ struct ListNode {
 
 ListNode *insert(ListNode *p, int val) {
     ListNode *n = new ListNode;
-    n->val = val;
-    n->next = p->next;
-    p->next = n;
-    n->prior = p;
-    if (n->next != nullptr) n->next->prior = n;
+    n-&gt;val = val;
+    n-&gt;next = p-&gt;next;
+    p-&gt;next = n;
+    n-&gt;prior = p;
+    if (n-&gt;next != nullptr) n-&gt;next-&gt;prior = n;
     return n;
 }
 
 void erase(ListNode *p) {
-    p->prior->next = p->next;
-    if (p->next != nullptr) p->next->prior = p->prior;
+    p-&gt;prior-&gt;next = p-&gt;next;
+    if (p-&gt;next != nullptr) p-&gt;next-&gt;prior = p-&gt;prior;
     delete p;
 }
 
 void print(ListNode *p) {
     if (p != nullptr) {
-        cout << p->val;
-        p = p->next;
+        cout &lt;&lt; p-&gt;val;
+        p = p-&gt;next;
     }
     while (p != nullptr) {
-        cout << " -> " << p->val;
-        p = p->next;
+        cout &lt;&lt; &#34; -&gt; &#34; &lt;&lt; p-&gt;val;
+        p = p-&gt;next;
     }
-    cout << endl;
+    cout &lt;&lt; endl;
 }
 
 int main() {
     ListNode *front = new ListNode(1);
-    ListNode *n = insert(insert(insert(front, 2), 4)->prior, 3);
-    print(front);  // 1 -> 2 -> 3 -> 4
+    ListNode *n = insert(insert(insert(front, 2), 4)-&gt;prior, 3);
+    print(front);  // 1 -&gt; 2 -&gt; 3 -&gt; 4
     erase(n);
-    print(front);  // 1 -> 2 -> 4
+    print(front);  // 1 -&gt; 2 -&gt; 4
     return 0;
 }
 ```
@@ -61,7 +61,7 @@ int main() {
 class Solution {
    public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if (list1 == nullptr && list2 == nullptr)
+        if (list1 == nullptr &amp;&amp; list2 == nullptr)
             return nullptr;
         else if (list1 == nullptr)
             return list2;
@@ -69,30 +69,30 @@ class Solution {
             return list1;
         else {
             ListNode *front, *p, *p1, *p2;
-            if (list1->val <= list2->val) {
+            if (list1-&gt;val &lt;= list2-&gt;val) {
                 front = list1;
-                p1 = list1->next;
+                p1 = list1-&gt;next;
                 p2 = list2;
             } else {
                 front = list2;
                 p1 = list1;
-                p2 = list2->next;
+                p2 = list2-&gt;next;
             }
             p = front;
-            while (p1 != nullptr && p2 != nullptr) {
-                if (p1->val <= p2->val) {
-                    p->next = p1;
-                    p1 = p1->next;
+            while (p1 != nullptr &amp;&amp; p2 != nullptr) {
+                if (p1-&gt;val &lt;= p2-&gt;val) {
+                    p-&gt;next = p1;
+                    p1 = p1-&gt;next;
                 } else {
-                    p->next = p2;
-                    p2 = p2->next;
+                    p-&gt;next = p2;
+                    p2 = p2-&gt;next;
                 }
-                p = p->next;
+                p = p-&gt;next;
             }
             if (p1 == nullptr)
-                p->next = p2;
+                p-&gt;next = p2;
             else
-                p->next = p1;
+                p-&gt;next = p1;
             return front;
         }
     }
@@ -105,17 +105,17 @@ class Solution {
 ```cpp
 class Solution {
    public:
-    ListNode *mergeKLists(vector<ListNode *> &lists) {
+    ListNode *mergeKLists(vector&lt;ListNode *&gt; &amp;lists) {
         int flag = 0, min = 0x3f3f3f;
         ListNode *front, *p, *p1;
-        unordered_map<ListNode *, ListNode *> ptr;
-        vector<ListNode *> ps;
+        unordered_map&lt;ListNode *, ListNode *&gt; ptr;
+        vector&lt;ListNode *&gt; ps;
         for (auto list : lists) {
             if (list != nullptr) {
                 flag = 1;
                 ptr[list] = list;
-                if (list->val < min) {
-                    min = list->val;
+                if (list-&gt;val &lt; min) {
+                    min = list-&gt;val;
                     front = list;
                 }
             }
@@ -123,23 +123,23 @@ class Solution {
         if (!lists.size() || !flag)
             return nullptr;
         else {
-            ptr[front] = ptr[front]->next;
+            ptr[front] = ptr[front]-&gt;next;
             p = front;
             while (true) {
                 flag = 0, min = 0x3f3f3f;
                 for (auto list : lists) {
                     if (ptr[list] != nullptr) {
                         flag = 1;
-                        if (ptr[list]->val < min) {
-                            min = ptr[list]->val;
+                        if (ptr[list]-&gt;val &lt; min) {
+                            min = ptr[list]-&gt;val;
                             p1 = list;
                         }
                     }
                 }
                 if (!flag) break;
-                p->next = ptr[p1];
-                p = p->next;
-                ptr[p1] = ptr[p1]->next;
+                p-&gt;next = ptr[p1];
+                p = p-&gt;next;
+                ptr[p1] = ptr[p1]-&gt;next;
             }
             return front;
         }
@@ -151,12 +151,12 @@ class Solution {
 ```cpp
 class Solution {
    public:
-    ListNode *mergeKLists(vector<ListNode *> &lists) {
+    ListNode *mergeKLists(vector&lt;ListNode *&gt; &amp;lists) {
         ListNode *front, *p;
         auto cmp = [](ListNode *a, ListNode *b) {
-            return a->val >= b->val;
+            return a-&gt;val &gt;= b-&gt;val;
         };  // ptr.top() is minimal.
-        priority_queue<ListNode *, vector<ListNode *>, decltype(cmp)> ptr(cmp);
+        priority_queue&lt;ListNode *, vector&lt;ListNode *&gt;, decltype(cmp)&gt; ptr(cmp);
         for (auto list : lists) {
             if (list != nullptr) ptr.push(list);
         }
@@ -165,13 +165,13 @@ class Solution {
         else {
             front = ptr.top();
             ptr.pop();
-            if (front->next != nullptr) ptr.push(front->next);
+            if (front-&gt;next != nullptr) ptr.push(front-&gt;next);
             p = front;
             while (!ptr.empty()) {
-                p->next = ptr.top();
+                p-&gt;next = ptr.top();
                 ptr.pop();
-                p = p->next;
-                if (p->next != nullptr) ptr.push(p->next);
+                p = p-&gt;next;
+                if (p-&gt;next != nullptr) ptr.push(p-&gt;next);
             }
             return front;
         }

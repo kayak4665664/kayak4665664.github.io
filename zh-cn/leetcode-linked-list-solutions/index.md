@@ -1,7 +1,7 @@
 # Leetcode Linked List 题解
 
 [LeetCode Linked List](https://leetcode.com/explore/learn/card/linked-list/)
-<!--more-->
+&lt;!--more--&gt;
 
 
 ### [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
@@ -25,9 +25,9 @@ class MyLinkedList {
     else if ( !this.next ) return -1;
     else {
       let ptr = this.next, i = 1;
-      while ( i < index && ptr.next ) {
+      while ( i &lt; index &amp;&amp; ptr.next ) {
         ptr = ptr.next;
-        ++i;
+        &#43;&#43;i;
       }
       if ( i == index ) return ptr.val != undefined ? ptr.val : -1;
       else return -1;
@@ -69,12 +69,12 @@ class MyLinkedList {
     if ( index == 0 ) this.addAtHead( val );
     else {
       if ( !this.next ) {
-        if ( index == 1 && this.val != undefined ) this.addAtTail( val );
+        if ( index == 1 &amp;&amp; this.val != undefined ) this.addAtTail( val );
         else return;
       } else {
         let i = 1, ptr = this.next;
-        while ( i < index && ptr.next ) {
-          ++i;
+        while ( i &lt; index &amp;&amp; ptr.next ) {
+          &#43;&#43;i;
           ptr = ptr.next;
         }
         if ( i == index ) {
@@ -86,7 +86,7 @@ class MyLinkedList {
           }
           prior.next = ptr;
           ptr.prior = prior;
-        } else if ( i + 1 == index ) {
+        } else if ( i &#43; 1 == index ) {
           const tail = new MyLinkedList();
           tail.val = val;
           ptr.next = tail;
@@ -107,11 +107,11 @@ class MyLinkedList {
     } else if ( !this.next ) return;
     else {
       let i = 1, ptr = this.next;
-      while ( i < index && ptr.next ) {
-        ++i;
+      while ( i &lt; index &amp;&amp; ptr.next ) {
+        &#43;&#43;i;
         ptr = ptr.next;
       }
-      if ( i == index && ptr.prior ) {
+      if ( i == index &amp;&amp; ptr.prior ) {
         if ( ptr.next ) {
           ptr.prior.next = ptr.next;
           ptr.next.prior = ptr.prior;
@@ -148,7 +148,7 @@ class MyLinkedList {
  */
 
 function hasCycle ( head: ListNode | null ): boolean {
-  const m: Map<ListNode, boolean> = new Map();
+  const m: Map&lt;ListNode, boolean&gt; = new Map();
   let ptr = head, res = false;
   while ( ptr !== null ) {
     if ( !m.has( ptr ) ) {
@@ -178,7 +178,7 @@ function hasCycle ( head: ListNode | null ): boolean {
  */
 
 function detectCycle ( head: ListNode | null ): ListNode | null {
-  const m: Map<ListNode, boolean> = new Map();
+  const m: Map&lt;ListNode, boolean&gt; = new Map();
   let ptr = head, res: ListNode | null = null;
   while ( ptr !== null ) {
     if ( !m.has( ptr ) ) {
@@ -208,7 +208,7 @@ function detectCycle ( head: ListNode | null ): ListNode | null {
  */
 
 function getIntersectionNode ( headA: ListNode | null, headB: ListNode | null ): ListNode | null {
-  let m: Map<ListNode, boolean> = new Map(), ptrA = headA, ptrB = headB, res: ListNode | null = null;
+  let m: Map&lt;ListNode, boolean&gt; = new Map(), ptrA = headA, ptrB = headB, res: ListNode | null = null;
   while ( ptrA !== null ) {
     m.set( ptrA, true );
     ptrA = ptrA.next;
@@ -247,9 +247,9 @@ function removeNthFromEnd ( head: ListNode | null, n: number ): ListNode | null 
     ptr = ptr.next;
   }
   let len = list.length;
-  if ( n == len && head ) res = head.next;
+  if ( n == len &amp;&amp; head ) res = head.next;
   else {
-    let prior = list[ len - n - 1 ], next = n == 1 ? null : list[ len - n + 1 ];
+    let prior = list[ len - n - 1 ], next = n == 1 ? null : list[ len - n &#43; 1 ];
     prior.next = next;
     res = head;
   }
@@ -279,11 +279,11 @@ function reverseList ( head: ListNode | null ): ListNode | null {
   }
   let len = list.length;
   res = list[ len - 1 ] === undefined ? null : list[ len - 1 ];
-  for ( let i = len - 1; i > 0; --i ) {
+  for ( let i = len - 1; i &gt; 0; --i ) {
     let prior = list[ i - 1 ], node = list[ i ];
     node.next = prior;
   }
-  if ( len > 0 ) list[ 0 ].next = null;
+  if ( len &gt; 0 ) list[ 0 ].next = null;
   return res;
 };
 ```
@@ -309,9 +309,9 @@ function removeElements ( head: ListNode | null, val: number ): ListNode | null 
     ptr = ptr.next;
   }
   let len = list.length;
-  if ( len > 0 ) res = list[ 0 ];
-  for ( let i = 0; i < len - 1; ++i )  list[ i ].next = list[ i + 1 ];
-  if ( len > 0 ) list[ len - 1 ].next = null;
+  if ( len &gt; 0 ) res = list[ 0 ];
+  for ( let i = 0; i &lt; len - 1; &#43;&#43;i )  list[ i ].next = list[ i &#43; 1 ];
+  if ( len &gt; 0 ) list[ len - 1 ].next = null;
   return res;
 };
 ```
@@ -334,7 +334,7 @@ function oddEvenList ( head: ListNode | null ): ListNode | null {
   let odd = head, ptr = head, oddTail: ListNode | null = head, even: ListNode | null = null, i = 1, evenTail: ListNode | null = null;
   while ( ptr !== null ) {
     if ( i % 2 != 0 ) {
-      if ( i > 1 && oddTail ) {
+      if ( i &gt; 1 &amp;&amp; oddTail ) {
         oddTail.next = ptr;
         oddTail = ptr;
       }
@@ -350,7 +350,7 @@ function oddEvenList ( head: ListNode | null ): ListNode | null {
       }
     }
     ptr = ptr.next;
-    ++i;
+    &#43;&#43;i;
   }
   if ( oddTail ) oddTail.next = even;
   if ( evenTail ) evenTail.next = null;
@@ -379,12 +379,12 @@ function isPalindrome ( head: ListNode | null ): boolean {
     ptr = ptr.next;
   }
   let left = 0, right = list.length - 1;
-  while (left <= right) {
+  while (left &lt;= right) {
     if (list[right] != list[left]) {
       res = false;
       break;
     }
-    ++left;
+    &#43;&#43;left;
     --right;
   }
   return res;
@@ -406,7 +406,7 @@ function isPalindrome ( head: ListNode | null ): boolean {
 class Solution {
    public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if (list1 == nullptr && list2 == nullptr)
+        if (list1 == nullptr &amp;&amp; list2 == nullptr)
             return nullptr;
         else if (list1 == nullptr)
             return list2;
@@ -414,30 +414,30 @@ class Solution {
             return list1;
         else {
             ListNode *front, *p, *p1, *p2;
-            if (list1->val <= list2->val) {
+            if (list1-&gt;val &lt;= list2-&gt;val) {
                 front = list1;
-                p1 = list1->next;
+                p1 = list1-&gt;next;
                 p2 = list2;
             } else {
                 front = list2;
                 p1 = list1;
-                p2 = list2->next;
+                p2 = list2-&gt;next;
             }
             p = front;
-            while (p1 != nullptr && p2 != nullptr) {
-                if (p1->val <= p2->val) {
-                    p->next = p1;
-                    p1 = p1->next;
+            while (p1 != nullptr &amp;&amp; p2 != nullptr) {
+                if (p1-&gt;val &lt;= p2-&gt;val) {
+                    p-&gt;next = p1;
+                    p1 = p1-&gt;next;
                 } else {
-                    p->next = p2;
-                    p2 = p2->next;
+                    p-&gt;next = p2;
+                    p2 = p2-&gt;next;
                 }
-                p = p->next;
+                p = p-&gt;next;
             }
             if (p1 == nullptr)
-                p->next = p2;
+                p-&gt;next = p2;
             else
-                p->next = p1;
+                p-&gt;next = p1;
             return front;
         }
     }
@@ -461,11 +461,11 @@ class Solution {
 function addTwoNumbers ( l1: ListNode | null, l2: ListNode | null ): ListNode | null {
   let ptr1 = l1, ptr2 = l2;
   while ( ptr2 !== null || ptr1 !== null ) {
-    if ( ptr2 !== null && ptr1 !== null ) {
-      ptr1.val += ptr2.val;
-      if ( ptr1.val > 9 ) {
+    if ( ptr2 !== null &amp;&amp; ptr1 !== null ) {
+      ptr1.val &#43;= ptr2.val;
+      if ( ptr1.val &gt; 9 ) {
         if ( ptr1.next ) {
-          ptr1.next.val += 1;
+          ptr1.next.val &#43;= 1;
           ptr1.val -= 10;
         } else {
           let next = new ListNode( 1 );
@@ -473,15 +473,15 @@ function addTwoNumbers ( l1: ListNode | null, l2: ListNode | null ): ListNode | 
           ptr1.next = next;
         }
       }
-      if ( ptr2.next && ptr1.next === null ) ptr1.next = new ListNode( 0 );
+      if ( ptr2.next &amp;&amp; ptr1.next === null ) ptr1.next = new ListNode( 0 );
       ptr1 = ptr1.next;
       ptr2 = ptr2.next;
-    } else if ( ptr2 === null && ptr1 ) {
-      if ( ptr1.val > 9 ) {
+    } else if ( ptr2 === null &amp;&amp; ptr1 ) {
+      if ( ptr1.val &gt; 9 ) {
         if ( ptr1.next ) {
-          ptr1.next.val += 1;
+          ptr1.next.val &#43;= 1;
           ptr1.val -= 10;
-          if ( ptr1.next.val < 10 ) break;
+          if ( ptr1.next.val &lt; 10 ) break;
           ptr1 = ptr1.next;
         } else {
           let next = new ListNode( 1 );
@@ -551,25 +551,25 @@ function flatten ( head: Node | null ): Node | null {
  */
 
 function copyRandomList ( head: Node | null ): Node | null {
-  let res: Node | null = null, list: Node[] = [], map: Map<Node, number> = new Map(), ptr = head, i = 0;
+  let res: Node | null = null, list: Node[] = [], map: Map&lt;Node, number&gt; = new Map(), ptr = head, i = 0;
   while ( ptr !== null ) {
     let node = new Node( ptr.val );
     list.push( node );
     map.set( ptr, i );
-    ++i;
+    &#43;&#43;i;
     ptr = ptr.next;
   }
   ptr = head;
   i = 0;
   while ( ptr !== null ) {
     if ( list[ i ] ) {
-      list[ i + 1 ] ? list[ i ].next = list[ i + 1 ] : null;
+      list[ i &#43; 1 ] ? list[ i ].next = list[ i &#43; 1 ] : null;
       if ( ptr.random ) {
         let index = map.get( ptr.random );
         index !== undefined ? list[ i ].random = list[ index ] : null;
       } else list[ i ].random = null;
     }
-    ++i;
+    &#43;&#43;i;
     ptr = ptr.next;
   }
   res = list[ 0 ];
@@ -593,13 +593,13 @@ function copyRandomList ( head: Node | null ): Node | null {
 
 function rotateRight ( head: ListNode | null, k: number ): ListNode | null {
   if ( k == 0 ) return head;
-  let map: Map<number, ListNode> = new Map(), ptr = head, i = 0, res: ListNode | null = null;
+  let map: Map&lt;number, ListNode&gt; = new Map(), ptr = head, i = 0, res: ListNode | null = null;
   while ( ptr ) {
     map.set( i, ptr );
     ptr = ptr.next;
-    ++i;
+    &#43;&#43;i;
   }
-  if ( i < 2 || k % i == 0 ) return head;
+  if ( i &lt; 2 || k % i == 0 ) return head;
   k = i - k % i;
   if ( k == 0 ) res = head;
   else {
@@ -610,7 +610,7 @@ function rotateRight ( head: ListNode | null, k: number ): ListNode | null {
       while ( ptr.next ) ptr = ptr.next;
       ptr.next = head;
       ptr = head;
-      while ( ptr && ptr.next !== res ) ptr = ptr.next;
+      while ( ptr &amp;&amp; ptr.next !== res ) ptr = ptr.next;
       if ( ptr ) ptr.next = null;
     }
   }

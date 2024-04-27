@@ -1,9 +1,9 @@
 # Use ImageMagick to Compress the Image in the Command Line
 
 I found ImageMagick, which is a powerful image processing tool that can be used in the command line. Not only can it be used to compress images, but it can also be used for many other things.
-<!--more-->
+&lt;!--more--&gt;
 
-{{< link href="https://imagemagick.org/" content="ImageMagick" title="ImageMagick" card=true >}}
+{{&lt; link href=&#34;https://imagemagick.org/&#34; content=&#34;ImageMagick&#34; title=&#34;ImageMagick&#34; card=true &gt;}}
 
 ImageMagick can be installed through Homebrew: `brew install imagemagick`.
 

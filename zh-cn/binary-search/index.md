@@ -1,24 +1,24 @@
 # 二分查找
 
 
-这是二分查找算法的一个C++模版，以及C++标准模版库`<algorithm>`头文件中二分查找函数`std::lower_bound`和`std::upper_bound`的简单应用。
+这是二分查找算法的一个C&#43;&#43;模版，以及C&#43;&#43;标准模版库`&lt;algorithm&gt;`头文件中二分查找函数`std::lower_bound`和`std::upper_bound`的简单应用。
 
-<!--more-->
+&lt;!--more--&gt;
 
 ```cpp
-#include <algorithm>
-#include <iostream>
+#include &lt;algorithm&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 int nums[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 int binary_search(int left, int right, int key) {
     int pos = -1, mid;
-    while (left <= right) {
-        mid = left + (right - left) / 2;
-        if (key > nums[mid])
-            left = mid + 1;
-        else if (key < nums[mid])
+    while (left &lt;= right) {
+        mid = left &#43; (right - left) / 2;
+        if (key &gt; nums[mid])
+            left = mid &#43; 1;
+        else if (key &lt; nums[mid])
             right = mid - 1;
         else {
             pos = mid;
@@ -29,9 +29,9 @@ int binary_search(int left, int right, int key) {
 }
 
 int main() {
-    cout << binary_search(0, 9, 3) << endl;                  // 2
-    cout << lower_bound(nums, nums + 10, 3) - nums << endl;  // 2, >= 3
-    cout << upper_bound(nums, nums + 10, 3) - nums << endl;  // 3, > 3
+    cout &lt;&lt; binary_search(0, 9, 3) &lt;&lt; endl;                  // 2
+    cout &lt;&lt; lower_bound(nums, nums &#43; 10, 3) - nums &lt;&lt; endl;  // 2, &gt;= 3
+    cout &lt;&lt; upper_bound(nums, nums &#43; 10, 3) - nums &lt;&lt; endl;  // 3, &gt; 3
     return 0;
 }
 ```
@@ -41,29 +41,29 @@ int main() {
 ```cpp
 class Solution {
    public:
-    vector<int> searchRange(vector<int>& nums, int target) {
+    vector&lt;int&gt; searchRange(vector&lt;int&gt;&amp; nums, int target) {
         if (!nums.size())
-            return vector<int>{-1, -1};
+            return vector&lt;int&gt;{-1, -1};
         else {
             int pos = binary_search(nums, 0, nums.size() - 1, target);
             if (pos == -1)
-                return vector<int>{-1, -1};
+                return vector&lt;int&gt;{-1, -1};
             else {
-                int left = pos - 1, right = pos + 1, size = nums.size();
-                while (left >= 0  && nums[left] == target) --left;
-                while (right < size && nums[right] == target) ++right;
-                return vector<int>{left + 1, right - 1};
+                int left = pos - 1, right = pos &#43; 1, size = nums.size();
+                while (left &gt;= 0  &amp;&amp; nums[left] == target) --left;
+                while (right &lt; size &amp;&amp; nums[right] == target) &#43;&#43;right;
+                return vector&lt;int&gt;{left &#43; 1, right - 1};
             }
         }
     }
 
-    int binary_search(vector<int> nums, int left, int right, int key) {
+    int binary_search(vector&lt;int&gt; nums, int left, int right, int key) {
         int pos = -1, mid;
-        while (left <= right) {
-            mid = left + (right - left) / 2;
-            if (key > nums[mid])
-                left = mid + 1;
-            else if (key < nums[mid])
+        while (left &lt;= right) {
+            mid = left &#43; (right - left) / 2;
+            if (key &gt; nums[mid])
+                left = mid &#43; 1;
+            else if (key &lt; nums[mid])
                 right = mid - 1;
             else {
                 pos = mid;

@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Command Line Tools - Tag - kayak4665664&#39;s Blog</title>
+    <title>command line tools - Tag | kayak4665664</title>
     <link>https://www.kayak4665664.com/tags/command-line-tools/</link>
-    <description>Command Line Tools - Tag - kayak4665664&#39;s Blog</description>
+    <description>command line tools - Tag | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/command-line-tools/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/command-line-tools/" rel="self" type="application/rss+xml" /><item>
   <title>Node-Depend-View</title>
   <link>https://www.kayak4665664.com/node-depend-view/</link>
   <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/node-depend-view/</guid>
-  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Node-Depend-View</span>
@@ -30,17 +30,17 @@
   <description><![CDATA[<p>I need to simulate location on iPhone recently. After some research, I finally found a simple and effective method.</p>
 <p>I found several methods online, without jailbreaking iPhone. The first one is to use <a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is effective but requires payment. The second one is to use an Android phone with root permission, install <a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, and then connect the iPhone to this Android phone. Other methods include using Xcode, i4Tools, or external devices, or even simulating satellite signals to deceive the iPhone.</p>
 <p>I think these methods are too complicated. I found a simple and effective method at <a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which mainly uses <a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
-<h3 id="1-install-pymobiledevice3-on-macos">1. Install pymobiledevice3 on macOS:</h3>
-<div class="highlight" id="id-1"><div class="chroma">
+<h3 id="1-install-pymobiledevice3-on-macos" class="heading-element">
+  <a href="#1-install-pymobiledevice3-on-macos" class="heading-mark"></a>1. Install pymobiledevice3 on macOS:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3</span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode">2. Enable developer mode on iPhone, located at <code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>.</h3>
-<h3 id="3-connect-the-iphone-to-macos-and-execute">3. Connect the iPhone to macOS, and execute:</h3>
-<div class="highlight" id="id-2"><div class="chroma">
+</div><h3 id="2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode" class="heading-element">
+  <a href="#2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode" class="heading-mark"></a>2. Enable developer mode on iPhone, located at <code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>.</h3><h3 id="3-connect-the-iphone-to-macos-and-execute" class="heading-element">
+  <a href="#3-connect-the-iphone-to-macos-and-execute" class="heading-mark"></a>3. Connect the iPhone to macOS, and execute:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -48,7 +48,7 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-tunnel</span></span></code></pre></td></tr></table>
 </div>
 </div><p>It will print something like the following:</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -64,16 +64,16 @@
 </span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337</span></span></code></pre></td></tr></table>
 </div>
 </div><p><code>RSD Address</code> and <code>RSD Port</code> will be used in step 5.</p>
-<h3 id="4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos">4. Make sure the iPhone is not locked at this time, and execute on macOS:</h3>
-<div class="highlight" id="id-4"><div class="chroma">
+<h3 id="4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos" class="heading-element">
+  <a href="#4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos" class="heading-mark"></a>4. Make sure the iPhone is not locked at this time, and execute on macOS:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount</span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="5-continue-to-execute-on-macos">5. Continue to execute on macOS:</h3>
-<div class="highlight" id="id-5"><div class="chroma">
+</div><h3 id="5-continue-to-execute-on-macos" class="heading-element">
+  <a href="#5-continue-to-execute-on-macos" class="heading-mark"></a>5. Continue to execute on macOS:</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -89,7 +89,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</guid>
   <description><![CDATA[<p>Today I found a command line tool that can limit the battery charging of Apple Silicon Macbook, called <strong>battery</strong>.</p>
-<a href="https://github.com/actuallymentor/battery" title="battery"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/actuallymentor/battery" title="battery"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">battery</span>
@@ -100,7 +100,7 @@
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
 <p>I have been using <a href="https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/"target="_blank" rel="external nofollow noopener noreferrer">AlDente<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> before. Compared with it, the advantage of <strong>battery</strong> is that it can be used directly on the command line, and it is completely free, while AlDente can only use the most basic functions without paying, and its icon occupies a spot in the menu bar.</p>
 <p>Just one line of command:</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -124,7 +124,7 @@
       <div class="admonition-content">The source code involved in this article is in the GitHub repository:</div>
     </div>
   </div>
-<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Pcap-Parser</span>
@@ -154,10 +154,10 @@
       <div class="admonition-content">I capture packets for iPhone on macOS, but the methods and principles are similar for other systems and devices.</div>
     </div>
   </div>
-<h2 id="wireshark">Wireshark</h2>
-<p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
+<h2 id="wireshark" class="heading-element">
+  <a href="#wireshark" class="heading-mark"></a>Wireshark</h2><p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
 <p>On macOS, Wireshark can be installed using <code>brew</code>:</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -166,12 +166,12 @@
 </div>
 </div><p>Capturing packets with Wireshark is also very simple. For example, selecting the <code>Wi-Fi</code> interface can capture packets from the wireless network card.</p>
 <div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" sizes="auto" data-title="Wireshark" data-alt="Wireshark" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" alt="Wireshark" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" data-title="Wireshark" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
 </div>
-<h2 id="tcpdump">tcpdump</h2>
-<p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
+<h2 id="tcpdump" class="heading-element">
+  <a href="#tcpdump" class="heading-mark"></a>tcpdump</h2><p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
 <p>On macOS, <code>tcpdump</code> can also be installed using <code>brew</code>:</p>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -179,55 +179,55 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Capturing packets with <code>tcpdump</code>, for example, capture packets from the <code>12345</code> port and save them as a <code>pcap</code> file:</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="charles">Charles</h2>
-<p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
+</div><h2 id="charles" class="heading-element">
+  <a href="#charles" class="heading-mark"></a>Charles</h2><p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
 <p>On macOS, we can install Charles using <code>brew</code>:</p>
-<div class="highlight" id="id-4"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="capture-packets-for-mobile-apps">Capture Packets for Mobile Apps</h2>
-<p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
+</div><h2 id="capture-packets-for-mobile-apps" class="heading-element">
+  <a href="#capture-packets-for-mobile-apps" class="heading-mark"></a>Capture Packets for Mobile Apps</h2><p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
 <ol>
 <li>Both the macOS device and the iPhone are connected to a mobile hotspot turned on by the third device, making sure they are on the same local area network.</li>
 <li>On the macOS device, open Charles and set up a proxy server. The proxy server port is <code>8888</code> by default.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" sizes="auto" data-title="Charles" data-alt="Charles" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" data-title="Charles" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="3">
 <li>On the iPhone, set the proxy server to the macOS device. The proxy server port is <code>8888</code>.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>Proxy</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" sizes="auto" data-title="Proxy" data-alt="Proxy" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>Proxy</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="Proxy" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" data-title="Proxy" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="4">
 <li>Access <a href="chls.pro/ssl">chls.pro/ssl</a> in the iPhone browser, download and install the certificate.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>Certificate installation</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" sizes="auto" data-title="Certificate installation" data-alt="Certificate installation" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>Certificate installation</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="Certificate installation" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" data-title="Certificate installation" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="5">
 <li>Trust the certificate in the iPhone settings <code>General -&gt; About -&gt; Certificate Trust Settings</code>.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>Certificate trust settings</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" sizes="auto" data-title="Certificate trust settings" data-alt="Certificate trust settings" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>Certificate trust settings</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="Certificate trust settings" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" data-title="Certificate trust settings" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="6">
 <li>Install the configuration file for the proxy server in the iPhone settings <code>General -&gt; VPN &amp; Device Management</code>.</li>
 </ol>
   <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>Configuration file</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" sizes="auto" data-title="Configuration file" data-alt="Configuration file" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const i of ['style', 'data-title','data-alt','onerror','onload']){this.removeAttribute(i);}"/></a>
+  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>Configuration file</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="Configuration file" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" data-title="Configuration file" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
   </div>
 <ol start="7">
 <li>
@@ -249,7 +249,7 @@
   <guid>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</guid>
   <description><![CDATA[<p>Authorize sudo commands with Touch Id, so you don&rsquo;t have to enter your password every time.</p>
 <p>In Terminal, enter the following command, then restart Terminal.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -258,7 +258,7 @@
 </div>
 </div><p>This command first backs up <code>/etc/pam.d/sudo</code> to <code>/etc/pam.d/sudo.bak</code>, then inserts <code>auth       sufficient     pam_tid.so</code> on the second line.</p>
 <p>If you want to restore the default settings, you can use the following command:</p>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -275,7 +275,7 @@
   <guid>https://www.kayak4665664.com/randomize-mac-address-for-macos/</guid>
   <description><![CDATA[<p>On iOS and iPadOS, you can enable private WiFi address to randomize MAC address in settings. There is no such option on macOS, but we can do it through the command line.</p>
 <p>I found SpoofMAC on Github, which is a Python script that works not only on macOS but also on Windows and Linux. It can randomize MAC address and set MAC address to any value.</p>
-<a href="https://github.com/feross/spoofmac" title="SpoofMAC"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://github.com/feross/spoofmac" title="SpoofMAC"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">SpoofMAC</span>
@@ -285,8 +285,8 @@
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
 <p>Installing SpoofMAC is simple, just <code>pip install SpoofMAC</code>.</p>
-<h2 id="usage">Usage</h2>
-<p>Here is an example of using SpoofMAC to modify MAC address on macOS.</p>
+<h2 id="usage" class="heading-element">
+  <a href="#usage" class="heading-mark"></a>Usage</h2><p>Here is an example of using SpoofMAC to modify MAC address on macOS.</p>
 <div class="details admonition tip open">
     <div class="details-summary admonition-title">
       <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
@@ -298,7 +298,7 @@
 <ol>
 <li>First, list all available devices</li>
 </ol>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -319,7 +319,7 @@
 <ol start="2">
 <li>Then, randomize MAC address</li>
 </ol>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -331,7 +331,7 @@
 </span></span><span class="line"><span class="cl">sudo spoof-mac randomize wifi</span></span></code></pre></td></tr></table>
 </div>
 </div><p>To restore MAC address, just run</p>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -351,7 +351,7 @@
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/pwgen-random-password-generator/</guid>
   <description><![CDATA[<p>pwgen can generate random and secure passwords in the command line!</p>
-<a href="https://pwgen.sourceforge.io/" title="pwgen"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://pwgen.sourceforge.io/" title="pwgen"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">pwgen</span>
@@ -406,9 +406,9 @@ Do not use any vowels so as to avoid accidental nasty words</p>
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/strengthen-macos-terminal/</guid>
   <description><![CDATA[<p>The terminal of macOS is very good, but it feels like it&rsquo;s missing something, so I strengthened it. There are many people who recommend using <a href="https://ohmyz.sh/"target="_blank" rel="external nofollow noopener noreferrer">Oh My Zsh<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, but I don&rsquo;t know why, I often have some problems when I use <a href="https://ohmyz.sh/"target="_blank" rel="external nofollow noopener noreferrer">Oh My Zsh<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, so this time I didn&rsquo;t use it.</p>
-<h2 id="beautify">Beautify</h2>
-<p>I used starship to beautify the terminal, which is a lightweight, fast, cross-platform command line theme.</p>
-<a href="https://starship.rs/" title="starship"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h2 id="beautify" class="heading-element">
+  <a href="#beautify" class="heading-mark"></a>Beautify</h2><p>I used starship to beautify the terminal, which is a lightweight, fast, cross-platform command line theme.</p>
+<a href="https://starship.rs/" title="starship"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">starship</span>
@@ -419,7 +419,7 @@ Do not use any vowels so as to avoid accidental nasty words</p>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
 <p>Before installing starship, you need to install the <a href="https://www.nerdfonts.com/"target="_blank" rel="external nofollow noopener noreferrer">Nerd Font<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> font, such as <code>Fira Code Nerd Font</code>.</p>
 <p>You can use Homebrew to install it, and then enable the <code>Fira Code Nerd Font</code> font in the terminal settings.</p>
-<div class="highlight" id="id-1"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -430,10 +430,10 @@ Do not use any vowels so as to avoid accidental nasty words</p>
 </div>
 </div><p>Then, use Homebrew to install starship: <code>brew install starship</code>. Add <code>eval &quot;$(starship init zsh)&quot;</code> at the end of <code>~/.zshrc</code>, and then execute <code>source ~/.zshrc</code>. Reopen the terminal, and you can see the effect.</p>
 <p>More custom configuration can be found in the <a href="https://starship.rs/guide/"target="_blank" rel="external nofollow noopener noreferrer">guide<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
-<h2 id="extension">Extension</h2>
-<h3 id="1-zsh-fast-syntax-highlighting">1. zsh-fast-syntax-highlighting</h3>
-<p>This plugin can highlight the content entered on the command line, making your terminal more beautiful.</p>
-<a href="https://github.com/zdharma-continuum/fast-syntax-highlighting" title="zsh-fast-syntax-highlighting"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h2 id="extension" class="heading-element">
+  <a href="#extension" class="heading-mark"></a>Extension</h2><h3 id="1-zsh-fast-syntax-highlighting" class="heading-element">
+  <a href="#1-zsh-fast-syntax-highlighting" class="heading-mark"></a>1. zsh-fast-syntax-highlighting</h3><p>This plugin can highlight the content entered on the command line, making your terminal more beautiful.</p>
+<a href="https://github.com/zdharma-continuum/fast-syntax-highlighting" title="zsh-fast-syntax-highlighting"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">zsh-fast-syntax-highlighting</span>
@@ -442,7 +442,7 @@ Do not use any vowels so as to avoid accidental nasty words</p>
           <span class="cl-url">https://github.com/zdharma-continuum/fast-syntax-highlighting</span>
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<div class="highlight" id="id-2"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -457,9 +457,9 @@ Do not use any vowels so as to avoid accidental nasty words</p>
       <div class="admonition-content">To activate the syntax highlighting, add the following at the end of your <code>.zshrc</code>: <code>source $HOMEBREW_PREFIX/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh</code></div>
     </div>
   </div>
-<h3 id="2-zsh-autosuggestions">2. zsh-autosuggestions</h3>
-<p>This plugin can automatically complete the command line based on the history.</p>
-<a href="https://github.com/zsh-users/zsh-autosuggestions" title="zsh-autosuggestions"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h3 id="2-zsh-autosuggestions" class="heading-element">
+  <a href="#2-zsh-autosuggestions" class="heading-mark"></a>2. zsh-autosuggestions</h3><p>This plugin can automatically complete the command line based on the history.</p>
+<a href="https://github.com/zsh-users/zsh-autosuggestions" title="zsh-autosuggestions"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">zsh-autosuggestions</span>
@@ -468,7 +468,7 @@ Do not use any vowels so as to avoid accidental nasty words</p>
           <span class="cl-url">https://github.com/zsh-users/zsh-autosuggestions</span>
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<div class="highlight" id="id-3"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -484,9 +484,9 @@ Do not use any vowels so as to avoid accidental nasty words</p>
 You will also need to restart your terminal for this change to take effect.</div>
     </div>
   </div>
-<h3 id="3-zsh-completions">3. zsh-completions</h3>
-<p>This plugin can also complete the command line.</p>
-<a href="https://github.com/marlonrichert/zsh-autocomplete" title="zsh-autocomplete"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h3 id="3-zsh-completions" class="heading-element">
+  <a href="#3-zsh-completions" class="heading-mark"></a>3. zsh-completions</h3><p>This plugin can also complete the command line.</p>
+<a href="https://github.com/marlonrichert/zsh-autocomplete" title="zsh-autocomplete"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">zsh-autocomplete</span>
@@ -495,7 +495,7 @@ You will also need to restart your terminal for this change to take effect.</div
           <span class="cl-url">https://github.com/marlonrichert/zsh-autocomplete</span>
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<div class="highlight" id="id-4"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -516,9 +516,9 @@ Then restart your shell.</li>
 </div>
     </div>
   </div>
-<h3 id="4-zsh-autopair">4. zsh-autopair</h3>
-<p>This plugin can automatically complete the brackets, and quotes.</p>
-<a href="https://github.com/hlissner/zsh-autopair" title="zsh-autopair"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h3 id="4-zsh-autopair" class="heading-element">
+  <a href="#4-zsh-autopair" class="heading-mark"></a>4. zsh-autopair</h3><p>This plugin can automatically complete the brackets, and quotes.</p>
+<a href="https://github.com/hlissner/zsh-autopair" title="zsh-autopair"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">zsh-autopair</span>
@@ -527,7 +527,7 @@ Then restart your shell.</li>
           <span class="cl-url">https://github.com/hlissner/zsh-autopair</span>
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<div class="highlight" id="id-5"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -543,9 +543,9 @@ Then restart your shell.</li>
 You will also need to restart your terminal for this change to take effect.</div>
     </div>
   </div>
-<h3 id="5-z">5. z</h3>
-<p>This plugin can quickly jump to the directory you want to go to.</p>
-<a href="https://github.com/rupa/z" title="z"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<h3 id="5-z" class="heading-element">
+  <a href="#5-z" class="heading-mark"></a>5. z</h3><p>This plugin can quickly jump to the directory you want to go to.</p>
+<a href="https://github.com/rupa/z" title="z"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">z</span>
@@ -554,7 +554,7 @@ You will also need to restart your terminal for this change to take effect.</div
           <span class="cl-url">https://github.com/rupa/z</span>
         </span>
       </span><svg class="cl-icon-globe" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<div class="highlight" id="id-6"><div class="chroma">
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -578,8 +578,8 @@ You will also need to restart your terminal for this change to take effect.</div
   <author>kayak4665664</author>
   <guid>https://www.kayak4665664.com/build-a-image-hosting-service-with-jsdelivr-and-github-repository/</guid>
   <description><![CDATA[<p>I used to put the pictures of my website on the storage space of Qiniu Cloud. Although Qiniu Cloud is not bad, the traffic under the <code>https</code> protocol needs to be charged. So, I used jsDelivr and Githubc repository to build a free image hosting service.</p>
-<h2 id="the-method-is-very-simple">The method is very simple</h2>
-<ol>
+<h2 id="the-method-is-very-simple" class="heading-element">
+  <a href="#the-method-is-very-simple" class="heading-mark"></a>The method is very simple</h2><ol>
 <li>Create a public Github repository</li>
 <li>Upload the picture to the repository</li>
 <li>Get the link of the picture, such as <code>https://cdn.jsdelivr.net/gh/user/repository/image.jpeg</code>, <code>user</code> is your Github username, <code>repository</code> is your repository name, <code>image.jpeg</code> is the name of the picture you uploaded</li>

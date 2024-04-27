@@ -1,20 +1,20 @@
 # August 18, a New Beginning
 
 Since the end of the graduation project, I have been looking forward to the letter of admission every day, and it is finally here!
-<!--more-->
+&lt;!--more--&gt;
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg" alt="letter of admission" caption="letter of admission" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg&#34; alt=&#34;letter of admission&#34; caption=&#34;letter of admission&#34; &gt;}}
+&lt;/div&gt;
 
-Haha, the campus card is here too. I'm very much looking forward to the new semester at UCAS, but I have to report on August 18, and I'm going to the driving school. I feel that my vacation has ended before it even started🥹
+Haha, the campus card is here too. I&#39;m very much looking forward to the new semester at UCAS, but I have to report on August 18, and I&#39;m going to the driving school. I feel that my vacation has ended before it even started🥹
 
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg" alt="degree certificate" caption="degree certificate" >}}
-</div>
-<div align="center">
-{{< image src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg" alt="graduation certificate" caption="graduation certificate" >}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg&#34; alt=&#34;degree certificate&#34; caption=&#34;degree certificate&#34; &gt;}}
+&lt;/div&gt;
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg&#34; alt=&#34;graduation certificate&#34; caption=&#34;graduation certificate&#34; &gt;}}
+&lt;/div&gt;
 
 I also received my graduation certificate and degree certificate. I miss those happy days at NCUT.
 

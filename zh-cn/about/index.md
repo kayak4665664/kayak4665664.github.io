@@ -3,18 +3,18 @@
 
 ## kayak4665664
 
-<div align="center">
-{{< image src="/images/avatar.svg" alt="kayak4665664">}}
-</div>
+&lt;div align=&#34;center&#34;&gt;
+{{&lt; image src=&#34;/images/avatar.svg&#34; alt=&#34;kayak4665664&#34;&gt;}}
+&lt;/div&gt;
 
 嘿，很高兴认识你，你找到了我的博客！  
 我是**kayak4665664**，中国科学院大学学生。
 
-{{< mapbox lng=116.676 lat=40.408 zoom=12 >}}
+{{&lt; mapbox lng=116.676 lat=40.408 zoom=12 &gt;}}
 
 ## 帮助
 ### 1. 如何订阅博客？
-首先你需要安装**RSS阅读器**，然后点击[<i class='fas fa-rss'></i>](/zh-cn/index.xml)，将RSS链接导入到你的阅读器中。  
+首先你需要安装**RSS阅读器**，然后点击[&lt;i class=&#39;fas fa-rss&#39;&gt;&lt;/i&gt;](/zh-cn/index.xml)，将RSS链接导入到你的阅读器中。  
 如果你不想安装RSS阅读器，也可以：
 - 添加书签 :(fas fa-bookmark):
 - 添加到主屏幕 :(fas fa-mobile-alt):
@@ -24,11 +24,11 @@
 
 ## 许可协议
 
-<div align="center"><big><big><big><big><big><big>
-{{< image src="/images/by-nc-sa.svg" rel="license" linked="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="by-nc-sa">}}</big></big></big></big></big></big>
-</div>
+&lt;div align=&#34;center&#34;&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;&lt;big&gt;
+{{&lt; image src=&#34;/images/by-nc-sa.svg&#34; rel=&#34;license&#34; linked=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34; alt=&#34;by-nc-sa&#34;&gt;}}&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;
+&lt;/div&gt;
 
-本站所有内容采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+本站所有内容采用&lt;a rel=&#34;license&#34; href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh&#34;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。
 
 ### 您可以自由地：
 **共享** — 在任何媒介以任何形式复制、发行本作品  
@@ -47,6 +47,6 @@
 
 ---
 
-> 作者: [kayak4665664](https://github.com/kayak4665664)  
+> 作者:   
 > URL: https://www.kayak4665664.com/zh-cn/about/  
 

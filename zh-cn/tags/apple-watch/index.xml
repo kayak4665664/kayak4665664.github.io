@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Apple Watch - 标签 - kayak4665664的博客</title>
+    <title>Apple Watch - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/apple-watch/</link>
-    <description>Apple Watch - 标签 - kayak4665664的博客</description>
+    <description>Apple Watch - 标签 | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><lastBuildDate>Wed, 18 Jan 2023 10:45:52 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/apple-watch/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Wed, 18 Jan 2023 10:45:52 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/apple-watch/" rel="self" type="application/rss+xml" /><item>
   <title>在Apple Watch上使用Phone Buddy防止忘带iPhone</title>
   <link>https://www.kayak4665664.com/zh-cn/use-phone-buddy-on-apple-watch-to-prevent-forgotten-iphone/</link>
   <pubDate>Wed, 18 Jan 2023 10:45:52 &#43;0800</pubDate>
@@ -14,7 +14,7 @@
 <p>我赶紧返回原路找我的手机，但是没有找到。最后和路边的交警同志借了手机给我爸爸打了一个电话，才确认我的手机落在了车里。</p>
 <p>虽然在Find My中已经设置了离开iPhone时在Apple Watch上发出通知，但是似乎这个功能需要在一个比较远的距离才能生效。</p>
 <p>所以我就找到了Phone Buddy:</p>
-<a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391" title="Phone Buddy"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/fixit.min.svg);"></span>
+<a href="https://apps.apple.com/us/app/phone-buddy-phone-lost-alert/id1451559391" title="Phone Buddy"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
     <span class="cl-content">
       <span class="cl-text">
         <span class="cl-title">Phone Buddy</span>

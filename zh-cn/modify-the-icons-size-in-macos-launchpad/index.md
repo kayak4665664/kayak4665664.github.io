@@ -1,7 +1,7 @@
 # 修改macOS Launchpad的图标大小
 
 通过调整Launchpad每一行和每一列的图标的数量，就可以调整图标的大小。
-<!--more-->
+&lt;!--more--&gt;
 
 ## 方法
 

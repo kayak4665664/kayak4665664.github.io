@@ -1,9 +1,9 @@
 # Using the ChatGPT API in Python
 
-ChatGPT's API is officially released and can be used in Python.
-<!--more-->
+ChatGPT&#39;s API is officially released and can be used in Python.
+&lt;!--more--&gt;
 
-{{< link href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis" content="Introducing ChatGPT API" title="Introducing ChatGPT API" card=true >}}
+{{&lt; link href=&#34;https://openai.com/blog/introducing-chatgpt-and-whisper-apis&#34; content=&#34;Introducing ChatGPT API&#34; title=&#34;Introducing ChatGPT API&#34; card=true &gt;}}
 
 After registering an OpenAI account, create an API Key in [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys). You can see in [https://platform.openai.com/account/usage](https://platform.openai.com/account/usage) that there is a free trial usage of $18 in the account, which expires on April 1.
 
@@ -11,12 +11,12 @@ This time the released ChatGPT model gpt-3.5-turbo is the same as the model used
 
 The complete API usage guide can be found here:
 
-{{< link href="https://platform.openai.com/docs/guides/chat" content="ChatGPT API Usage Guide" title="ChatGPT API Usage Guide" card=true >}}
+{{&lt; link href=&#34;https://platform.openai.com/docs/guides/chat&#34; content=&#34;ChatGPT API Usage Guide&#34; title=&#34;ChatGPT API Usage Guide&#34; card=true &gt;}}
 
 In short, to use the ChatGPT API in Python, you need to install the `openai` Python package.
 
 ``` shell
-# If you haven't installed openai, you can use the following command to install
+# If you haven&#39;t installed openai, you can use the following command to install
 pip install openai
 # If you have installed openai, use the following command to update
 pip install openai --upgrade
@@ -30,17 +30,17 @@ import os
 import openai
 
 # here you need to replace the API key with your own
-os.environ["OPENAI_API_KEY"] = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-openai.api_key = os.getenv("OPENAI_API_KEY")
+os.environ[&#34;OPENAI_API_KEY&#34;] = &#34;sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#34;
+openai.api_key = os.getenv(&#34;OPENAI_API_KEY&#34;)
 
 messages = [
-    {"role": "system", "content": "You are a helpful assistant."},
+    {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;You are a helpful assistant.&#34;},
 ]
 
 # this function is used to call the API
 def get_response(messages):
     completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model=&#34;gpt-3.5-turbo&#34;,
         messages=messages,
     )
     return completion.choices[0].message.content  # type: ignore
@@ -48,34 +48,34 @@ def get_response(messages):
 
 while True:
     try:
-        print("type 'quit' to exit, type 'new' to begin a new conversation")
-        user_content = input("You: ")
-        if user_content == "quit":
+        print(&#34;type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation&#34;)
+        user_content = input(&#34;You: &#34;)
+        if user_content == &#34;quit&#34;:
             break
-        elif user_content == "new":
+        elif user_content == &#34;new&#34;:
             messages = [
-                {"role": "system", "content": "You are a helpful assistant."},
+                {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;You are a helpful assistant.&#34;},
             ]
-            print("new conversation started\n")
+            print(&#34;new conversation started\n&#34;)
             continue
         else:
-            messages.append({"role": "user", "content": user_content})
+            messages.append({&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: user_content})
             response = get_response(messages)
-            print("Assistant:", response + "\n")
+            print(&#34;Assistant:&#34;, response &#43; &#34;\n&#34;)
             # append the response to the messages list for the next turn
-            messages.append({"role": "assistant", "content": response})
+            messages.append({&#34;role&#34;: &#34;assistant&#34;, &#34;content&#34;: response})
     except Exception as e:
         print(e)
 ```
 
 The output is as follows:
 
-{{< admonition type=example open=true >}}
-*type 'quit' to exit, type 'new' to begin a new conversation*  
+{{&lt; admonition type=example open=true &gt;}}
+*type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation*  
 **You**: What is the biggest animal in the world?  
 **Assistant**: The biggest animal in the world is the blue whale. It can grow up to 100 feet long and weigh as much as 200 tons.  
 
-*type 'quit' to exit, type 'new' to begin a new conversation*  
+*type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation*  
 **You**: Please write a poem about blue whales.  
 **Assistant**: Majestic and mighty,  
 The blue whale swims through the sea,  
@@ -87,7 +87,7 @@ Graceful in every move,
 Plunge deep into the ocean,  
 Embrace the whale and groove.  
 
-With a heart that's enormous,  
+With a heart that&#39;s enormous,  
 And lungs as large as a car,  
 Sing to the depths of the ocean,  
 Your melodic, haunting bar.  
@@ -102,15 +102,15 @@ So that it may flourish and thrive,
 For a world without the blue whale,  
 Is a world less truly alive.  
 
-*type 'quit' to exit, type 'new' to begin a new conversation*  
+*type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation*  
 **You**: new  
 *new conversation started*  
 
-*type 'quit' to exit, type 'new' to begin a new conversation*  
+*type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation*  
 **You**: 世界上最大的动物是什么？  
 **Assistant**: 世界上最大的动物是蓝鲸。它们可以长达30米长，重达173吨，是地球上已知最大的动物。  
 
-*type 'quit' to exit, type 'new' to begin a new conversation*  
+*type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation*  
 **You**: 请写一首关于蓝鲸的诗。  
 **Assistant**: 在深深的海洋里  
 有一种生物，比海洋还大  
@@ -132,9 +132,9 @@ Is a world less truly alive.
 你的力量与恩宠  
 在人间，永世留存  
 
-*type 'quit' to exit, type 'new' to begin a new conversation*  
+*type &#39;quit&#39; to exit, type &#39;new&#39; to begin a new conversation*  
 **You**: quit
-{{< /admonition >}}
+{{&lt; /admonition &gt;}}
 
 ---
 
