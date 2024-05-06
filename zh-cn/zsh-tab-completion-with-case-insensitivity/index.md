@@ -1,4 +1,4 @@
-# zsh: Tab补全大小写不敏感
+# Zsh: Tab补全大小写不敏感
 
 在macOS中，如果在`~`执行`cd documents`是可以切换到`Documents`目录的，但是无法用`Tab`补全。
 &lt;!--more--&gt;

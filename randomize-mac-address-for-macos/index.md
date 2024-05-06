@@ -1,4 +1,4 @@
-# Randomize MAC Address for macOS
+# Randomize MAC Address for MacOS
 
 On iOS and iPadOS, you can enable private WiFi address to randomize MAC address in settings. There is no such option on macOS, but we can do it through the command line.
 &lt;!--more--&gt;

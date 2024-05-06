@@ -1,4 +1,4 @@
-# texliveonfly, env: python: No Such File or Directory
+# Texliveonfly, Env: Python: No Such File or Directory
 
 昨天用了一下texliveonfly宏包，直接出现了`env: python: No Such File or Directory`。
 &lt;!--more--&gt;

@@ -1,4 +1,4 @@
-# iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software
+# Iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software
 
 There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.
 &lt;!--more--&gt;

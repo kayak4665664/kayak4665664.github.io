@@ -1,4 +1,4 @@
-# battery: Battery Charge Limiter for Apple Silicon Macbook Devices
+# Battery: Battery Charge Limiter for Apple Silicon Macbook Devices
 
 Today I found a command line tool that can limit the battery charging of Apple Silicon Macbook, called **battery**.
 &lt;!--more--&gt;

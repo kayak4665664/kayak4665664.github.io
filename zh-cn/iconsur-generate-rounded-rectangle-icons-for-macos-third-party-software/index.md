@@ -1,4 +1,4 @@
-# iconsur：为macOS第三方软件生成圆角矩形图标
+# Iconsur：为macOS第三方软件生成圆角矩形图标
 
 总有一些软件的图标和macOS的不适应，iconsur可以为它们生成圆角矩形的图标，美化我们的macOS。
 &lt;!--more--&gt;

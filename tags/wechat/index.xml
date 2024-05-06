@@ -12,8 +12,11 @@
   <guid>https://www.kayak4665664.com/turn-idle-wechat-official-account-into-a-robot/</guid>
   <description><![CDATA[<p>It only takes 5 minutes to turn the WeChat official account into a robot🤖.</p>
 <p>I registered a WeChat official account before, but it has been idle, so I want to turn it into a robot and play a little role.</p>
-<h2 id="method" class="heading-element">
-  <a href="#method" class="heading-mark"></a>method</h2><ol>
+<h2 id="method" class="heading-element"><span>method</span>
+  <a href="#method" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
 <li>Use WeChat scan QR code to log in <a href="http://chatbot.weixin.qq.com/"target="_blank" rel="external nofollow noopener noreferrer">微信对话开放平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 <li>Set the name of the robot on the robot creation page to complete the robot creation</li>
 <li>Turn on the robot&rsquo;s &ldquo;预置技能&rdquo; as needed, such as English translation, weather, stocks, news, jokes, etc.</li>

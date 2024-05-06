@@ -1,4 +1,4 @@
-# You&#39;re in! Welcome to the New Bing!
+# You&#39;re In! Welcome to the New Bing!
 
 Since joining the [waitlist](https://www.bing.com/new) on February 11th, I finally received an email today that I can use the new Bing.
 &lt;!--more--&gt;

@@ -1,4 +1,4 @@
-# Simulate Locations for iOS17
+# Simulate Locations for IOS17
 
 I need to simulate location on iPhone recently. After some research, I finally found a simple and effective method.
 &lt;!--more--&gt;

@@ -1,4 +1,4 @@
-# battery: 限制Apple Silicon Macbook的电池充电
+# Battery: 限制Apple Silicon Macbook的电池充电
 
 今天发现了一个有可以限制Apple Silicon Macbook电池充电的命令行工具，名字叫做**battery**。
 &lt;!--more--&gt;

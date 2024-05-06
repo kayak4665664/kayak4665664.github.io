@@ -1,4 +1,4 @@
-# Authorize sudo Commands With Touch ID
+# Authorize Sudo Commands With Touch ID
 
 Authorize sudo commands with Touch Id, so you don&#39;t have to enter your password every time.
 &lt;!--more--&gt;

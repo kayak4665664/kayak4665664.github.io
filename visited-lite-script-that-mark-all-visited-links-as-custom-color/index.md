@@ -1,4 +1,4 @@
-# Visited Lite &amp; Color Links: mark all visited links as custom color
+# Visited Lite &amp; Color Links: Mark All Visited Links as Custom Color
 
 [Visited Lite](https://greasyfork.org/en/scripts/15173-visited-lite) is a userscript to customize the color of visited links, and [Color Links](https://chrome.google.com/webstore/detail/color-links/hiponeioelghhaljfflaaflpccedbdem/related) is a browser extension with similar function.
 &lt;!--more--&gt;

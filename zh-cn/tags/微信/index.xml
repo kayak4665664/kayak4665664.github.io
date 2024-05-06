@@ -12,8 +12,11 @@
   <guid>https://www.kayak4665664.com/zh-cn/turn-idle-wechat-official-account-into-a-robot/</guid>
   <description><![CDATA[<p>只要5分钟，把微信公众号变成机器人🤖。</p>
 <p>之前注册了一个微信公众号，但是一直闲置着，于是我就想把它变成机器人，发挥一点点作用。</p>
-<h2 id="方法" class="heading-element">
-  <a href="#%e6%96%b9%e6%b3%95" class="heading-mark"></a>方法</h2><ol>
+<h2 id="方法" class="heading-element"><span>方法</span>
+  <a href="#%e6%96%b9%e6%b3%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
 <li>用微信扫码登录<a href="http://chatbot.weixin.qq.com/"target="_blank" rel="external nofollow noopener noreferrer">微信对话开放平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
 <li>在机器人创建页面设置机器人的名称，完成机器人创建</li>
 <li>根据需要开启机器人的“预置技能”，比如英语翻译、天气、股票、新闻、笑话等</li>

@@ -1,4 +1,4 @@
-# Build a Image Hosting Service With jsDelivr and Github Repository
+# Build a Image Hosting Service With JsDelivr and Github Repository
 
 I used to put the pictures of my website on the storage space of Qiniu Cloud. Although Qiniu Cloud is not bad, the traffic under the `https` protocol needs to be charged. So, I used jsDelivr and Githubc repository to build a free image hosting service.
 &lt;!--more--&gt;

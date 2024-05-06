@@ -1,4 +1,4 @@
-# Use Phone Buddy on Apple Watch to Prevent Forgotten iPhone
+# Use Phone Buddy on Apple Watch to Prevent Forgotten IPhone
 
 Today my dad drove me to a place. After I got off the car and walked for 3 minutes, I suddenly found that my mobile phone was missing...
 &lt;!--more--&gt;

@@ -1,4 +1,4 @@
-# Strengthen macOS Terminal
+# Strengthen MacOS Terminal
 
 The terminal of macOS is very good, but it feels like it&#39;s missing something, so I strengthened it. There are many people who recommend using [Oh My Zsh](https://ohmyz.sh/), but I don&#39;t know why, I often have some problems when I use [Oh My Zsh](https://ohmyz.sh/), so this time I didn&#39;t use it.
 &lt;!--more--&gt;

@@ -1,4 +1,4 @@
-# zsh: Tab Completion With Case Insensitivity
+# Zsh: Tab Completion With Case Insensitivity
 
 If you are using macOS, you can switch to the `Documents` directory by executing `cd documents` in `~`, but you cannot use `Tab` to complete it.
 &lt;!--more--&gt;

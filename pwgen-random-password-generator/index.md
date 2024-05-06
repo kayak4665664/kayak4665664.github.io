@@ -1,4 +1,4 @@
-# Pwgen: a Random Password Generator
+# Pwgen: A Random Password Generator
 
 pwgen can generate random and secure passwords in the command line!
 &lt;!--more--&gt;
