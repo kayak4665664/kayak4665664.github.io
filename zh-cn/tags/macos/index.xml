@@ -4,7 +4,146 @@
     <link>https://www.kayak4665664.com/zh-cn/tags/macos/</link>
     <description>macOS - 标签 | kayak4665664</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Fri, 13 Oct 2023 13:06:04 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/macos/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Sat, 27 Apr 2024 14:21:29 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/macos/" rel="self" type="application/rss+xml" /><item>
+  <title>sips: MacOS自带图像处理工具</title>
+  <link>https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/</link>
+  <pubDate>Sat, 27 Apr 2024 14:21:29 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/</guid>
+  <description><![CDATA[<p>无意间发现了macOS内置的sips命令行工具，用于处理和操作图像。它支持多种图像格式，并提供了一些常见的图像处理功能，如压缩、改变尺寸、旋转等。</p>
+<h2 id="一些示例" class="heading-element"><span>一些示例</span>
+  <a href="#%e4%b8%80%e4%ba%9b%e7%a4%ba%e4%be%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li>压缩图像</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -s format jpeg ~/image.jpeg --out ~/image.jpeg --setProperty formatOptions 50%</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>改变图像尺寸</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --resampleWidth <span class="m">500</span> --resampleHeight <span class="m">300</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>按比例调整图像大小</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --resampleHeightWidth <span class="m">500</span> <span class="m">300</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>旋转图像</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --rotate <span class="m">90</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>转换图像格式</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -s format jpeg input.png --out output.jpg</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li>查看图像信息</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -g all input.jpg</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item>
+<item>
+  <title>当使用Touch ID解锁时聚焦（Spotlight）无法正常使用</title>
+  <link>https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</link>
+  <pubDate>Fri, 26 Apr 2024 11:52:05 &#43;0800</pubDate>
+  <author>kayak4665664</author>
+  <guid>https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</guid>
+  <description><![CDATA[<p>前几天忽然发现聚焦搜索不出东西来了，同时在设置应用里搜索设置项也搜索不出来。似乎这个现象以前也有，这次终于被我注意到了。</p>
+<p>刚开始我以为是聚焦的索引出了问题，按网上的方法重置了几次索引，比如执行<code>sudo mdutil -a -E</code>。刚重置完是正常的，但过了一会又不行了，不知道问题出在哪了。</p>
+<p>连续试了几天，我终于可以稳定复现这个问题：只有在我使用Touch ID解锁电脑的时候，聚焦搜索才会失效。如果我使用密码解锁，聚焦搜索就能正常使用，或者在Touch ID解锁后找个机会输入一次密码，比如执行<code>sudo</code>命令，聚焦搜索立刻就正常了。因为用密码或者Touch ID都是很常见的操作，很难想到问题出在这里。</p>
+<p>我试了试新建了一个用户是正常的，但是用迁移助理把之前的时间机器备份导入之后，这个问题又出现了。</p>
+<p>我在网上搜了一下，在Alfred论坛上也有人遇到了和我一样的问题，<a href="https://www.alfredforum.com/topic/21140-spotlight-indexing-issues-in-ventura-1361/"target="_blank" rel="external nofollow noopener noreferrer">Spotlight indexing issues in Ventura 13.6.1<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，但是没有解决的办法。我在macOS的网站上反馈了一下就石沉大海了。</p>
+<p>我想只要在Touch ID解锁后自动输入一次密码就可以缓解这个问题。我用<code>brew</code>分别安装了<code>sleepwatcher</code>和<code>expect</code>，分别用于监听电脑休眠和自动输入密码。我写了几个脚本：</p>
+<h3 id="spotlightexp" class="heading-element"><span>spotlight.exp</span>
+  <a href="#spotlightexp" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#! /usr/bin/expect -f
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nb">set</span> script_dir <span class="o">[</span>file dir <span class="o">[</span>info script<span class="o">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> password <span class="o">[</span><span class="nb">exec</span> <span class="nv">$script_dir</span>/get_password.sh<span class="o">]</span>
+</span></span><span class="line"><span class="cl">spawn sudo mdutil -vsa
+</span></span><span class="line"><span class="cl">expect <span class="s2">&#34;Password:&#34;</span>
+</span></span><span class="line"><span class="cl">send <span class="s2">&#34;</span><span class="nv">$password</span><span class="s2">\r&#34;</span>
+</span></span><span class="line"><span class="cl">interact</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="get_passwordsh" class="heading-element"><span>get_password.sh</span>
+  <a href="#get_passwordsh" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nv">password</span><span class="o">=</span><span class="k">$(</span>security find-generic-password -a <span class="s1">&#39;$YOUR_USER_NAME&#39;</span> -s <span class="s1">&#39;SleepwatcherPassword&#39;</span> -w<span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="nv">$password</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里需要提前执行<code>security add-generic-password -a '$YOUR_USER_NAME' -s 'SleepwatcherPassword' -w '$YOUR_PASSWORD'</code>来保存密码.</p>
+<h3 id="wakeup" class="heading-element"><span>.wakeup</span>
+  <a href="#wakeup" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>expect /path/to/spotlight.exp</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样每次电脑休眠唤醒后，<code>sleepwatcher</code>会自动执行<code>.wakeup</code>脚本，自动输入密码，这样聚焦搜索就能正常使用了。但是如果锁定之后没有来得及休眠就又用Touch ID解锁了，还是会出现问题，不过这种情况比较少见。</p>]]></description>
+</item>
+<item>
   <title>iOS17模拟定位</title>
   <link>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</link>
   <pubDate>Fri, 13 Oct 2023 13:06:04 &#43;0800</pubDate>
@@ -571,116 +710,6 @@ You will also need to restart your terminal for this change to take effect.</div
     </div>
   </div>
 <p>看来这个Kerberos是包含在macOS中的，它就位于<code>/System/Library/CoreServices/Applications/Ticket Viewer.app</code>，并不是恶意程序。</p>]]></description>
-</item>
-<item>
-  <title>修改macOS Launchpad的图标大小</title>
-  <link>https://www.kayak4665664.com/zh-cn/modify-the-icons-size-in-macos-launchpad/</link>
-  <pubDate>Tue, 21 Feb 2023 12:23:13 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/modify-the-icons-size-in-macos-launchpad/</guid>
-  <description><![CDATA[<div class="featured-image"><img loading="eager" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-02-21%20at%2012.34.40.jpg" alt="修改macOS Launchpad的图标大小" title="修改macOS Launchpad的图标大小" referrerpolicy="no-referrer"/></div><p>通过调整Launchpad每一行和每一列的图标的数量，就可以调整图标的大小。</p>
-<h2 id="方法" class="heading-element"><span>方法</span>
-  <a href="#%e6%96%b9%e6%b3%95" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>在Terminal中执行以下命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 例如设置为8列</span>
-</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns -int <span class="m">8</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># 例如设置为6行</span>
-</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows -int <span class="m">6</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># 重置Launchpad</span>
-</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
-</span></span><span class="line"><span class="cl"><span class="c1"># 重启Dock</span>
-</span></span><span class="line"><span class="cl">killall Dock</span></span></code></pre></td></tr></table>
-</div>
-</div><p>恢复默认设置：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">defaults write com.apple.dock springboard-rows Default
-</span></span><span class="line"><span class="cl">defaults write com.apple.dock springboard-columns Default
-</span></span><span class="line"><span class="cl">defaults write com.apple.dock ResetLaunchPad -bool TRUE
-</span></span><span class="line"><span class="cl">killall Dock</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>Mac上出现了多个版本的Edge浏览器</title>
-  <link>https://www.kayak4665664.com/zh-cn/multiple-versions-of-edge-browser-appear-on-mac/</link>
-  <pubDate>Sun, 19 Feb 2023 22:18:50 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/multiple-versions-of-edge-browser-appear-on-mac/</guid>
-  <description><![CDATA[<p>忽然发现我的Mac上竟然有2个Edge Dev，分别是111.0.1660.13和111.0.1660.12，而且这2个都能正常启动。我希望保留最新版本的，把旧版的卸载掉。</p>
-<h2 id="方法" class="heading-element"><span>方法</span>
-  <a href="#%e6%96%b9%e6%b3%95" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><h3 id="1" class="heading-element"><span>1</span>
-  <a href="#1" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>以Dev版本为例，切换目录到以下位置</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /Applications/Microsoft\ Edge\ Dev.app/Contents/Frameworks/Microsoft\ Edge\ Framework.framework/Versions</span></span></code></pre></td></tr></table>
-</div>
-</div><p>也可以在访达中按下<code>control + shift + G</code>，输入要前往的位置</p>
-<h3 id="2" class="heading-element"><span>2</span>
-  <a href="#2" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>执行<code>ls -l</code>，可以看到类似的输出
-<div class="details admonition example open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>示例<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">drwxrwxr-x 14 user admin 448 Feb 11 11:32 111.0.1660.12<br>
-drwxrwxr-x 14 user admin 448 Feb 17 08:54 111.0.1660.13<br>
-lrwxrwxr-x 1 user admin 13 Feb 17 08:54 Current -&gt; 111.0.1660.13</div>
-    </div>
-  </div>
-或者在访达中点击<code>Current</code>，确认指向的版本</p>
-<h3 id="3" class="heading-element"><span>3</span>
-  <a href="#3" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>使用<code>rm -rf</code>删除其他旧版本的，或者也可以在访达中删除</p>
-<h3 id="4" class="heading-element"><span>4</span>
-  <a href="#4" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>最后一步，这一步同样也可以在访达中进行</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~/Library/Application\ Support/Microsoft
-</span></span><span class="line"><span class="cl">rm -rf EdgeUpdater</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
 </item>
 </channel>
 </rss>

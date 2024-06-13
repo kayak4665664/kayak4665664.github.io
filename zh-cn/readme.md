@@ -1,11 +1,15 @@
 # kayak4665664
 
-共计 63 篇文章
+共计 67 篇文章
 
 ## 2024
 
-共计 2 篇文章
+共计 6 篇文章
 
+- 05-24 [近期LeetCode刷题记录](https://www.kayak4665664.com/zh-cn/recent-leetcode-problem-solving-record/ "2024-05-24 11:18:29")
+- 04-27 [sips: MacOS自带图像处理工具](https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/ "2024-04-27 14:21:29")
+- 04-26 [当使用Touch ID解锁时聚焦（Spotlight）无法正常使用](https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/ "2024-04-26 11:52:05")
+- 04-19 [近期LeetCode Top Interview 150刷题记录](https://www.kayak4665664.com/zh-cn/recent-leetcode-top-interview-150-problem-solving-record/ "2024-04-19 11:29:31")
 - 03-02 [Coze: 免费使用GPT-4](https://www.kayak4665664.com/zh-cn/coze-free-access-to-gpt-4/ "2024-03-02 22:20:31")
 - 01-04 [Node-Depend-View](https://www.kayak4665664.com/zh-cn/node-depend-view/ "2024-01-04 21:51:25")
 

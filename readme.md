@@ -1,11 +1,15 @@
 # kayak4665664
 
-63 articles in total
+67 articles in total
 
 ## 2024
 
-2 articles in total
+6 articles in total
 
+- 05-24 [Recent LeetCode Problem-Solving Record](https://www.kayak4665664.com/recent-leetcode-problem-solving-record/ "2024-05-24 11:18:46")
+- 04-27 [sips: MacOS built-in image processing tool](https://www.kayak4665664.com/sips-tool-in-macos/ "2024-04-27 14:21:24")
+- 04-26 [Spotlight Not Working Properly With Touch ID Unlock on MacOS](https://www.kayak4665664.com/spotlight-not-working-properly-with-touch-id-unlock-on-macos/ "2024-04-26 11:52:11")
+- 04-19 [Recent LeetCode Top Interview 150 Problem-Solving Record](https://www.kayak4665664.com/recent-leetcode-top-interview-150-problem-solving-record/ "2024-04-19 11:29:24")
 - 03-02 [Coze: Free Access to GPT-4](https://www.kayak4665664.com/coze-free-access-to-gpt-4/ "2024-03-02 22:20:35")
 - 01-04 [Node-Depend-View](https://www.kayak4665664.com/node-depend-view/ "2024-01-04 21:51:14")
 
