@@ -1,572 +1,135 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>command line tools - Tag | kayak4665664</title>
     <link>https://www.kayak4665664.com/tags/command-line-tools/</link>
-    <description>command line tools - Tag | kayak4665664</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Sat, 27 Apr 2024 14:21:24 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/tags/command-line-tools/" rel="self" type="application/rss+xml" /><item>
-  <title>sips: MacOS built-in image processing tool</title>
-  <link>https://www.kayak4665664.com/sips-tool-in-macos/</link>
-  <pubDate>Sat, 27 Apr 2024 14:21:24 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/sips-tool-in-macos/</guid>
-  <description><![CDATA[<p>I accidentally discovered the built-in <code>sips</code> command line tool in macOS, which is used to process and manipulate images. It supports multiple image formats and provides some common image processing functions such as compression, resizing, rotation, etc.</p>
-<h2 id="some-examples" class="heading-element"><span>Some examples</span>
-  <a href="#some-examples" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><ol>
-<li>Compress image</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -s format jpeg ~/image.jpeg --out ~/image.jpeg --setProperty formatOptions 50%</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="2">
-<li>Change image size</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --resampleWidth <span class="m">500</span> --resampleHeight <span class="m">300</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="3">
-<li>Resize image proportionally</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --resampleHeightWidth <span class="m">500</span> <span class="m">300</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="4">
-<li>Rotate image</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --rotate <span class="m">90</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="5">
-<li>Convert image format</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -s format jpeg input.png --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="6">
-<li>View image information</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -g all input.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>Spotlight Not Working Properly With Touch ID Unlock on MacOS</title>
-  <link>https://www.kayak4665664.com/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</link>
-  <pubDate>Fri, 26 Apr 2024 11:52:11 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</guid>
-  <description><![CDATA[<p>A few days ago, I suddenly found that Spotlight could not search anything, and the settings application could not search for settings items either. It seems that this phenomenon has occurred before, and this time I finally noticed it.</p>
-<p>At first, I thought it was a problem with the index of Spotlight, and I reset the index several times according to the methods on the Internet, such as executing <code>sudo mdutil -a -E</code>. It was normal immediately after the reset, but it didn&rsquo;t work after a while, and I don&rsquo;t know what went wrong.</p>
-<p>After trying for several days, I finally can reproduce this problem stably: only when I unlock the computer using Touch ID, the Spotlight search will fail. If I unlock with a password, the Spotlight search can work normally, or after unlocking with Touch ID, find an opportunity to enter the password once, such as executing the <code>sudo</code> command, the Spotlight search will immediately work normally. Because using a password or Touch ID is a very common operation, it is difficult to think that the problem lies here.</p>
-<p>I tried to create a new user, and it was normal, but after importing the previous Time Machine backup using the migration assistant, this problem reappeared.</p>
-<p>I searched online and found that someone on the Alfred forum encountered the same problem as me, <a href="https://www.alfredforum.com/topic/21140-spotlight-indexing-issues-in-ventura-1361/"target="_blank" rel="external nofollow noopener noreferrer">Spotlight indexing issues in Ventura 13.6.1<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, but there is no solution. I reported it on the macOS website and no more response.</p>
-<p>I think as long as I automatically enter the password once after unlocking with Touch ID, this problem can be alleviated. I used <code>brew</code> to install <code>sleepwatcher</code> and <code>expect</code> respectively, used to monitor computer sleep and automatically enter the password. I wrote a few scripts:</p>
-<h3 id="spotlightexp" class="heading-element"><span>spotlight.exp</span>
-  <a href="#spotlightexp" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#! /usr/bin/expect -f
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nb">set</span> script_dir <span class="o">[</span>file dir <span class="o">[</span>info script<span class="o">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nb">set</span> password <span class="o">[</span><span class="nb">exec</span> <span class="nv">$script_dir</span>/get_password.sh<span class="o">]</span>
-</span></span><span class="line"><span class="cl">spawn sudo mdutil -vsa
-</span></span><span class="line"><span class="cl">expect <span class="s2">&#34;Password:&#34;</span>
-</span></span><span class="line"><span class="cl">send <span class="s2">&#34;</span><span class="nv">$password</span><span class="s2">\r&#34;</span>
-</span></span><span class="line"><span class="cl">interact</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="get_passwordsh" class="heading-element"><span>get_password.sh</span>
-  <a href="#get_passwordsh" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nv">password</span><span class="o">=</span><span class="k">$(</span>security find-generic-password -a <span class="s1">&#39;$YOUR_USER_NAME&#39;</span> -s <span class="s1">&#39;SleepwatcherPassword&#39;</span> -w<span class="k">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="nv">$password</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p>Here you need to execute <code>security add-generic-password -a '$YOUR_USER_NAME' -s 'SleepwatcherPassword' -w '$YOUR_PASSWORD'</code> in advance to save the password.</p>
-<h3 id="wakeup" class="heading-element"><span>.wakeup</span>
-  <a href="#wakeup" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>expect /path/to/spotlight.exp</span></span></code></pre></td></tr></table>
-</div>
-</div><p>In this way, every time the computer wakes up from sleep, <code>sleepwatcher</code> will automatically execute the <code>.wakeup</code> script, automatically enter the password, so that the Spotlight search can work normally. But if you unlock with Touch ID after locking without sleeping, the problem will still occur, but this situation is relatively rare.</p>]]></description>
-</item>
-<item>
-  <title>Node-Depend-View</title>
-  <link>https://www.kayak4665664.com/node-depend-view/</link>
-  <pubDate>Thu, 04 Jan 2024 21:51:14 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/node-depend-view/</guid>
-  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">Node-Depend-View</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/kayak4665664/Node-Depend-View</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>I completed this small project while learning frontend and Node.js development. It can display the dependency relationship of a project in graphical form. I also published it to npm. Please see the link above for details. I feel that it is very interesting to do full-stack development with TypeScript, and I hope to find an internship in the new year! Okay, I won&rsquo;t say much, come on! 💪</p>]]></description>
-</item>
-<item>
-  <title>Simulate Locations for iOS17</title>
-  <link>https://www.kayak4665664.com/simulate-locations-for-ios17/</link>
-  <pubDate>Fri, 13 Oct 2023 13:05:59 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/simulate-locations-for-ios17/</guid>
-  <description><![CDATA[<p>I need to simulate location on iPhone recently. After some research, I finally found a simple and effective method.</p>
-<p>I found several methods online, without jailbreaking iPhone. The first one is to use <a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which is effective but requires payment. The second one is to use an Android phone with root permission, install <a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, and then connect the iPhone to this Android phone. Other methods include using Xcode, i4Tools, or external devices, or even simulating satellite signals to deceive the iPhone.</p>
-<p>I think these methods are too complicated. I found a simple and effective method at <a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, which mainly uses <a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
-<h3 id="1-install-pymobiledevice3-on-macos" class="heading-element"><span>1. Install pymobiledevice3 on macOS:</span>
-  <a href="#1-install-pymobiledevice3-on-macos" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode" class="heading-element"><span>2. Enable developer mode on iPhone, located at <code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>.</span>
-  <a href="#2-enable-developer-mode-on-iphone-located-at-settings---privacy--security---developer-mode" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><h3 id="3-connect-the-iphone-to-macos-and-execute" class="heading-element"><span>3. Connect the iPhone to macOS, and execute:</span>
-  <a href="#3-connect-the-iphone-to-macos-and-execute" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-tunnel</span></span></code></pre></td></tr></table>
-</div>
-</div><p>It will print something like the following:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Interface: utun6
-</span></span><span class="line"><span class="cl">RSD Address: fd7b:e5b:6f53::1
-</span></span><span class="line"><span class="cl">RSD Port: 64337
-</span></span><span class="line"><span class="cl">Use the follow connection option:
-</span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337</span></span></code></pre></td></tr></table>
-</div>
-</div><p><code>RSD Address</code> and <code>RSD Port</code> will be used in step 5.</p>
-<h3 id="4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos" class="heading-element"><span>4. Make sure the iPhone is not locked at this time, and execute on macOS:</span>
-  <a href="#4-make-sure-the-iphone-is-not-locked-at-this-time-and-execute-on-macos" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="5-continue-to-execute-on-macos" class="heading-element"><span>5. Continue to execute on macOS:</span>
-  <a href="#5-continue-to-execute-on-macos" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pymobiledevice3 developer dvt simulate-location <span class="nb">set</span> --rsd &lt;RSD Address&gt; &lt;RSD Port&gt; -- &lt;latitude&gt; &lt;longtitude&gt;</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Replace <code>&lt;RSD Address&gt;</code> and <code>&lt;RSD Port&gt;</code> with the values printed in step 3, and replace <code>&lt;latitude&gt;</code> and <code>&lt;longtitude&gt;</code> with the latitude and longitude you want to simulate. Look at the iPhone, the location has been simulated successfully. After terminating the simulation, the iPhone will return to the real location.</p>]]></description>
-</item>
-<item>
-  <title>battery: Battery Charge Limiter for Apple Silicon Macbook Devices</title>
-  <link>https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</link>
-  <pubDate>Sat, 23 Sep 2023 17:19:30 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</guid>
-  <description><![CDATA[<p>Today I found a command line tool that can limit the battery charging of Apple Silicon Macbook, called <strong>battery</strong>.</p>
-<a href="https://github.com/actuallymentor/battery" title="battery"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">battery</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/actuallymentor/battery</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>I have been using <a href="https://www.kayak4665664.com/aldente-limit-macbook-maximum-charging-percentage/"target="_blank" rel="external nofollow noopener noreferrer">AlDente<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> before. Compared with it, the advantage of <strong>battery</strong> is that it can be used directly on the command line, and it is completely free, while AlDente can only use the most basic functions without paying, and its icon occupies a spot in the menu bar.</p>
-<p>Just one line of command:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -s https://raw.githubusercontent.com/actuallymentor/battery/main/setup.sh <span class="p">|</span> bash</span></span></code></pre></td></tr></table>
-</div>
-</div><p>After the installation is complete, you can use <code>battery help</code> to view help information, it&rsquo;s so easy.</p>]]></description>
-</item>
-<item>
-  <title>Pcap-Parser</title>
-  <link>https://www.kayak4665664.com/pcap-parser/</link>
-  <pubDate>Tue, 11 Apr 2023 12:59:01 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/pcap-parser/</guid>
-  <description><![CDATA[<p><a href="https://www.kayak4665664.com/capture-packets-for-mobile-apps/"target="_blank" rel="external nofollow noopener noreferrer">Previous article<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> introduces how to capture packets, and this article introduces how to write a program to parse the captured packet files.</p>
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">The source code involved in this article is in the GitHub repository:</div>
-    </div>
-  </div>
-<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">Pcap-Parser</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/kayak4665664/Pcap-Parser</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>The Pcap file contains the information of the network data packet, including source IP address, destination IP address, source port, destination port, transport layer protocol, application layer protocol, etc. Therefore, the idea of the program is to parse from the data link layer to the application layer and parse out the protocol type and protocol data of each layer. In terms of implementation, you can refer to the analysis results of Wireshark.</p>
-<p>For <code>C/C++</code>, <code>&lt;pcap.h&gt;</code> can be used to process Pcap files. Afterward, use <code>&lt;net/ethernet.h&gt;</code>, <code>&lt;netinet/ip.h&gt;</code>, <code>&lt;netinet/tcp.h&gt;</code> defined the Ethernet header, IP header, and TCP header structure to parse the data Link layer, network layer, and transport layer. In addition, both the IP header and the TCP header have <code>options</code>, which is not in the structure.</p>
-<p>There are many types of protocols in the application layer, and programs need to be written for each protocol. <a href="https://github.com/kayak4665664/Pcap-Parser"target="_blank" rel="external nofollow noopener noreferrer">My program<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> supports parsing <code>HTTP</code> and <code>TLS</code> protocols.</p>
-<p><code>HTTP</code> is a plain text protocol, and the data fields are separated by <code>\r\n</code>. In addition, it is necessary to consider that an <code>HTTP</code> message is divided into several packets, and the correct result can only be parsed after reassembling the relevant packets. And <code>TLS</code> is an encryption protocol, which is more complicated. It needs to be parsed according to the structure of the protocol, and reassembling should also be considered.</p>
-<p>The above are just some simple ideas. There are many complicated situations that have not been covered.</p>]]></description>
-</item>
-<item>
-  <title>Capture Packets for Mobile Apps</title>
-  <link>https://www.kayak4665664.com/capture-packets-for-mobile-apps/</link>
-  <pubDate>Mon, 10 Apr 2023 20:11:05 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/capture-packets-for-mobile-apps/</guid>
-  <description><![CDATA[<p>Packet capture for mobile apps using <code>Charles</code>, <code>Wireshark</code> and <code>tcpdump</code>.</p>
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">I capture packets for iPhone on macOS, but the methods and principles are similar for other systems and devices.</div>
-    </div>
-  </div>
-<h2 id="wireshark" class="heading-element"><span>Wireshark</span>
-  <a href="#wireshark" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>Wireshark is an open-source network analysis tool that can be used to capture network packets. It can run on macOS, Windows, and Linux.</p>
-<p>On macOS, Wireshark can be installed using <code>brew</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Capturing packets with Wireshark is also very simple. For example, selecting the <code>Wi-Fi</code> interface can capture packets from the wireless network card.</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" alt="Wireshark" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" data-title="Wireshark" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-</div>
-<h2 id="tcpdump" class="heading-element"><span>tcpdump</span>
-  <a href="#tcpdump" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p><code>tcpdump</code> is a command line tool that can be used to capture network packets. For example, if you want to capture packets on a server without a graphical interface, you can use it.</p>
-<p>On macOS, <code>tcpdump</code> can also be installed using <code>brew</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Capturing packets with <code>tcpdump</code>, for example, capture packets from the <code>12345</code> port and save them as a <code>pcap</code> file:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="charles" class="heading-element"><span>Charles</span>
-  <a href="#charles" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>Charles is an HTTP proxy and monitor that can be used to capture HTTP and HTTPS packets. It&rsquo;s like Fiddler on Windows.</p>
-<p>On macOS, we can install Charles using <code>brew</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="capture-packets-for-mobile-apps" class="heading-element"><span>Capture Packets for Mobile Apps</span>
-  <a href="#capture-packets-for-mobile-apps" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>For MacBook, if Wi-Fi is already connected, the wireless hotspot cannot be turned on. So you need to use Charles to set up a proxy server, and then the phone connects to the proxy server. The main steps are as follows:</p>
-<ol>
-<li>Both the macOS device and the iPhone are connected to a mobile hotspot turned on by the third device, making sure they are on the same local area network.</li>
-<li>On the macOS device, open Charles and set up a proxy server. The proxy server port is <code>8888</code> by default.</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" data-title="Charles" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="3">
-<li>On the iPhone, set the proxy server to the macOS device. The proxy server port is <code>8888</code>.</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>Proxy</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="Proxy" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" data-title="Proxy" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="4">
-<li>Access <a href="chls.pro/ssl">chls.pro/ssl</a> in the iPhone browser, download and install the certificate.</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>Certificate installation</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="Certificate installation" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" data-title="Certificate installation" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="5">
-<li>Trust the certificate in the iPhone settings <code>General -&gt; About -&gt; Certificate Trust Settings</code>.</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>Certificate trust settings</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="Certificate trust settings" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" data-title="Certificate trust settings" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="6">
-<li>Install the configuration file for the proxy server in the iPhone settings <code>General -&gt; VPN &amp; Device Management</code>.</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>Configuration file</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="Configuration file" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" data-title="Configuration file" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="7">
-<li>
-<p>Since Charles can only capture HTTP and HTTPS packets, start Wireshark on the macOS device and select the <code>Wi-Fi</code> interface to capture packets of all protocols.</p>
-</li>
-<li>
-<p>Open the mobile app on the iPhone and use it.</p>
-</li>
-<li>
-<p>Stop capturing packets in Wireshark. The previously set proxy server port is <code>8888</code>, so you can filter irrelevant data packets through <code>tcp.port == 8888</code>, and save the filtered packets as a pcap file.</p>
-</li>
-</ol>]]></description>
-</item>
-<item>
-  <title>Authorize sudo Commands With Touch ID</title>
-  <link>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</link>
-  <pubDate>Wed, 22 Mar 2023 12:29:40 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</guid>
-  <description><![CDATA[<p>Authorize sudo commands with Touch Id, so you don&rsquo;t have to enter your password every time.</p>
-<p>In Terminal, enter the following command, then restart Terminal.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo sed -i <span class="s2">&#34;.bak&#34;</span> <span class="s1">&#39;2s/^/auth       sufficient     pam_tid.so\&#39;$&#39;\n/g&#39;</span> /etc/pam.d/sudo</span></span></code></pre></td></tr></table>
-</div>
-</div><p>This command first backs up <code>/etc/pam.d/sudo</code> to <code>/etc/pam.d/sudo.bak</code>, then inserts <code>auth       sufficient     pam_tid.so</code> on the second line.</p>
-<p>If you want to restore the default settings, you can use the following command:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mv /etc/pam.d/sudo.bak /etc/pam.d/sudo</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>Randomize MAC Address for macOS</title>
-  <link>https://www.kayak4665664.com/randomize-mac-address-for-macos/</link>
-  <pubDate>Thu, 02 Mar 2023 12:03:41 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/randomize-mac-address-for-macos/</guid>
-  <description><![CDATA[<p>On iOS and iPadOS, you can enable private WiFi address to randomize MAC address in settings. There is no such option on macOS, but we can do it through the command line.</p>
-<p>I found SpoofMAC on Github, which is a Python script that works not only on macOS but also on Windows and Linux. It can randomize MAC address and set MAC address to any value.</p>
-<a href="https://github.com/feross/spoofmac" title="SpoofMAC"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">SpoofMAC</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/feross/spoofmac</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>Installing SpoofMAC is simple, just <code>pip install SpoofMAC</code>.</p>
-<h2 id="usage" class="heading-element"><span>Usage</span>
-  <a href="#usage" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>Here is an example of using SpoofMAC to modify MAC address on macOS.</p>
-<div class="details admonition tip open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">To run <code>spoof-mac</code> directly in the terminal, you need to add <code>bin</code> to <code>PATH</code>. If you are using <code>zsh</code>, you can add it in <code>~/.zshrc</code>, for example, <code>export PATH=$PATH:~/Library/Python/3.9/bin</code>.</div>
-    </div>
-  </div>
-<ol>
-<li>First, list all available devices</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">spoof-mac list</span></span></code></pre></td></tr></table>
-</div>
-</div><p>You will get an output like this
-<div class="details admonition example open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>Example<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">- &ldquo;Ethernet&rdquo; on device &ldquo;en0&rdquo; with MAC address 70:56:51:BE:B3:00<br>
-- &ldquo;Wi-Fi&rdquo; on device &ldquo;en1&rdquo; with MAC address 70:56:51:BE:B3:01<br>
-- &ldquo;Bluetooth PAN&rdquo; on device &ldquo;en1&rdquo;</div>
-    </div>
-  </div></p>
-<ol start="2">
-<li>Then, randomize MAC address</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo spoof-mac randomize en1
-</span></span><span class="line"><span class="cl"><span class="c1"># or</span>
-</span></span><span class="line"><span class="cl">sudo spoof-mac randomize wifi</span></span></code></pre></td></tr></table>
-</div>
-</div><p>To restore MAC address, just run</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo spoof-mac reset en1
-</span></span><span class="line"><span class="cl"><span class="c1"># or</span>
-</span></span><span class="line"><span class="cl">sudo spoof-mac reset wifi</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>Pwgen: a Random Password Generator</title>
-  <link>https://www.kayak4665664.com/pwgen-random-password-generator/</link>
-  <pubDate>Tue, 28 Feb 2023 15:25:10 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/pwgen-random-password-generator/</guid>
-  <description><![CDATA[<p>pwgen can generate random and secure passwords in the command line!</p>
-<a href="https://pwgen.sourceforge.io/" title="pwgen"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">pwgen</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://pwgen.sourceforge.io/</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>pwgen can be installed with Homebrew: <code>brew install pwgen</code>.</p>
-<p>The usage is also very simple. For example, <code>pwgen -sy 50</code> is to generate a 50-character password, including uppercase and lowercase letters, numbers and special characters. More usage can be viewed with <code>pwgen -h</code>:</p>
-<div class="details admonition note open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content"><p>Usage: pwgen [ OPTIONS ] [ pw_length ] [ num_pw ]</p>
-<p>Options supported by pwgen:<br>
--c or &ndash;capitalize<br>
-Include at least one capital letter in the password<br>
--A or &ndash;no-capitalize<br>
-Don&rsquo;t include capital letters in the password<br>
--n or &ndash;numerals<br>
-Include at least one number in the password<br>
--0 or &ndash;no-numerals<br>
-Don&rsquo;t include numbers in the password<br>
--y or &ndash;symbols<br>
-Include at least one special symbol in the password<br>
--r <chars> or &ndash;remove-chars=<chars><br>
-Remove characters from the set of characters to generate passwords<br>
--s or &ndash;secure<br>
-Generate completely random passwords<br>
--B or &ndash;ambiguous<br>
-Don&rsquo;t include ambiguous characters in the password<br>
--h or &ndash;help<br>
-Print a help message<br>
--H or &ndash;sha1=path/to/file[#seed]<br>
-Use sha1 hash of given file as a (not so) random generator<br>
--C<br>
-Print the generated passwords in columns<br>
--1<br>
-Don&rsquo;t print the generated passwords in columns<br>
--v or &ndash;no-vowels<br>
-Do not use any vowels so as to avoid accidental nasty words</p>
-</div>
-    </div>
-  </div>]]></description>
-</item>
-</channel>
+    <description>kayak4665664&#39;s Blog</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-9c440df3</generator>
+    <language>en</language>
+    <managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+    <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster>
+    <copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright>
+    <lastBuildDate>Sat, 27 Apr 2024 14:21:24 +0800</lastBuildDate>
+    <atom:link href="https://www.kayak4665664.com/tags/command-line-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sips: MacOS built-in image processing tool</title>
+      <link>https://www.kayak4665664.com/sips-tool-in-macos/</link>
+      <pubDate>Sat, 27 Apr 2024 14:21:24 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/sips-tool-in-macos/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;I accidentally discovered the built-in &lt;code&gt;sips&lt;/code&gt; command line tool in macOS, which is used to process and manipulate images. It supports multiple image formats and provides some common image processing functions such as compression, resizing, rotation, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spotlight Not Working Properly With Touch ID Unlock on MacOS</title>
+      <link>https://www.kayak4665664.com/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</link>
+      <pubDate>Fri, 26 Apr 2024 11:52:11 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;A few days ago, I suddenly found that Spotlight could not search anything, and the settings application could not search for settings items either. It seems that this phenomenon has occurred before, and this time I finally noticed it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Node-Depend-View</title>
+      <link>https://www.kayak4665664.com/node-depend-view/</link>
+      <pubDate>Thu, 04 Jan 2024 21:51:14 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/node-depend-view/</guid>
+      <category domain="https://www.kayak4665664.com/categories/project/">Project</category>
+      <description>&lt;a href=&#34;https://github.com/kayak4665664/Node-Depend-View&#34; title=&#34;Node-Depend-View - kayak4665664&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34; class=&#34;card-link&#34;&gt;&lt;span class=&#34;cl-backdrop&#34; style=&#34;--cl-bg-url: url(/images/fixit.min.svg);&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cl-content&#34;&gt;&#xA;      &lt;span class=&#34;cl-text&#34;&gt;&#xA;        &lt;span class=&#34;cl-title&#34;&gt;Node-Depend-View&lt;/span&gt;&#xA;        &lt;span class=&#34;cl-meta&#34;&gt;&#xA;          &lt;svg class=&#34;cl-icon-link&#34; viewBox=&#34;0 0 1024 1024&#34; version=&#34;1.1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34;&gt;&lt;path d=&#34;M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z&#34; fill=&#34;#a9a9b3&#34;&gt;&lt;/path&gt;&lt;path d=&#34;M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z&#34; fill=&#34;#a9a9b3&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;          &lt;span class=&#34;cl-url&#34;&gt;https://github.com/kayak4665664/Node-Depend-View&lt;/span&gt;&#xA;        &lt;/span&gt;&#xA;      &lt;/span&gt;&lt;svg class=&#34;cl-shortcut-icon&#34; viewBox=&#34;0 0 1024 1024&#34; version=&#34;1.1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;64&#34; height=&#34;64&#34;&gt;&lt;path d=&#34;M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448&#34; fill=&#34;#2196F3&#34;&gt;&lt;/path&gt;&lt;path d=&#34;M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104&#34; fill=&#34;#CDDC39&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Simulate Locations for iOS17</title>
+      <link>https://www.kayak4665664.com/simulate-locations-for-ios17/</link>
+      <pubDate>Fri, 13 Oct 2023 13:05:59 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/simulate-locations-for-ios17/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;I need to simulate location on iPhone recently. After some research, I finally found a simple and effective method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>battery: Battery Charge Limiter for Apple Silicon Macbook Devices</title>
+      <link>https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</link>
+      <pubDate>Sat, 23 Sep 2023 17:19:30 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;Today I found a command line tool that can limit the battery charging of Apple Silicon Macbook, called &lt;strong&gt;battery&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pcap-Parser</title>
+      <link>https://www.kayak4665664.com/pcap-parser/</link>
+      <pubDate>Tue, 11 Apr 2023 12:59:01 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/pcap-parser/</guid>
+      <category domain="https://www.kayak4665664.com/categories/project/">Project</category>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.kayak4665664.com/capture-packets-for-mobile-apps/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Previous article&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; introduces how to capture packets, and this article introduces how to write a program to parse the captured packet files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Capture Packets for Mobile Apps</title>
+      <link>https://www.kayak4665664.com/capture-packets-for-mobile-apps/</link>
+      <pubDate>Mon, 10 Apr 2023 20:11:05 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/capture-packets-for-mobile-apps/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;Packet capture for mobile apps using &lt;code&gt;Charles&lt;/code&gt;, &lt;code&gt;Wireshark&lt;/code&gt; and &lt;code&gt;tcpdump&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Authorize sudo Commands With Touch ID</title>
+      <link>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</link>
+      <pubDate>Wed, 22 Mar 2023 12:29:40 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/authorize-sudo-commands-with-touch-id/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;Authorize sudo commands with Touch Id, so you don&amp;rsquo;t have to enter your password every time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Randomize MAC Address for macOS</title>
+      <link>https://www.kayak4665664.com/randomize-mac-address-for-macos/</link>
+      <pubDate>Thu, 02 Mar 2023 12:03:41 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/randomize-mac-address-for-macos/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;On iOS and iPadOS, you can enable private WiFi address to randomize MAC address in settings. There is no such option on macOS, but we can do it through the command line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pwgen: a Random Password Generator</title>
+      <link>https://www.kayak4665664.com/pwgen-random-password-generator/</link>
+      <pubDate>Tue, 28 Feb 2023 15:25:10 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/pwgen-random-password-generator/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;pwgen can generate random and secure passwords in the command line!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Strengthen macOS Terminal</title>
+      <link>https://www.kayak4665664.com/strengthen-macos-terminal/</link>
+      <pubDate>Sun, 26 Feb 2023 15:33:55 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/strengthen-macos-terminal/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;The terminal of macOS is very good, but it feels like it&amp;rsquo;s missing something, so I strengthened it. There are many people who recommend using &lt;a href=&#34;https://ohmyz.sh/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Oh My Zsh&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;, but I don&amp;rsquo;t know why, I often have some problems when I use &lt;a href=&#34;https://ohmyz.sh/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Oh My Zsh&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;, so this time I didn&amp;rsquo;t use it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build a Image Hosting Service With jsDelivr and Github Repository</title>
+      <link>https://www.kayak4665664.com/build-a-image-hosting-service-with-jsdelivr-and-github-repository/</link>
+      <pubDate>Sat, 25 Feb 2023 14:44:25 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/build-a-image-hosting-service-with-jsdelivr-and-github-repository/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;I used to put the pictures of my website on the storage space of Qiniu Cloud. Although Qiniu Cloud is not bad, the traffic under the &lt;code&gt;https&lt;/code&gt; protocol needs to be charged. So, I used jsDelivr and Githubc repository to build a free image hosting service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use ImageMagick to Compress the Image in the Command Line</title>
+      <link>https://www.kayak4665664.com/use-imagemagick-to-compress-the-image-in-the-command-line/</link>
+      <pubDate>Fri, 24 Feb 2023 09:33:22 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/use-imagemagick-to-compress-the-image-in-the-command-line/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;I found ImageMagick, which is a powerful image processing tool that can be used in the command line. Not only can it be used to compress images, but it can also be used for many other things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>zsh: Tab Completion With Case Insensitivity</title>
+      <link>https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/</link>
+      <pubDate>Fri, 09 Dec 2022 16:58:10 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zsh-tab-completion-with-case-insensitivity/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;If you are using macOS, you can switch to the &lt;code&gt;Documents&lt;/code&gt; directory by executing &lt;code&gt;cd documents&lt;/code&gt; in &lt;code&gt;~&lt;/code&gt;, but you cannot use &lt;code&gt;Tab&lt;/code&gt; to complete it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iconsur: Generate Rounded Rectangle Icons for MacOS Third-Party Software</title>
+      <link>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
+      <pubDate>Sat, 17 Sep 2022 18:02:30 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
+      <category domain="https://www.kayak4665664.com/categories/note/">Note</category>
+      <description>&lt;p&gt;There are always some software icons that are not compatible with macOS. iconsur can generate rounded rectangle icons for them to beautify our macOS.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

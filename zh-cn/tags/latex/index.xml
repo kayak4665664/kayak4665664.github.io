@@ -1,26 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LaTeX - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/latex/</link>
-    <description>LaTeX - 标签 | kayak4665664</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/latex/" rel="self" type="application/rss+xml" /><item>
-  <title>texliveonfly, env: python: No Such File or Directory</title>
-  <link>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</link>
-  <pubDate>Mon, 23 Jan 2023 22:02:38 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</guid>
-  <description><![CDATA[<p>昨天用了一下texliveonfly宏包，直接出现了<code>env: python: No Such File or Directory</code>。</p>
-<p>我试着执行了一下<code>python</code>，结果弹出了一个Xcode Command Line Tools的提示，说要下载一些东西，然后它下载了Python3.9，而我之前已经有了Python3.8🙃。</p>
-<p>我试着用<code>ln</code>建立软连接，但是没有用。</p>
-<div class="details admonition success open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-check-circle fa-fw" aria-hidden="true"></i>成功<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">我想既然texliveonfly是用Python写的，我可以直接编辑它。于是我找到了<code>/Library/TeX/texbin/texliveonfly</code>，然后将这个文件第一行的<code>#!/usr/bin/env python</code>改成了<code>#!/usr/bin/env python3</code>，这样就解决了。</div>
-    </div>
-  </div>]]></description>
-</item>
-</channel>
+    <description>kayak4665664的博客</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-9c440df3</generator>
+    <language>zh-CN</language>
+    <managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+    <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster>
+    <copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright>
+    <lastBuildDate>Mon, 23 Jan 2023 22:02:38 +0800</lastBuildDate>
+    <atom:link href="https://www.kayak4665664.com/zh-cn/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>texliveonfly, env: python: No Such File or Directory</title>
+      <link>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</link>
+      <pubDate>Mon, 23 Jan 2023 22:02:38 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/texliveonfly-env-python-no-such-file-or-directory/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;昨天用了一下texliveonfly宏包，直接出现了&lt;code&gt;env: python: No Such File or Directory&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,188 +1,55 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NCUT - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/ncut/</link>
-    <description>NCUT - 标签 | kayak4665664</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Thu, 14 Jul 2022 13:08:07 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/ncut/" rel="self" type="application/rss+xml" /><item>
-  <title>NCUT-Pot</title>
-  <link>https://www.kayak4665664.com/zh-cn/ncut-pot/</link>
-  <pubDate>Thu, 14 Jul 2022 13:08:07 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/ncut-pot/</guid>
-  <description><![CDATA[<p><strong>NCUT-Pot</strong>是我的毕业设计，是一个蜜罐。</p>
-<p>这个蜜罐支持<code>Telnet</code>和<code>SSH</code>两种协议，模拟<code>Linux</code>系统，将黑客的数据存储在<code>SQL</code>数据库中。此外，它还通过短信和电子邮件向用户发送警报。用户可以自定义蜜罐的命令和目录。</p>
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">关于<strong>NCUT-Pot</strong>的更多细节请访问<a href="https://github.com/kayak4665664/FF-Pot"target="_blank" rel="external nofollow noopener noreferrer">https://github.com/kayak4665664/FF-Pot<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>（现已改名为FF-Pot）。</div>
-    </div>
-  </div>]]></description>
-</item>
-<item>
-  <title>8月18日，新的开始</title>
-  <link>https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/</link>
-  <pubDate>Wed, 13 Jul 2022 23:43:40 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/</guid>
-  <description><![CDATA[<p>自从毕设结束了，我就天天盼着录取通知书，终于等到了！</p>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg?size=small" data-sub-html="<h2>录取通知书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg" alt="录取通知书" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1547.jpeg?size=large 2x" data-title="录取通知书" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a><figcaption class="image-caption">录取通知书</figcaption>
-  </figure>
-</div>
-<p>哈哈，校园卡也到了。虽然我非常期待国科大的新学期，不过8月18日就得去报到，我又要去驾校学车，感觉我的假期还没有开始就要结束了🥹</p>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg?size=small" data-sub-html="<h2>学位证</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg" alt="学位证" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1544.jpeg?size=large 2x" data-title="学位证" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a><figcaption class="image-caption">学位证</figcaption>
-  </figure>
-</div>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg?size=small" data-sub-html="<h2>毕业证</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg" alt="毕业证" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1546.jpeg?size=large 2x" data-title="毕业证" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a><figcaption class="image-caption">毕业证</figcaption>
-  </figure>
-</div>
-<p>我的毕业证和学位证也回来了，怀念在北方工大那些快乐的日子。</p>]]></description>
-</item>
-<item>
-  <title>下周毕设答辩</title>
-  <link>https://www.kayak4665664.com/zh-cn/next-week-i-will-have-my-graduation-project-defense/</link>
-  <pubDate>Sat, 04 Jun 2022 17:02:58 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/next-week-i-will-have-my-graduation-project-defense/</guid>
-  <description><![CDATA[<p>毕业设计终于要进入尾声了，6月9日下午最终答辩！</p>
-<p>现在我已经完成了毕业设计的大部分工作，所以这两个星期过得还是比较轻松的。但是我现在被隔离了，每天只能呆在屋子里🙃，今天是第4天了。</p>
-<p>5月27日中午，我和往常一样去食堂吃了午餐，刚回到宿舍，突然就收到了学校要求毕业生尽快离校的通知。我马上就意识到，这将是我在北方工业大学最后的几天了。</p>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg?size=small" data-sub-html="<h2>离校通知</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg" alt="离校通知" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1421.jpeg?size=large 2x" data-title="离校通知" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a><figcaption class="image-caption">离校通知</figcaption>
-  </figure>
-</div>
-<p>我冷静了一下，立刻开始计划离校前必须做的事情。首先要考虑的就是我的行李，还好学校承诺是可以免费邮寄的，不然邮寄那么多东西的费用我是有点负担不起的。然而，我并没有用来打包的纸箱子。我问了问辅导员，他只说晚些时候会发放。我感觉他的回答太模糊了，我决定自己先去买几个纸箱子。我去学校快递点找到了那里的老板，他告诉我，我们学院之前找他拿了一百多个纸箱子。我估计了一下，一个学生应该只能领取到1个纸箱子。所以，我和老板买了4个大纸箱子，花了45元。</p>
-<p>有了纸箱子，我就回宿舍打包行李了。同时，我还得和我家所在的社区报备。我和社区的工作人员联系了一下，她告诉我，我将会被集中隔离7天，再居家隔离7天。我感觉这并不合理，我在学校期间接受了几十次核酸检测，从来都是阴性的，而且学校一直是封闭的，校外的人进不来，校内的人出不去，我认为我不应该被集中隔离7天。而且据我所知，有一些地方对于从北京返回的学生也是不需要集中隔离的。我向她解释了一下，但是没有用。好在集中隔离是免费的，否则又得花不少钱了。那几天，我看到有新闻说有些大学生返乡后被集中隔离，一天要500元。</p>
-<p>打包完行李后，我感觉有点热，我发现我的头发有点长了。一想到我马上还要隔离半个月，我就去理发店把头发剪短了。</p>
-<p>晚上，辅导员终于通知可以去领纸箱了，我领到1个纸箱和1个麻袋。再加上我买的4个大纸箱，刚刚好。</p>
-<p>5月28日上午，我去超市买了一只记号笔，我得在箱子上标记我的邮寄地址。我走进宿舍楼，和我比较熟的一个宿管阿姨告诉我，现在可以开始到快递点邮寄行李了，让我赶紧去吧。考虑到我要把4个纸箱和1个麻袋从宿舍搬到快递点，单靠两只手是不太容易的，所以我到快递点和老板借了一个平板车。我回到宿舍把这5件东西都标记了我的信息，全放到平板车上去了，一下子都运到了快递点。</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg?size=small" data-sub-html="<h2>平板车</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg" alt="平板车" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1332.jpeg?size=large 2x" data-title="平板车" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-</div>
-<p>由于学校要求毕业生离校的通知比较仓促，快递点老板坦白说他们也不知道怎么处理这么多人的行李，而整个快递点只有2个人。当我推着平板车过去时，我看到快递点外面已经堆了不少箱子了。我有点担心这么多箱子最后会被搞混，所以我请求老板先给我的行李贴上快递单，这样我也方便查快递。等我处理好行李，已经12点多了，到了食堂，煮了一大盘饺子。不得不说，食堂的饺子真的太好吃了，里面肉是真的多。</p>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg?size=small" data-sub-html="<h2>饺子</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg" alt="饺子" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1333.jpeg?size=large 2x" data-title="饺子" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a><figcaption class="image-caption">饺子</figcaption>
-  </figure>
-</div>
-<p>晚上，我查到我的快递已经发出去了，感觉效率还是很高的。</p>
-<p>5月29日下午，快递点老板突然给我打电话。我担心的事情发生了，老板说他们打错了快递单，把别人的一箱行李邮寄到我的地址去了，我的一箱还在他那里😱。我赶紧又跑到了快递点，我的一个箱子果然还躺在货架子上。</p>
-<p>5月30日，这一天没有什么特别的事情，都已经处理好了。</p>
-<p>5月31日，闹钟还没响我就已经醒了，这是我在学校的最后一天。起床吃早餐。之后，开始打包铺盖，收拾行李，我得带足生活用品，晚上就要开始隔离了。我把铺盖打包进了学院发的小纸箱里，刚好能装进去。我抱着箱子到了快递点，门开着却没有人。等了半小时老板终于来了。</p>
-<p>中午，到食堂吃午餐，这是我在学校的最后一顿饭。</p>
-<p>我回到了宿舍，躺在了床垫上。这个床垫太大不能邮寄，就留在这里了。</p>
-<p>下午快3点时，我整理好了行李箱，关上了宿舍的窗户，拉下电闸，最后看了宿舍一眼，锁上了门。我下楼找到宿管阿姨，退了钥匙。</p>
-<p>就这样，我就离开了学校，可能永远不会回去了。</p>
-<div align="center">
-<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG?size=small" data-sub-html="<h2>NCUT</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG" alt="NCUT" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_1377.JPG?size=large 2x" data-title="NCUT" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a><figcaption class="image-caption">NCUT</figcaption>
-  </figure>
-</div>
-<p>上面这张照片是31日的。30日下午我就看见有人在摆弄这几个牌子，不过当时上面还是2021😂。</p>
-<p>出了学校，我坐上了地铁去火车站。</p>
-<p>晚上8点，火车到站了。很快，开始核查旅客的出发地，我从北京出发，需要被送到隔离酒店。</p>
-<p>我填写了一个文件后，我的身份证就被扣押了。他们说会还给我的。我不知道他们是什么人，我认为他们这种行为是违反《中华人民共和国居民身份证法》的。之后就是漫长的等待，活生生站了2个多小时，没有人来处理。总的来说，这是一段不愉快的经历。</p>
-<p>晚上10点多，终于有人来接应了，终于把身份证还给我了。之后进行了一次核酸检测。</p>
-<p>一行人坐上了车，11点左右终于到达了隔离酒店。又是漫长的等待，我已经很困了，浑身疲劳。再一次核酸检测后，我终于进入了房间。整理好之后，已经将近6月1日的1点了。</p>
-<p>有一说一，隔离酒店的环境还是不错的，吃饭喝水也能保证，这4天来我过得还可以。</p>
-<p>还有3天集中隔离就要结束了，开始7天的居家隔离，其中6月9日我将进行毕设的答辩。</p>
-<p>时间过得太快了，我在3月15日回到学校时，北京还在下雪。一转眼，我突然又回家了。我的4年大学生活马上也要结束了，我会永远记得在北方工业大学的4年。</p>]]></description>
-</item>
-<item>
-  <title>今日开题答辩</title>
-  <link>https://www.kayak4665664.com/zh-cn/todays-thesis-proposal/</link>
-  <pubDate>Wed, 09 Mar 2022 20:57:18 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/todays-thesis-proposal/</guid>
-  <description><![CDATA[<p>今天通过腾讯会议参加了开题答辩。</p>
-<p>原计划下午一点半开始，不知道为啥等到了两点😶。今天下午这一场一共有24名学生，3位评委老师。我排在第12号，等到了四点终于轮到我了。总体还是比较顺利的，不过有一位老师正好是研究计算机网络的，而我的课题涉及到了不少网络的东西，被抓着问了几个问题。</p>
-<p>答辩之后，老师没说可以退出，正好继续待在会议里面看别人答辩。一位保研到计算所的未透露名字的同学，他的毕设是和华为公司合作的，他说他的毕设成果要打败他导师之前的工作，他立志也要投一篇顶会👍。</p>
-<p>这样优秀的同学激励我去做好我自己的工作，继续努力吧👍。</p>]]></description>
-</item>
-<item>
-  <title>现在开始毕设了</title>
-  <link>https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/</link>
-  <pubDate>Sat, 18 Dec 2021 20:32:18 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/</guid>
-  <description><![CDATA[<p>这周学校开始了毕设工作，现在我已经确定了题目，正式开始了我的毕业设计。</p>
-<h2 id="选题" class="heading-element"><span>选题</span>
-  <a href="#%e9%80%89%e9%a2%98" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>题目之前已经有了，组里的一个导师给我定的一个物联网安全方向的题目。我觉得这个题目还挺合适的，一方面可以了解一些物联网的知识，另一方面也完成了我的毕设，算是一箭双雕。</p>
-<h2 id="开会" class="heading-element"><span>开会</span>
-  <a href="#%e5%bc%80%e4%bc%9a" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>开完毕设动员会之后，和我的指导老师见了面。他给我们几个开了个小会，讲了一堆东西。其实也没什么，主要就是建了一个企业微信群，我的指导老师成了“寨主”。</p>
-<h2 id="上报" class="heading-element"><span>上报</span>
-  <a href="#%e4%b8%8a%e6%8a%a5" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>虽说题目已经有了，但我还是得好好考虑一下，毕竟毕设不是那么随便的。我的指导老师在群里也发了一些参考的题目，都是比较经典的。而那个题目对我来说还是很新颖的，我之前从没做过这个方向。综合来看，我还是更偏向这个物联网的题目，而且组里的导师也非常希望我去做这个题目。所以我向我的指导老师上报了。</p>
-<h2 id="讨论" class="heading-element"><span>讨论</span>
-  <a href="#%e8%ae%a8%e8%ae%ba" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><div class="details admonition quote open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-quote-right fa-fw" aria-hidden="true"></i>指导老师如是说：<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">题目写的不完整，<br>
-写一个完整的。</div>
-    </div>
-  </div>
-<p>好的，我把我的题目描述得更加完整，等着听老师的意见。消息已读了，但是一直没有回复。真的是莫名其妙啊，不会是他忘记了吧？第二天我发消息再问问他的意见，突然收到了一条59秒的语音。
-<div class="details admonition quote open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-quote-right fa-fw" aria-hidden="true"></i>指导老师如是说：<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">&hellip;你那根本不叫题目，你那叫口语，那哪是题目？而且你这个所做的东西吗，说心里话这个搜索性太大了，没看到具体内容我都不好说&hellip;那么你这个所做的吧，可大可小。这个对你的要求，我不知道&hellip;那么小吗，就是非常简单的就不是太难；如果是要大吗，那是有一定难度的好不好？那么你写那么多，你那哪是一个题目？你那是口语！你口语叫我怎么给你定？你要定下来，难道叫我给你定个口语能做题目吗？你自己都写不出来一个题目叫我来定？给你定一个口语这合适吗？好吧？你自己想好了以后完了再讨论还有基础，否则话没话可说！</div>
-    </div>
-  </div></p>
-<p>我直接就懵了，他说我的不叫题目。先不论到底是不是题目，他觉得我的不算题目，他有意见、有问题，他可以直接告诉我的吧？我可以去修改和完善啊，一直不回复我能知道他是怎么想的吗？</p>
-<p>我长这么大第一次遇见这种情况，我不知道这对我来说意味着什么。我把这个事情也告诉了组里的导师。
-<div class="details admonition quote open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-quote-right fa-fw" aria-hidden="true"></i>她回复的第一句话是：<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">为啥？</div>
-    </div>
-  </div></p>
-<p>我也把我指导老师的语音给她看，她帮我确定了一个标题。这里我忽然发现可能有一个误解，我指导老师说的“题目”到底是指“标题”还是“课题”？我查阅了《现代汉语规范词典》，“题目”确实是有多个意思的。看他说我的“题目”是“口语”，看起来他说的题目指的是“标题”了。</p>
-<p>如果是这样的话，他为啥一开始不说清楚他说的是一个标题呢？</p>
-<p>好吧，他说我自己都写不出来一个题目，没有讨论的基础。那我就把定好的题目发给了他，希望能有进一步的讨论。但是，他还是一直没话可说。</p>
-<p>这时我感觉，什么“标题”还是“课题”可能并不是关键。我想到他在群里说“从这一届开始，教务处准备启用毕业设计管理系统”，“都通过系统进行”，“留有痕迹”。“再者”，“进行工程教育认证”，“各位指导老师严把题目质量关”。我感觉到他应该是对这个题目的专业水平和工作量不太好把关。毕竟他不是研究物联网的，往届应该也没有类似的题目，他一直不好下结论，所以一直没话可说。</p>
-<p>我把我的想法告诉了组里的导师，她建议我给他讲得再详细一些。因此，我写了一个有点像开题报告的文档，写清楚了具体的要做的每一项任务，也初步计划了每一项任务的时间分配。我发给了我的指导老师，并且向他提出如果有问题希望他可以直接说出他的意见。</p>
-<p>终于，我的指导老师开始和我讨论了。
-<div class="details admonition quote open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-quote-right fa-fw" aria-hidden="true"></i>指导老师如是说：<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">你提交吧。</div>
-    </div>
-  </div></p>
-<h2 id="最后" class="heading-element"><span>最后</span>
-  <a href="#%e6%9c%80%e5%90%8e" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>不管怎样，题目定下来了，现在开始做毕设了。</p>
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">毕设已经完成了，请看这一篇博客：<a href="https://www.kayak4665664.com/zh-cn/ncut-pot/"target="_blank" rel="external nofollow noopener noreferrer">NCUT-Pot<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，项目也已经开源。</div>
-    </div>
-  </div>]]></description>
-</item>
-</channel>
+    <description>kayak4665664的博客</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-9c440df3</generator>
+    <language>zh-CN</language>
+    <managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+    <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster>
+    <copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright>
+    <lastBuildDate>Thu, 14 Jul 2022 13:08:07 +0800</lastBuildDate>
+    <atom:link href="https://www.kayak4665664.com/zh-cn/tags/ncut/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NCUT-Pot</title>
+      <link>https://www.kayak4665664.com/zh-cn/ncut-pot/</link>
+      <pubDate>Thu, 14 Jul 2022 13:08:07 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/ncut-pot/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      <description>&lt;p&gt;&lt;strong&gt;NCUT-Pot&lt;/strong&gt;是我的毕业设计，是一个蜜罐。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>8月18日，新的开始</title>
+      <link>https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/</link>
+      <pubDate>Wed, 13 Jul 2022 23:43:40 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/august-18-a-new-beginning/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      <description>&lt;p&gt;自从毕设结束了，我就天天盼着录取通知书，终于等到了！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>下周毕设答辩</title>
+      <link>https://www.kayak4665664.com/zh-cn/next-week-i-will-have-my-graduation-project-defense/</link>
+      <pubDate>Sat, 04 Jun 2022 17:02:58 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/next-week-i-will-have-my-graduation-project-defense/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      <description>&lt;p&gt;毕业设计终于要进入尾声了，6月9日下午最终答辩！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日开题答辩</title>
+      <link>https://www.kayak4665664.com/zh-cn/todays-thesis-proposal/</link>
+      <pubDate>Wed, 09 Mar 2022 20:57:18 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/todays-thesis-proposal/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      <description>&lt;p&gt;今天通过腾讯会议参加了开题答辩。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>现在开始毕设了</title>
+      <link>https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/</link>
+      <pubDate>Sat, 18 Dec 2021 20:32:18 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/graduation-project-starts-now/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      <description>&lt;p&gt;这周学校开始了毕设工作，现在我已经确定了题目，正式开始了我的毕业设计。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

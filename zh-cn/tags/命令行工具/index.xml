@@ -1,572 +1,135 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>命令行工具 - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</link>
-    <description>命令行工具 - 标签 | kayak4665664</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Sat, 27 Apr 2024 14:21:29 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/" rel="self" type="application/rss+xml" /><item>
-  <title>sips: MacOS自带图像处理工具</title>
-  <link>https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/</link>
-  <pubDate>Sat, 27 Apr 2024 14:21:29 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/</guid>
-  <description><![CDATA[<p>无意间发现了macOS内置的sips命令行工具，用于处理和操作图像。它支持多种图像格式，并提供了一些常见的图像处理功能，如压缩、改变尺寸、旋转等。</p>
-<h2 id="一些示例" class="heading-element"><span>一些示例</span>
-  <a href="#%e4%b8%80%e4%ba%9b%e7%a4%ba%e4%be%8b" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><ol>
-<li>压缩图像</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -s format jpeg ~/image.jpeg --out ~/image.jpeg --setProperty formatOptions 50%</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="2">
-<li>改变图像尺寸</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --resampleWidth <span class="m">500</span> --resampleHeight <span class="m">300</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="3">
-<li>按比例调整图像大小</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --resampleHeightWidth <span class="m">500</span> <span class="m">300</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="4">
-<li>旋转图像</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips --rotate <span class="m">90</span> input.jpg --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="5">
-<li>转换图像格式</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -s format jpeg input.png --out output.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="6">
-<li>查看图像信息</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sips -g all input.jpg</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>当使用Touch ID解锁时聚焦（Spotlight）无法正常使用</title>
-  <link>https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</link>
-  <pubDate>Fri, 26 Apr 2024 11:52:05 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</guid>
-  <description><![CDATA[<p>前几天忽然发现聚焦搜索不出东西来了，同时在设置应用里搜索设置项也搜索不出来。似乎这个现象以前也有，这次终于被我注意到了。</p>
-<p>刚开始我以为是聚焦的索引出了问题，按网上的方法重置了几次索引，比如执行<code>sudo mdutil -a -E</code>。刚重置完是正常的，但过了一会又不行了，不知道问题出在哪了。</p>
-<p>连续试了几天，我终于可以稳定复现这个问题：只有在我使用Touch ID解锁电脑的时候，聚焦搜索才会失效。如果我使用密码解锁，聚焦搜索就能正常使用，或者在Touch ID解锁后找个机会输入一次密码，比如执行<code>sudo</code>命令，聚焦搜索立刻就正常了。因为用密码或者Touch ID都是很常见的操作，很难想到问题出在这里。</p>
-<p>我试了试新建了一个用户是正常的，但是用迁移助理把之前的时间机器备份导入之后，这个问题又出现了。</p>
-<p>我在网上搜了一下，在Alfred论坛上也有人遇到了和我一样的问题，<a href="https://www.alfredforum.com/topic/21140-spotlight-indexing-issues-in-ventura-1361/"target="_blank" rel="external nofollow noopener noreferrer">Spotlight indexing issues in Ventura 13.6.1<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，但是没有解决的办法。我在macOS的网站上反馈了一下就石沉大海了。</p>
-<p>我想只要在Touch ID解锁后自动输入一次密码就可以缓解这个问题。我用<code>brew</code>分别安装了<code>sleepwatcher</code>和<code>expect</code>，分别用于监听电脑休眠和自动输入密码。我写了几个脚本：</p>
-<h3 id="spotlightexp" class="heading-element"><span>spotlight.exp</span>
-  <a href="#spotlightexp" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#! /usr/bin/expect -f
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nb">set</span> script_dir <span class="o">[</span>file dir <span class="o">[</span>info script<span class="o">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nb">set</span> password <span class="o">[</span><span class="nb">exec</span> <span class="nv">$script_dir</span>/get_password.sh<span class="o">]</span>
-</span></span><span class="line"><span class="cl">spawn sudo mdutil -vsa
-</span></span><span class="line"><span class="cl">expect <span class="s2">&#34;Password:&#34;</span>
-</span></span><span class="line"><span class="cl">send <span class="s2">&#34;</span><span class="nv">$password</span><span class="s2">\r&#34;</span>
-</span></span><span class="line"><span class="cl">interact</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="get_passwordsh" class="heading-element"><span>get_password.sh</span>
-  <a href="#get_passwordsh" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nv">password</span><span class="o">=</span><span class="k">$(</span>security find-generic-password -a <span class="s1">&#39;$YOUR_USER_NAME&#39;</span> -s <span class="s1">&#39;SleepwatcherPassword&#39;</span> -w<span class="k">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="nv">$password</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p>这里需要提前执行<code>security add-generic-password -a '$YOUR_USER_NAME' -s 'SleepwatcherPassword' -w '$YOUR_PASSWORD'</code>来保存密码.</p>
-<h3 id="wakeup" class="heading-element"><span>.wakeup</span>
-  <a href="#wakeup" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>expect /path/to/spotlight.exp</span></span></code></pre></td></tr></table>
-</div>
-</div><p>这样每次电脑休眠唤醒后，<code>sleepwatcher</code>会自动执行<code>.wakeup</code>脚本，自动输入密码，这样聚焦搜索就能正常使用了。但是如果锁定之后没有来得及休眠就又用Touch ID解锁了，还是会出现问题，不过这种情况比较少见。</p>]]></description>
-</item>
-<item>
-  <title>Node-Depend-View</title>
-  <link>https://www.kayak4665664.com/zh-cn/node-depend-view/</link>
-  <pubDate>Thu, 04 Jan 2024 21:51:25 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/node-depend-view/</guid>
-  <description><![CDATA[<a href="https://github.com/kayak4665664/Node-Depend-View" title="Node-Depend-View - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">Node-Depend-View</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/kayak4665664/Node-Depend-View</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>我在学习前端和Node.js开发的过程中完成了这个小项目，它可以将一个项目的依赖关系以图形的形式展示出来，我还将它发布到了npm上，具体还请看上面的链接。感觉用TypeScript做全栈开发还是很有意思的，希望在新的一年里可以先找到一份实习工作！好了，不多说了，加油！💪</p>]]></description>
-</item>
-<item>
-  <title>iOS17模拟定位</title>
-  <link>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</link>
-  <pubDate>Fri, 13 Oct 2023 13:06:04 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</guid>
-  <description><![CDATA[<p>最近需要在iPhone上模拟定位，研究了一下，终于发现了一个简单有效的方法。</p>
-<p>我在网上找到了好几种办法，在不越狱iPhone的情况下。第一种是使用<a href="https://itoolab.com/gps-location-changer/"target="_blank" rel="external nofollow noopener noreferrer">AnyGo<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，这个软件是有效的，但是需要付费。第二种是用一个具有root权限的安卓手机，在上面安装这个<a href="https://github.com/cczhr/OTGLocation"target="_blank" rel="external nofollow noopener noreferrer">OTGLocation<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，之后把iPhone连接到这个安卓手机上。其他方法还有借助Xcode、爱思助手，或者是外接设备，甚至还可以模拟卫星信号欺骗手机。</p>
-<p>我觉得这些办法都太麻烦了，在<a href="https://shawnhuangyh.com/post/ios-17-location-simulation/"target="_blank" rel="external nofollow noopener noreferrer">https://shawnhuangyh.com/post/ios-17-location-simulation/<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>这里找到一个简单有效的办法，主要使用了<a href="https://github.com/doronz88/pymobiledevice3"target="_blank" rel="external nofollow noopener noreferrer">pymobiledevice3<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。</p>
-<h3 id="1-在macos上安装pymobiledevice3" class="heading-element"><span>1. 在macOS上安装pymobiledevice3：</span>
-  <a href="#1-%e5%9c%a8macos%e4%b8%8a%e5%ae%89%e8%a3%85pymobiledevice3" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m pip install -U pymobiledevice3</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="2-在iphone中开启开发者模式位于settings---privacy--security---developer-mode" class="heading-element"><span>2. 在iPhone中开启开发者模式，位于<code>Settings -&gt; Privacy &amp; Security -&gt; Developer Mode</code>。</span>
-  <a href="#2-%e5%9c%a8iphone%e4%b8%ad%e5%bc%80%e5%90%af%e5%bc%80%e5%8f%91%e8%80%85%e6%a8%a1%e5%bc%8f%e4%bd%8d%e4%ba%8esettings---privacy--security---developer-mode" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><h3 id="3-将iphone连接到macos上在macos上执行" class="heading-element"><span>3. 将iPhone连接到macOS上，在macOS上执行：</span>
-  <a href="#3-%e5%b0%86iphone%e8%bf%9e%e6%8e%a5%e5%88%b0macos%e4%b8%8a%e5%9c%a8macos%e4%b8%8a%e6%89%a7%e8%a1%8c" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo python3 -m pymobiledevice3 remote start-tunnel</span></span></code></pre></td></tr></table>
-</div>
-</div><p>将会打印类似以下内容：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Interface: utun6
-</span></span><span class="line"><span class="cl">RSD Address: fd7b:e5b:6f53::1
-</span></span><span class="line"><span class="cl">RSD Port: 64337
-</span></span><span class="line"><span class="cl">Use the follow connection option:
-</span></span><span class="line"><span class="cl">--rsd fd7b:e5b:6f53::1 64337</span></span></code></pre></td></tr></table>
-</div>
-</div><p><code>RSD Address</code>和<code>RSD Port</code>在第5步要用到。</p>
-<h3 id="4-确保iphone此时还没有锁屏在macos上执行" class="heading-element"><span>4. 确保iPhone此时还没有锁屏，在macOS上执行：</span>
-  <a href="#4-%e7%a1%ae%e4%bf%9diphone%e6%ad%a4%e6%97%b6%e8%bf%98%e6%b2%a1%e6%9c%89%e9%94%81%e5%b1%8f%e5%9c%a8macos%e4%b8%8a%e6%89%a7%e8%a1%8c" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pymobiledevice3 mounter auto-mount</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="5-继续在macos中执行" class="heading-element"><span>5. 继续在macOS中执行：</span>
-  <a href="#5-%e7%bb%a7%e7%bb%ad%e5%9c%a8macos%e4%b8%ad%e6%89%a7%e8%a1%8c" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pymobiledevice3 developer dvt simulate-location <span class="nb">set</span> --rsd &lt;RSD Address&gt; &lt;RSD Port&gt; -- &lt;latitude&gt; &lt;longtitude&gt;</span></span></code></pre></td></tr></table>
-</div>
-</div><p>将<code>&lt;&gt;</code>中的内容替换为自己的内容，分别为第3步中的<code>RSD Address</code>和<code>RSD Port</code>，以及要模拟的纬度和经度。此时在iPhone上查看，定位应该已经变成了模拟的位置。在停止模拟后，iPhone的定位会自动恢复正常。</p>]]></description>
-</item>
-<item>
-  <title>battery: 限制Apple Silicon Macbook的电池充电</title>
-  <link>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</link>
-  <pubDate>Sat, 23 Sep 2023 17:19:34 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</guid>
-  <description><![CDATA[<p>今天发现了一个有可以限制Apple Silicon Macbook电池充电的命令行工具，名字叫做<strong>battery</strong>。</p>
-<a href="https://github.com/actuallymentor/battery" title="battery"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">battery</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/actuallymentor/battery</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>之前我一直在用<a href="https://www.kayak4665664.com/zh-cn/aldente-limit-macbook-maximum-charging-percentage/"target="_blank" rel="external nofollow noopener noreferrer">AlDente<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，与它相比，<strong>battery</strong>的优点是可以直接在命令行中使用，而且完全免费，而AlDente如果不付费就只能使用最基础的功能，而且它的图标还一直在菜单栏占用了一个位置。</p>
-<p>只需一行命令即可安装：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -s https://raw.githubusercontent.com/actuallymentor/battery/main/setup.sh <span class="p">|</span> bash</span></span></code></pre></td></tr></table>
-</div>
-</div><p>安装完成后，可以使用<code>battery help</code>查看帮助信息，就是这么简单。</p>]]></description>
-</item>
-<item>
-  <title>Pcap-Parser</title>
-  <link>https://www.kayak4665664.com/zh-cn/pcap-parser/</link>
-  <pubDate>Tue, 11 Apr 2023 12:59:07 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/pcap-parser/</guid>
-  <description><![CDATA[<p><a href="https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/"target="_blank" rel="external nofollow noopener noreferrer">上一篇文章<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>介绍了如何抓包，这篇文章介绍编写程序解析抓包文件。</p>
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">本文涉及的源代码在GitHub仓库：</div>
-    </div>
-  </div>
-<a href="https://github.com/kayak4665664/Pcap-Parser" title="Pcap Parser - kayak4665664"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">Pcap-Parser</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/kayak4665664/Pcap-Parser</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>Pcap文件中包含了网络数据包的信息，包括源IP地址、目的IP地址、源端口、目的端口、传输层协议、应用层协议等。因此，程序的思路就是从数据链路层开始解析，直到应用层，解析出每一层的协议类型和协议数据。在实现上可以参考Wireshark的解析结果。</p>
-<p>对于<code>C/C++</code>，可以使用<code>&lt;pcap.h&gt;</code>处理Pcap文件。之后，使用<code>&lt;net/ethernet.h&gt;</code>、<code>&lt;netinet/ip.h&gt;</code>、<code>&lt;netinet/tcp.h&gt;</code>定义的以太网头部、IP头部、TCP头部结构体解析数据链路层、网络层、传输层。另外，IP头部和TCP头部都有<code>options</code>，这个字段结构体中没有。</p>
-<p>应用层的协议种类比较多，需要针对每一种协议编写程序。<a href="https://github.com/kayak4665664/Pcap-Parser"target="_blank" rel="external nofollow noopener noreferrer">我的程序<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>支持解析<code>HTTP</code>和<code>TLS</code>协议。</p>
-<p><code>HTTP</code>是明文协议，数据字段之间是用<code>\r\n</code>分隔的，另外需要考虑一个<code>HTTP</code>消息分成了好多个packet，对相关packet重组之后才能解析出正确的结果。而<code>TLS</code>是加密协议，比较复杂，要按照协议的结构进行解析，也要考虑重组的情况。</p>
-<p>以上只是一些简单的思路，实际上还有许多复杂的情况没有覆盖。</p>]]></description>
-</item>
-<item>
-  <title>手机App抓包</title>
-  <link>https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/</link>
-  <pubDate>Mon, 10 Apr 2023 20:11:09 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/</guid>
-  <description><![CDATA[<p>使用<code>Charles</code>、<code>Wireshark</code>和<code>tcpdump</code>对手机App抓包。</p>
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">我在macOS上对iPhone进行抓包，但是对于其他系统和设备，方法和原理也是类似的。</div>
-    </div>
-  </div>
-<h2 id="wireshark" class="heading-element"><span>Wireshark</span>
-  <a href="#wireshark" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>Wireshark是一个开源的网络分析工具，可以用来抓取网络数据包。它可以在macOS、Windows和Linux上运行。</p>
-<p>在macOS上，可以使用<code>brew</code>安装Wireshark：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask wireshark</span></span></code></pre></td></tr></table>
-</div>
-</div><p>使用Wireshark抓包也很简单，比如选择<code>Wi-Fi</code>接口就可以抓无线网卡的数据包。</p>
-<div align="center">
-<a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small" data-sub-html="<h2>Wireshark</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png" alt="Wireshark" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-17%20at%2010.40.36.png?size=large 2x" data-title="Wireshark" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-</div>
-<h2 id="tcpdump" class="heading-element"><span>tcpdump</span>
-  <a href="#tcpdump" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>tcpdump是一个命令行工具，可以用来抓取网络数据包。假如在没有图形界面的服务器上，可以使用它来抓取数据包。</p>
-<p>在macOS上，可以使用<code>brew</code>安装tcpdump：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install tcpdump</span></span></code></pre></td></tr></table>
-</div>
-</div><p>使用tcpdump抓包，比如抓取<code>12345</code>端口的数据包并保存为<code>pcap</code>文件：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tcpdump port <span class="m">12345</span> -w capture.pcap</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="charles" class="heading-element"><span>Charles</span>
-  <a href="#charles" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>Charles是一个HTTP代理服务器，可以用来抓取HTTP和HTTPS的数据包，和Fiddler类似。</p>
-<p>在macOS上，也使用<code>brew</code>安装Charles：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install --cask charles</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="手机app抓包" class="heading-element"><span>手机App抓包</span>
-  <a href="#%e6%89%8b%e6%9c%baapp%e6%8a%93%e5%8c%85" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>对于MacBook，如果已经连接了Wi-Fi，就不能开启无线热点了。所以需要用Charles来建立一个代理服务器，然后手机连接到这个代理服务器上。主要步骤如下：</p>
-<ol>
-<li>macOS设备和iPhone都连接到第三个设备开启的移动热点，确保处于同一个局域网内。</li>
-<li>在macOS设备中启动Charles，设置代理服务，默认端口为<code>8888</code>。</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small" data-sub-html="<h2>Charles</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png" alt="Charles" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/Screenshot%202023-03-16%20at%2022.09.40.png?size=large 2x" data-title="Charles" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="3">
-<li>在iPhone的无线网络设置中，将代理服务器设置为macOS设备的IP地址，端口为<code>8888</code>。</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small" data-sub-html="<h2>代理服务器</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG" alt="代理服务器" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2160.PNG?size=large 2x" data-title="代理服务器" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="4">
-<li>iPhone在浏览器中访问<a href="chls.pro/ssl">chls.pro/ssl</a>，下载并安装证书。</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small" data-sub-html="<h2>安装证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG" alt="安装证书" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2161.PNG?size=large 2x" data-title="安装证书" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="5">
-<li>iPhone在<code>General -&gt; About -&gt; Certificate Trust Settings</code>中，将Charles的证书设置为信任。</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small" data-sub-html="<h2>信任证书</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG" alt="信任证书" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2162.PNG?size=large 2x" data-title="信任证书" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="6">
-<li>iPhone在<code>General -&gt; VPN &amp; Device Management</code>中安装Charles的描述文件。</li>
-</ol>
-  <div align="center">
-  <a class="lightgallery" href="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large" data-thumbnail="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small" data-sub-html="<h2>安装描述文件</h2>"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG" alt="安装描述文件" srcset="https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=small, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=medium 1.5x, https://cdn.jsdelivr.net/gh/kayak4665664/My-images/IMG_2163.PNG?size=large 2x" data-title="安装描述文件" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a>
-  </div>
-<ol start="7">
-<li>
-<p>由于Charles只能抓取HTTP和HTTPS的数据包，所以这里在macOS设备中启动Wireshark，选择<code>Wi-Fi</code>接口抓取所有协议的数据包。</p>
-</li>
-<li>
-<p>在iPhone中打开需要抓包的App，进行相关操作。</p>
-</li>
-<li>
-<p>Wireshark停止抓包，之前设置的代理服务器端口是<code>8888</code>，所以可以通过<code>tcp.port == 8888</code>过滤无关的数据包，将过滤后的包保存为pcap文件。</p>
-</li>
-</ol>]]></description>
-</item>
-<item>
-  <title>用Touch ID授权sudo命令</title>
-  <link>https://www.kayak4665664.com/zh-cn/authorize-sudo-commands-with-touch-id/</link>
-  <pubDate>Wed, 22 Mar 2023 12:29:48 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/authorize-sudo-commands-with-touch-id/</guid>
-  <description><![CDATA[<p>使用Touch ID来验证sudo命令，这样就不用每次都输入密码了。</p>
-<p>在Terminal中输入以下命令，之后重启Terminal即可。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo sed -i <span class="s2">&#34;.bak&#34;</span> <span class="s1">&#39;2s/^/auth       sufficient     pam_tid.so\&#39;$&#39;\n/g&#39;</span> /etc/pam.d/sudo</span></span></code></pre></td></tr></table>
-</div>
-</div><p>这个命令首先备份<code>/etc/pam.d/sudo</code>为<code>/etc/pam.d/sudo.bak</code>，然后在第二行插入<code>auth       sufficient     pam_tid.so</code>。</p>
-<p>如果恢复默认设置，可以使用以下命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mv /etc/pam.d/sudo.bak /etc/pam.d/sudo</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>随机化macOS的MAC地址</title>
-  <link>https://www.kayak4665664.com/zh-cn/randomize-mac-address-for-macos/</link>
-  <pubDate>Thu, 02 Mar 2023 12:03:51 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/randomize-mac-address-for-macos/</guid>
-  <description><![CDATA[<p>在iOS和iPadOS上，可以在设置中开启私有WiFi地址来随机化MAC地址。在macOS上没有这个选项，但是我们可以通过命令行来实现这一点。</p>
-<p>我在Github上找到了SpoofMAC，它是一个Python脚本，不仅适用于macOS，也可以在Windows和Linux上使用。它可以随机化MAC地址，也可以将MAC地址设置为任何值。</p>
-<a href="https://github.com/feross/spoofmac" title="SpoofMAC"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">SpoofMAC</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://github.com/feross/spoofmac</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>安装SpoofMAC很简单，只需要<code>pip install SpoofMAC</code>。</p>
-<h2 id="使用方法" class="heading-element"><span>使用方法</span>
-  <a href="#%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>下面是在macOS上使用SpoofMAC修改MAC地址的示例。</p>
-<div class="details admonition tip open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>技巧<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">要直接在终端中运行<code>spoof-mac</code>，需要将<code>bin</code>添加到<code>PATH</code>中。如果你使用的是<code>zsh</code>，你可以在<code>~/.zshrc</code>中添加,例如<code>export PATH=$PATH:~/Library/Python/3.9/bin</code>。</div>
-    </div>
-  </div>
-<ol>
-<li>首先，列出所有可用的设备</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">spoof-mac list</span></span></code></pre></td></tr></table>
-</div>
-</div><p>将会得到类似下面的输出
-<div class="details admonition example open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-list-ol fa-fw" aria-hidden="true"></i>示例<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">- &ldquo;Ethernet&rdquo; on device &ldquo;en0&rdquo; with MAC address 70:56:51:BE:B3:00<br>
-- &ldquo;Wi-Fi&rdquo; on device &ldquo;en1&rdquo; with MAC address 70:56:51:BE:B3:01<br>
-- &ldquo;Bluetooth PAN&rdquo; on device &ldquo;en1&rdquo;</div>
-    </div>
-  </div></p>
-<ol start="2">
-<li>然后，随机化MAC地址</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo spoof-mac randomize en1
-</span></span><span class="line"><span class="cl"><span class="c1"># 或者</span>
-</span></span><span class="line"><span class="cl">sudo spoof-mac randomize wifi</span></span></code></pre></td></tr></table>
-</div>
-</div><p>要复原MAC地址，只需运行</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo spoof-mac reset en1
-</span></span><span class="line"><span class="cl"><span class="c1"># 或者</span>
-</span></span><span class="line"><span class="cl">sudo spoof-mac reset wifi</span></span></code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item>
-<item>
-  <title>pwgen: 随机密码生成器</title>
-  <link>https://www.kayak4665664.com/zh-cn/pwgen-random-password-generator/</link>
-  <pubDate>Tue, 28 Feb 2023 15:25:17 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/pwgen-random-password-generator/</guid>
-  <description><![CDATA[<p>pwgen可以在命令行中生成随机又安全密码！</p>
-<a href="https://pwgen.sourceforge.io/" title="pwgen"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">pwgen</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://pwgen.sourceforge.io/</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>直接使用Homebrew安装：<code>brew install pwgen</code>。</p>
-<p>用法也很简单，比如<code>pwgen -sy 50</code>就是生成50个字符的密码，包含大小写字母、数字和特殊字符。更多用法可以使用<code>pwgen -h</code>查看：</p>
-<div class="details admonition note open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i>注意<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content"><p>Usage: pwgen [ OPTIONS ] [ pw_length ] [ num_pw ]</p>
-<p>Options supported by pwgen:<br>
--c or &ndash;capitalize<br>
-Include at least one capital letter in the password<br>
--A or &ndash;no-capitalize<br>
-Don&rsquo;t include capital letters in the password<br>
--n or &ndash;numerals<br>
-Include at least one number in the password<br>
--0 or &ndash;no-numerals<br>
-Don&rsquo;t include numbers in the password<br>
--y or &ndash;symbols<br>
-Include at least one special symbol in the password<br>
--r <chars> or &ndash;remove-chars=<chars><br>
-Remove characters from the set of characters to generate passwords<br>
--s or &ndash;secure<br>
-Generate completely random passwords<br>
--B or &ndash;ambiguous<br>
-Don&rsquo;t include ambiguous characters in the password<br>
--h or &ndash;help<br>
-Print a help message<br>
--H or &ndash;sha1=path/to/file[#seed]<br>
-Use sha1 hash of given file as a (not so) random generator<br>
--C<br>
-Print the generated passwords in columns<br>
--1<br>
-Don&rsquo;t print the generated passwords in columns<br>
--v or &ndash;no-vowels<br>
-Do not use any vowels so as to avoid accidental nasty words</p>
-</div>
-    </div>
-  </div>]]></description>
-</item>
-</channel>
+    <description>kayak4665664的博客</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-9c440df3</generator>
+    <language>zh-CN</language>
+    <managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+    <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster>
+    <copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright>
+    <lastBuildDate>Sat, 27 Apr 2024 14:21:29 +0800</lastBuildDate>
+    <atom:link href="https://www.kayak4665664.com/zh-cn/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sips: MacOS自带图像处理工具</title>
+      <link>https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/</link>
+      <pubDate>Sat, 27 Apr 2024 14:21:29 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;无意间发现了macOS内置的sips命令行工具，用于处理和操作图像。它支持多种图像格式，并提供了一些常见的图像处理功能，如压缩、改变尺寸、旋转等。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>当使用Touch ID解锁时聚焦（Spotlight）无法正常使用</title>
+      <link>https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</link>
+      <pubDate>Fri, 26 Apr 2024 11:52:05 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;前几天忽然发现聚焦搜索不出东西来了，同时在设置应用里搜索设置项也搜索不出来。似乎这个现象以前也有，这次终于被我注意到了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Node-Depend-View</title>
+      <link>https://www.kayak4665664.com/zh-cn/node-depend-view/</link>
+      <pubDate>Thu, 04 Jan 2024 21:51:25 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/node-depend-view/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      <description>&lt;a href=&#34;https://github.com/kayak4665664/Node-Depend-View&#34; title=&#34;Node-Depend-View - kayak4665664&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34; class=&#34;card-link&#34;&gt;&lt;span class=&#34;cl-backdrop&#34; style=&#34;--cl-bg-url: url(/images/fixit.min.svg);&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cl-content&#34;&gt;&#xA;      &lt;span class=&#34;cl-text&#34;&gt;&#xA;        &lt;span class=&#34;cl-title&#34;&gt;Node-Depend-View&lt;/span&gt;&#xA;        &lt;span class=&#34;cl-meta&#34;&gt;&#xA;          &lt;svg class=&#34;cl-icon-link&#34; viewBox=&#34;0 0 1024 1024&#34; version=&#34;1.1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34;&gt;&lt;path d=&#34;M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z&#34; fill=&#34;#a9a9b3&#34;&gt;&lt;/path&gt;&lt;path d=&#34;M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z&#34; fill=&#34;#a9a9b3&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;          &lt;span class=&#34;cl-url&#34;&gt;https://github.com/kayak4665664/Node-Depend-View&lt;/span&gt;&#xA;        &lt;/span&gt;&#xA;      &lt;/span&gt;&lt;svg class=&#34;cl-shortcut-icon&#34; viewBox=&#34;0 0 1024 1024&#34; version=&#34;1.1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;64&#34; height=&#34;64&#34;&gt;&lt;path d=&#34;M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448&#34; fill=&#34;#2196F3&#34;&gt;&lt;/path&gt;&lt;path d=&#34;M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104&#34; fill=&#34;#CDDC39&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>iOS17模拟定位</title>
+      <link>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</link>
+      <pubDate>Fri, 13 Oct 2023 13:06:04 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/simulate-locations-for-ios17/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;最近需要在iPhone上模拟定位，研究了一下，终于发现了一个简单有效的方法。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>battery: 限制Apple Silicon Macbook的电池充电</title>
+      <link>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</link>
+      <pubDate>Sat, 23 Sep 2023 17:19:34 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/battery-battery-charge-limiter-for-apple-silicon-macbook-devices/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;今天发现了一个有可以限制Apple Silicon Macbook电池充电的命令行工具，名字叫做&lt;strong&gt;battery&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pcap-Parser</title>
+      <link>https://www.kayak4665664.com/zh-cn/pcap-parser/</link>
+      <pubDate>Tue, 11 Apr 2023 12:59:07 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/pcap-parser/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;上一篇文章&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;介绍了如何抓包，这篇文章介绍编写程序解析抓包文件。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>手机App抓包</title>
+      <link>https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/</link>
+      <pubDate>Mon, 10 Apr 2023 20:11:09 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/capture-packets-for-mobile-apps/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;使用&lt;code&gt;Charles&lt;/code&gt;、&lt;code&gt;Wireshark&lt;/code&gt;和&lt;code&gt;tcpdump&lt;/code&gt;对手机App抓包。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用Touch ID授权sudo命令</title>
+      <link>https://www.kayak4665664.com/zh-cn/authorize-sudo-commands-with-touch-id/</link>
+      <pubDate>Wed, 22 Mar 2023 12:29:48 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/authorize-sudo-commands-with-touch-id/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;使用Touch ID来验证sudo命令，这样就不用每次都输入密码了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>随机化macOS的MAC地址</title>
+      <link>https://www.kayak4665664.com/zh-cn/randomize-mac-address-for-macos/</link>
+      <pubDate>Thu, 02 Mar 2023 12:03:51 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/randomize-mac-address-for-macos/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;在iOS和iPadOS上，可以在设置中开启私有WiFi地址来随机化MAC地址。在macOS上没有这个选项，但是我们可以通过命令行来实现这一点。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pwgen: 随机密码生成器</title>
+      <link>https://www.kayak4665664.com/zh-cn/pwgen-random-password-generator/</link>
+      <pubDate>Tue, 28 Feb 2023 15:25:17 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/pwgen-random-password-generator/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;pwgen可以在命令行中生成随机又安全密码！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>强化macOS终端</title>
+      <link>https://www.kayak4665664.com/zh-cn/strengthen-macos-terminal/</link>
+      <pubDate>Sun, 26 Feb 2023 15:34:00 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/strengthen-macos-terminal/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;macOS自带的终端很好用，但是感觉少了一些东西，所以我就把它强化一下。网上有好多人都推荐使用&lt;a href=&#34;https://ohmyz.sh/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Oh My Zsh&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，但是不知道为什么，我在使用&lt;a href=&#34;https://ohmyz.sh/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Oh My Zsh&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;的时候经常会出现一些问题，所以这一次我没有使用它。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用jsDelivr和Github仓库搭建图床</title>
+      <link>https://www.kayak4665664.com/zh-cn/build-a-image-hosting-service-with-jsdelivr-and-github-repository/</link>
+      <pubDate>Sat, 25 Feb 2023 14:44:30 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/build-a-image-hosting-service-with-jsdelivr-and-github-repository/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;之前我一直把网站的图片放在七牛云的存储空间里，虽然七牛云还不错，但是&lt;code&gt;https&lt;/code&gt;协议下的流量需要收费。所以，我就用jsDelivr和Githubc仓库搭建了一个免费的图床。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用ImageMagick在命令行中压缩图像</title>
+      <link>https://www.kayak4665664.com/zh-cn/use-imagemagick-to-compress-the-image-in-the-command-line/</link>
+      <pubDate>Fri, 24 Feb 2023 09:33:36 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/use-imagemagick-to-compress-the-image-in-the-command-line/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;我找到了ImageMagick，它是一个强大的图像处理工具，可以在命令行中使用。不仅可以用于压缩图像，而且可以用于其他很多事情。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>zsh: Tab补全大小写不敏感</title>
+      <link>https://www.kayak4665664.com/zh-cn/zsh-tab-completion-with-case-insensitivity/</link>
+      <pubDate>Fri, 09 Dec 2022 16:58:14 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/zsh-tab-completion-with-case-insensitivity/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;在macOS中，如果在&lt;code&gt;~&lt;/code&gt;执行&lt;code&gt;cd documents&lt;/code&gt;是可以切换到&lt;code&gt;Documents&lt;/code&gt;目录的，但是无法用&lt;code&gt;Tab&lt;/code&gt;补全。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iconsur：为macOS第三方软件生成圆角矩形图标</title>
+      <link>https://www.kayak4665664.com/zh-cn/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</link>
+      <pubDate>Sat, 17 Sep 2022 18:02:39 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/iconsur-generate-rounded-rectangle-icons-for-macos-third-party-software/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;总有一些软件的图标和macOS的不适应，iconsur可以为它们生成圆角矩形的图标，美化我们的macOS。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

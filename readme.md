@@ -1,11 +1,12 @@
 # kayak4665664
 
-67 articles in total
+68 articles in total
 
 ## 2024
 
-6 articles in total
+7 articles in total
 
+- 10-02 [LeetCode: 30 Days of JavaScript](https://www.kayak4665664.com/leetcode-30-days-of-javascript/ "2024-10-02 22:25:58")
 - 05-24 [Recent LeetCode Problem-Solving Record](https://www.kayak4665664.com/recent-leetcode-problem-solving-record/ "2024-05-24 11:18:46")
 - 04-27 [sips: MacOS built-in image processing tool](https://www.kayak4665664.com/sips-tool-in-macos/ "2024-04-27 14:21:24")
 - 04-26 [Spotlight Not Working Properly With Touch ID Unlock on MacOS](https://www.kayak4665664.com/spotlight-not-working-properly-with-touch-id-unlock-on-macos/ "2024-04-26 11:52:11")

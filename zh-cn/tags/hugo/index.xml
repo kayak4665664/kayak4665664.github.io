@@ -1,183 +1,31 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo - 标签 | kayak4665664</title>
     <link>https://www.kayak4665664.com/zh-cn/tags/hugo/</link>
-    <description>Hugo - 标签 | kayak4665664</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
-      <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster><copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright><lastBuildDate>Mon, 27 Feb 2023 19:08:08 &#43;0800</lastBuildDate><atom:link href="https://www.kayak4665664.com/zh-cn/tags/hugo/" rel="self" type="application/rss+xml" /><item>
-  <title>我的网站换上了新主题</title>
-  <link>https://www.kayak4665664.com/zh-cn/my-website-has-a-new-theme/</link>
-  <pubDate>Mon, 27 Feb 2023 19:08:08 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/my-website-has-a-new-theme/</guid>
-  <description><![CDATA[<p>自从2021年建立我的网站以来，我一直都在用<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>这个Hugo主题，没太大变化。这一次，我迁移到了<a href="https://github.com/hugo-fixit/FixIt"target="_blank" rel="external nofollow noopener noreferrer">FixIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>主题，不仅修复了LoveIt中的一些问题，也带来了更多新功能和优化，顺便也把评论系统从<a href="https://valine.js.org/"target="_blank" rel="external nofollow noopener noreferrer">Valine<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>迁移到了<a href="https://waline.js.org/"target="_blank" rel="external nofollow noopener noreferrer">Waline<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。</p>
-<a href="https://fixit.lruihao.cn/" title="FixIt"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"><span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"></span>
-    <span class="cl-content">
-      <span class="cl-text">
-        <span class="cl-title">FixIt</span>
-        <span class="cl-meta">
-          <svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"></path><path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"></path></svg>
-          <span class="cl-url">https://fixit.lruihao.cn/</span>
-        </span>
-      </span><svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448" fill="#2196F3"></path><path d="M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104" fill="#CDDC39"></path></svg></span></a>
-<p>由于FixIt是基于LoveIt的，所以迁移到Fixit是比较容易的。经过一番折腾，除了样式上的变化，我的网站主要的改变如下：</p>
-<ol>
-<li>启用Twemoji</li>
-<li>评论系统从Valine迁移到Waline，加入了图片和表情包、文章反应等功能</li>
-<li>菜单栏加入了Font Awesome图标</li>
-<li>加入了Github corner</li>
-<li>更换了Mapbox地图样式</li>
-<li>加入赞赏功能</li>
-<li>加入PWA支持</li>
-<li>加入网站已创建时间显示</li>
-<li>加入不蒜子访问统计</li>
-<li>加入了网站字数统计</li>
-<li>标签改为词云显示</li>
-<li>加入盘古之白</li>
-<li>加入页面水印</li>
-<li>加入阅读进度条</li>
-<li>加入页面加载进度条</li>
-</ol>
-<p>现在FixIt还在持续、积极地更新，我也会继续跟进，不断改进我的网站。</p>]]></description>
-</item>
-<item>
-  <title>我的网站是如何建立的？</title>
-  <link>https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/</link>
-  <pubDate>Wed, 22 Dec 2021 17:17:40 &#43;0800</pubDate>
-  <author>kayak4665664</author>
-  <guid>https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/</guid>
-  <description><![CDATA[<p>目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。</p>
-<h2 id="开始" class="heading-element"><span>开始</span>
-  <a href="#%e5%bc%80%e5%a7%8b" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>上上周看到有人用Github作免费网盘，我以前还见过有人专门建了repository来记笔记、写博客，我忽然也想有个写点东西记录自己的地方。我就查了一下如何用Github写博客，我才知道了<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。简单来说它可以免费自动托管静态网页，用它做一个自己的博客是绰绰有余的。</p>
-<h2 id="准备" class="heading-element"><span>准备</span>
-  <a href="#%e5%87%86%e5%a4%87" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><h3 id="域名" class="heading-element"><span>域名</span>
-  <a href="#%e5%9f%9f%e5%90%8d" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p><a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>是免费的，不过它的网址都长<code>username.github.io</code>这样，感觉不够个性化。好在它是支持自定义域名的，我决定买一个。网站还没有建起来，但我还是先买了。我听说国内买域名需要实名审核，并且审核需要好几天。我一边等待审核通过，一边建网站，这样更省时间。最后我买了<code>kayak4665664.com</code>。</p>
-<div class="details admonition tip open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true"></i>技巧<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">有的域名首年注册时看起来便宜，但以后续费比<code>.com</code>域名还要贵。</div>
-    </div>
-  </div>
-<h3 id="usernamegithubio" class="heading-element"><span>username.github.io</span>
-  <a href="#usernamegithubio" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>新建了一个repository，进行<code>Pages</code>设置。<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>使用<code>Jekyll</code>将纯文本转化为静态网站，所以在设置过程中它会让你选择你的<code>Jekyll</code>主题。我还认真地比较了一下那几个主题，选了我觉得最好看的一个。其实后面很快我就发现，这些主题过于简单，不满足我的需求。之后用<code>git</code>克隆repository到了本地。</p>
-<h3 id="设计" class="heading-element"><span>设计</span>
-  <a href="#%e8%ae%be%e8%ae%a1" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>我看了一些其他人的网站，初步确定我的网站要有评论、访问统计、站内搜索这几个功能。另外还要加入百度和谷歌分析，并且让它们收录我的网站。</p>
-<h3 id="工具" class="heading-element"><span>工具</span>
-  <a href="#%e5%b7%a5%e5%85%b7" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>除了<code>Jekyll</code>，还有很多将纯文本转化为静态网站和博客的工具，比如我现在用的<code>Hugo</code>。由于<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>默认使用<code>Jekyll</code>，我就选择了<code>Jekyll</code>。</p>
-<p><code>Jekyll</code>基于<code>Ruby</code>，可以用<code>gem</code>来安装。我使用的macOS自带一个<code>Ruby</code>，我就直接执行<code>gem install jekyll bundler</code>开始安装<code>Jekyll</code>、<code>Bundler</code>以及它们的依赖。安装一半，出现<code>fatal error: 'ruby/config.h' file not found</code>。谷歌了一下有人说是自带的<code>Ruby</code>版本太低，还有人说是<code>Xcode CommandLineTools</code>的问题。我直接用<code>Homebrew</code>安装了一个新的<code>Ruby</code>。安装之后设置了终端的环境变量，重新执行<code>gem install jekyll bundler</code>，这次安装好了。</p>
-<div class="details admonition warning open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-exclamation-triangle fa-fw" aria-hidden="true"></i>警告<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content">我还查了一下怎么清理之前<code>gem install jekyll bundler</code>时的缓存和已安装的包，结果没有找到。我只好手动卸载了那些已安装的包、删除了缓存所在的目录，感觉根本没清理干净。</div>
-    </div>
-  </div>
-<h2 id="jekyll" class="heading-element"><span>Jekyll</span>
-  <a href="#jekyll" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><h3 id="上手" class="heading-element"><span>上手</span>
-  <a href="#%e4%b8%8a%e6%89%8b" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>在工作目录执行<code>bundle exec jekyll serve</code>，出现<code>cannot load such file -- webrick (LoadError)</code>。谷歌了一下，用<code>bundle add webrick</code>解决。</p>
-<p>在本地预览了一下感觉没有问题，准备<code>push</code>到Github上用手机测试。但是出现了问题，<code>push</code>不上去。谷歌了一下没找到，百度了一下发现可能是<code>proxy</code>的问题，取消<code>git</code>设置的代理后解决。</p>
-<p>用手机看了一下，网页是自动适配移动端的。这时候发现这个主题太简陋了，甚至没有分页的功能。刚开始我还准备自己实现出来，但又想想那么多功能都得一个个实现，工作量巨大，我还是找一个功能比较完整的主题吧。</p>
-<h3 id="主题" class="heading-element"><span>主题</span>
-  <a href="#%e4%b8%bb%e9%a2%98" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>网上有不少<code>Jekyll</code>主题，我最后下载了<a href="https://github.com/jeffreytse/jekyll-theme-yat"target="_blank" rel="external nofollow noopener noreferrer">YAT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。它支持不少功能，可以用<a href="Disqus.com">Disqus</a>和<a href="https://github.com/imsun/gitment"target="_blank" rel="external nofollow noopener noreferrer">Gitment<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>来评论。</p>
-<p>下载之后，想要执行<code>bundle exec jekyll serve</code>预览一下，报错<code>Could not find gem 'jekyll-spaceship (~&gt; 0.2)'</code>。我通过在<code>gem</code>安装<code>jekyll-spaceship</code>时设置版本为<code>0.2</code>来解决。在这里我还发现安装过程卡住了，但没有报错。用<code>Activity Monitor</code>看到<code>Ruby</code>的<code>Rcvd Bytes</code>是一直缓慢增加的，应该是国内网络的问题。谷歌了一下，在<a href="https://gems.ruby-china.com"target="_blank" rel="external nofollow noopener noreferrer">Ruby China<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>找到了换源的方法，换源之后成功安装。</p>
-<p>再次执行<code>bundle exec jekyll serve</code>，这次可以预览新主题了。</p>
-<h3 id="个性化" class="heading-element"><span>个性化</span>
-  <a href="#%e4%b8%aa%e6%80%a7%e5%8c%96" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>根据自己的需求来对主题进行个性化修改，如标题、图片等。我本来想用<a href="https://github.com/imsun/gitment"target="_blank" rel="external nofollow noopener noreferrer">Gitment<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，但我发现它不能登录Github账号，看了一下它的<a href="https://github.com/imsun/gitment/issues"target="_blank" rel="external nofollow noopener noreferrer">Issues<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>应该是停止服务了。所以只能用<a href="Disqus.com">Disqus</a>，我注册了<a href="Disqus.com">Disqus</a>账号，开启了评论功能。此外我还用了<a href="http://busuanzi.ibruce.info"target="_blank" rel="external nofollow noopener noreferrer">不蒜子<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>进行网站访问量统计，只需两行代码。</p>
-<p>之后我开始增加一些内容。在预览内容的过程中渐渐发现了一些问题，这个主题它的字体偏小，不论在浅色还是深色模式下文字与背景的对比较低，总之我感觉读起来费眼睛。然而无法在配置文件中对字体进行设置，我只能直接去挨个修改<code>.scss</code>文件，比较麻烦。而它的翻译功能，调用了谷歌的网页翻译接口，在国内网络下几乎无法使用，导致网页变得卡顿，我直接将源代码中翻译相关的部分删除了。除此之外，<a href="Disqus.com">Disqus</a>在国内网络下无法登录账号，测试了一下只能使用访客匿名评论，这也是一个缺点。</p>
-<h3 id="放弃" class="heading-element"><span>放弃</span>
-  <a href="#%e6%94%be%e5%bc%83" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>个性化之后，我感觉没有问题了。这时忽然想到<a href="https://github.com/jeffreytse/jekyll-theme-yat"target="_blank" rel="external nofollow noopener noreferrer">YAT<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>主题还支持PlantUML、Mermaid、Mathjax、Vedio、Audio等，我应该再测试一下。我直接用作者的<code>markdown</code>文件进行测试，结果发现这些东西都没有正常显示出来。</p>
-<p>我还以为是我把源代码改坏了，我直接克隆了一份作者的repository。经测试发现同样不行，看来不是我修改代码的问题。但是问题在哪我也一直没有找到，考虑到这个主题还存在其他的缺点，我选择放弃它。</p>
-<p>我又开始找主题，这一次更加仔细。最后找到了<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>主题，也就是我现在用的。</p>
-<p>这是一个基于<code>Hugo</code>的主题，所以<code>Ruby</code>就没用了，我把它卸载了。</p>
-<h2 id="hugo" class="heading-element"><span>Hugo</span>
-  <a href="#hugo" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><h3 id="上手-1" class="heading-element"><span>上手</span>
-  <a href="#%e4%b8%8a%e6%89%8b-1" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>先用<code>Homebrew</code>安装<code>Hugo</code>，<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>文档中推荐安装<code>extended</code>版本的<code>Hugo</code>，而<code>Homebrew</code>安装的<code>Hugo</code>就是<code>extended</code>版本的。</p>
-<p><code>Hugo</code>的目录结构和<code>Jekyll</code>的还是不太一样，用了一些时间才熟悉了。<a href="https://github.com/dillonzq/LoveIt"target="_blank" rel="external nofollow noopener noreferrer">LoveIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>的配置项非常多，也是需要先看一看文档的。</p>
-<p>大概配置了一下，执行<code>hugo serve -e production --disableFastRender</code>进行预览。</p>
-<h3 id="个性化-1" class="heading-element"><span>个性化</span>
-  <a href="#%e4%b8%aa%e6%80%a7%e5%8c%96-1" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>之后就是个性化地设置，还有：</p>
-<ol>
-<li>注册<a href="https://www.leancloud.cn"target="_blank" rel="external nofollow noopener noreferrer">LeanCloud<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>以及<a href="https://valine.js.org"target="_blank" rel="external nofollow noopener noreferrer">Valine<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>用于评论和访问统计</li>
-<li>利用<a href="https://realfavicongenerator.net"target="_blank" rel="external nofollow noopener noreferrer">https://realfavicongenerator.net<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>生成网站图标</li>
-<li>注册<a href="http://Gravatar.com"target="_blank" rel="external nofollow noopener noreferrer">Gravartar<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>头像</li>
-<li>注册<a href="https://www.algolia.com"target="_blank" rel="external nofollow noopener noreferrer">Algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>用于站内搜索</li>
-<li>使用<code>node.js</code>执行<code>npm install atomic-algolia</code>安装<a href="https://github.com/chrisdmacrae/atomic-algolia"target="_blank" rel="external nofollow noopener noreferrer">atomic-algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，用于自动化上传索引文件至<a href="https://www.algolia.com"target="_blank" rel="external nofollow noopener noreferrer">Algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
-<li>注册<a href="https://www.mapbox.com"target="_blank" rel="external nofollow noopener noreferrer">Mapbox<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
-</ol>
-<p>在这中间我还发现一个问题，本地预览的时候不能显示自定义的<code>404</code>模版，谷歌了一下发现：
-<div class="details admonition info open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content"><code>hugo server</code> will not automatically load your custom <code>404.html</code> file, but you can test the appearance of your custom “not found” page by navigating your browser to <code>/404.html</code>.</div>
-    </div>
-  </div></p>
-<h3 id="扩展" class="heading-element"><span>扩展</span>
-  <a href="#%e6%89%a9%e5%b1%95" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>网站差不多建起来了。执行<code>hugo</code>，就会出现<code>/public</code>目录，把<code>/public</code>和自己的repository同步，就可以把网页托管到<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。之后再用<a href="https://github.com/chrisdmacrae/atomic-algolia"target="_blank" rel="external nofollow noopener noreferrer">atomic-algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>上传生成的索引文件至<a href="https://www.algolia.com"target="_blank" rel="external nofollow noopener noreferrer">Algolia<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。经过这两个步骤就完成了一次网站的部署。</p>
-<p>另外，我又建了一个私有的repository，用于同步<code>/public</code>之外的源代码，所以每次部署都需要多同步一次。为了自动化这三个过程，我写了一个<code>Shell</code>脚本，一步到位。</p>
-<p>这时候，我的域名终于通过了实名审核。我开始进行一些扩展：</p>
-<ol>
-<li>在Github上设置<code>CNAME</code></li>
-<li>将repository导入<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>，这样每次更新repository，都会自动部署到<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>。据说百度不会收录<a href="https://pages.github.com"target="_blank" rel="external nofollow noopener noreferrer">Github Pages<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>托管的网站，而部署到<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>之后可以被收录</li>
-<li>在<a href="https://vercel.com/"target="_blank" rel="external nofollow noopener noreferrer">Vercel<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中设置自定义域名</li>
-<li>加入<a href="https://tongji.baidu.com/"target="_blank" rel="external nofollow noopener noreferrer">百度统计<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>和<a href="https://analytics.google.com/"target="_blank" rel="external nofollow noopener noreferrer">谷歌Analytics<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
-<li>向<a href="https://ziyuan.baidu.com/"target="_blank" rel="external nofollow noopener noreferrer">百度搜索资源平台<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>和<a href="https://search.google.com"target="_blank" rel="external nofollow noopener noreferrer">谷歌Search Console<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>提交<code>sitemap</code>，在<a href="https://www.bing.com/webmasters/"target="_blank" rel="external nofollow noopener noreferrer">必应Webmaster Tools<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中直接导入<a href="https://search.google.com"target="_blank" rel="external nofollow noopener noreferrer">谷歌Search Console<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>中已经提交的<code>sitemap</code></li>
-</ol>
-<h2 id="最后" class="heading-element"><span>最后</span>
-  <a href="#%e6%9c%80%e5%90%8e" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h2><p>未来我还打算加入一点谷歌广告，这也是大部分网站都有的功能。</p>
-<p>总的来说，这次的收获还是很多的！</p>]]></description>
-</item>
-</channel>
+    <description>kayak4665664的博客</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.13-9c440df3</generator>
+    <language>zh-CN</language>
+    <managingEditor>contact@kayak4665664.com (kayak4665664)</managingEditor>
+    <webMaster>contact@kayak4665664.com (kayak4665664)</webMaster>
+    <copyright>kayak4665664 | CC BY-NC-SA 4.0</copyright>
+    <lastBuildDate>Mon, 06 Mar 2023 19:08:08 +0800</lastBuildDate>
+    <atom:link href="https://www.kayak4665664.com/zh-cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的网站换上了新主题</title>
+      <link>https://www.kayak4665664.com/zh-cn/my-website-has-a-new-theme/</link>
+      <pubDate>Mon, 27 Feb 2023 19:08:08 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/my-website-has-a-new-theme/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;自从2021年建立我的网站以来，我一直都在用&lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;LoveIt&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;这个Hugo主题，没太大变化。这一次，我迁移到了&lt;a href=&#34;https://github.com/hugo-fixit/FixIt&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;FixIt&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;主题，不仅修复了LoveIt中的一些问题，也带来了更多新功能和优化，顺便也把评论系统从&lt;a href=&#34;https://valine.js.org/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Valine&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;迁移到了&lt;a href=&#34;https://waline.js.org/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Waline&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的网站是如何建立的？</title>
+      <link>https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/</link>
+      <pubDate>Wed, 22 Dec 2021 17:17:40 +0800</pubDate><author>contact@kayak4665664.com (kayak4665664)</author>
+      <guid>https://www.kayak4665664.com/zh-cn/how-my-wesite-was-built/</guid>
+      <category domain="https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>&lt;p&gt;目前本站已经成型，进入日常维护阶段，现在来回顾一下它是如何建立的。网上已经有各种教程，而本文主要是我自己的经历，不会涉及那些重复的细节。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,11 +1,12 @@
 # kayak4665664
 
-共计 67 篇文章
+共计 68 篇文章
 
 ## 2024
 
-共计 6 篇文章
+共计 7 篇文章
 
+- 10-02 [LeetCode: 30 Days of JavaScript](https://www.kayak4665664.com/zh-cn/leetcode-30-days-of-javascript/ "2024-10-02 22:28:28")
 - 05-24 [近期LeetCode刷题记录](https://www.kayak4665664.com/zh-cn/recent-leetcode-problem-solving-record/ "2024-05-24 11:18:29")
 - 04-27 [sips: MacOS自带图像处理工具](https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/ "2024-04-27 14:21:29")
 - 04-26 [当使用Touch ID解锁时聚焦（Spotlight）无法正常使用](https://www.kayak4665664.com/zh-cn/spotlight-not-working-properly-with-touch-id-unlock-on-macos/ "2024-04-26 11:52:05")
