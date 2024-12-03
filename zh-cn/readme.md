@@ -1,11 +1,12 @@
 # kayak4665664
 
-共计 68 篇文章
+共计 69 篇文章
 
 ## 2024
 
-共计 7 篇文章
+共计 8 篇文章
 
+- 12-03 [北京的秋天🍂](https://www.kayak4665664.com/zh-cn/autumn-in-beijing/ "2024-12-03 21:48:54")
 - 10-02 [LeetCode: 30 Days of JavaScript](https://www.kayak4665664.com/zh-cn/leetcode-30-days-of-javascript/ "2024-10-02 22:28:28")
 - 05-24 [近期LeetCode刷题记录](https://www.kayak4665664.com/zh-cn/recent-leetcode-problem-solving-record/ "2024-05-24 11:18:29")
 - 04-27 [sips: MacOS自带图像处理工具](https://www.kayak4665664.com/zh-cn/sips-tool-in-macos/ "2024-04-27 14:21:29")

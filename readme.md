@@ -1,11 +1,12 @@
 # kayak4665664
 
-68 articles in total
+69 articles in total
 
 ## 2024
 
-7 articles in total
+8 articles in total
 
+- 12-03 [Autumn🍂 in Beijing](https://www.kayak4665664.com/autumn-in-beijing/ "2024-12-03 21:48:48")
 - 10-02 [LeetCode: 30 Days of JavaScript](https://www.kayak4665664.com/leetcode-30-days-of-javascript/ "2024-10-02 22:25:58")
 - 05-24 [Recent LeetCode Problem-Solving Record](https://www.kayak4665664.com/recent-leetcode-problem-solving-record/ "2024-05-24 11:18:46")
 - 04-27 [sips: MacOS built-in image processing tool](https://www.kayak4665664.com/sips-tool-in-macos/ "2024-04-27 14:21:24")

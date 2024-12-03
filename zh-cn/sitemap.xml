@@ -2,11 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.kayak4665664.com/zh-cn/categories/</loc>
-    <lastmod>2024-10-02T22:28:28+08:00</lastmod>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/categories/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/categories/"/>
+  </url>
+  <url>
+    <loc>https://www.kayak4665664.com/zh-cn/</loc>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/"/>
+  </url>
+  <url>
+    <loc>https://www.kayak4665664.com/zh-cn/posts/</loc>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/posts/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/posts/"/>
+  </url>
+  <url>
+    <loc>https://www.kayak4665664.com/zh-cn/tags/</loc>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/tags/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/tags/"/>
+  </url>
+  <url>
+    <loc>https://www.kayak4665664.com/zh-cn/autumn-in-beijing/</loc>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/autumn-in-beijing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/autumn-in-beijing/"/>
+  </url>
+  <url>
+    <loc>https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.kayak4665664.com/zh-cn/tags/%E8%BD%AC%E6%82%A0/</loc>
+    <lastmod>2024-12-03T21:48:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.kayak4665664.com/zh-cn/tags/javascript/</loc>
@@ -15,14 +59,6 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/tags/javascript/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/tags/javascript/"/>
-  </url>
-  <url>
-    <loc>https://www.kayak4665664.com/zh-cn/</loc>
-    <lastmod>2024-10-02T22:28:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/"/>
   </url>
   <url>
     <loc>https://www.kayak4665664.com/zh-cn/tags/leetcode/</loc>
@@ -39,22 +75,6 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/leetcode-30-days-of-javascript/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/leetcode-30-days-of-javascript/"/>
-  </url>
-  <url>
-    <loc>https://www.kayak4665664.com/zh-cn/posts/</loc>
-    <lastmod>2024-10-02T22:28:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/posts/"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/posts/"/>
-  </url>
-  <url>
-    <loc>https://www.kayak4665664.com/zh-cn/tags/</loc>
-    <lastmod>2024-10-02T22:28:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/tags/"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/tags/"/>
   </url>
   <url>
     <loc>https://www.kayak4665664.com/zh-cn/categories/%E7%AC%94%E8%AE%B0/</loc>
@@ -247,12 +267,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.kayak4665664.com/zh-cn/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2023-10-01T23:07:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.kayak4665664.com/zh-cn/tags/%E4%B8%93%E6%B3%A8%E7%BB%9F%E8%AE%A1/</loc>
     <lastmod>2023-10-01T23:07:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -317,12 +331,6 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.kayak4665664.com/last-days-at-yanqi-lake-campus/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.kayak4665664.com/zh-cn/last-days-at-yanqi-lake-campus/"/>
-  </url>
-  <url>
-    <loc>https://www.kayak4665664.com/zh-cn/tags/%E8%BD%AC%E6%82%A0/</loc>
-    <lastmod>2023-07-16T11:11:14+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.kayak4665664.com/zh-cn/tags/java/</loc>
